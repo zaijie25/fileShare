@@ -1,0 +1,145 @@
+{
+  "projectPath": "D:\\cocos\\chinared",
+  "actualPlatform": "web-mobile",
+  "mtimes": {
+    "b028abca-23d9-4334-9a17-87cfab92ece9": {
+      "assetMtime": 1643089432974,
+      "metaMtime": 1643167973340
+    },
+    "4848994c-b464-4616-85d3-ee5cdb662c58": {
+      "assetMtime": 1643266596272,
+      "metaMtime": 1643266625130
+    },
+    "e9a7d83a-7b5e-4b60-9b9d-1f310ef31701": {
+      "assetMtime": 1643266596272,
+      "metaMtime": 1643266625130
+    },
+    "a34811b9-035b-41d3-8669-6ba51ff2222a": {
+      "assetMtime": 1643266596273,
+      "metaMtime": 1643266625128
+    },
+    "9820fcaa-d08b-43aa-87eb-1c562cfc12d1": {
+      "assetMtime": 1643266596273,
+      "metaMtime": 1643266625128
+    },
+    "f2dc6837-ce7b-44c5-95fd-5d96f349529a": {
+      "assetMtime": 1643266596272,
+      "metaMtime": 1643266625115
+    },
+    "5fc62b95-ec73-4b47-abb0-afff86963f56": {
+      "assetMtime": 1643266596272,
+      "metaMtime": 1643266625115
+    }
+  },
+  "result": {
+    "name": "rankAtlas",
+    "width": 1024,
+    "height": 1024,
+    "ver": "1.2.1",
+    "uuid": "b028abca-23d9-4334-9a17-87cfab92ece9",
+    "maxWidth": 1024,
+    "maxHeight": 1024,
+    "padding": 2,
+    "allowRotation": true,
+    "forceSquared": false,
+    "powerOfTwo": true,
+    "algorithm": "MaxRects",
+    "format": "png",
+    "quality": 80,
+    "contourBleed": true,
+    "paddingBleed": true,
+    "filterUnused": true,
+    "packable": false,
+    "premultiplyAlpha": false,
+    "filterMode": "bilinear",
+    "platformSettings": {},
+    "subMetas": {},
+    "bleed": 1,
+    "atlases": [
+      {
+        "files": [
+          {
+            "name": "rank_02",
+            "uuid": "4848994c-b464-4616-85d3-ee5cdb662c58",
+            "textureUuid": "e9a7d83a-7b5e-4b60-9b9d-1f310ef31701",
+            "path": "D:\\cocos\\chinared\\temp\\trimImages\\spritesheet_js_1643348157585_image_0.png",
+            "trim": {
+              "x": 3,
+              "y": 3,
+              "width": 70,
+              "height": 62,
+              "rotatedWidth": 70,
+              "rotatedHeight": 62
+            },
+            "rawWidth": 70,
+            "rawHeight": 62,
+            "width": 76,
+            "height": 68,
+            "originalPath": "D:/cocos/chinared/library/imports/e9/e9a7d83a-7b5e-4b60-9b9d-1f310ef31701.png",
+            "x": 0,
+            "y": 0,
+            "rotatedWidth": 76,
+            "rotatedHeight": 68
+          },
+          {
+            "name": "rank_03",
+            "uuid": "a34811b9-035b-41d3-8669-6ba51ff2222a",
+            "textureUuid": "9820fcaa-d08b-43aa-87eb-1c562cfc12d1",
+            "path": "D:\\cocos\\chinared\\temp\\trimImages\\spritesheet_js_1643348157585_image_1.png",
+            "trim": {
+              "x": 3,
+              "y": 71,
+              "width": 70,
+              "height": 62,
+              "rotatedWidth": 70,
+              "rotatedHeight": 62
+            },
+            "rawWidth": 70,
+            "rawHeight": 62,
+            "width": 76,
+            "height": 68,
+            "originalPath": "D:/cocos/chinared/library/imports/98/9820fcaa-d08b-43aa-87eb-1c562cfc12d1.png",
+            "x": 0,
+            "y": 68,
+            "rotatedWidth": 76,
+            "rotatedHeight": 68
+          },
+          {
+            "name": "rank_01",
+            "uuid": "f2dc6837-ce7b-44c5-95fd-5d96f349529a",
+            "textureUuid": "5fc62b95-ec73-4b47-abb0-afff86963f56",
+            "path": "D:\\cocos\\chinared\\temp\\trimImages\\spritesheet_js_1643348157585_image_2.png",
+            "trim": {
+              "x": 3,
+              "y": 139,
+              "width": 70,
+              "height": 62,
+              "rotatedWidth": 70,
+              "rotatedHeight": 62
+            },
+            "rawWidth": 70,
+            "rawHeight": 62,
+            "width": 76,
+            "height": 68,
+            "originalPath": "D:/cocos/chinared/library/imports/5f/5fc62b95-ec73-4b47-abb0-afff86963f56.png",
+            "x": 0,
+            "y": 136,
+            "rotatedWidth": 76,
+            "rotatedHeight": 68
+          }
+        ],
+        "width": 128,
+        "height": 256,
+        "name": "rankAtlas-1",
+        "imagePath": "D:\\cocos\\chinared\\temp\\TexturePacker\\build\\native\\assets\\resources\\hall\\texture\\rank\\rankAtlas.pac\\rankAtlas-1.png",
+        "compressd": {
+          "suffix": [
+            ".png"
+          ],
+          "imagePathNoExt": "D:\\cocos\\chinared\\temp\\TexturePacker\\build\\native\\assets\\resources\\hall\\texture\\rank\\rankAtlas.pac\\compressed\\rankAtlas-1"
+        }
+      }
+    ],
+    "unpackedTextures": []
+  }
+}

@@ -1,0 +1,586 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "ANImeirihongbao",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "zo+I4Cz2+Flin29lYAAxqdCzjZA",
+      "spine": "3.7.94",
+      "width": 104,
+      "height": 88.79,
+      "images": "./image/",
+      "audio": ""
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "bone",
+        "parent": "root",
+        "length": 30.84,
+        "rotation": 115.35,
+        "x": 28.7,
+        "y": 5.33
+      },
+      {
+        "name": "bone2",
+        "parent": "bone",
+        "length": 20.75,
+        "rotation": -3.12,
+        "x": 30.18,
+        "y": 0.13
+      },
+      {
+        "name": "text",
+        "parent": "root"
+      },
+      {
+        "name": "yyy",
+        "parent": "root",
+        "y": -14.38
+      },
+      {
+        "name": "bao",
+        "parent": "root",
+        "x": 0.6,
+        "y": 30.29
+      },
+      {
+        "name": "jb",
+        "parent": "root",
+        "rotation": 31.8,
+        "x": -28.04,
+        "y": 44.26,
+        "scaleX": 0.7,
+        "scaleY": 0.7
+      },
+      {
+        "name": "jb2",
+        "parent": "root",
+        "x": -35.71,
+        "y": 20.4
+      },
+      {
+        "name": "jb3",
+        "parent": "root",
+        "rotation": -21.6,
+        "x": 34.74,
+        "y": 32.89,
+        "scaleX": 0.6,
+        "scaleY": 0.6
+      }
+    ],
+    "slots": [
+      {
+        "name": "tt_04",
+        "bone": "jb",
+        "attachment": "tt_04"
+      },
+      {
+        "name": "tt_5",
+        "bone": "jb3",
+        "attachment": "tt_04"
+      },
+      {
+        "name": "bao",
+        "bone": "bao",
+        "attachment": "bao"
+      },
+      {
+        "name": "yin",
+        "bone": "yyy",
+        "attachment": "yin"
+      },
+      {
+        "name": "zhi2",
+        "bone": "root",
+        "attachment": "zhi"
+      },
+      {
+        "name": "tt_4",
+        "bone": "jb2",
+        "attachment": "tt_04"
+      },
+      {
+        "name": "text",
+        "bone": "text",
+        "attachment": "text"
+      }
+    ],
+    "skins": {
+      "default": {
+        "bao": {
+          "bao": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 61,
+            "height": 79
+          }
+        },
+        "text": {
+          "text": {
+            "x": 0.5,
+            "width": 104,
+            "height": 37
+          }
+        },
+        "tt_04": {
+          "tt_04": {
+            "x": 0.5,
+            "width": 19,
+            "height": 14
+          }
+        },
+        "tt_4": {
+          "tt_04": {
+            "x": 0.5,
+            "width": 19,
+            "height": 14
+          }
+        },
+        "tt_5": {
+          "tt_04": {
+            "x": 0.5,
+            "width": 19,
+            "height": 14
+          }
+        },
+        "yin": {
+          "yin": {
+            "width": 52,
+            "height": 7
+          }
+        },
+        "zhi2": {
+          "zhi": {
+            "type": "mesh",
+            "uvs": [
+              0.22907,
+              1,
+              0.16984,
+              0.84106,
+              0,
+              0.78203,
+              0,
+              0.51374,
+              0.17513,
+              0.49496,
+              0.11167,
+              0.30582,
+              0.13705,
+              0,
+              0.35493,
+              0,
+              0.36868,
+              0.16228,
+              0.39618,
+              0.24948,
+              0.59609,
+              0.23472,
+              0.84676,
+              0.33131,
+              0.92397,
+              1
+            ],
+            "triangles": [
+              6,
+              7,
+              8,
+              5,
+              6,
+              8,
+              9,
+              5,
+              8,
+              4,
+              10,
+              1,
+              10,
+              0,
+              1,
+              0,
+              10,
+              11,
+              9,
+              10,
+              4,
+              11,
+              12,
+              0,
+              1,
+              2,
+              4,
+              9,
+              4,
+              5,
+              2,
+              3,
+              4
+            ],
+            "vertices": [
+              2,
+              1,
+              8.71,
+              15.55,
+              0.88435,
+              2,
+              -22.28,
+              14.23,
+              0.11565,
+              1,
+              1,
+              15.91,
+              15.55,
+              1,
+              1,
+              1,
+              21.88,
+              22.49,
+              1,
+              1,
+              1,
+              31.82,
+              17.78,
+              1,
+              2,
+              1,
+              28.62,
+              9.22,
+              0.83,
+              2,
+              -2.05,
+              9,
+              0.17,
+              1,
+              2,
+              6.38,
+              9.12,
+              1,
+              2,
+              1,
+              47.81,
+              2.33,
+              0.00024,
+              2,
+              17.48,
+              3.15,
+              0.99976,
+              2,
+              1,
+              42.96,
+              -7.91,
+              0.05522,
+              2,
+              13.2,
+              -7.34,
+              0.94478,
+              2,
+              1,
+              36.64,
+              -5.71,
+              0.34211,
+              2,
+              6.77,
+              -5.48,
+              0.65789,
+              2,
+              1,
+              32.8,
+              -5.47,
+              0.86951,
+              2,
+              2.92,
+              -5.45,
+              0.13049,
+              2,
+              1,
+              28.89,
+              -15.13,
+              1,
+              2,
+              -0.45,
+              -15.3,
+              0,
+              2,
+              1,
+              19.73,
+              -25.21,
+              1,
+              2,
+              -9.05,
+              -25.87,
+              0,
+              2,
+              1,
+              -6.76,
+              -17.1,
+              0.99997,
+              2,
+              -35.95,
+              -19.22,
+              0.00003
+            ],
+            "hull": 13,
+            "edges": [
+              0,
+              2,
+              2,
+              4,
+              4,
+              6,
+              6,
+              8,
+              8,
+              10,
+              10,
+              12,
+              12,
+              14,
+              14,
+              16,
+              16,
+              18,
+              18,
+              20,
+              20,
+              22,
+              22,
+              24,
+              0,
+              24
+            ],
+            "width": 52,
+            "height": 41
+          }
+        }
+      }
+    },
+    "animations": {
+      "idle": {
+        "bones": {
+          "bone2": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              },
+              {
+                "time": 0.3333,
+                "angle": 21.99
+              },
+              {
+                "time": 0.8333,
+                "angle": 3.29
+              },
+              {
+                "time": 1.3333,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 1.3333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "bone": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              },
+              {
+                "time": 0.3333,
+                "angle": 7.66
+              },
+              {
+                "time": 0.8333,
+                "angle": 3.29
+              },
+              {
+                "time": 1.3333,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 1.61,
+                "y": -5.06
+              },
+              {
+                "time": 0.3333,
+                "x": -0.8,
+                "y": 0.46
+              },
+              {
+                "time": 0.8333,
+                "x": 6.16,
+                "y": -2.05
+              },
+              {
+                "time": 1.3333,
+                "x": 1.61,
+                "y": -5.06
+              }
+            ]
+          },
+          "bao": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              },
+              {
+                "time": 0.3333,
+                "x": 1.2,
+                "y": 1.2
+              },
+              {
+                "time": 0.6667,
+                "x": 1,
+                "y": 1
+              },
+              {
+                "time": 1,
+                "x": 1.2,
+                "y": 1.2
+              },
+              {
+                "time": 1.3333,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "jb": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 15
+              },
+              {
+                "time": 0.6667,
+                "angle": 0
+              },
+              {
+                "time": 1.3333,
+                "angle": 15
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 2.65,
+                "y": -4.13
+              },
+              {
+                "time": 0.6667,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 1.3333,
+                "x": 2.65,
+                "y": -4.13
+              }
+            ]
+          },
+          "jb2": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              },
+              {
+                "time": 0.6333,
+                "angle": 15
+              },
+              {
+                "time": 1.3333,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.6333,
+                "x": 2.65,
+                "y": -4.13
+              },
+              {
+                "time": 1.3333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "jb3": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 15
+              },
+              {
+                "time": 0.6667,
+                "angle": 0
+              },
+              {
+                "time": 1.3333,
+                "angle": 15
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 2.65,
+                "y": -4.13
+              },
+              {
+                "time": 0.6667,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 1.3333,
+                "x": 2.65,
+                "y": -4.13
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\r\nANImeirihongbao.png\r\nsize: 128,128\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nbao\r\n  rotate: false\r\n  xy: 2, 2\r\n  size: 61, 79\r\n  orig: 61, 79\r\n  offset: 0, 0\r\n  index: -1\r\ntext\r\n  rotate: false\r\n  xy: 2, 83\r\n  size: 104, 37\r\n  orig: 104, 37\r\n  offset: 0, 0\r\n  index: -1\r\ntt_04\r\n  rotate: false\r\n  xy: 65, 16\r\n  size: 19, 14\r\n  orig: 19, 14\r\n  offset: 0, 0\r\n  index: -1\r\nyin\r\n  rotate: true\r\n  xy: 108, 73\r\n  size: 47, 7\r\n  orig: 52, 7\r\n  offset: 1, 0\r\n  index: -1\r\nzhi\r\n  rotate: true\r\n  xy: 65, 32\r\n  size: 49, 41\r\n  orig: 52, 41\r\n  offset: 0, 0\r\n  index: -1\r\n",
+  "textures": [
+    {
+      "__uuid__": "eaeea9f1-89d0-43e1-b7b4-0880a24d2c23"
+    }
+  ],
+  "textureNames": [
+    "ANImeirihongbao.png"
+  ],
+  "scale": 1
+}

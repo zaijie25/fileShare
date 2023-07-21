@@ -1,0 +1,259 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "bxp",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "EUd9lJLiEtYCoog/nFBmRQ7Hbb0",
+      "spine": "3.7.94",
+      "width": 173,
+      "height": 216.91,
+      "images": "../image/",
+      "audio": "D:/Work/斗地主/选场"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "tuhao",
+        "parent": "root"
+      },
+      {
+        "name": "shine",
+        "parent": "tuhao",
+        "x": -0.45,
+        "y": 1.46
+      },
+      {
+        "name": "x",
+        "parent": "tuhao",
+        "x": -26.57,
+        "y": 66.26
+      }
+    ],
+    "slots": [
+      {
+        "name": "05",
+        "bone": "tuhao",
+        "attachment": "05"
+      },
+      {
+        "name": "05/shine_00000",
+        "bone": "shine",
+        "attachment": "05/shine_00001",
+        "blend": "additive"
+      },
+      {
+        "name": "niu9_bairenniu",
+        "bone": "x",
+        "attachment": "niu9_bairenniu",
+        "blend": "additive"
+      },
+      {
+        "name": "niu9_bairenniu2",
+        "bone": "x",
+        "attachment": "niu9_bairenniu",
+        "blend": "additive"
+      },
+      {
+        "name": "niu9_bairenniu3",
+        "bone": "x",
+        "attachment": "niu9_bairenniu",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "05": {
+          "05": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 167,
+            "height": 157
+          }
+        },
+        "05/shine_00000": {
+          "05/shine_00000": {
+            "x": 0.5,
+            "width": 173,
+            "height": 172
+          },
+          "05/shine_00001": {
+            "x": 0.5,
+            "width": 173,
+            "height": 172
+          },
+          "05/shine_00002": {
+            "x": 0.5,
+            "width": 173,
+            "height": 172
+          },
+          "05/shine_00003": {
+            "x": 0.5,
+            "width": 173,
+            "height": 172
+          },
+          "05/shine_00004": {
+            "x": 0.5,
+            "width": 173,
+            "height": 172
+          },
+          "05/shine_00005": {
+            "x": 0.5,
+            "width": 173,
+            "height": 172
+          },
+          "05/shine_00006": {
+            "x": 0.5,
+            "width": 173,
+            "height": 172
+          }
+        },
+        "niu9_bairenniu": {
+          "niu9_bairenniu": {
+            "width": 114,
+            "height": 114
+          }
+        },
+        "niu9_bairenniu2": {
+          "niu9_bairenniu": {
+            "x": 52.78,
+            "y": -31.32,
+            "scaleX": 0.734,
+            "scaleY": 0.734,
+            "rotation": 47.4,
+            "width": 114,
+            "height": 114
+          }
+        },
+        "niu9_bairenniu3": {
+          "niu9_bairenniu": {
+            "x": 51.04,
+            "y": 6.96,
+            "scaleX": 0.734,
+            "scaleY": 0.734,
+            "rotation": 47.4,
+            "width": 114,
+            "height": 114
+          }
+        }
+      }
+    },
+    "animations": {
+      "idle": {
+        "slots": {
+          "05/shine_00000": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "05/shine_00000"
+              },
+              {
+                "time": 0.0667,
+                "name": "05/shine_00001"
+              },
+              {
+                "time": 0.1333,
+                "name": "05/shine_00002"
+              },
+              {
+                "time": 0.2,
+                "name": "05/shine_00003"
+              },
+              {
+                "time": 0.2667,
+                "name": "05/shine_00004"
+              },
+              {
+                "time": 0.3333,
+                "name": "05/shine_00005"
+              },
+              {
+                "time": 0.4,
+                "name": "05/shine_00006"
+              },
+              {
+                "time": 0.4667,
+                "name": null
+              },
+              {
+                "time": 1.3333,
+                "name": null
+              }
+            ]
+          },
+          "niu9_bairenniu": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "niu9_bairenniu2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "niu9_bairenniu3": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1.3333,
+                "color": "ffffff00"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nbxp.png\nsize: 1024,256\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\n05\n  rotate: false\n  xy: 2, 91\n  size: 167, 157\n  orig: 167, 157\n  offset: 0, 0\n  index: -1\n05/shine_00000\n  rotate: true\n  xy: 2, 2\n  size: 87, 133\n  orig: 173, 172\n  offset: 5, 28\n  index: -1\n05/shine_00001\n  rotate: false\n  xy: 640, 105\n  size: 115, 143\n  orig: 173, 172\n  offset: 4, 22\n  index: -1\n05/shine_00002\n  rotate: false\n  xy: 490, 102\n  size: 148, 146\n  orig: 173, 172\n  offset: 4, 19\n  index: -1\n05/shine_00003\n  rotate: false\n  xy: 171, 93\n  size: 159, 155\n  orig: 173, 172\n  offset: 7, 10\n  index: -1\n05/shine_00004\n  rotate: true\n  xy: 332, 105\n  size: 143, 156\n  orig: 173, 172\n  offset: 25, 9\n  index: -1\n05/shine_00005\n  rotate: true\n  xy: 757, 143\n  size: 105, 150\n  orig: 173, 172\n  offset: 63, 9\n  index: -1\n05/shine_00006\n  rotate: true\n  xy: 757, 65\n  size: 76, 125\n  orig: 173, 172\n  offset: 92, 9\n  index: -1\nniu9_bairenniu\n  rotate: false\n  xy: 909, 138\n  size: 110, 110\n  orig: 114, 114\n  offset: 2, 2\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "0e5ff9ce-22e8-4c11-9cb7-27de17aaf308"
+    }
+  ],
+  "textureNames": [
+    "bxp.png"
+  ],
+  "scale": 1
+}

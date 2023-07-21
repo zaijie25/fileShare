@@ -1,0 +1,27 @@
+
+ANIbox.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/flare04_01_a
+  rotate: false
+  xy: 2, 2
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+images/lightbg
+  rotate: false
+  xy: 2, 132
+  size: 349, 345
+  orig: 349, 345
+  offset: 0, 0
+  index: -1
+images/s_03
+  rotate: false
+  xy: 353, 397
+  size: 89, 80
+  orig: 89, 80
+  offset: 0, 0
+  index: -1

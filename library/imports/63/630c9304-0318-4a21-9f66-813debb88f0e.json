@@ -1,0 +1,14 @@
+{
+  "__type__": "dragonBones.DragonBonesAtlasAsset",
+  "_name": "bairenniuniu_tex",
+  "_objFlags": 0,
+  "_native": "",
+  "_atlasJson": "{\"width\":256,\"SubTexture\":[{\"width\":38,\"y\":292,\"height\":46,\"name\":\"bairenniuniu/brnn_arm02\",\"x\":82},{\"width\":31,\"y\":328,\"height\":33,\"name\":\"bairenniuniu/brnn_leg02\",\"x\":122},{\"width\":36,\"y\":292,\"height\":34,\"name\":\"bairenniuniu/brnn_leg01\",\"x\":122},{\"width\":92,\"y\":1,\"height\":97,\"name\":\"bairenniuniu/brnn_puke\",\"x\":143},{\"width\":176,\"y\":236,\"height\":54,\"name\":\"bairenniuniu/brnn_body\",\"x\":1},{\"width\":140,\"y\":1,\"height\":155,\"name\":\"bairenniuniu/brnn_tou\",\"x\":1},{\"width\":79,\"y\":292,\"height\":86,\"name\":\"bairenniuniu/brnn_arm01\",\"x\":1},{\"width\":90,\"y\":100,\"height\":41,\"name\":\"bairenniuniu/brnn_yanpi\",\"x\":143},{\"width\":44,\"y\":290,\"height\":46,\"name\":\"bairenniuniu/brnn_hongbao\",\"x\":179},{\"width\":48,\"y\":236,\"height\":52,\"name\":\"bairenniuniu/brnn_jinbi\",\"x\":179},{\"width\":226,\"y\":158,\"height\":76,\"name\":\"bairenniuniu/brnn_wenzi\",\"x\":1}],\"height\":512,\"name\":\"bairenniuniu\",\"imagePath\":\"bairenniuniu_tex.png\"}",
+  "_texture": {
+    "__uuid__": "a3a083ae-43bc-4d5c-9674-9b884da0cc08"
+  },
+  "texture": {
+    "__uuid__": "a3a083ae-43bc-4d5c-9674-9b884da0cc08"
+  },
+  "_textureAtlasData": null
+}

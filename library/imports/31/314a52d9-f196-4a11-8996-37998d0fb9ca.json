@@ -1,0 +1,188 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "ANIdachixiao",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "NB/aFlJkN7yO6yrdI7wi0uB/3lY",
+      "spine": "3.7.94",
+      "width": 100,
+      "height": 50,
+      "images": "./images/",
+      "audio": ""
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "UI",
+        "parent": "root"
+      },
+      {
+        "name": "shine",
+        "parent": "UI"
+      }
+    ],
+    "slots": [
+      {
+        "name": "18c",
+        "bone": "UI",
+        "attachment": "18c"
+      },
+      {
+        "name": "shine_00001",
+        "bone": "shine",
+        "color": "ffffffab",
+        "attachment": "shine_00003",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "18c": {
+          "18c": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 83,
+            "height": 43
+          }
+        },
+        "shine_00001": {
+          "shine_00001": {
+            "width": 100,
+            "height": 50
+          },
+          "shine_00002": {
+            "width": 100,
+            "height": 50
+          },
+          "shine_00003": {
+            "width": 100,
+            "height": 50
+          },
+          "shine_00004": {
+            "width": 100,
+            "height": 50
+          },
+          "shine_00005": {
+            "width": 100,
+            "height": 50
+          }
+        }
+      }
+    },
+    "animations": {
+      "idle": {
+        "slots": {
+          "shine_00001": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.6667,
+                "name": "shine_00001"
+              },
+              {
+                "time": 0.7667,
+                "name": "shine_00002"
+              },
+              {
+                "time": 0.8667,
+                "name": "shine_00003"
+              },
+              {
+                "time": 0.9667,
+                "name": "shine_00004"
+              },
+              {
+                "time": 1.0667,
+                "name": "shine_00005"
+              },
+              {
+                "time": 1.1667,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "UI": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              },
+              {
+                "time": 0.1667,
+                "angle": 19.1
+              },
+              {
+                "time": 0.3333,
+                "angle": -15
+              },
+              {
+                "time": 0.5,
+                "angle": 19.1
+              },
+              {
+                "time": 0.6667,
+                "angle": -15
+              },
+              {
+                "time": 0.8333,
+                "angle": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              },
+              {
+                "time": 0.1667,
+                "x": 1.094,
+                "y": 1
+              },
+              {
+                "time": 0.3333,
+                "x": 1,
+                "y": 1
+              },
+              {
+                "time": 0.5,
+                "x": 1.094,
+                "y": 1
+              },
+              {
+                "time": 0.6667,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.8333,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\r\nANIdachixiao.png\r\nsize: 256,64\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\n18c\r\n  rotate: false\r\n  xy: 2, 17\r\n  size: 83, 43\r\n  orig: 83, 43\r\n  offset: 0, 0\r\n  index: -1\r\nshine_00001\r\n  rotate: false\r\n  xy: 2, 2\r\n  size: 6, 13\r\n  orig: 100, 50\r\n  offset: 12, 12\r\n  index: -1\r\nshine_00002\r\n  rotate: false\r\n  xy: 181, 19\r\n  size: 35, 41\r\n  orig: 100, 50\r\n  offset: 8, 3\r\n  index: -1\r\nshine_00003\r\n  rotate: false\r\n  xy: 87, 16\r\n  size: 47, 44\r\n  orig: 100, 50\r\n  offset: 21, 3\r\n  index: -1\r\nshine_00004\r\n  rotate: false\r\n  xy: 136, 16\r\n  size: 43, 44\r\n  orig: 100, 50\r\n  offset: 45, 3\r\n  index: -1\r\nshine_00005\r\n  rotate: false\r\n  xy: 218, 25\r\n  size: 24, 35\r\n  orig: 100, 50\r\n  offset: 68, 11\r\n  index: -1\r\n",
+  "textures": [
+    {
+      "__uuid__": "61b0cda2-6066-4db6-897f-20fae23318d2"
+    }
+  ],
+  "textureNames": [
+    "ANIdachixiao.png"
+  ],
+  "scale": 1
+}

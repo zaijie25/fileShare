@@ -1,0 +1,118 @@
+
+aircraft.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+feiji
+  rotate: false
+  xy: 2, 56
+  size: 385, 254
+  orig: 385, 254
+  offset: 0, 0
+  index: -1
+fire
+  rotate: true
+  xy: 962, 392
+  size: 115, 60
+  orig: 115, 60
+  offset: 0, 0
+  index: -1
+g-02
+  rotate: false
+  xy: 389, 220
+  size: 324, 90
+  orig: 324, 90
+  offset: 0, 0
+  index: -1
+gt
+  rotate: false
+  xy: 2, 312
+  size: 716, 195
+  orig: 716, 195
+  offset: 0, 0
+  index: -1
+jihuo1
+  rotate: false
+  xy: 84, 21
+  size: 26, 33
+  orig: 26, 33
+  offset: 0, 0
+  index: -1
+jihuo2
+  rotate: false
+  xy: 563, 185
+  size: 26, 33
+  orig: 26, 33
+  offset: 0, 0
+  index: -1
+jihuo3
+  rotate: false
+  xy: 831, 321
+  size: 25, 33
+  orig: 25, 33
+  offset: 0, 0
+  index: -1
+jihuo4
+  rotate: true
+  xy: 863, 362
+  size: 25, 33
+  orig: 25, 33
+  offset: 0, 0
+  index: -1
+jihuo5
+  rotate: false
+  xy: 112, 21
+  size: 25, 33
+  orig: 25, 33
+  offset: 0, 0
+  index: -1
+pen1
+  rotate: false
+  xy: 720, 318
+  size: 109, 69
+  orig: 109, 69
+  offset: 0, 0
+  index: -1
+pen2
+  rotate: false
+  xy: 389, 150
+  size: 111, 68
+  orig: 111, 68
+  offset: 0, 0
+  index: -1
+pen3
+  rotate: false
+  xy: 389, 81
+  size: 103, 67
+  orig: 103, 67
+  offset: 0, 0
+  index: -1
+sg-02
+  rotate: false
+  xy: 831, 356
+  size: 30, 31
+  orig: 30, 31
+  offset: 0, 0
+  index: -1
+wenzi
+  rotate: false
+  xy: 720, 389
+  size: 240, 118
+  orig: 240, 118
+  offset: 0, 0
+  index: -1
+yan1yan
+  rotate: false
+  xy: 2, 2
+  size: 80, 52
+  orig: 80, 52
+  offset: 0, 0
+  index: -1
+yan2y
+  rotate: false
+  xy: 502, 170
+  size: 59, 48
+  orig: 59, 48
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,62 @@
+
+tongyongtishi_pao.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+PK_01_tongyongtishi_pao
+  rotate: false
+  xy: 160, 42
+  size: 61, 83
+  orig: 88, 100
+  offset: 12, 17
+  index: -1
+PK_02_tongyongtishi_pao
+  rotate: false
+  xy: 94, 42
+  size: 64, 83
+  orig: 88, 100
+  offset: 8, 17
+  index: -1
+PK_03_tongyongtishi_pao
+  rotate: false
+  xy: 2, 25
+  size: 90, 100
+  orig: 96, 104
+  offset: 0, 3
+  index: -1
+kuzi_tongyongtishi_pao
+  rotate: true
+  xy: 223, 73
+  size: 52, 25
+  orig: 52, 25
+  offset: 0, 0
+  index: -1
+yshou01_tongyongtishi_pao
+  rotate: true
+  xy: 2, 2
+  size: 21, 40
+  orig: 21, 40
+  offset: 0, 0
+  index: -1
+ytui01_tongyongtishi_pao
+  rotate: false
+  xy: 223, 37
+  size: 25, 34
+  orig: 25, 34
+  offset: 0, 0
+  index: -1
+zshou01_tongyongtishi_pao
+  rotate: false
+  xy: 44, 4
+  size: 32, 19
+  orig: 32, 19
+  offset: 0, 0
+  index: -1
+ztui01_tongyongtishi_pao
+  rotate: false
+  xy: 94, 14
+  size: 37, 26
+  orig: 37, 27
+  offset: 0, 1
+  index: -1

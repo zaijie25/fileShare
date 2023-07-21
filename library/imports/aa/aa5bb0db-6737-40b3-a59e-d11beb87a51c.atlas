@@ -1,0 +1,139 @@
+
+nongmin.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 354, 158
+  size: 104, 92
+  orig: 104, 92
+  offset: 0, 0
+  index: -1
+chutou
+  rotate: false
+  xy: 2, 91
+  size: 205, 159
+  orig: 205, 159
+  offset: 0, 0
+  index: -1
+eyes
+  rotate: false
+  xy: 354, 109
+  size: 98, 47
+  orig: 98, 47
+  offset: 0, 0
+  index: -1
+handLefrt
+  rotate: false
+  xy: 460, 145
+  size: 50, 46
+  orig: 50, 46
+  offset: 0, 0
+  index: -1
+kuzui
+  rotate: true
+  xy: 179, 51
+  size: 38, 19
+  orig: 38, 21
+  offset: 0, 2
+  index: -1
+maishui
+  rotate: true
+  xy: 200, 43
+  size: 22, 20
+  orig: 22, 20
+  offset: 0, 0
+  index: -1
+pike
+  rotate: false
+  xy: 332, 32
+  size: 36, 40
+  orig: 36, 40
+  offset: 0, 0
+  index: -1
+shoubiLeft
+  rotate: false
+  xy: 460, 193
+  size: 50, 57
+  orig: 50, 57
+  offset: 0, 0
+  index: -1
+shoubipai
+  rotate: false
+  xy: 209, 67
+  size: 74, 37
+  orig: 75, 37
+  offset: 1, 0
+  index: -1
+shoubishang
+  rotate: true
+  xy: 111, 43
+  size: 46, 66
+  orig: 46, 66
+  offset: 0, 0
+  index: -1
+shoubiyou
+  rotate: true
+  xy: 57, 9
+  size: 18, 51
+  orig: 18, 51
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 209, 106
+  size: 143, 144
+  orig: 143, 144
+  offset: 0, 0
+  index: -1
+tui
+  rotate: false
+  xy: 2, 29
+  size: 107, 60
+  orig: 107, 60
+  offset: 0, 0
+  index: -1
+weiba
+  rotate: false
+  xy: 165, 7
+  size: 36, 34
+  orig: 37, 34
+  offset: 1, 0
+  index: -1
+xieziLeft
+  rotate: false
+  xy: 454, 109
+  size: 50, 34
+  orig: 50, 34
+  offset: 0, 0
+  index: -1
+xieziright
+  rotate: false
+  xy: 111, 9
+  size: 52, 32
+  orig: 52, 32
+  offset: 0, 0
+  index: -1
+yanlie
+  rotate: false
+  xy: 2, 2
+  size: 53, 25
+  orig: 53, 25
+  offset: 0, 0
+  index: -1
+yanlie2
+  rotate: false
+  xy: 285, 74
+  size: 66, 30
+  orig: 66, 30
+  offset: 0, 0
+  index: -1
+youbishang
+  rotate: true
+  xy: 285, 28
+  size: 44, 45
+  orig: 44, 45
+  offset: 0, 0
+  index: -1

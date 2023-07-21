@@ -1,0 +1,41 @@
+
+ANImeirihongbao.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bao
+  rotate: false
+  xy: 2, 2
+  size: 61, 79
+  orig: 61, 79
+  offset: 0, 0
+  index: -1
+text
+  rotate: false
+  xy: 2, 83
+  size: 104, 37
+  orig: 104, 37
+  offset: 0, 0
+  index: -1
+tt_04
+  rotate: false
+  xy: 65, 16
+  size: 19, 14
+  orig: 19, 14
+  offset: 0, 0
+  index: -1
+yin
+  rotate: true
+  xy: 108, 73
+  size: 47, 7
+  orig: 52, 7
+  offset: 1, 0
+  index: -1
+zhi
+  rotate: true
+  xy: 65, 32
+  size: 49, 41
+  orig: 52, 41
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,97 @@
+
+ANIbingtong.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bucket
+  rotate: false
+  xy: 134, 12
+  size: 127, 114
+  orig: 127, 124
+  offset: 0, 0
+  index: -1
+bucket2
+  rotate: false
+  xy: 720, 97
+  size: 102, 29
+  orig: 107, 31
+  offset: 2, 2
+  index: -1
+eye
+  rotate: false
+  xy: 781, 58
+  size: 37, 37
+  orig: 39, 39
+  offset: 1, 1
+  index: -1
+fx01
+  rotate: false
+  xy: 383, 46
+  size: 13, 12
+  orig: 13, 12
+  offset: 0, 0
+  index: -1
+ice
+  rotate: true
+  xy: 437, 24
+  size: 102, 103
+  orig: 102, 103
+  offset: 0, 0
+  index: -1
+ice2
+  rotate: true
+  xy: 263, 2
+  size: 23, 25
+  orig: 24, 25
+  offset: 1, 0
+  index: -1
+ice3
+  rotate: false
+  xy: 824, 101
+  size: 84, 25
+  orig: 84, 25
+  offset: 0, 0
+  index: -1
+star
+  rotate: false
+  xy: 720, 36
+  size: 59, 59
+  orig: 67, 64
+  offset: 4, 2
+  index: -1
+water01
+  rotate: true
+  xy: 2, 2
+  size: 124, 130
+  orig: 124, 130
+  offset: 0, 0
+  index: -1
+water02
+  rotate: false
+  xy: 635, 44
+  size: 83, 82
+  orig: 83, 83
+  offset: 0, 1
+  index: -1
+water03
+  rotate: false
+  xy: 542, 39
+  size: 91, 87
+  orig: 91, 87
+  offset: 0, 0
+  index: -1
+water04
+  rotate: false
+  xy: 263, 60
+  size: 172, 66
+  orig: 172, 66
+  offset: 0, 0
+  index: -1
+water05
+  rotate: false
+  xy: 263, 27
+  size: 118, 31
+  orig: 118, 31
+  offset: 0, 0
+  index: -1

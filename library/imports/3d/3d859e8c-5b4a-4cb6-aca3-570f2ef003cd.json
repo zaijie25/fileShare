@@ -1,0 +1,14 @@
+{
+  "__type__": "dragonBones.DragonBonesAtlasAsset",
+  "_name": "girl_04_tex",
+  "_objFlags": 0,
+  "_native": "",
+  "_atlasJson": "{\"width\":512,\"SubTexture\":[{\"width\":22,\"y\":114,\"height\":58,\"name\":\"girl_04/puke01\",\"x\":271},{\"width\":62,\"y\":249,\"height\":24,\"name\":\"girl_04/puke02\",\"x\":243},{\"width\":49,\"y\":198,\"height\":70,\"name\":\"girl_04/leg\",\"x\":147},{\"width\":79,\"y\":114,\"height\":82,\"name\":\"girl_04/l_arm01\",\"x\":190},{\"width\":87,\"y\":134,\"height\":91,\"name\":\"girl_04/qunzi02\",\"x\":411},{\"width\":103,\"y\":91,\"height\":95,\"name\":\"girl_04/qunzi01\",\"x\":306},{\"width\":26,\"y\":198,\"height\":33,\"name\":\"girl_04/lingdang\",\"x\":243},{\"width\":125,\"y\":1,\"height\":88,\"name\":\"girl_04/r_arm01\",\"x\":306},{\"width\":114,\"y\":1,\"height\":111,\"name\":\"girl_04/body\",\"x\":190},{\"width\":187,\"y\":1,\"height\":175,\"name\":\"girl_04/head\",\"x\":1},{\"width\":79,\"y\":227,\"height\":41,\"name\":\"girl_04/eye\",\"x\":370},{\"width\":43,\"y\":198,\"height\":79,\"name\":\"girl_04/hair01\",\"x\":198},{\"width\":19,\"y\":91,\"height\":29,\"name\":\"girl_04/ear\",\"x\":411},{\"width\":62,\"y\":1,\"height\":131,\"name\":\"girl_04/hair02\",\"x\":433},{\"width\":144,\"y\":178,\"height\":36,\"name\":\"girl_04/r_hand\",\"x\":1},{\"width\":97,\"y\":188,\"height\":59,\"name\":\"girl_04/l_hand\",\"x\":271}],\"height\":512,\"name\":\"girl_04\",\"imagePath\":\"girl_04_tex.png\"}",
+  "_texture": {
+    "__uuid__": "f3c06ae0-7a27-43c1-8bd6-278dc0fdd4d1"
+  },
+  "texture": {
+    "__uuid__": "f3c06ae0-7a27-43c1-8bd6-278dc0fdd4d1"
+  },
+  "_textureAtlasData": null
+}

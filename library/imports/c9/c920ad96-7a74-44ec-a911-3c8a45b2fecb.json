@@ -1,0 +1,136 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "ANIxuanzhong",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "+GPpy6z0qkZsdAsC4GqNMFbgBhM",
+      "spine": "3.7.94",
+      "width": 300,
+      "height": 78,
+      "images": "./image/",
+      "audio": ""
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "shine",
+        "parent": "root"
+      }
+    ],
+    "slots": [
+      {
+        "name": "button_09",
+        "bone": "root",
+        "attachment": "button_09"
+      },
+      {
+        "name": "shine_00000",
+        "bone": "shine",
+        "attachment": "shine_00002",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "button_09": {
+          "button_09": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 295,
+            "height": 73
+          }
+        },
+        "shine_00000": {
+          "shine_00000": {
+            "width": 300,
+            "height": 78
+          },
+          "shine_00001": {
+            "width": 300,
+            "height": 78
+          },
+          "shine_00002": {
+            "width": 300,
+            "height": 78
+          },
+          "shine_00003": {
+            "width": 300,
+            "height": 78
+          },
+          "shine_00004": {
+            "width": 300,
+            "height": 78
+          },
+          "shine_00005": {
+            "width": 300,
+            "height": 78
+          },
+          "shine_00006": {
+            "width": 300,
+            "height": 78
+          }
+        }
+      }
+    },
+    "animations": {
+      "idle": {
+        "slots": {
+          "shine_00000": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "shine_00000"
+              },
+              {
+                "time": 0.0667,
+                "name": "shine_00001"
+              },
+              {
+                "time": 0.1333,
+                "name": "shine_00002"
+              },
+              {
+                "time": 0.2,
+                "name": "shine_00003"
+              },
+              {
+                "time": 0.2667,
+                "name": "shine_00004"
+              },
+              {
+                "time": 0.3333,
+                "name": "shine_00005"
+              },
+              {
+                "time": 0.4,
+                "name": "shine_00006"
+              },
+              {
+                "time": 0.4667,
+                "name": null
+              },
+              {
+                "time": 1,
+                "name": null
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\r\nANIxuanzhong.png\r\nsize: 512,256\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nbutton_09\r\n  rotate: false\r\n  xy: 2, 152\r\n  size: 295, 73\r\n  orig: 295, 73\r\n  offset: 0, 0\r\n  index: -1\r\nshine_00000\r\n  rotate: false\r\n  xy: 273, 4\r\n  size: 52, 71\r\n  orig: 300, 78\r\n  offset: 3, 5\r\n  index: -1\r\nshine_00001\r\n  rotate: false\r\n  xy: 174, 2\r\n  size: 97, 73\r\n  orig: 300, 78\r\n  offset: 3, 3\r\n  index: -1\r\nshine_00002\r\n  rotate: false\r\n  xy: 2, 2\r\n  size: 170, 73\r\n  orig: 300, 78\r\n  offset: 3, 3\r\n  index: -1\r\nshine_00003\r\n  rotate: false\r\n  xy: 2, 77\r\n  size: 215, 73\r\n  orig: 300, 78\r\n  offset: 35, 3\r\n  index: -1\r\nshine_00004\r\n  rotate: false\r\n  xy: 299, 152\r\n  size: 188, 73\r\n  orig: 300, 78\r\n  offset: 109, 3\r\n  index: -1\r\nshine_00005\r\n  rotate: false\r\n  xy: 219, 77\r\n  size: 124, 73\r\n  orig: 300, 78\r\n  offset: 173, 3\r\n  index: -1\r\nshine_00006\r\n  rotate: false\r\n  xy: 345, 77\r\n  size: 77, 73\r\n  orig: 300, 78\r\n  offset: 220, 3\r\n  index: -1\r\n",
+  "textures": [
+    {
+      "__uuid__": "e35af8df-ff3e-44ed-8408-31cce861e394"
+    }
+  ],
+  "textureNames": [
+    "ANIxuanzhong.png"
+  ],
+  "scale": 1
+}

@@ -1,0 +1,169 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "huobao01",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 4,
+  "sample": 30,
+  "speed": 1,
+  "wrapMode": "2",
+  "curveData": {
+    "props": {
+      "scale": [
+        {
+          "frame": 0,
+          "value": {
+            "__type__": "cc.Vec2",
+            "x": 1,
+            "y": 1
+          }
+        },
+        {
+          "frame": 0.1,
+          "value": {
+            "__type__": "cc.Vec2",
+            "x": 1.5,
+            "y": 0.7
+          }
+        },
+        {
+          "frame": 0.16666666666666666,
+          "value": {
+            "__type__": "cc.Vec2",
+            "x": 0.75,
+            "y": 1.3
+          }
+        },
+        {
+          "frame": 0.23333333333333334,
+          "value": {
+            "__type__": "cc.Vec2",
+            "x": 1.2,
+            "y": 0.8
+          }
+        },
+        {
+          "frame": 0.3333333333333333,
+          "value": {
+            "__type__": "cc.Vec2",
+            "x": 0.9,
+            "y": 1.1
+          }
+        },
+        {
+          "frame": 0.43333333333333335,
+          "value": {
+            "__type__": "cc.Vec2",
+            "x": 1,
+            "y": 1
+          }
+        }
+      ],
+      "angle": [
+        {
+          "frame": 0.2,
+          "value": 0
+        },
+        {
+          "frame": 0.3,
+          "value": -12
+        },
+        {
+          "frame": 0.4,
+          "value": 10
+        },
+        {
+          "frame": 0.5,
+          "value": -8
+        },
+        {
+          "frame": 0.6,
+          "value": 6
+        },
+        {
+          "frame": 0.7,
+          "value": -4
+        },
+        {
+          "frame": 0.8,
+          "value": 2
+        },
+        {
+          "frame": 0.9,
+          "value": 0
+        },
+        {
+          "frame": 4,
+          "value": 0
+        }
+      ]
+    },
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "39f6b70d-99c7-484a-b5c6-53a758b03acc"
+            }
+          },
+          {
+            "frame": 0.9,
+            "value": {
+              "__uuid__": "39f6b70d-99c7-484a-b5c6-53a758b03acc"
+            }
+          },
+          {
+            "frame": 0.9333333333333333,
+            "value": {
+              "__uuid__": "39f6b70d-99c7-484a-b5c6-53a758b03acc"
+            }
+          },
+          {
+            "frame": 1.0666666666666667,
+            "value": {
+              "__uuid__": "dc4acba9-4a9a-44f4-8895-780a91f6b089"
+            }
+          },
+          {
+            "frame": 1.2,
+            "value": {
+              "__uuid__": "69cb7ff7-7b9e-4787-b2bc-1c5ecea3ab3f"
+            }
+          },
+          {
+            "frame": 1.3333333333333333,
+            "value": {
+              "__uuid__": "864198ed-6b62-4752-9fde-e25652737d0f"
+            }
+          },
+          {
+            "frame": 1.4666666666666666,
+            "value": {
+              "__uuid__": "5f342928-a0da-4b8b-ac3e-e6dabe7da85d"
+            }
+          },
+          {
+            "frame": 1.6,
+            "value": {
+              "__uuid__": "6168058b-0fad-43fb-89cb-28d739adbd83"
+            }
+          },
+          {
+            "frame": 1.7333333333333334,
+            "value": {
+              "__uuid__": "7dd7b082-7476-4dce-b9f9-ac472ccfeb25"
+            }
+          },
+          {
+            "frame": 1.8666666666666667,
+            "value": {
+              "__uuid__": "39f6b70d-99c7-484a-b5c6-53a758b03acc"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

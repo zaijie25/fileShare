@@ -1,0 +1,354 @@
+syntax = "proto3";
+package italk.pb;
+
+/*----------------------------------------0. 消息protobuffer-，客户端服务端共用---------------------------*/
+
+enum ItalkTypeEnum {
+ITKCECHO = 0;                   //接入客户端回复消息类型
+ITKSECHO = 1;                   //提供服务端回复消息类型
+ITKHEART = 2;                   //客户端回复消息类型
+ITKRegister = 3;              //注册
+ITKSubscribe = 4;               //订阅
+ITKPublish = 5;                 //订阅发布
+ITKPull = 6;                    //订阅拉取
+ITKAbnormalFeedback = 7;        //业务异常反馈
+ITKBusinessStatistics = 8;      //业务统计反馈
+ITKFeedbackServer = 9;          //服务器运行反馈
+ITKServerSet = 10;          //服务器配置
+ITKServerSetPack = 11;        //服务器配置包
+
+ITKLoginNEW = 20;            //用户登录
+ITKLogin = 21;            //用户登录
+ITKChat = 22;                //发送消息
+ITKCommon = 23;                     //通用消息
+
+ITKServerChat = 40;                 //发送消息
+ITKServerChatEcho = 41;             //服务器发送消息
+ITKServerCommon = 42;                 //发送消息
+ITKServerCommonEcho = 43;             //服务器发送消息
+
+ITKHeartECHO = 62;          //心跳回复
+ITKRegisterECHO = 63;        //注册回复
+ITKSubscribeECHO = 64;        //订阅回复
+ITKPublishECHO = 65;        //订阅发布回复
+ITKPullECHO = 66;          //订阅拉取回复
+ITKAbnormalFeedbackECHO = 67;    //业务异常反馈回复
+ITKBusinessStatisticsECHO = 68;    //业务统计反馈回复
+ITKFeedbackServerECHO = 69;      //服务器运行反馈回复
+ITKServerSetECHO = 70;        //服务器配置回复
+ITKServerSetPackECHO = 71;      //服务器配置包回复
+
+ITKLoginECHO = 81;          //服务器登录回复
+ITKChatECHO = 82;          //服务器消息状态回复
+ITKCommonECHO = 83;          //服务器通用消息回复
+}
+
+enum ItalkErrorEnum {
+ITKOK = 0;             //正确返回
+ITKERROR = 1;         //错误返回
+ITKXXX = 2;            //错误返回
+}
+
+message ItalkEchoInfo {
+ItalkTypeEnum type = 1;            // 消息类型
+ItalkErrorEnum error = 2;          // 消息返回错误类型
+string Info = 3;              // 消息返回信息
+}
+
+
+/*------------------------------心跳-----------------------------------------*/
+
+// 心跳包
+
+message ItalkHeartMsg {
+ItalkTypeEnum msgType = 1;
+uint64 heartCount = 2;
+uint64 number = 3;
+string token = 4;
+string serverInfo = 5;
+string userid = 6;
+}
+
+// 心跳包应答
+message ItalkHeartEchoMsg {
+ItalkTypeEnum msgType = 1;          // 消息类型
+ItalkEchoInfo echoInfo = 2;          // 消息反馈
+uint64 heartCount = 3;
+uint64 number = 4;
+}
+
+
+/*----------------------------------------1. 消息protobuffer-，客户端服务端共用---------------------------*/
+
+
+// 消息状态
+
+enum ItalkMsgStatusEnum {
+	ITKUnsend = 0;                   // 未发送 
+	ITKSending = 1;                  // 发送中
+	ITKSended = 2;                   // 发送成功
+	ITKSendFailed = 3;               // 发送失败
+	ITKReceiverReceived = 4;         // 接收方已收到
+	ITKSenderReceived = 5;           // 发送方获知接收方已接收
+	ITKReceiverReaded = 6;           // 接收方已阅读
+	ITKSenderReaded = 7;             // 发送方获知接收方已阅读
+	ITKReceiverDestroyed = 8;        // 接收方已销毁
+	ITKSenderDestroyed = 9;          // 发送方收到接收方已销毁，同时自己也销毁
+	ITKReceiverTimeout = 10;         // 接收方已超时
+	ITKSenderTimeout = 11;           // 接收方获知接收方已超时
+	ITKSenderRevoke = 12;            // 发送方已撤销
+	ITKReceiverRevoke = 13;          // 接收方收到发送方的撤销通知
+	ITKMsgStatus1 = 21;              // 扩展状态1
+	ITKMsgStatus2 = 22;              // 扩展状态2
+	ITKMsgStatus3 = 23;              // 扩展状态3
+	ITKMsgStatus4 = 24;              // 扩展状态4
+	ITKMsgStatus5 = 25;              // 扩展状态5
+	ITKMsgStatus6 = 26;              // 扩展状态6
+}
+
+// 聊天类型
+
+enum ItalkChatTypeEnum{
+ITKSingleChat = 0;      //单聊
+ITKGroupChat = 1;      //群聊
+}
+
+// 消息类型
+
+enum ItalkBusinessTypeEnum {
+	ITKSMS = 0;          			// 发送文本或表情
+	ITKPic = 1;          			// 发送图片
+	ITKSound = 2;        			// 发送语音
+	ITKShortVideo = 3;      		// 发送小视频
+	ITKFile = 4;        			// 发送文件
+	ITKLocation = 5;      			// 发送地理位置
+	ITKRedPacket = 6;           	// 发送红包
+	ITKVoiceCall = 7;      			// 语音通话
+	ITKVideoCall = 8;      			// 视频通话
+	ITKServerPush = 9;     	 		// 推送
+	ITKAddFriendRequest = 10;    	// 好友添加请求（客户端、服务端）
+	ITKNeedFriendVerify = 11;    	// 需要向对方发起好友验证（服务端）
+	ITKAddFriendSucccess = 12;      // 好友添加成功（服务端）
+	ITKVerifyFriendAnswer = 13;    	// 验证好友回复（客户端）
+	ITKVerifyFriendSuccess = 14;    // 验证好友通过（客户端）
+	ITKGroupCreate = 15;            // 创建群
+	ITKGroupMemberQuit = 16;    	// 群成员退出
+	ITKGroupMemberAdd = 17;      	// 群成员加入
+	ITKGroupOwnerTransfer = 18;   	// 群主转让
+	ITKInviteGroupMember = 19;   	// 邀请加入群
+	ITKVerifyInivitation = 20;   	// 校验通过
+	ITKDeleteGroupMember = 21;   	// 删除群成员（只有群主有权限）
+	ITKChatStatusChange = 22;    	// 消息状态改变
+	ITKSystemNotification = 23;     // 系统通知
+	ITKRevokeMsg = 24;              // 撤回消息
+	ITkDestroyed = 25;              // 消息已销毁
+	ITKReturnRedPacket = 26;        // 退回红包
+	ITKRemoveMsgID = 27;            // 清除离线消息
+	ITKOtherMachineLogin = 28;		// 账号在其他机器登录
+	ITKRequestLogin = 29;			// 请求授权账号登录
+	ITKAuthLogin = 30;				// 授权通过账号登录
+  ITKUserChange = 31;        // 用户信息变动
+  ITKAppState = 32;             // App 状态变动
+	ITKBussniesstype1 = 41;         // 扩展业务类型
+	ITKBussniesstype2 = 42;         // 扩展业务类型
+	ITKBussniesstype3 = 43;         // 扩展业务类型
+	ITKBussniesstype4 = 44;         // 扩展业务类型
+	ITKBussniesstype5 = 45;         // 扩展业务类型
+	ITKBussniesstype6 = 46;         // 扩展业务类型
+	ITKBussniesstype7 = 47;         // 扩展业务类型
+	ITKBussniesstype8 = 48;         // 扩展业务类型
+	ITKBussniesstype9 = 49;         // 扩展业务类型
+  ITKBussniesstype10 = 50;        // 修改个人信息
+  ITKBussniesstype11 = 51;        // 修改群
+  ITKBussniesstype12 = 52;        // 修改群呢称
+	ITKBussniesstype13 = 53;        // 扩展业务类型
+	ITKBussniesstype14 = 54;        // 扩展业务类型
+	ITKBussniesstype15 = 55;        // 扩展业务类型
+	ITKBussniesstype16 = 56;        // 扩展业务类型
+	ITKBussniesstype17 = 57;        // 扩展业务类型
+	ITKBussniesstype18 = 58;        // 扩展业务类型
+	ITKBussniesstype19 = 59;        // 扩展业务类型
+	ITKBussniesstype20 = 60;        // 扩展业务类型
+  ITKBussniesstype21 = 61;        // 扩展业务类型
+  ITKBussniesstype22 = 62;        // 扩展业务类型
+  ITKBussniesstype23 = 63;        // 扩展业务类型
+  ITKBussniesstype24 = 64;        // 扩展业务类型
+  ITKBussniesstype25 = 65;        // 扩展业务类型
+  ITKBussniesstype26 = 66;        // 扩展业务类型
+  ITKBussniesstype27 = 67;        // 扩展业务类型
+  ITKBussniesstype28 = 68;        // 扩展业务类型
+  ITKBussniesstype29 = 69;        // 扩展业务类型
+  ITKBussniesstype30 = 70;        // 扩展业务类型
+  ITKBussniesstype31 = 71;        // 扩展业务类型
+  ITKBussniesstype32 = 72;        // 扩展业务类型
+  ITKBussniesstype33 = 73;        // 扩展业务类型
+  ITKBussniesstype34 = 74;        // 扩展业务类型
+  ITKBussniesstype35 = 75;        // 扩展业务类型
+  ITKBussniesstype36 = 76;        // 扩展业务类型
+  ITKBussniesstype37 = 77;        // 扩展业务类型
+  ITKBussniesstype38 = 78;        // 扩展业务类型
+  ITKBussniesstype39 = 79;        // 扩展业务类型
+  ITKBussniesstype40 = 80;        // 删除离线返回
+  ITKBussniesstype41 = 81;        // 全部拉取完离线确认返回（客户端）
+  ITKBussniesstype42 = 82;        // 站定
+  ITKRecodeMsg = 83;              //聊天记录包
+}
+
+// 图片格式类型
+
+enum ItalkFormatTypeEnum {
+ITKBmp = 0;                 //BMP
+ITKJpg = 1;                //JPG
+ITKPng = 2;                 //PNG
+ITKGif = 3;              //GIF
+ITKOtherFormat = 4;         //其他
+}
+
+// 消息的发送错误码
+
+enum ItalkMsgErrorEnum {
+ITKToAccountNotExist = 0;   //to_account 没有注册或不存在
+ITKWrongMsgContent = 1;       //消息内容不符合消息格式描述
+ITKOtherError = 2;          //服务器内容错误或其他未知错误，请重试
+}
+
+// 添加好友应答状态
+
+enum ItalkAddFriendStatusEnum {
+ITKAdded = 0;           //添加成功
+ITKWaitVerification = 1;       //等待校验
+}
+
+/*-------------------------------------------消息内容定义----------------------------------------------------*/
+// 文本、图片、语音、小视频、文件、地理位置信息共用
+
+message ItalkMsgContent {
+string text = 1;            // 文本或表情消息内容（文本、表情），表情格式 @@index@@，index表情索引
+int32 size = 2;             // 文件大小（图片、语音、小视频、文件）
+ItalkFormatTypeEnum imageformat = 3;  // 图片格式（图片）
+int32 width = 4;            // 缩略图宽度（图片、小视频）
+int32 height = 5;              // 缩略图高度（图片、小视频）
+string thumburl = 6;          // 缩略图地址（图片、小视频）
+string url = 7;              // URL地址（图片、语音、小视频、文件）
+int32 second = 8;            // 时长,单位秒（语音、小视频）
+string filename = 9;          // 文件名（文件）
+string desc = 10;             // 地理位置描述信息（地理位置）
+string latitude = 11;          // 纬度（地理位置）
+string longitude = 12;          // 经度（地理位置）
+}
+
+/*-------------------------------------------聊天记录包内容------------------------------------------*/
+message ItalkRecordMsg {
+	ItalkRecordMsg recordMsg = 1;  //里面的包
+	int32 level = 2;            //第几层
+	int32 CurCount = 3;         //条数
+	repeated ItalkChatMsg chatMsgList = 5; //msgid 数据 放数据条数
+	repeated string briefInfo = 6; //简略信息展示
+}
+	
+
+/*-------------------------------------------消息包------------------------------------------------*/
+message ItalkChatMsg {
+	ItalkTypeEnum msgType = 1;                  // 消息类型
+	string userid = 2;                        // 发送方账号ID
+	int64 localid = 3;                      // 客户端本地消息ID
+	string fid = 4;                           // 接收方账号ID，单聊消息为用户userid，群聊消息为群组groupid
+	repeated string memberids = 5;                // userid数组，添加群成员、删除群成员、创建群、邀请入群、验证通过入群 共用的用户ID数组
+	int64 msgid = 6;                       // 消息ID（用于消息去重）
+	int64 timestamp = 7;                    // 消息时间戳
+	int32 burnsecond = 8;                    // 阅后即焚延迟时间(单位：秒)
+	bool burn = 9;                         // 阅后即焚标记
+	ItalkChatTypeEnum chattype = 10;                // 聊天类型
+	ItalkBusinessTypeEnum bussinesstype = 11;          // 发送的消息类型
+	ItalkMsgStatusEnum status = 12;                // 消息状态
+	ItalkMsgContent content = 13;                 // 发送的消息内容
+  int64 userupdatetime = 14;                    // 用户修改时间戳
+  int64 msgindex = 15;                          //消息序号
+  int64 msglastindex = 16;                          //消息序号
+  bool online = 17;                           //在线离线消息
+  int64 offlinenum = 18;                           //离线消息数
+  int64  msgorder =19;                          //消息序号
+  int64 msguserorder=20;                      //消息排序序号
+  string text1=21;                           //添加备注信息
+  string  text2=22;                            //添加备注信息
+  string  text3=23;                          //添加备注信息
+  int64 groupupdatetime = 24;                    // 群修改时间戳
+  int64 msgflag = 25;
+  string msginfo1 = 26;
+  int64 msgint1 = 27;
+  string msginfo2 = 28;
+  int64 msgint2 = 29;
+  string msginfo3 = 30;
+  string uuid = 31;                               //消息唯一标识
+  int64 crc = 32;
+  string errorinfo = 33;                      // 错误信息
+  int64 number = 34;                      // 规律包
+  repeated int64 msgidList = 35;                 // msgid数组使用的值，用于返回客户端aite列表
+  ItalkRecordMsg records = 36;                   //消息记录包
+}
+message ItalkChatEchoMsg {
+ItalkTypeEnum msgType = 1;                  // 消息类型
+ItalkEchoInfo echoInfo = 2;                  // 消息反馈
+string userid = 3;                        // 发送方账号ID
+int64 localid = 4;                      // 客户端本地消息ID
+string fid = 5;                           // 接收方账号ID，单聊消息为用户userid，群聊消息为群组groupid
+int64 msgid = 6;                       // 消息ID（用于消息去重）
+int64 timestamp = 7;                    // 消息时间戳
+int32 burnsecond = 8;                    // 阅后即焚延迟时间(单位：秒)
+bool burn = 9;                         // 阅后即焚标记
+ItalkChatTypeEnum chattype = 10;                // 聊天类型
+ItalkBusinessTypeEnum bussinesstype = 11;          // 发送的消息类型
+ItalkMsgStatusEnum status = 12;                // 消息状态
+  int64 msgindex = 13;                          //消息序号
+  int64  msgorder =14;                         //消息序号
+  int64 msguserorder=15;                      //消息排序序号
+  string text1=16;                           //添加备注信息
+  string  text2=17;                            //添加备注信息
+  string  text3=18;                          //添加备注信息
+  string uuid = 19;                               //消息唯一标识
+  int64 crc = 20;
+  int64 number = 21;                      // 规律包
+}
+
+/*-------------------------------------------用户登录消息包------------------------------------------------*/
+
+message ItalkLoginMsg {
+ItalkTypeEnum msgType = 1;          // 消息类型
+string userid = 2;              // 用户ID
+int64 localid = 3;              // 客户端本地消息ID
+string token = 4;              // token
+string clientid = 5;               //用户ID
+int64 number = 6;              // 规律包
+}
+
+message ItalkLoginEchoMsg {
+ItalkTypeEnum msgType = 1;          // 消息类型
+ItalkEchoInfo echoInfo = 2;          // 消息反馈
+int64 localid = 3;              // 客户端本地消息ID
+string userid = 4;              // 用户ID
+string token = 5;              // token
+int64 userno = 6;              //userno
+int64 number = 7;              // 规律包
+}
+
+
+/*-------------------------------------------通用消息包------------------------------------------------*/
+
+message ItalkCommonMsg {
+ItalkTypeEnum msgType = 1;          // 消息类型
+string userid = 2;               //用户ID
+int64 localid = 3;              // 客户端本地消息ID
+string text = 4;                // 通用消息内容
+int64 number = 5;              // 规律包
+}
+
+message ItalkCommonEchoMsg {
+ItalkTypeEnum msgType = 1;          // 消息类型
+ItalkEchoInfo echoInfo = 2;          // 消息反馈
+int64 localid = 3;              // 客户端本地消息ID
+string text = 4;                // 通用消息内容
+int64 number = 5;              // 规律包
+}
+
+
+

@@ -1,0 +1,14 @@
+{
+  "__type__": "dragonBones.DragonBonesAtlasAsset",
+  "_name": "bairenjinhuaniu_tex",
+  "_objFlags": 0,
+  "_native": "",
+  "_atlasJson": "{\"width\":256,\"imagePath\":\"bairenjinhuaniu_tex.png\",\"height\":512,\"name\":\"bairenjinhuaniu\",\"SubTexture\":[{\"width\":135,\"y\":1,\"height\":139,\"name\":\"puke01\",\"x\":1},{\"width\":56,\"y\":383,\"height\":55,\"name\":\"zha\",\"x\":195},{\"width\":94,\"y\":383,\"height\":53,\"name\":\"VS\",\"x\":99},{\"width\":101,\"y\":1,\"height\":102,\"name\":\"head\",\"x\":138},{\"width\":100,\"y\":303,\"height\":78,\"name\":\"body\",\"x\":99},{\"width\":56,\"y\":201,\"height\":67,\"name\":\"hand\",\"x\":197},{\"width\":219,\"y\":142,\"height\":57,\"name\":\"text\",\"x\":1},{\"y\":303,\"frameX\":-1,\"frameHeight\":102,\"frameY\":0,\"width\":96,\"frameWidth\":100,\"height\":100,\"name\":\"zhadan_huoxing_00000\",\"x\":1},{\"y\":405,\"frameX\":-1,\"frameHeight\":102,\"frameY\":0,\"width\":96,\"frameWidth\":100,\"height\":100,\"name\":\"zhadan_huoxing_00002\",\"x\":1},{\"y\":201,\"frameX\":-1,\"frameHeight\":102,\"frameY\":0,\"width\":96,\"frameWidth\":100,\"height\":100,\"name\":\"zhadan_huoxing_00003\",\"x\":1},{\"y\":201,\"frameX\":-1,\"frameHeight\":102,\"frameY\":0,\"width\":96,\"frameWidth\":100,\"height\":100,\"name\":\"zhadan_huoxing_00001\",\"x\":99}]}",
+  "_texture": {
+    "__uuid__": "b0e4fb3c-7a0b-4f8a-9ece-6ef3a63e2ec6"
+  },
+  "texture": {
+    "__uuid__": "b0e4fb3c-7a0b-4f8a-9ece-6ef3a63e2ec6"
+  },
+  "_textureAtlasData": null
+}

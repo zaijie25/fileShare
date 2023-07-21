@@ -1,0 +1,85 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "dailizhaoshang01",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 1.3666666666666667,
+  "sample": 30,
+  "speed": 1,
+  "wrapMode": "2",
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "7c7f326a-c532-425a-a8c5-77ed16ffd3c0"
+            }
+          },
+          {
+            "frame": 0.13333333333333333,
+            "value": {
+              "__uuid__": "3d1042b1-e909-439c-87b7-cf944d394e4e"
+            }
+          },
+          {
+            "frame": 0.26666666666666666,
+            "value": {
+              "__uuid__": "b4d1d4e5-8ddc-4daf-b5c8-76367584de4c"
+            }
+          },
+          {
+            "frame": 0.4,
+            "value": {
+              "__uuid__": "2a5550bc-33fc-424d-aa4b-9643fca27844"
+            }
+          },
+          {
+            "frame": 0.5333333333333333,
+            "value": {
+              "__uuid__": "a55d064a-e146-4203-a3e4-bab2c307bd95"
+            }
+          },
+          {
+            "frame": 0.6666666666666666,
+            "value": {
+              "__uuid__": "9e9811bd-f659-4b6f-90c5-6bf56c9cfa8c"
+            }
+          },
+          {
+            "frame": 0.8,
+            "value": {
+              "__uuid__": "53872711-2d73-43eb-bd5d-f6a38da90029"
+            }
+          },
+          {
+            "frame": 0.9333333333333333,
+            "value": {
+              "__uuid__": "e69f2446-3770-400f-ab9b-241eb921cbe2"
+            }
+          },
+          {
+            "frame": 1.0666666666666667,
+            "value": {
+              "__uuid__": "a0bf9cb2-9aad-4a20-b52c-30b9d1996854"
+            }
+          },
+          {
+            "frame": 1.2,
+            "value": {
+              "__uuid__": "7c888e8c-1033-410d-b3a0-de7c33a0b69b"
+            }
+          },
+          {
+            "frame": 1.3333333333333333,
+            "value": {
+              "__uuid__": "7c888e8c-1033-410d-b3a0-de7c33a0b69b"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

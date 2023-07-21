@@ -1,0 +1,41 @@
+
+ANIbox.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+3
+  rotate: false
+  xy: 353, 158
+  size: 100, 39
+  orig: 100, 39
+  offset: 0, 0
+  index: -1
+huizhang
+  rotate: false
+  xy: 2, 2
+  size: 112, 96
+  orig: 112, 96
+  offset: 0, 0
+  index: -1
+jz_cm02
+  rotate: false
+  xy: 580, 265
+  size: 199, 180
+  orig: 199, 180
+  offset: 0, 0
+  index: -1
+lightbg
+  rotate: false
+  xy: 2, 100
+  size: 349, 345
+  orig: 349, 345
+  offset: 0, 0
+  index: -1
+vs_s_06
+  rotate: false
+  xy: 353, 199
+  size: 225, 246
+  orig: 225, 246
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,55 @@
+
+ANItouzi.png
+size: 512,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/touzi_00000
+  rotate: true
+  xy: 302, 10
+  size: 46, 47
+  orig: 52, 54
+  offset: 4, 5
+  index: -1
+images/touzi_00001
+  rotate: false
+  xy: 2, 2
+  size: 45, 54
+  orig: 52, 54
+  offset: 4, 0
+  index: -1
+images/touzi_00002
+  rotate: false
+  xy: 49, 5
+  size: 47, 51
+  orig: 52, 54
+  offset: 2, 3
+  index: -1
+images/touzi_00003
+  rotate: true
+  xy: 152, 10
+  size: 46, 48
+  orig: 52, 54
+  offset: 3, 3
+  index: -1
+images/touzi_00004
+  rotate: true
+  xy: 98, 10
+  size: 46, 52
+  orig: 52, 54
+  offset: 3, 1
+  index: -1
+images/touzi_00005
+  rotate: true
+  xy: 202, 10
+  size: 46, 48
+  orig: 52, 54
+  offset: 4, 4
+  index: -1
+images/touzi_00006
+  rotate: true
+  xy: 252, 10
+  size: 46, 48
+  orig: 52, 54
+  offset: 3, 3
+  index: -1

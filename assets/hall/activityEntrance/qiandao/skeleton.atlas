@@ -1,0 +1,55 @@
+
+skeleton.png
+size: 139,134
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Shadow
+  rotate: true
+  xy: 119, 28
+  size: 18, 12
+  orig: 18, 12
+  offset: 0, 0
+  index: -1
+Tick
+  rotate: false
+  xy: 74, 37
+  size: 34, 36
+  orig: 34, 36
+  offset: 0, 0
+  index: -1
+gx1
+  rotate: false
+  xy: 81, 75
+  size: 56, 57
+  orig: 56, 57
+  offset: 0, 0
+  index: -1
+horn
+  rotate: true
+  xy: 110, 48
+  size: 25, 24
+  orig: 25, 24
+  offset: 0, 0
+  index: -1
+notebook
+  rotate: true
+  xy: 2, 3
+  size: 75, 70
+  orig: 75, 70
+  offset: 0, 0
+  index: -1
+pen
+  rotate: true
+  xy: 74, 2
+  size: 33, 43
+  orig: 33, 43
+  offset: 0, 0
+  index: -1
+签到
+  rotate: false
+  xy: 2, 80
+  size: 77, 52
+  orig: 77, 52
+  offset: 0, 0
+  index: -1

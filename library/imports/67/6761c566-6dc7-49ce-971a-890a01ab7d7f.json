@@ -1,0 +1,317 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "xuanzhong",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "4TVXx+Ud3kaPU/HeqfzhyN/PtWE",
+      "spine": "3.7.94",
+      "width": 148,
+      "height": 143,
+      "images": "./image/",
+      "audio": ""
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "tx",
+        "parent": "root",
+        "x": -0.58,
+        "y": 7.7
+      },
+      {
+        "name": "tx2",
+        "parent": "root",
+        "x": -0.58,
+        "y": 7.7
+      }
+    ],
+    "slots": [
+      {
+        "name": "boom_glow01_00007",
+        "bone": "tx",
+        "attachment": "boom_glow01_00007",
+        "blend": "additive"
+      },
+      {
+        "name": "boom_glow01_7",
+        "bone": "tx2",
+        "attachment": "boom_glow01_00007",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "boom_glow01_00007": {
+          "boom_glow01_00007": {
+            "x": 0.5,
+            "width": 148,
+            "height": 143
+          }
+        },
+        "boom_glow01_7": {
+          "boom_glow01_00007": {
+            "x": 0.5,
+            "width": 148,
+            "height": 143
+          }
+        }
+      }
+    },
+    "animations": {
+      "idle_bule": {
+        "slots": {
+          "boom_glow01_00007": {
+            "color": [
+              {
+                "time": 0,
+                "color": "01ffff0f"
+              },
+              {
+                "time": 0.6667,
+                "color": "00fffbff"
+              },
+              {
+                "time": 1.3333,
+                "color": "ffffff0f"
+              }
+            ]
+          },
+          "boom_glow01_7": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.6667,
+                "color": "00fffb00"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "tx2": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              },
+              {
+                "time": 0.6667,
+                "x": 1.23,
+                "y": 1.23
+              }
+            ]
+          }
+        }
+      },
+      "idle_green": {
+        "slots": {
+          "boom_glow01_00007": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff0f"
+              },
+              {
+                "time": 0.6667,
+                "color": "10ff00ff"
+              },
+              {
+                "time": 1.3333,
+                "color": "ffffff0f"
+              }
+            ]
+          },
+          "boom_glow01_7": {
+            "color": [
+              {
+                "time": 0,
+                "color": "28ff00ff"
+              },
+              {
+                "time": 0.6667,
+                "color": "39ff0000"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "tx2": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              },
+              {
+                "time": 0.6667,
+                "x": 1.23,
+                "y": 1.23
+              }
+            ]
+          }
+        }
+      },
+      "idle_purple": {
+        "slots": {
+          "boom_glow01_00007": {
+            "color": [
+              {
+                "time": 0,
+                "color": "01ffff0f"
+              },
+              {
+                "time": 0.6667,
+                "color": "fd00ffff"
+              },
+              {
+                "time": 1.3333,
+                "color": "ffffff0f"
+              }
+            ]
+          },
+          "boom_glow01_7": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ec00ffff"
+              },
+              {
+                "time": 0.6667,
+                "color": "e613fc00"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "tx2": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              },
+              {
+                "time": 0.6667,
+                "x": 1.23,
+                "y": 1.23
+              }
+            ]
+          }
+        }
+      },
+      "idle_red": {
+        "slots": {
+          "boom_glow01_00007": {
+            "color": [
+              {
+                "time": 0,
+                "color": "01ffff0f"
+              },
+              {
+                "time": 0.6667,
+                "color": "ff2321ff"
+              },
+              {
+                "time": 1.3333,
+                "color": "ffffff0f"
+              }
+            ]
+          },
+          "boom_glow01_7": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ff2727ff"
+              },
+              {
+                "time": 0.6667,
+                "color": "fd141400"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "tx2": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              },
+              {
+                "time": 0.6667,
+                "x": 1.23,
+                "y": 1.23
+              }
+            ]
+          }
+        }
+      },
+      "idle_yellow": {
+        "slots": {
+          "boom_glow01_00007": {
+            "color": [
+              {
+                "time": 0,
+                "color": "01ffff0f"
+              },
+              {
+                "time": 0.6667,
+                "color": "f0ff00ff"
+              },
+              {
+                "time": 1.3333,
+                "color": "ffffff0f"
+              }
+            ]
+          },
+          "boom_glow01_7": {
+            "color": [
+              {
+                "time": 0,
+                "color": "fdff00ff"
+              },
+              {
+                "time": 0.6667,
+                "color": "fdff0000"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "tx2": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              },
+              {
+                "time": 0.6667,
+                "x": 1.23,
+                "y": 1.23
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\r\nxuanzhong.png\r\nsize: 256,256\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nboom_glow01_00007\r\n  rotate: false\r\n  xy: 2, 2\r\n  size: 148, 143\r\n  orig: 148, 143\r\n  offset: 0, 0\r\n  index: -1\r\n",
+  "textures": [
+    {
+      "__uuid__": "11894e96-1495-4175-817f-29420040164e"
+    }
+  ],
+  "textureNames": [
+    "xuanzhong.png"
+  ],
+  "scale": 1
+}

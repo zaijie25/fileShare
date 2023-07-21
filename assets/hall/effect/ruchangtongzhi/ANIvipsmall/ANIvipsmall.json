@@ -1,0 +1,40 @@
+{
+"skeleton": { "hash": "P3ABWQ/hVBjcN0MhuvVfTUXg2MY", "spine": "3.7.94", "width": 70, "height": 25, "images": "../跑马灯框/images/", "audio": "D:/arts/00File/001子游戏/通用子游戏动效02/跑马灯框" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "vip", "parent": "root" }
+],
+"slots": [
+	{ "name": "logo_00000", "bone": "vip", "attachment": "logo_00005", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"logo_00000": {
+			"logo_00000": { "y": 0.5, "width": 70, "height": 25 },
+			"logo_00001": { "y": 0.5, "width": 70, "height": 25 },
+			"logo_00002": { "y": 0.5, "width": 70, "height": 25 },
+			"logo_00003": { "y": 0.5, "width": 70, "height": 25 },
+			"logo_00004": { "y": 0.5, "width": 70, "height": 25 },
+			"logo_00005": { "y": 0.5, "width": 70, "height": 25 }
+		}
+	}
+},
+"animations": {
+	"idle": {
+		"slots": {
+			"logo_00000": {
+				"attachment": [
+					{ "time": 0, "name": "logo_00000" },
+					{ "time": 0.0667, "name": "logo_00001" },
+					{ "time": 0.1333, "name": "logo_00002" },
+					{ "time": 0.2, "name": "logo_00003" },
+					{ "time": 0.3, "name": "logo_00004" },
+					{ "time": 0.4, "name": "logo_00005" },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6333, "name": null }
+				]
+			}
+		}
+	}
+}
+}

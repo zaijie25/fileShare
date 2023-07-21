@@ -1,0 +1,7 @@
+{
+  "__type__": "cc.TextAsset",
+  "_name": "ANIcha.atlas",
+  "_objFlags": 0,
+  "_native": "",
+  "text": "\r\nANIcha.png\r\nsize: 512,256\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nimages/cup_back\r\n  rotate: true\r\n  xy: 2, 2\r\n  size: 88, 43\r\n  orig: 88, 45\r\n  offset: 0, 2\r\n  index: -1\r\nimages/cup_front\r\n  rotate: false\r\n  xy: 211, 163\r\n  size: 125, 91\r\n  orig: 125, 94\r\n  offset: 0, 0\r\n  index: -1\r\nimages/pot\r\n  rotate: false\r\n  xy: 2, 92\r\n  size: 207, 162\r\n  orig: 207, 162\r\n  offset: 0, 0\r\n  index: -1\r\nimages/smoke\r\n  rotate: false\r\n  xy: 211, 103\r\n  size: 47, 40\r\n  orig: 50, 42\r\n  offset: 1, 1\r\n  index: -1\r\nimages/spake1\r\n  rotate: false\r\n  xy: 295, 146\r\n  size: 35, 15\r\n  orig: 35, 15\r\n  offset: 0, 0\r\n  index: -1\r\nimages/spake2\r\n  rotate: false\r\n  xy: 356, 234\r\n  size: 39, 20\r\n  orig: 39, 20\r\n  offset: 0, 0\r\n  index: -1\r\nimages/tea01\r\n  rotate: false\r\n  xy: 47, 70\r\n  size: 73, 20\r\n  orig: 78, 21\r\n  offset: 2, 1\r\n  index: -1\r\nimages/tea02\r\n  rotate: false\r\n  xy: 338, 176\r\n  size: 16, 78\r\n  orig: 16, 85\r\n  offset: 0, 7\r\n  index: -1\r\nimages/tea03\r\n  rotate: true\r\n  xy: 211, 145\r\n  size: 16, 82\r\n  orig: 16, 82\r\n  offset: 0, 0\r\n  index: -1\r\n"
+}

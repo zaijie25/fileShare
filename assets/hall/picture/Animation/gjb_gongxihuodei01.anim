@@ -1,0 +1,47 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "gjb_gongxihuodei01",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 6,
+  "sample": 30,
+  "speed": 1,
+  "wrapMode": "2",
+  "curveData": {
+    "props": {
+      "x": [
+        {
+          "frame": 0,
+          "value": -449
+        },
+        {
+          "frame": 4.666666666666667,
+          "value": 488
+        }
+      ],
+      "opacity": [
+        {
+          "frame": 0,
+          "value": 0
+        },
+        {
+          "frame": 0.6666666666666666,
+          "value": 255
+        },
+        {
+          "frame": 4,
+          "value": 255
+        },
+        {
+          "frame": 4.666666666666667,
+          "value": 0
+        },
+        {
+          "frame": 6,
+          "value": 0
+        }
+      ]
+    }
+  },
+  "events": []
+}

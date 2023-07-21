@@ -1,0 +1,76 @@
+
+ANIbtnFX.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+btn_1
+  rotate: true
+  xy: 287, 4
+  size: 237, 89
+  orig: 237, 89
+  offset: 0, 0
+  index: -1
+shine_00000
+  rotate: true
+  xy: 570, 26
+  size: 215, 93
+  orig: 250, 100
+  offset: 2, 7
+  index: -1
+shine_00001
+  rotate: false
+  xy: 858, 146
+  size: 156, 95
+  orig: 250, 100
+  offset: 1, 5
+  index: -1
+shine_00002
+  rotate: true
+  xy: 665, 51
+  size: 190, 96
+  orig: 250, 100
+  offset: 2, 2
+  index: -1
+shine_00003
+  rotate: true
+  xy: 193, 10
+  size: 231, 92
+  orig: 250, 100
+  offset: 4, 3
+  index: -1
+shine_00004
+  rotate: true
+  xy: 99, 3
+  size: 238, 92
+  orig: 250, 100
+  offset: 6, 3
+  index: -1
+shine_00005
+  rotate: true
+  xy: 378, 15
+  size: 226, 93
+  orig: 250, 100
+  offset: 19, 3
+  index: -1
+shine_00006
+  rotate: true
+  xy: 763, 62
+  size: 179, 93
+  orig: 250, 100
+  offset: 66, 5
+  index: -1
+shine_00007
+  rotate: true
+  xy: 473, 29
+  size: 212, 95
+  orig: 250, 100
+  offset: 33, 5
+  index: -1
+shine_00008
+  rotate: true
+  xy: 2, 2
+  size: 239, 95
+  orig: 250, 100
+  offset: 5, 5
+  index: -1

@@ -1,0 +1,886 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "wanren",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "/imd584Gy/JQi+avcsKOL2CvoBY",
+      "spine": "3.6.53",
+      "width": 1280,
+      "height": 720,
+      "images": "./images/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "Ablack",
+        "parent": "root",
+        "length": 79.36,
+        "rotation": 93.64,
+        "x": -29.11,
+        "y": 90.59
+      },
+      {
+        "name": "Akuai",
+        "parent": "root",
+        "length": 79.13,
+        "rotation": 123.34,
+        "x": -17.42,
+        "y": 79.76
+      },
+      {
+        "name": "Ared",
+        "parent": "root",
+        "length": 84.9,
+        "rotation": 64.01,
+        "x": -31.03,
+        "y": 85.07
+      },
+      {
+        "name": "coin",
+        "parent": "root",
+        "length": 31.32,
+        "rotation": 67.38,
+        "x": 19.97,
+        "y": 0.66
+      },
+      {
+        "name": "fire",
+        "parent": "root",
+        "length": 26.4,
+        "rotation": 90,
+        "x": 15.12,
+        "y": 112.04,
+        "scaleX": 1.1,
+        "scaleY": 1.1
+      },
+      {
+        "name": "tao",
+        "parent": "root",
+        "length": 54.37,
+        "rotation": 117.08,
+        "x": -17.82,
+        "y": 32.95
+      },
+      {
+        "name": "zhadan",
+        "parent": "root",
+        "length": 88.68,
+        "rotation": 90,
+        "x": 7.94,
+        "y": 5.56
+      }
+    ],
+    "slots": [
+      {
+        "name": "bg",
+        "bone": "root"
+      },
+      {
+        "name": "Akuai",
+        "bone": "Akuai",
+        "attachment": "Akuai"
+      },
+      {
+        "name": "Ablack",
+        "bone": "Ablack",
+        "attachment": "Ablack"
+      },
+      {
+        "name": "Ared",
+        "bone": "Ared",
+        "attachment": "Ared"
+      },
+      {
+        "name": "fire_01",
+        "bone": "fire",
+        "attachment": "fire_16",
+        "blend": "additive"
+      },
+      {
+        "name": "zhadan",
+        "bone": "zhadan",
+        "attachment": "zhadan"
+      },
+      {
+        "name": "coin",
+        "bone": "coin",
+        "attachment": "coin"
+      },
+      {
+        "name": "star",
+        "bone": "coin",
+        "attachment": "star",
+        "blend": "additive"
+      },
+      {
+        "name": "tao",
+        "bone": "tao",
+        "attachment": "tao"
+      },
+      {
+        "name": "sao_00",
+        "bone": "tao",
+        "attachment": "sao_13",
+        "blend": "additive"
+      },
+      {
+        "name": "wenzi",
+        "bone": "root",
+        "attachment": "wenzi"
+      }
+    ],
+    "skins": {
+      "default": {
+        "Ablack": {
+          "Ablack": {
+            "x": 34.93,
+            "y": 8.84,
+            "rotation": -93.64,
+            "width": 83,
+            "height": 117
+          }
+        },
+        "Akuai": {
+          "Akuai": {
+            "x": 49.17,
+            "y": 4.44,
+            "rotation": -123.34,
+            "width": 79,
+            "height": 94
+          }
+        },
+        "Ared": {
+          "Ared": {
+            "x": 45.5,
+            "y": 8.96,
+            "rotation": -64.01,
+            "width": 73,
+            "height": 129
+          }
+        },
+        "coin": {
+          "coin": {
+            "x": 14.75,
+            "y": 0.32,
+            "rotation": -67.38,
+            "width": 76,
+            "height": 52
+          }
+        },
+        "fire_01": {
+          "fire_01": {
+            "x": 20.36,
+            "y": 5.77,
+            "rotation": -90,
+            "width": 52,
+            "height": 58
+          },
+          "fire_02": {
+            "x": 22.86,
+            "y": 5.77,
+            "rotation": -90,
+            "width": 52,
+            "height": 65
+          },
+          "fire_03": {
+            "x": 20.36,
+            "y": 5.77,
+            "rotation": -90,
+            "width": 52,
+            "height": 60
+          },
+          "fire_04": {
+            "x": 23.86,
+            "y": 7.27,
+            "rotation": -90,
+            "width": 49,
+            "height": 67
+          },
+          "fire_05": {
+            "x": 24.36,
+            "y": -0.23,
+            "rotation": -90,
+            "width": 62,
+            "height": 68
+          },
+          "fire_06": {
+            "x": 25.36,
+            "y": 8.27,
+            "rotation": -90,
+            "width": 47,
+            "height": 68
+          },
+          "fire_07": {
+            "x": 18.86,
+            "y": 5.77,
+            "rotation": -90,
+            "width": 52,
+            "height": 57
+          },
+          "fire_08": {
+            "x": 18.36,
+            "y": 5.27,
+            "rotation": -90,
+            "width": 53,
+            "height": 56
+          },
+          "fire_09": {
+            "x": 18.86,
+            "y": 4.27,
+            "rotation": -90,
+            "width": 55,
+            "height": 55
+          },
+          "fire_10": {
+            "x": 8.86,
+            "y": 0.27,
+            "rotation": -90,
+            "width": 63,
+            "height": 41
+          },
+          "fire_11": {
+            "x": 11.86,
+            "y": 8.27,
+            "rotation": -90,
+            "width": 47,
+            "height": 41
+          },
+          "fire_12": {
+            "x": 12.86,
+            "y": 7.27,
+            "rotation": -90,
+            "width": 49,
+            "height": 45
+          },
+          "fire_13": {
+            "x": 13.86,
+            "y": 0.27,
+            "rotation": -90,
+            "width": 63,
+            "height": 51
+          },
+          "fire_14": {
+            "x": 17.86,
+            "y": -0.23,
+            "rotation": -90,
+            "width": 64,
+            "height": 59
+          },
+          "fire_15": {
+            "x": 24.86,
+            "y": -0.23,
+            "rotation": -90,
+            "width": 64,
+            "height": 67
+          },
+          "fire_16": {
+            "x": 20.86,
+            "y": 0.27,
+            "rotation": -90,
+            "width": 63,
+            "height": 63
+          }
+        },
+        "sao_00": {
+          "sao_00": {
+            "x": 22.35,
+            "y": 37.25,
+            "rotation": -117.08,
+            "width": 7,
+            "height": 19
+          },
+          "sao_01": {
+            "x": 22.31,
+            "y": 32.77,
+            "rotation": -117.08,
+            "width": 17,
+            "height": 35
+          },
+          "sao_02": {
+            "x": 22.94,
+            "y": 28.52,
+            "rotation": -117.08,
+            "width": 24,
+            "height": 42
+          },
+          "sao_03": {
+            "x": 24.02,
+            "y": 24.04,
+            "rotation": -117.08,
+            "width": 31,
+            "height": 48
+          },
+          "sao_04": {
+            "x": 25.54,
+            "y": 19.33,
+            "rotation": -117.08,
+            "width": 36,
+            "height": 55
+          },
+          "sao_05": {
+            "x": 26.15,
+            "y": 11.72,
+            "rotation": -117.08,
+            "width": 41,
+            "height": 69
+          },
+          "sao_06": {
+            "x": 24.09,
+            "y": 6.59,
+            "rotation": -117.08,
+            "width": 42,
+            "height": 70
+          },
+          "sao_07": {
+            "x": 19.12,
+            "y": 1.27,
+            "rotation": -117.08,
+            "width": 46,
+            "height": 74
+          },
+          "sao_08": {
+            "x": 17.53,
+            "y": -1.84,
+            "rotation": -117.08,
+            "width": 45,
+            "height": 74
+          },
+          "sao_09": {
+            "x": 16.16,
+            "y": -4.51,
+            "rotation": -117.08,
+            "width": 43,
+            "height": 72
+          },
+          "sao_10": {
+            "x": 13.42,
+            "y": -10.97,
+            "rotation": -117.08,
+            "width": 41,
+            "height": 61
+          },
+          "sao_11": {
+            "x": 11.14,
+            "y": -15.43,
+            "rotation": -117.08,
+            "width": 35,
+            "height": 55
+          },
+          "sao_12": {
+            "x": 14.22,
+            "y": -21.49,
+            "rotation": -117.08,
+            "width": 27,
+            "height": 40
+          },
+          "sao_13": {
+            "x": 12.84,
+            "y": -25.28,
+            "rotation": -117.08,
+            "width": 19,
+            "height": 35
+          }
+        },
+        "star": {
+          "star": {
+            "x": -2.75,
+            "y": -3.18,
+            "rotation": -67.38,
+            "width": 39,
+            "height": 39
+          }
+        },
+        "tao": {
+          "tao": {
+            "x": 23.67,
+            "y": 10.18,
+            "rotation": -117.08,
+            "width": 90,
+            "height": 74
+          }
+        },
+        "wenzi": {
+          "wenzi": {
+            "x": 6.85,
+            "y": 20.4,
+            "width": 201,
+            "height": 64
+          }
+        },
+        "zhadan": {
+          "zhadan": {
+            "x": 68.83,
+            "y": -6.4,
+            "rotation": -90,
+            "width": 142,
+            "height": 138
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "fire_01": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1667,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.2,
+                "color": "ffffffc7",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.7,
+                "color": "ffffffc7"
+              },
+              {
+                "time": 0.7333,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.7333,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1.7667,
+                "color": "ffffffc7",
+                "curve": "stepped"
+              },
+              {
+                "time": 2.2667,
+                "color": "ffffffc7"
+              },
+              {
+                "time": 2.3,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "fire_01"
+              },
+              {
+                "time": 0.2333,
+                "name": "fire_02"
+              },
+              {
+                "time": 0.2667,
+                "name": "fire_03"
+              },
+              {
+                "time": 0.3,
+                "name": "fire_04"
+              },
+              {
+                "time": 0.3333,
+                "name": "fire_05"
+              },
+              {
+                "time": 0.3667,
+                "name": "fire_06"
+              },
+              {
+                "time": 0.4,
+                "name": "fire_07"
+              },
+              {
+                "time": 0.4333,
+                "name": "fire_08"
+              },
+              {
+                "time": 0.4667,
+                "name": "fire_09"
+              },
+              {
+                "time": 0.5,
+                "name": "fire_10"
+              },
+              {
+                "time": 0.5333,
+                "name": "fire_11"
+              },
+              {
+                "time": 0.5667,
+                "name": "fire_12"
+              },
+              {
+                "time": 0.6,
+                "name": "fire_13"
+              },
+              {
+                "time": 0.6333,
+                "name": "fire_14"
+              },
+              {
+                "time": 0.6667,
+                "name": "fire_15"
+              },
+              {
+                "time": 0.7,
+                "name": "fire_16"
+              },
+              {
+                "time": 1.8,
+                "name": "fire_02"
+              },
+              {
+                "time": 1.8333,
+                "name": "fire_03"
+              },
+              {
+                "time": 1.8667,
+                "name": "fire_04"
+              },
+              {
+                "time": 1.9,
+                "name": "fire_05"
+              },
+              {
+                "time": 1.9333,
+                "name": "fire_06"
+              },
+              {
+                "time": 1.9667,
+                "name": "fire_07"
+              },
+              {
+                "time": 2,
+                "name": "fire_08"
+              },
+              {
+                "time": 2.0333,
+                "name": "fire_09"
+              },
+              {
+                "time": 2.0667,
+                "name": "fire_10"
+              },
+              {
+                "time": 2.1,
+                "name": "fire_11"
+              },
+              {
+                "time": 2.1333,
+                "name": "fire_12"
+              },
+              {
+                "time": 2.1667,
+                "name": "fire_13"
+              },
+              {
+                "time": 2.2,
+                "name": "fire_14"
+              },
+              {
+                "time": 2.2333,
+                "name": "fire_15"
+              },
+              {
+                "time": 2.2667,
+                "name": "fire_16"
+              }
+            ]
+          },
+          "sao_00": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.7333,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.7667,
+                "color": "ffffff64",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.2,
+                "color": "ffffff64"
+              },
+              {
+                "time": 1.2333,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "sao_00"
+              },
+              {
+                "time": 0.8,
+                "name": "sao_01"
+              },
+              {
+                "time": 0.8333,
+                "name": "sao_02"
+              },
+              {
+                "time": 0.8667,
+                "name": "sao_03"
+              },
+              {
+                "time": 0.9,
+                "name": "sao_04"
+              },
+              {
+                "time": 0.9333,
+                "name": "sao_05"
+              },
+              {
+                "time": 0.9667,
+                "name": "sao_06"
+              },
+              {
+                "time": 1,
+                "name": "sao_07"
+              },
+              {
+                "time": 1.0333,
+                "name": "sao_08"
+              },
+              {
+                "time": 1.0667,
+                "name": "sao_09"
+              },
+              {
+                "time": 1.1,
+                "name": "sao_10"
+              },
+              {
+                "time": 1.1333,
+                "name": "sao_11"
+              },
+              {
+                "time": 1.1667,
+                "name": "sao_12"
+              },
+              {
+                "time": 1.2,
+                "name": "sao_13"
+              }
+            ]
+          },
+          "star": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.4,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1.5333,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.6667,
+                "color": "ffffffff"
+              },
+              {
+                "time": 2.0333,
+                "color": "ffffff00"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "zhadan": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              },
+              {
+                "time": 0.8,
+                "angle": 2.41
+              },
+              {
+                "time": 1.6,
+                "angle": 0
+              },
+              {
+                "time": 2.4,
+                "angle": 2.41
+              },
+              {
+                "time": 3.2,
+                "angle": 0
+              }
+            ]
+          },
+          "tao": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.8,
+                "x": -1.77,
+                "y": 3.46
+              },
+              {
+                "time": 1.6,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 2.4,
+                "x": -1.94,
+                "y": 3.8
+              },
+              {
+                "time": 3.2,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "coin": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.8,
+                "x": -1.89,
+                "y": -4.54
+              },
+              {
+                "time": 1.6,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 2.4,
+                "x": -1.89,
+                "y": -4.54
+              },
+              {
+                "time": 3.2,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Ared": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              },
+              {
+                "time": 0.8,
+                "angle": 3.39
+              },
+              {
+                "time": 1.6,
+                "angle": 0
+              },
+              {
+                "time": 2.4,
+                "angle": 3.15
+              },
+              {
+                "time": 3.2,
+                "angle": 0
+              }
+            ]
+          },
+          "Ablack": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0.35
+              },
+              {
+                "time": 0.1333,
+                "angle": 0
+              },
+              {
+                "time": 0.9333,
+                "angle": 2.59
+              },
+              {
+                "time": 1.7333,
+                "angle": 0
+              },
+              {
+                "time": 2.5333,
+                "angle": 2.08
+              },
+              {
+                "time": 3.2,
+                "angle": 0.35
+              }
+            ]
+          },
+          "Akuai": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0.64
+              },
+              {
+                "time": 0.2667,
+                "angle": 0
+              },
+              {
+                "time": 1.0667,
+                "angle": 2.88
+              },
+              {
+                "time": 1.8667,
+                "angle": 0
+              },
+              {
+                "time": 2.6667,
+                "angle": 1.91
+              },
+              {
+                "time": 3.2,
+                "angle": 0.64
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\r\nwanren.png\r\nsize: 630,269\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nAblack\r\n  rotate: true\r\n  xy: 146, 118\r\n  size: 83, 117\r\n  orig: 83, 117\r\n  offset: 0, 0\r\n  index: -1\r\nAkuai\r\n  rotate: false\r\n  xy: 265, 107\r\n  size: 79, 94\r\n  orig: 79, 94\r\n  offset: 0, 0\r\n  index: -1\r\nAred\r\n  rotate: true\r\n  xy: 2, 54\r\n  size: 73, 129\r\n  orig: 73, 129\r\n  offset: 0, 0\r\n  index: -1\r\ncoin\r\n  rotate: false\r\n  xy: 346, 139\r\n  size: 76, 52\r\n  orig: 76, 52\r\n  offset: 0, 0\r\n  index: -1\r\nfire_01\r\n  rotate: true\r\n  xy: 570, 102\r\n  size: 52, 58\r\n  orig: 52, 58\r\n  offset: 0, 0\r\n  index: -1\r\nfire_02\r\n  rotate: true\r\n  xy: 198, 64\r\n  size: 52, 65\r\n  orig: 52, 65\r\n  offset: 0, 0\r\n  index: -1\r\nfire_03\r\n  rotate: false\r\n  xy: 198, 2\r\n  size: 52, 60\r\n  orig: 52, 60\r\n  offset: 0, 0\r\n  index: -1\r\nfire_04\r\n  rotate: true\r\n  xy: 78, 2\r\n  size: 49, 67\r\n  orig: 49, 67\r\n  offset: 0, 0\r\n  index: -1\r\nfire_05\r\n  rotate: true\r\n  xy: 507, 205\r\n  size: 62, 68\r\n  orig: 62, 68\r\n  offset: 0, 0\r\n  index: -1\r\nfire_06\r\n  rotate: true\r\n  xy: 507, 156\r\n  size: 47, 68\r\n  orig: 47, 68\r\n  offset: 0, 0\r\n  index: -1\r\nfire_07\r\n  rotate: true\r\n  xy: 420, 42\r\n  size: 52, 57\r\n  orig: 52, 57\r\n  offset: 0, 0\r\n  index: -1\r\nfire_08\r\n  rotate: false\r\n  xy: 252, 2\r\n  size: 53, 56\r\n  orig: 53, 56\r\n  offset: 0, 0\r\n  index: -1\r\nfire_09\r\n  rotate: false\r\n  xy: 479, 39\r\n  size: 55, 55\r\n  orig: 55, 55\r\n  offset: 0, 0\r\n  index: -1\r\nfire_10\r\n  rotate: false\r\n  xy: 420, 96\r\n  size: 63, 41\r\n  orig: 63, 41\r\n  offset: 0, 0\r\n  index: -1\r\nfire_11\r\n  rotate: false\r\n  xy: 577, 161\r\n  size: 47, 41\r\n  orig: 47, 41\r\n  offset: 0, 0\r\n  index: -1\r\nfire_12\r\n  rotate: true\r\n  xy: 147, 2\r\n  size: 49, 45\r\n  orig: 49, 45\r\n  offset: 0, 0\r\n  index: -1\r\nfire_13\r\n  rotate: true\r\n  xy: 577, 204\r\n  size: 63, 51\r\n  orig: 63, 51\r\n  offset: 0, 0\r\n  index: -1\r\nfire_14\r\n  rotate: false\r\n  xy: 441, 139\r\n  size: 64, 59\r\n  orig: 64, 59\r\n  offset: 0, 0\r\n  index: -1\r\nfire_15\r\n  rotate: false\r\n  xy: 441, 200\r\n  size: 64, 67\r\n  orig: 64, 67\r\n  offset: 0, 0\r\n  index: -1\r\nfire_16\r\n  rotate: false\r\n  xy: 133, 53\r\n  size: 63, 63\r\n  orig: 63, 63\r\n  offset: 0, 0\r\n  index: -1\r\nsao_00\r\n  rotate: false\r\n  xy: 424, 172\r\n  size: 7, 19\r\n  orig: 7, 19\r\n  offset: 0, 0\r\n  index: -1\r\nsao_01\r\n  rotate: false\r\n  xy: 485, 102\r\n  size: 17, 35\r\n  orig: 17, 35\r\n  offset: 0, 0\r\n  index: -1\r\nsao_02\r\n  rotate: false\r\n  xy: 546, 17\r\n  size: 24, 42\r\n  orig: 24, 42\r\n  offset: 0, 0\r\n  index: -1\r\nsao_03\r\n  rotate: false\r\n  xy: 307, 10\r\n  size: 31, 48\r\n  orig: 31, 48\r\n  offset: 0, 0\r\n  index: -1\r\nsao_04\r\n  rotate: true\r\n  xy: 411, 4\r\n  size: 36, 55\r\n  orig: 36, 55\r\n  offset: 0, 0\r\n  index: -1\r\nsao_05\r\n  rotate: true\r\n  xy: 340, 7\r\n  size: 41, 69\r\n  orig: 41, 69\r\n  offset: 0, 0\r\n  index: -1\r\nsao_06\r\n  rotate: true\r\n  xy: 341, 50\r\n  size: 42, 70\r\n  orig: 42, 70\r\n  offset: 0, 0\r\n  index: -1\r\nsao_07\r\n  rotate: true\r\n  xy: 2, 6\r\n  size: 46, 74\r\n  orig: 46, 74\r\n  offset: 0, 0\r\n  index: -1\r\nsao_08\r\n  rotate: true\r\n  xy: 265, 60\r\n  size: 45, 74\r\n  orig: 45, 74\r\n  offset: 0, 0\r\n  index: -1\r\nsao_09\r\n  rotate: true\r\n  xy: 346, 94\r\n  size: 43, 72\r\n  orig: 43, 72\r\n  offset: 0, 0\r\n  index: -1\r\nsao_10\r\n  rotate: true\r\n  xy: 507, 113\r\n  size: 41, 61\r\n  orig: 41, 61\r\n  offset: 0, 0\r\n  index: -1\r\nsao_11\r\n  rotate: true\r\n  xy: 468, 2\r\n  size: 35, 55\r\n  orig: 35, 55\r\n  offset: 0, 0\r\n  index: -1\r\nsao_12\r\n  rotate: false\r\n  xy: 536, 71\r\n  size: 27, 40\r\n  orig: 27, 40\r\n  offset: 0, 0\r\n  index: -1\r\nsao_13\r\n  rotate: false\r\n  xy: 525, 2\r\n  size: 19, 35\r\n  orig: 19, 35\r\n  offset: 0, 0\r\n  index: -1\r\nstar\r\n  rotate: false\r\n  xy: 565, 61\r\n  size: 39, 39\r\n  orig: 39, 39\r\n  offset: 0, 0\r\n  index: -1\r\ntao\r\n  rotate: false\r\n  xy: 349, 193\r\n  size: 90, 74\r\n  orig: 90, 74\r\n  offset: 0, 0\r\n  index: -1\r\nwenzi\r\n  rotate: false\r\n  xy: 146, 203\r\n  size: 201, 64\r\n  orig: 201, 64\r\n  offset: 0, 0\r\n  index: -1\r\nzhadan\r\n  rotate: false\r\n  xy: 2, 129\r\n  size: 142, 138\r\n  orig: 142, 138\r\n  offset: 0, 0\r\n  index: -1\r\n",
+  "textures": [
+    {
+      "__uuid__": "aeabbd47-70ed-405a-970d-ad597e7401f7"
+    }
+  ],
+  "textureNames": [
+    "wanren.png"
+  ],
+  "scale": 1
+}

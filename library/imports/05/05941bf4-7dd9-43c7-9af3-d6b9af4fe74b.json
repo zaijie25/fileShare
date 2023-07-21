@@ -1,0 +1,256 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "Anikuang",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "SgSX0i30I/32iY6VMFLdNoGWx4A",
+      "spine": "3.7.94",
+      "width": 895,
+      "height": 501,
+      "images": "./images/",
+      "audio": ""
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "sheine",
+        "parent": "root",
+        "y": 26.94,
+        "scaleX": 1.022,
+        "scaleY": 1.025
+      },
+      {
+        "name": "liu",
+        "parent": "root",
+        "y": -29.67
+      },
+      {
+        "name": "kuang",
+        "parent": "root"
+      },
+      {
+        "name": "kuang2",
+        "parent": "root"
+      }
+    ],
+    "slots": [
+      {
+        "name": "k",
+        "bone": "kuang",
+        "attachment": "k"
+      },
+      {
+        "name": "k2",
+        "bone": "kuang2",
+        "attachment": "k"
+      },
+      {
+        "name": "Image 1",
+        "bone": "liu",
+        "color": "ffffffd3",
+        "attachment": "J3",
+        "blend": "additive"
+      },
+      {
+        "name": "shine",
+        "bone": "sheine",
+        "attachment": "shine"
+      }
+    ],
+    "skins": {
+      "default": {
+        "Image 1": {
+          "J": {
+            "width": 74,
+            "height": 14
+          },
+          "J2": {
+            "width": 74,
+            "height": 15
+          },
+          "J3": {
+            "width": 74,
+            "height": 15
+          },
+          "J4": {
+            "width": 74,
+            "height": 15
+          },
+          "J5": {
+            "width": 74,
+            "height": 15
+          },
+          "J6": {
+            "width": 74,
+            "height": 15
+          },
+          "J7": {
+            "width": 74,
+            "height": 15
+          }
+        },
+        "k": {
+          "k": {
+            "y": 0.5,
+            "scaleX": 1.104,
+            "scaleY": 1.133,
+            "width": 74,
+            "height": 93
+          }
+        },
+        "k2": {
+          "k": {
+            "y": 0.5,
+            "scaleX": 1.104,
+            "scaleY": 1.133,
+            "width": 74,
+            "height": 93
+          }
+        },
+        "shine": {
+          "shine": {
+            "width": 34,
+            "height": 34
+          }
+        }
+      }
+    },
+    "animations": {
+      "idle": {
+        "slots": {
+          "Image 1": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "J"
+              },
+              {
+                "time": 0.1,
+                "name": "J2"
+              },
+              {
+                "time": 0.2,
+                "name": "J3"
+              },
+              {
+                "time": 0.3,
+                "name": "J4"
+              },
+              {
+                "time": 0.4,
+                "name": "J5"
+              },
+              {
+                "time": 0.5,
+                "name": "J6"
+              },
+              {
+                "time": 0.6,
+                "name": "J7"
+              },
+              {
+                "time": 0.7,
+                "name": null
+              }
+            ]
+          },
+          "k": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff79"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffff79"
+              },
+              {
+                "time": 1,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1.3333,
+                "color": "ffffff79"
+              }
+            ]
+          },
+          "k2": {
+            "color": [
+              {
+                "time": 0.1667,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.5,
+                "color": "ffffff00"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "sheine": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              },
+              {
+                "time": 0.3333,
+                "x": 1.175,
+                "y": 1.171
+              },
+              {
+                "time": 0.6667,
+                "x": 1,
+                "y": 1
+              },
+              {
+                "time": 1,
+                "x": 1.175,
+                "y": 1.171
+              },
+              {
+                "time": 1.3333,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "kuang2": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              },
+              {
+                "time": 0.5,
+                "x": 1.3,
+                "y": 1.3
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\r\nAnikuang.png\r\nsize: 128,128\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nJ\r\n  rotate: false\r\n  xy: 93, 43\r\n  size: 14, 13\r\n  orig: 74, 14\r\n  offset: 0, 1\r\n  index: -1\r\nJ2\r\n  rotate: false\r\n  xy: 93, 73\r\n  size: 33, 13\r\n  orig: 74, 15\r\n  offset: 0, 1\r\n  index: -1\r\nJ3\r\n  rotate: false\r\n  xy: 2, 2\r\n  size: 53, 13\r\n  orig: 74, 15\r\n  offset: 0, 1\r\n  index: -1\r\nJ4\r\n  rotate: false\r\n  xy: 2, 17\r\n  size: 66, 13\r\n  orig: 74, 15\r\n  offset: 6, 1\r\n  index: -1\r\nJ5\r\n  rotate: true\r\n  xy: 78, 37\r\n  size: 49, 13\r\n  orig: 74, 15\r\n  offset: 25, 1\r\n  index: -1\r\nJ6\r\n  rotate: false\r\n  xy: 93, 58\r\n  size: 29, 13\r\n  orig: 74, 15\r\n  offset: 45, 1\r\n  index: -1\r\nJ7\r\n  rotate: false\r\n  xy: 57, 2\r\n  size: 10, 13\r\n  orig: 74, 15\r\n  offset: 64, 1\r\n  index: -1\r\nk\r\n  rotate: false\r\n  xy: 2, 32\r\n  size: 74, 90\r\n  orig: 74, 93\r\n  offset: 0, 1\r\n  index: -1\r\nshine\r\n  rotate: false\r\n  xy: 78, 88\r\n  size: 34, 34\r\n  orig: 34, 34\r\n  offset: 0, 0\r\n  index: -1\r\n",
+  "textures": [
+    {
+      "__uuid__": "c6de0bc1-5797-47c3-a9b2-3c88e1e56480"
+    }
+  ],
+  "textureNames": [
+    "Anikuang.png"
+  ],
+  "scale": 1
+}

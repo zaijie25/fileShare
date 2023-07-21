@@ -1,0 +1,14 @@
+{
+  "__type__": "dragonBones.DragonBonesAtlasAsset",
+  "_name": "lobby_girl_01_tex",
+  "_objFlags": 0,
+  "_native": "",
+  "_atlasJson": "{\"width\":1024,\"SubTexture\":[{\"width\":63,\"y\":534,\"height\":124,\"name\":\"lobby_girl_01/left_arm01\",\"x\":959},{\"width\":72,\"y\":1,\"height\":145,\"name\":\"lobby_girl_01/left_arm02\",\"x\":262},{\"width\":163,\"y\":295,\"height\":438,\"name\":\"lobby_girl_01/left_leg01\",\"x\":1},{\"width\":151,\"y\":868,\"height\":85,\"name\":\"lobby_girl_01/right_leg02\",\"x\":858},{\"width\":238,\"y\":529,\"height\":199,\"name\":\"lobby_girl_01/right_leg01\",\"x\":166},{\"width\":211,\"y\":295,\"height\":232,\"name\":\"lobby_girl_01/body\",\"x\":166},{\"width\":149,\"y\":730,\"height\":240,\"name\":\"lobby_girl_01/yaohua\",\"x\":568},{\"width\":238,\"y\":735,\"height\":209,\"name\":\"lobby_girl_01/right_arm\",\"x\":1},{\"width\":141,\"y\":193,\"height\":176,\"name\":\"lobby_girl_01/bianzi03\",\"x\":858},{\"width\":137,\"y\":730,\"height\":247,\"name\":\"lobby_girl_01/bianzi02\",\"x\":719},{\"width\":187,\"y\":730,\"height\":223,\"name\":\"lobby_girl_01/bianzi01\",\"x\":379},{\"width\":139,\"y\":371,\"height\":161,\"name\":\"lobby_girl_01/toofa02\",\"x\":858},{\"width\":259,\"y\":1,\"height\":292,\"name\":\"lobby_girl_01/face\",\"x\":1},{\"width\":74,\"y\":955,\"height\":53,\"name\":\"lobby_girl_01/eye\",\"x\":858},{\"width\":99,\"y\":726,\"height\":140,\"name\":\"lobby_girl_01/liuhai01\",\"x\":858},{\"width\":64,\"y\":660,\"height\":79,\"name\":\"lobby_girl_01/touhua01\",\"x\":959},{\"width\":99,\"y\":534,\"height\":190,\"name\":\"lobby_girl_01/liuhai02\",\"x\":858},{\"width\":116,\"y\":730,\"height\":254,\"name\":\"lobby_girl_01/hair01\",\"x\":241},{\"width\":151,\"y\":1,\"height\":190,\"name\":\"lobby_girl_01/lingdang01\",\"x\":858},{\"width\":59,\"y\":955,\"height\":45,\"name\":\"lobby_girl_01/cone01\",\"x\":934},{\"width\":40,\"y\":741,\"height\":40,\"name\":\"lobby_girl_01/cone02\",\"x\":959},{\"width\":38,\"y\":783,\"height\":37,\"name\":\"lobby_girl_01/cone03\",\"x\":959},{\"width\":30,\"y\":822,\"height\":27,\"name\":\"lobby_girl_01/cone04\",\"x\":959}],\"height\":1024,\"name\":\"lobby_girl_01\",\"imagePath\":\"lobby_girl_01_tex.png\"}",
+  "_texture": {
+    "__uuid__": "bdc05c9f-4d3f-4236-88b9-8e08adeef0ce"
+  },
+  "texture": {
+    "__uuid__": "bdc05c9f-4d3f-4236-88b9-8e08adeef0ce"
+  },
+  "_textureAtlasData": null
+}

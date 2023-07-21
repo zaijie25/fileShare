@@ -1,0 +1,14 @@
+{
+  "__type__": "dragonBones.DragonBonesAtlasAsset",
+  "_name": "hongbaosaolei_tex",
+  "_objFlags": 0,
+  "_native": "",
+  "_atlasJson": "{\"width\":512,\"SubTexture\":[{\"width\":32,\"y\":167,\"height\":49,\"name\":\"hongbaosaolei/hbsl_hongbao02\",\"x\":234},{\"width\":181,\"y\":1,\"height\":225,\"name\":\"hongbaosaolei/hbsl_hongbao\",\"x\":1},{\"width\":192,\"y\":228,\"height\":112,\"name\":\"hongbaosaolei/hbsl_zhadan\",\"x\":1},{\"width\":48,\"y\":167,\"height\":52,\"name\":\"hongbaosaolei/hbsl_jinbi01\",\"x\":184},{\"width\":214,\"y\":1,\"height\":62,\"name\":\"hongbaosaolei/hbsl_wenzi\",\"x\":184},{\"frameX\":-1,\"y\":1,\"frameY\":0,\"frameWidth\":100,\"width\":96,\"frameHeight\":102,\"height\":100,\"name\":\"hongbaosaolei/zhadan_huoxing_00001\",\"x\":400},{\"frameX\":-1,\"y\":65,\"frameY\":0,\"frameWidth\":100,\"width\":96,\"frameHeight\":102,\"height\":100,\"name\":\"hongbaosaolei/zhadan_huoxing_00000\",\"x\":184},{\"frameX\":-1,\"y\":103,\"frameY\":0,\"frameWidth\":100,\"width\":96,\"frameHeight\":102,\"height\":100,\"name\":\"hongbaosaolei/zhadan_huoxing_00003\",\"x\":380},{\"frameX\":-1,\"y\":65,\"frameY\":0,\"frameWidth\":100,\"width\":96,\"frameHeight\":102,\"height\":100,\"name\":\"hongbaosaolei/zhadan_huoxing_00002\",\"x\":282}],\"height\":512,\"name\":\"hongbaosaolei\",\"imagePath\":\"hongbaosaolei_tex.png\"}",
+  "_texture": {
+    "__uuid__": "d0c80d67-4a90-41b3-8281-968ec8385dee"
+  },
+  "texture": {
+    "__uuid__": "d0c80d67-4a90-41b3-8281-968ec8385dee"
+  },
+  "_textureAtlasData": null
+}

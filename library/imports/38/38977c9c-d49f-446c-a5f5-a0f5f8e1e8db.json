@@ -1,0 +1,14 @@
+{
+  "__type__": "dragonBones.DragonBonesAtlasAsset",
+  "_name": "fenkuangniuniu_tex",
+  "_objFlags": 0,
+  "_native": "",
+  "_atlasJson": "{\"imagePath\":\"fenkuangniuniu_tex.png\",\"width\":256,\"height\":512,\"name\":\"fenkuangniuniu\",\"SubTexture\":[{\"width\":170,\"y\":201,\"height\":164,\"name\":\"head\",\"x\":1},{\"width\":209,\"y\":1,\"height\":198,\"name\":\"body\",\"x\":1},{\"width\":45,\"y\":428,\"height\":53,\"name\":\"saizi\",\"x\":112},{\"frameY\":-3,\"y\":367,\"frameWidth\":209,\"frameHeight\":64,\"width\":202,\"height\":59,\"name\":\"text\",\"frameX\":-3,\"x\":1},{\"width\":47,\"y\":428,\"height\":31,\"name\":\"saizi01\",\"x\":159},{\"width\":109,\"y\":428,\"height\":55,\"name\":\"eyes\",\"x\":1}]}",
+  "_texture": {
+    "__uuid__": "b3b545e7-edcd-4983-9f0e-534896ed3505"
+  },
+  "texture": {
+    "__uuid__": "b3b545e7-edcd-4983-9f0e-534896ed3505"
+  },
+  "_textureAtlasData": null
+}

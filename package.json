@@ -1,0 +1,21 @@
+{
+  "name": "fish",
+  "version": "1.0.0",
+  "description": "cocos project for fish",
+  "main": "main.js",
+  "scripts": {},
+  "keywords": [
+    "fish"
+  ],
+  "repository": "",
+  "author": "fish",
+  "license": "ISC",
+  "dependencies": {
+    "bytebuffer": "^5.0.1",
+    "long": "^4.0.0",
+    "protobufjs": "^6.10.1"
+  },
+  "devDependencies": {
+    "@types/bytebuffer": "^5.0.37"
+  }
+}

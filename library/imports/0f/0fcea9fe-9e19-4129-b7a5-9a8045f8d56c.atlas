@@ -1,0 +1,34 @@
+
+ANIstart.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/big0001
+  rotate: false
+  xy: 2, 2
+  size: 167, 94
+  orig: 167, 94
+  offset: 0, 0
+  index: -1
+images/dikuang02_00000
+  rotate: false
+  xy: 2, 300
+  size: 608, 107
+  orig: 608, 107
+  offset: 0, 0
+  index: -1
+images/guang
+  rotate: false
+  xy: 612, 312
+  size: 285, 95
+  orig: 286, 97
+  offset: 1, 0
+  index: -1
+images/guangxiao
+  rotate: false
+  xy: 2, 98
+  size: 440, 200
+  orig: 440, 200
+  offset: 0, 0
+  index: -1

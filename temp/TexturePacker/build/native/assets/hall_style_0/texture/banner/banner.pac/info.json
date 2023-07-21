@@ -1,0 +1,146 @@
+{
+  "projectPath": "D:\\cocos\\chinared",
+  "actualPlatform": "web-mobile",
+  "mtimes": {
+    "e91f66ca-a6f1-4a97-ae1a-b89bbe80c6bb": {
+      "assetMtime": 1643089432555,
+      "metaMtime": 1643167945972
+    },
+    "506ca94e-0bb7-4379-b98c-555cb64c9f1c": {
+      "assetMtime": 1643089432557,
+      "metaMtime": 1643167945996
+    },
+    "0888ab2f-19f8-44ac-9899-8a4de86eed85": {
+      "assetMtime": 1643089432557,
+      "metaMtime": 1643167945996
+    },
+    "ce51b1f4-e1ba-48f8-badb-b4e1b8f6bd46": {
+      "assetMtime": 1643089432556,
+      "metaMtime": 1643167945984
+    },
+    "48efd269-6166-4e6f-9ca9-4fc852b5d6d6": {
+      "assetMtime": 1643089432556,
+      "metaMtime": 1643167945984
+    },
+    "dfc6f617-bf0e-4eca-bb0b-5578f818733b": {
+      "assetMtime": 1643089432556,
+      "metaMtime": 1643167945999
+    },
+    "7597cf1f-7e06-41e2-9169-794e73515137": {
+      "assetMtime": 1643089432556,
+      "metaMtime": 1643167945999
+    }
+  },
+  "result": {
+    "name": "banner",
+    "width": 1024,
+    "height": 2048,
+    "ver": "1.2.1",
+    "uuid": "e91f66ca-a6f1-4a97-ae1a-b89bbe80c6bb",
+    "maxWidth": 1024,
+    "maxHeight": 2048,
+    "padding": 2,
+    "allowRotation": true,
+    "forceSquared": false,
+    "powerOfTwo": true,
+    "algorithm": "MaxRects",
+    "format": "png",
+    "quality": 80,
+    "contourBleed": true,
+    "paddingBleed": true,
+    "filterUnused": true,
+    "packable": false,
+    "premultiplyAlpha": false,
+    "filterMode": "bilinear",
+    "platformSettings": {},
+    "subMetas": {},
+    "bleed": 1,
+    "atlases": [
+      {
+        "files": [
+          {
+            "name": "rebate_0",
+            "uuid": "ce51b1f4-e1ba-48f8-badb-b4e1b8f6bd46",
+            "textureUuid": "48efd269-6166-4e6f-9ca9-4fc852b5d6d6",
+            "path": "D:\\cocos\\chinared\\temp\\trimImages\\spritesheet_js_1643348193548_image_1.png",
+            "trim": {
+              "x": 3,
+              "y": 3,
+              "width": 125,
+              "height": 65,
+              "rotatedWidth": 65,
+              "rotatedHeight": 125
+            },
+            "rawWidth": 128,
+            "rawHeight": 128,
+            "width": 131,
+            "height": 71,
+            "originalPath": "D:/cocos/chinared/library/imports/48/48efd269-6166-4e6f-9ca9-4fc852b5d6d6.png",
+            "x": 0,
+            "y": 0,
+            "rotated": true,
+            "rotatedWidth": 71,
+            "rotatedHeight": 131
+          },
+          {
+            "name": "img_roll_dot_active",
+            "uuid": "506ca94e-0bb7-4379-b98c-555cb64c9f1c",
+            "textureUuid": "0888ab2f-19f8-44ac-9899-8a4de86eed85",
+            "path": "D:\\cocos\\chinared\\temp\\trimImages\\spritesheet_js_1643348193548_image_0.png",
+            "trim": {
+              "x": 3,
+              "y": 134,
+              "width": 24,
+              "height": 24,
+              "rotatedWidth": 24,
+              "rotatedHeight": 24
+            },
+            "rawWidth": 24,
+            "rawHeight": 24,
+            "width": 30,
+            "height": 30,
+            "originalPath": "D:/cocos/chinared/library/imports/08/0888ab2f-19f8-44ac-9899-8a4de86eed85.png",
+            "x": 0,
+            "y": 131,
+            "rotatedWidth": 30,
+            "rotatedHeight": 30
+          },
+          {
+            "name": "img_roll_dot",
+            "uuid": "dfc6f617-bf0e-4eca-bb0b-5578f818733b",
+            "textureUuid": "7597cf1f-7e06-41e2-9169-794e73515137",
+            "path": "D:\\cocos\\chinared\\temp\\trimImages\\spritesheet_js_1643348193548_image_2.png",
+            "trim": {
+              "x": 33,
+              "y": 134,
+              "width": 12,
+              "height": 12,
+              "rotatedWidth": 12,
+              "rotatedHeight": 12
+            },
+            "rawWidth": 12,
+            "rawHeight": 12,
+            "width": 18,
+            "height": 18,
+            "originalPath": "D:/cocos/chinared/library/imports/75/7597cf1f-7e06-41e2-9169-794e73515137.png",
+            "x": 30,
+            "y": 131,
+            "rotatedWidth": 18,
+            "rotatedHeight": 18
+          }
+        ],
+        "width": 128,
+        "height": 256,
+        "name": "banner-1",
+        "imagePath": "D:\\cocos\\chinared\\temp\\TexturePacker\\build\\native\\assets\\hall_style_0\\texture\\banner\\banner.pac\\banner-1.png",
+        "compressd": {
+          "suffix": [
+            ".png"
+          ],
+          "imagePathNoExt": "D:\\cocos\\chinared\\temp\\TexturePacker\\build\\native\\assets\\hall_style_0\\texture\\banner\\banner.pac\\compressed\\banner-1"
+        }
+      }
+    ],
+    "unpackedTextures": []
+  }
+}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["assets\\hall\\scripts\\framework\\libs\\cryptoTs\\enc\\Encoding.ts"],"names":[],"mappings":"","file":"","sourceRoot":"/","sourcesContent":["import { WordArray } from '../lib/WordArray';\r\n\r\nexport interface Encoding {\r\n    stringify: (wordArray: WordArray) => string;\r\n\r\n    parse: (str: string) => WordArray;\r\n}\r\n"]}

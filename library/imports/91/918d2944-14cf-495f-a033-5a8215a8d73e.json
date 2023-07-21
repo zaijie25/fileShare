@@ -1,0 +1,142 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "bjl_shuqianwanjia",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "EreTSMDtd53umjftl6oJVT8/wRI",
+      "spine": "3.7.91",
+      "width": 0,
+      "height": 0,
+      "images": "./images/",
+      "audio": ""
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "shuqian0007",
+        "parent": "root",
+        "length": 38.3,
+        "rotation": 90.97,
+        "x": -0.02,
+        "y": 2.14
+      }
+    ],
+    "slots": [
+      {
+        "name": "shuqian0001",
+        "bone": "shuqian0007"
+      }
+    ],
+    "skins": {
+      "default": {
+        "shuqian0001": {
+          "shuqian0001": {
+            "x": 17.39,
+            "y": -28.32,
+            "rotation": -90.97,
+            "width": 227,
+            "height": 171
+          },
+          "shuqian0002": {
+            "x": 17.39,
+            "y": -28.32,
+            "rotation": -90.97,
+            "width": 227,
+            "height": 171
+          },
+          "shuqian0003": {
+            "x": 17.39,
+            "y": -28.32,
+            "rotation": -90.97,
+            "width": 227,
+            "height": 171
+          },
+          "shuqian0004": {
+            "x": 17.39,
+            "y": -28.32,
+            "rotation": -90.97,
+            "width": 227,
+            "height": 171
+          },
+          "shuqian0005": {
+            "x": 17.39,
+            "y": -28.32,
+            "rotation": -90.97,
+            "width": 227,
+            "height": 171
+          },
+          "shuqian0006": {
+            "x": 17.39,
+            "y": -28.32,
+            "rotation": -90.97,
+            "width": 227,
+            "height": 171
+          },
+          "shuqian0007": {
+            "x": 17.39,
+            "y": -28.32,
+            "rotation": -90.97,
+            "width": 227,
+            "height": 171
+          }
+        }
+      }
+    },
+    "animations": {
+      "idle": {
+        "slots": {
+          "shuqian0001": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "shuqian0001"
+              },
+              {
+                "time": 0.1,
+                "name": "shuqian0002"
+              },
+              {
+                "time": 0.2,
+                "name": "shuqian0003"
+              },
+              {
+                "time": 0.3,
+                "name": "shuqian0004"
+              },
+              {
+                "time": 0.4,
+                "name": "shuqian0005"
+              },
+              {
+                "time": 0.5,
+                "name": "shuqian0006"
+              },
+              {
+                "time": 0.6,
+                "name": "shuqian0007"
+              },
+              {
+                "time": 0.7,
+                "name": null
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\r\nbjl_shuqianwanjia.png\r\nsize: 1024,128\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nshuqian0001\r\n  rotate: false\r\n  xy: 343, 26\r\n  size: 166, 93\r\n  orig: 227, 171\r\n  offset: 41, 43\r\n  index: -1\r\nshuqian0002\r\n  rotate: false\r\n  xy: 173, 26\r\n  size: 168, 93\r\n  orig: 227, 171\r\n  offset: 27, 39\r\n  index: -1\r\nshuqian0003\r\n  rotate: false\r\n  xy: 2, 17\r\n  size: 169, 102\r\n  orig: 227, 171\r\n  offset: 21, 28\r\n  index: -1\r\nshuqian0004\r\n  rotate: false\r\n  xy: 511, 21\r\n  size: 151, 98\r\n  orig: 227, 171\r\n  offset: 19, 29\r\n  index: -1\r\nshuqian0005\r\n  rotate: false\r\n  xy: 664, 36\r\n  size: 143, 83\r\n  orig: 227, 171\r\n  offset: 18, 26\r\n  index: -1\r\nshuqian0006\r\n  rotate: true\r\n  xy: 936, 2\r\n  size: 117, 79\r\n  orig: 227, 171\r\n  offset: 21, 24\r\n  index: -1\r\nshuqian0007\r\n  rotate: false\r\n  xy: 809, 38\r\n  size: 125, 81\r\n  orig: 227, 171\r\n  offset: 17, 18\r\n  index: -1\r\n",
+  "textures": [
+    {
+      "__uuid__": "bc09749d-2c73-4a2a-a50c-2fc180dbc31b"
+    }
+  ],
+  "textureNames": [
+    "bjl_shuqianwanjia.png"
+  ],
+  "scale": 1
+}

@@ -1,0 +1,14 @@
+{
+  "__type__": "dragonBones.DragonBonesAtlasAsset",
+  "_name": "danaotiangong_tex",
+  "_objFlags": 0,
+  "_native": "",
+  "_atlasJson": "{\"imagePath\":\"danaotiangong_tex.png\",\"width\":256,\"height\":512,\"name\":\"danaotiangong\",\"SubTexture\":[{\"width\":99,\"y\":205,\"height\":80,\"name\":\"head\",\"x\":1},{\"width\":40,\"y\":1,\"height\":46,\"name\":\"ermj_jinbi02\",\"x\":215},{\"width\":78,\"y\":205,\"height\":89,\"name\":\"yan1yan\",\"x\":102},{\"width\":28,\"y\":49,\"height\":14,\"name\":\"cc\",\"x\":215},{\"width\":212,\"y\":1,\"height\":139,\"name\":\"body\",\"x\":1},{\"width\":44,\"y\":142,\"height\":14,\"name\":\"yan2y\",\"x\":196},{\"width\":82,\"y\":287,\"height\":46,\"name\":\"hair\",\"x\":1},{\"width\":193,\"y\":142,\"height\":61,\"name\":\"lobby_danaotiang\",\"x\":1}]}",
+  "_texture": {
+    "__uuid__": "f11b0e12-4e7b-4e3b-bf25-6c7608063b1d"
+  },
+  "texture": {
+    "__uuid__": "f11b0e12-4e7b-4e3b-bf25-6c7608063b1d"
+  },
+  "_textureAtlasData": null
+}

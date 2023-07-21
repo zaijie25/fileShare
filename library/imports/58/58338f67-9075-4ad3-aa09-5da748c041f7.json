@@ -1,0 +1,7 @@
+{
+  "__type__": "cc.TextAsset",
+  "_name": "ANImeigui.atlas",
+  "_objFlags": 0,
+  "_native": "",
+  "text": "\r\nANImeigui.png\r\nsize: 512,128\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nlight01\r\n  rotate: false\r\n  xy: 165, 53\r\n  size: 70, 62\r\n  orig: 70, 65\r\n  offset: 0, 3\r\n  index: -1\r\nlight02\r\n  rotate: false\r\n  xy: 2, 2\r\n  size: 30, 29\r\n  orig: 32, 31\r\n  offset: 1, 1\r\n  index: -1\r\nlight03\r\n  rotate: false\r\n  xy: 298, 65\r\n  size: 53, 50\r\n  orig: 53, 50\r\n  offset: 0, 0\r\n  index: -1\r\nrose\r\n  rotate: false\r\n  xy: 83, 39\r\n  size: 80, 76\r\n  orig: 80, 76\r\n  offset: 0, 0\r\n  index: -1\r\nrose2\r\n  rotate: false\r\n  xy: 2, 33\r\n  size: 79, 82\r\n  orig: 86, 84\r\n  offset: 1, 1\r\n  index: -1\r\nstar\r\n  rotate: false\r\n  xy: 237, 56\r\n  size: 59, 59\r\n  orig: 67, 64\r\n  offset: 4, 2\r\n  index: -1\r\n"
+}

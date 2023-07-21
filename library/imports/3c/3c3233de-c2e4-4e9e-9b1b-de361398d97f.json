@@ -1,0 +1,266 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "ANIpaixingcom",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "k2xafZk0Uh+YkaIv3SLk1n90JhU",
+      "spine": "3.7.94",
+      "width": 0,
+      "height": 0,
+      "images": "./image/",
+      "audio": ""
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "bone3",
+        "parent": "root"
+      },
+      {
+        "name": "bone31",
+        "parent": "root"
+      },
+      {
+        "name": "quan",
+        "parent": "root"
+      }
+    ],
+    "slots": [
+      {
+        "name": "quan1",
+        "bone": "quan",
+        "blend": "additive"
+      },
+      {
+        "name": "da",
+        "bone": "bone3",
+        "blend": "additive"
+      },
+      {
+        "name": "da2",
+        "bone": "bone31",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "da": {
+          "da": {
+            "width": 79,
+            "height": 79
+          }
+        },
+        "da2": {
+          "da": {
+            "width": 79,
+            "height": 79
+          }
+        },
+        "quan1": {
+          "quan1": {
+            "width": 36,
+            "height": 37
+          },
+          "quan2": {
+            "width": 45,
+            "height": 69
+          },
+          "quan3": {
+            "width": 119,
+            "height": 119
+          },
+          "quan4": {
+            "width": 119,
+            "height": 119
+          },
+          "quan5": {
+            "width": 97,
+            "height": 99
+          },
+          "quan6": {
+            "width": 97,
+            "height": 95
+          },
+          "quan7": {
+            "width": 79,
+            "height": 91
+          }
+        }
+      }
+    },
+    "animations": {
+      "idle": {
+        "slots": {
+          "da": {
+            "color": [
+              {
+                "time": 0.0667,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.2333,
+                "color": "ffffff30",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3,
+                "color": "ffffff30"
+              },
+              {
+                "time": 0.5667,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0.0667,
+                "name": "da"
+              },
+              {
+                "time": 0.1333,
+                "name": "da"
+              },
+              {
+                "time": 0.5667,
+                "name": "da"
+              }
+            ]
+          },
+          "da2": {
+            "color": [
+              {
+                "time": 0.1333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.7333,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0.1333,
+                "name": "da"
+              },
+              {
+                "time": 0.7333,
+                "name": "da"
+              }
+            ]
+          },
+          "quan1": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "quan1"
+              },
+              {
+                "time": 0.0667,
+                "name": "quan2"
+              },
+              {
+                "time": 0.1333,
+                "name": "quan3"
+              },
+              {
+                "time": 0.2,
+                "name": "quan4"
+              },
+              {
+                "time": 0.2667,
+                "name": "quan5"
+              },
+              {
+                "time": 0.3333,
+                "name": "quan6"
+              },
+              {
+                "time": 0.4,
+                "name": "quan7"
+              },
+              {
+                "time": 0.4667,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "bone3": {
+            "scale": [
+              {
+                "time": 0.0667,
+                "x": 1.185,
+                "y": 1.185
+              },
+              {
+                "time": 0.1333,
+                "x": 4.405,
+                "y": 4.405
+              },
+              {
+                "time": 0.5667,
+                "x": 7.592,
+                "y": 7.592
+              }
+            ]
+          },
+          "bone31": {
+            "scale": [
+              {
+                "time": 0.1333,
+                "x": 2.484,
+                "y": 2.484
+              },
+              {
+                "time": 0.5667,
+                "x": 2.453,
+                "y": 2.453
+              },
+              {
+                "time": 0.7333,
+                "x": 7.592,
+                "y": 7.592
+              }
+            ]
+          },
+          "quan": {
+            "translate": [
+              {
+                "time": 0,
+                "x": -13.36,
+                "y": 7.28
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 2.692,
+                "y": 2.692
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\r\nANIpaixingcom.png\r\nsize: 512,256\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nda\r\n  rotate: false\r\n  xy: 222, 70\r\n  size: 79, 79\r\n  orig: 79, 79\r\n  offset: 0, 0\r\n  index: -1\r\nquan1\r\n  rotate: false\r\n  xy: 123, 7\r\n  size: 36, 37\r\n  orig: 36, 37\r\n  offset: 0, 0\r\n  index: -1\r\nquan2\r\n  rotate: false\r\n  xy: 303, 173\r\n  size: 45, 69\r\n  orig: 45, 69\r\n  offset: 0, 0\r\n  index: -1\r\nquan3\r\n  rotate: false\r\n  xy: 2, 123\r\n  size: 119, 119\r\n  orig: 119, 119\r\n  offset: 0, 0\r\n  index: -1\r\nquan4\r\n  rotate: false\r\n  xy: 2, 2\r\n  size: 119, 119\r\n  orig: 119, 119\r\n  offset: 0, 0\r\n  index: -1\r\nquan5\r\n  rotate: false\r\n  xy: 123, 143\r\n  size: 97, 99\r\n  orig: 97, 99\r\n  offset: 0, 0\r\n  index: -1\r\nquan6\r\n  rotate: false\r\n  xy: 123, 46\r\n  size: 97, 95\r\n  orig: 97, 95\r\n  offset: 0, 0\r\n  index: -1\r\nquan7\r\n  rotate: false\r\n  xy: 222, 151\r\n  size: 79, 91\r\n  orig: 79, 91\r\n  offset: 0, 0\r\n  index: -1\r\n",
+  "textures": [
+    {
+      "__uuid__": "4064004e-2b34-4a00-b41a-36dd43e6597a"
+    }
+  ],
+  "textureNames": [
+    "ANIpaixingcom.png"
+  ],
+  "scale": 1
+}

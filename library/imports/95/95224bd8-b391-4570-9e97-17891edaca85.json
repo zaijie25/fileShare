@@ -1,0 +1,772 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "skinConfig",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "needHallChooseRoom": true,
+    "skinType": 4,
+    "headImgShape": 1,
+    "taskClosed": 1,
+    "loadingTips": [
+      "如果遇到加载过程缓慢请更换网络或耐心等待~",
+      "精彩活动不断呈现，福利金币领到手软！",
+      "遇到问题点击客服按钮咨询客服处理！",
+      "推荐使用返利充值，银行卡转账，成功率100%！",
+      "全真人在线，公平游戏。百万大奖爆不停！"
+    ],
+    "moreGameBtnPositionY": 0,
+    "commisionCfg": [
+      5,
+      0
+    ],
+    "hallGameListVerticalOffsetY": 70,
+    "playerInfoAtlasPath": "hall/texture/hall/playerInfo/AutoAtlas_playerinfo",
+    "mySpreadOrgChgPosYs": [
+      -215,
+      -146
+    ],
+    "zhuanpanColors": [
+      "#F0C0FF",
+      "#f6d685"
+    ],
+    "zhuangbanHeadWH": [
+      140,
+      140
+    ],
+    "zhuangbanKuangWH": [
+      164,
+      164
+    ],
+    "recordingItemColors": [
+      "#6079C6",
+      "#1DA25B",
+      "#D74D23",
+      "#1DA25B",
+      "#D74D23",
+      "#6079C6"
+    ],
+    "dailyRechargeFontColorAndSize": [
+      "#F8FFA1",
+      "#FFFFFD",
+      24,
+      24
+    ],
+    "infoSinerColors": [
+      "5185EA",
+      "FF6C00"
+    ],
+    "rechargeFanliPos": [
+      88,
+      2
+    ],
+    "maintainGameColorAndSize": [
+      "#ca3d3d",
+      26
+    ],
+    "isNewAppHotUpdate": true,
+    "hallPmdPoolLen": {
+      "hall_style_0": 3,
+      "hall_style_1": 3,
+      "hall_style_2": 3
+    },
+    "hallGameListOffsetX": {
+      "hall_style_0": [
+        50,
+        30
+      ],
+      "hall_style_1": [
+        75,
+        20
+      ],
+      "hall_style_2": [
+        30,
+        70
+      ],
+      "hall_style_3": 17,
+      "hall_style_4": 17
+    },
+    "hallGameListLineCfg": {
+      "hall_style_0": 2,
+      "hall_style_1": 3,
+      "hall_style_2": 2
+    },
+    "hallGameListGapCfg": {
+      "hall_style_0": [
+        15,
+        30
+      ],
+      "hall_style_1": [
+        60,
+        40
+      ],
+      "hall_style_2": [
+        20,
+        30
+      ]
+    },
+    "hallWidgetCfg": {
+      "hall_style_0": {
+        "itemAreaWidget": [
+          500,
+          500
+        ],
+        "leftArrowWidget": [
+          430,
+          446
+        ],
+        "gonggaoAreaWidget": [
+          0,
+          0
+        ],
+        "headViewWidget": [
+          -7,
+          10
+        ]
+      },
+      "hall_style_1": {
+        "itemAreaWidget": [
+          410,
+          446
+        ],
+        "leftArrowWidget": [
+          410,
+          446
+        ],
+        "gonggaoAreaWidget": [
+          30,
+          66
+        ],
+        "headViewWidget": [
+          0,
+          10
+        ]
+      },
+      "hall_style_2": {
+        "itemAreaWidget": [
+          410,
+          446
+        ],
+        "leftArrowWidget": [
+          410,
+          446
+        ],
+        "gonggaoAreaWidget": [
+          30,
+          66
+        ],
+        "headViewWidget": [
+          0,
+          10
+        ]
+      }
+    },
+    "hallGameListTagOffsetX": {
+      "hall_style_0": [
+        -140,
+        80
+      ],
+      "hall_style_1": [
+        -80,
+        60
+      ],
+      "hall_style_2": [
+        96,
+        86
+      ],
+      "hall_style_3": 17,
+      "hall_style_4": 17
+    },
+    "rechangeOverseasBankInfoCfg": {
+      "copyBtnType": "cc.Sprite",
+      "copyBtnContent": "hall/texture/hall/overseasRecharge/overseasRecharge",
+      "sureBtnType": "cc.Sprite",
+      "sureBtnContent": "hall/texture/hall/overseasRecharge/overseasRecharge",
+      "tipEnglishSize": 22,
+      "tipEnglishColor": "#F5E7C0",
+      "tipChineseSize": 22,
+      "tipChineseColor": "#F5E7C0"
+    },
+    "rechangeUnionpayBankInfoCfg": {
+      "copyBtnType": "cc.Sprite",
+      "copyBtnContent": "hall/texture/hall/recharge/recharge",
+      "sureBtnType": "cc.Sprite",
+      "sureBtnContent": "hall/texture/hall/recharge/recharge",
+      "tipEnglishSize": 20,
+      "tipEnglishColor": "#F5E7C0",
+      "tipChineseSize": 20,
+      "tipChineseColor": "#F5E7C0"
+    },
+    "rechargeIconsCfg": {
+      "vippay": [
+        "VIP充值",
+        "VIP充值",
+        "zfz_VIP",
+        "cztx_button_tb09"
+      ],
+      "vipQuickPay": [
+        "专享闪付",
+        "专享闪付",
+        "ts_zfz",
+        "cztx_button_tb01"
+      ],
+      "wxpay": [
+        "微信",
+        "微信",
+        "zfz_wx",
+        "cztx_button_tb08"
+      ],
+      "wxpay_1": [
+        "小额微信",
+        "小额微信",
+        "zfz_wx",
+        "cztx_button_tb08"
+      ],
+      "wxpay_2": [
+        "中额微信",
+        "中额微信",
+        "zfz_wx",
+        "cztx_button_tb08"
+      ],
+      "wxpay_3": [
+        "大额微信",
+        "大额微信",
+        "zfz_wx",
+        "cztx_button_tb08"
+      ],
+      "wxpay_4": [
+        "微信支付4",
+        "微信支付4",
+        "zfz_wx",
+        "cztx_button_tb08"
+      ],
+      "wxpay_5": [
+        "微信支付5",
+        "微信支付5",
+        "zfz_wx",
+        "cztx_button_tb08"
+      ],
+      "alipay": [
+        "支付宝",
+        "支付宝",
+        "zfz_zfb",
+        "cztx_button_tb07"
+      ],
+      "alipay_1": [
+        "小额支付宝",
+        "小额支付宝",
+        "zfz_zfb",
+        "cztx_button_tb07"
+      ],
+      "alipay_2": [
+        "中额支付宝",
+        "中额支付宝",
+        "zfz_zfb",
+        "cztx_button_tb07"
+      ],
+      "alipay_3": [
+        "大额支付宝",
+        "大额支付宝",
+        "zfz_zfb",
+        "cztx_button_tb07"
+      ],
+      "alipay_4": [
+        "支付宝4",
+        "支付宝4",
+        "zfz_zfb",
+        "cztx_button_tb07"
+      ],
+      "alipay_5": [
+        "支付宝5",
+        "支付宝5",
+        "zfz_zfb",
+        "cztx_button_tb07"
+      ],
+      "unionpay": [
+        "银行卡",
+        "银行卡",
+        "zfz_yl",
+        "cztx_button_tb04"
+      ],
+      "unionpay_1": [
+        "银行卡1",
+        "银行卡1",
+        "zfz_yl",
+        "cztx_button_tb04"
+      ],
+      "unionpay_2": [
+        "银行卡2",
+        "银行卡2",
+        "zfz_yl",
+        "cztx_button_tb04"
+      ],
+      "unionpay_3": [
+        "银行卡3",
+        "银行卡3",
+        "zfz_yl",
+        "cztx_button_tb04"
+      ],
+      "unionpay_4": [
+        "银行卡4",
+        "银行卡4",
+        "zfz_yl",
+        "cztx_button_tb04"
+      ],
+      "unionpay_5": [
+        "银行卡5",
+        "银行卡5",
+        "zfz_yl",
+        "cztx_button_tb04"
+      ],
+      "qqpay": [
+        "QQ充值",
+        "QQ充值",
+        "zfz_qq",
+        "cztx_button_tb10"
+      ],
+      "yunpay": [
+        "云闪付",
+        "云闪付",
+        "zfz_ysf",
+        "cztx_button_tb03"
+      ],
+      "onlineCash": [
+        "线上充值",
+        "线上充值",
+        "ts_zfz",
+        "cztx_button_tb05"
+      ],
+      "rechargelist": [
+        "充值记录",
+        "充值记录",
+        "ts_zfz",
+        "icon_jl"
+      ],
+      "unionFast": [
+        "银联快捷",
+        "银联快捷",
+        "zfz_yl",
+        "cztx_button_tb04"
+      ],
+      "unionFast_1": [
+        "银联快捷1",
+        "银联快捷1",
+        "zfz_yl",
+        "cztx_button_tb04"
+      ],
+      "unionFast_2": [
+        "银联快捷2",
+        "银联快捷2",
+        "zfz_yl",
+        "cztx_button_tb04"
+      ],
+      "unionFast_3": [
+        "银联快捷3",
+        "银联快捷3",
+        "zfz_yl",
+        "cztx_button_tb04"
+      ],
+      "unionFast_4": [
+        "银联快捷4",
+        "银联快捷4",
+        "zfz_yl",
+        "cztx_button_tb04"
+      ],
+      "unionFast_5": [
+        "银联快捷5",
+        "银联快捷5",
+        "zfz_yl",
+        "cztx_button_tb04"
+      ],
+      "digpay": [
+        "USDT",
+        "USDT",
+        "zfz_usdt",
+        "cztx_button_tb11"
+      ],
+      "usdtPay": [
+        "USDT",
+        "USDT",
+        "zfz_usdt",
+        "cztx_button_tb11"
+      ],
+      "scanCode": [
+        "扫码支付",
+        "扫码支付",
+        "zfz_zfb",
+        "cztx_button_tb07"
+      ],
+      "jdPay": [
+        "京东支付",
+        "京东支付",
+        "zfz_jdzf",
+        "cztx_button_tb02"
+      ],
+      "international": [
+        "international",
+        "international",
+        "zfz_int'l",
+        "icon_int'l"
+      ]
+    },
+    "rechargeVipConfig": {
+      "1": [
+        "hall/texture/hall/rechargeCash/rechargeCash",
+        "cztx_kfwx"
+      ],
+      "2": [
+        "hall/texture/hall/rechargeCash/rechargeCash",
+        "cztx_kfqq"
+      ],
+      "3": [
+        "hall/texture/hall/rechargeCash/rechargeCash",
+        "cztx_kfwx"
+      ],
+      "4": [
+        "hall/texture/hall/rechargeCash/rechargeCash",
+        "cztx_zxkf"
+      ],
+      "5": [
+        "hall/texture/hall/rechargeCash/rechargeCash",
+        "cztx_zfb"
+      ]
+    },
+    "requireList": [
+      "hall/prefabs/ui/LoginUI",
+      "hall/prefabs/ui/MessageBoxUI",
+      "hall/prefabs/ui/NetWaitUI",
+      "hall/prefabs/ui/ScreenPortraitNoticeUI",
+      "hall/prefabs/ui/Recharge/RechangeBankInfoUI",
+      "hall/prefabs/ui/Recharge/RechangeUI",
+      "hall/prefabs/ui/Recharge/RechageVipShowUI",
+      "hall/prefabs/ui/Recharge/subView/pay/vipPayView",
+      "hall/prefabs/ui/Recharge/subView/pay/olPayView",
+      "hall/prefabs/ui/Recharge/subView/pay/onlinePayView",
+      "hall/prefabs/ui/Recharge/subView/RechangePanel",
+      "hall/prefabs/ui/Recharge/subView/CashPanel",
+      "hall/prefabs/ui/Recharge/VipQuickPayChatUI",
+      "hall/prefabs/ui/Recharge/AliPayRechargeUI",
+      "hall/prefabs/ui/Recharge/BankRechangeUI",
+      "hall/prefabs/ui/Recharge/WeChatRechangeUI",
+      "hall/prefabs/ui/Recharge/RechangeTipUI",
+      "hall/prefabs/ui/Recharge/ChatImage",
+      "hall/prefabs/ui/ActivityCenter/ActivityCenterUI",
+      "hall/prefabs/ui/GameLoading/GameLoadingComp",
+      "hall/prefabs/ui/wifiNode",
+      "hall/prefabs/ui/Share",
+      "hall/prefabs/ui/NetReconnect",
+      "hall/sound/btnClick",
+      "hall/config/countrycode",
+      "hall/config/language",
+      "hall/config/location",
+      "hall/texture/hall/playerInfo/AutoAtlas_playerinfo",
+      "hall/prefabs/ui/AdmissionBoxNode",
+      "hall/prefabs/ui/WebViewGamePanel",
+      "hall/texture/admissionBox/admissionBox_Atlas"
+    ],
+    "requireAtlasList": [
+      "hall/texture/common/headImg",
+      "hall/texture/hall/rechargeCash/rechargeCash",
+      "hall/texture/chat/emoj",
+      "hall/texture/hall/chat/chat",
+      "hall/texture/Proxy/Proxy",
+      "hall/texture/commonui/common"
+    ],
+    "requireGameIconList": [
+      "ui/HallUI",
+      "texture/hallui/hall",
+      "effect/gameicon/baijiale",
+      "effect/gameicon/longhudou",
+      "effect/gameicon/hongheidazhan",
+      "effect/gameicon/wanrenzhajinhua",
+      "effect/gameicon/qiangzhuangniuniu",
+      "effect/gameicon/zhajinhua",
+      "effect/gameicon/hongbaosaolei",
+      "effect/gameicon/buyudazhan",
+      "effect/gameicon/buyudazhan2",
+      "effect/gameicon/tiantianaibuyu",
+      "effect/gameicon/quanhuang97",
+      "effect/gameicon/21dian",
+      "effect/gameicon/huanlebuyu",
+      "effect/gameicon/dezhoupuke",
+      "effect/gameicon/yiquanchaoren",
+      "effect/gameicon/qinhuanghanwu",
+      "effect/gameicon/xiyouji",
+      "effect/gameicon/errenniuniu",
+      "effect/gameicon/errenmajiang",
+      "effect/gameicon/bairenniuniu",
+      "effect/gameicon/doudizhu",
+      "effect/gameicon/errendoudizhu",
+      "effect/gameicon/toubao",
+      "effect/gameicon/aomenfengyun",
+      "effect/gameicon/guhuozai",
+      "effect/gameicon/paodekuai",
+      "effect/gameicon/fengkuangniuniu",
+      "effect/gameicon/kanpaiqiangzhuang",
+      "effect/gameicon/huanpainiuniu",
+      "effect/gameicon/duocaiduofu",
+      "effect/gameicon/wuxinghonghui",
+      "effect/gameicon/danaotiangong",
+      "effect/gameicon/feiqinzoushou",
+      "effect/gameicon/baibianwuzhang",
+      "effect/gameicon/benchibaoma"
+    ],
+    "subGameResCfg": {
+      "1001": {
+        "levelType": 2,
+        "marqueeStrType": 1,
+        "prefabName": "toubao",
+        "gameType": 0
+      },
+      "1002": {
+        "levelType": 2,
+        "marqueeStrType": 1,
+        "prefabName": "bairenniuniu",
+        "gameType": 0
+      },
+      "1005": {
+        "levelType": 2,
+        "marqueeStrType": 1,
+        "prefabName": "longhudou",
+        "gameType": 2
+      },
+      "1006": {
+        "levelType": 2,
+        "marqueeStrType": 1,
+        "prefabName": "hongheidazhan",
+        "gameType": 2
+      },
+      "1007": {
+        "levelType": 2,
+        "marqueeStrType": 1,
+        "prefabName": "baijiale",
+        "gameType": 2
+      },
+      "1009": {
+        "levelType": 2,
+        "marqueeStrType": 1,
+        "prefabName": "benchibaoma",
+        "gameType": 3
+      },
+      "1014": {
+        "levelType": 2,
+        "marqueeStrType": 1,
+        "prefabName": "wanrenzhajinhua",
+        "gameType": 0
+      },
+      "1015": {
+        "levelType": 2,
+        "marqueeStrType": 1,
+        "prefabName": "wuxinghonghui",
+        "gameType": 3
+      },
+      "1016": {
+        "levelType": 2,
+        "checkMoney": true,
+        "marqueeStrType": 1,
+        "prefabName": "erbagang",
+        "gameType": 3
+      },
+      "1017": {
+        "levelType": 2,
+        "marqueeStrType": 1,
+        "prefabName": "baibianwuzhang",
+        "gameType": 0
+      },
+      "1019": {
+        "levelType": 2,
+        "marqueeStrType": 1,
+        "prefabName": "feiqinzoushou",
+        "gameType": 3
+      },
+      "1021": {
+        "levelType": 2,
+        "marqueeStrType": 1,
+        "prefabName": "qinhuanghanwu",
+        "gameType": 0
+      },
+      "1022": {
+        "levelType": 2,
+        "marqueeStrType": 1,
+        "prefabName": "xiyouji",
+        "gameType": 3
+      },
+      "2001": {
+        "levelType": 2,
+        "marqueeStrType": 4,
+        "prefabName": "qiangzhuangniuniu",
+        "hasChooseLevel": true,
+        "gameType": 1,
+        "isJackPotGame": true
+      },
+      "2002": {
+        "levelType": 2,
+        "marqueeStrType": 4,
+        "prefabName": "errenniuniu",
+        "gameType": 1
+      },
+      "2003": {
+        "levelType": 2,
+        "marqueeStrType": 4,
+        "prefabName": "zhajinhua",
+        "hasChooseLevel": true,
+        "gameType": 1
+      },
+      "2005": {
+        "levelType": 2,
+        "marqueeStrType": 4,
+        "prefabName": "doudizhu",
+        "gameType": 1
+      },
+      "2007": {
+        "levelType": 2,
+        "marqueeStrType": 4,
+        "prefabName": "kanpaiqiangzhuang",
+        "gameType": 1
+      },
+      "2008": {
+        "levelType": 2,
+        "marqueeStrType": 4,
+        "prefabName": "21dian",
+        "hasChooseLevel": true,
+        "gameType": 1
+      },
+      "2009": {
+        "levelType": 2,
+        "marqueeStrType": 4,
+        "prefabName": "fengkuangniuniu",
+        "hasChooseLevel": true,
+        "gameType": 1
+      },
+      "2010": {
+        "levelType": 2,
+        "marqueeStrType": 4,
+        "prefabName": "dezhoupuke",
+        "hasChooseLevel": true,
+        "gameType": 1
+      },
+      "2011": {
+        "levelType": 2,
+        "marqueeStrType": 4,
+        "prefabName": "yiquanchaoren",
+        "hasChooseLevel": true,
+        "gameType": 1
+      },
+      "2012": {
+        "levelType": 2,
+        "marqueeStrType": 4,
+        "prefabName": "paodekuai",
+        "gameType": 1
+      },
+      "2013": {
+        "levelType": 2,
+        "marqueeStrType": 4,
+        "prefabName": "errendoudizhu",
+        "gameType": 1
+      },
+      "2014": {
+        "levelType": 2,
+        "marqueeStrType": 4,
+        "prefabName": "huanpainiuniu",
+        "gameType": 1
+      },
+      "2101": {
+        "levelType": 2,
+        "marqueeStrType": 4,
+        "prefabName": "errenmajiang",
+        "gameType": 1
+      },
+      "2102": {
+        "levelType": 2,
+        "marqueeStrType": 4,
+        "prefabName": "xueliumajiang",
+        "hasChooseLevel": true,
+        "gameType": 1
+      },
+      "3001": {
+        "levelType": 2,
+        "marqueeStrType": 5,
+        "prefabName": "buyudazhan",
+        "gameType": 4
+      },
+      "3002": {
+        "levelType": 2,
+        "marqueeStrType": 6,
+        "prefabName": "huanlebuyu",
+        "gameType": 4
+      },
+      "3003": {
+        "levelType": 2,
+        "marqueeStrType": 7,
+        "prefabName": "danaotiangong",
+        "gameType": 4
+      },
+      "3004": {
+        "levelType": 2,
+        "marqueeStrType": 5,
+        "prefabName": "jinchanbuyu",
+        "gameType": 4
+      },
+      "3005": {
+        "levelType": 2,
+        "marqueeStrType": 5,
+        "prefabName": "buyudazhan2",
+        "gameType": 4
+      },
+      "3006": {
+        "levelType": 2,
+        "marqueeStrType": 5,
+        "prefabName": "tiantianaibuyu",
+        "gameType": 4
+      },
+      "4001": {
+        "levelType": 2,
+        "marqueeStrType": 3,
+        "prefabName": "hongbaosaolei",
+        "gameType": 6
+      },
+      "5002": {
+        "levelType": 2,
+        "checkMoney": true,
+        "marqueeStrType": 1,
+        "prefabName": "duocaiduofu",
+        "gameType": 3
+      },
+      "5003": {
+        "levelType": 2,
+        "checkMoney": true,
+        "portraitModel": true,
+        "marqueeStrType": 1,
+        "prefabName": "shuiguoji",
+        "gameType": 3
+      },
+      "5004": {
+        "levelType": 2,
+        "checkMoney": true,
+        "marqueeStrType": 1,
+        "prefabName": "aomenfengyun",
+        "gameType": 3
+      },
+      "5005": {
+        "levelType": 2,
+        "checkMoney": true,
+        "marqueeStrType": 1,
+        "prefabName": "guhuozai",
+        "gameType": 3
+      },
+      "5006": {
+        "levelType": 2,
+        "checkMoney": true,
+        "marqueeStrType": 1,
+        "prefabName": "quanhuang97",
+        "gameType": 3
+      },
+      "20001": {
+        "levelType": 2,
+        "marqueeStrType": 4,
+        "prefabName": "doudizhu",
+        "gameType": 1
+      }
+    }
+  }
+}

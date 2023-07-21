@@ -1,0 +1,37 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "gjb_zhuanpan01",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.5666666666666667,
+  "sample": 30,
+  "speed": 1,
+  "wrapMode": "2",
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "197f4a04-df2b-4083-affc-95d9ba17fb6a"
+            }
+          },
+          {
+            "frame": 0.26666666666666666,
+            "value": {
+              "__uuid__": "77e50758-63d7-48e5-8601-d75b43775604"
+            }
+          },
+          {
+            "frame": 0.5333333333333333,
+            "value": {
+              "__uuid__": "77e50758-63d7-48e5-8601-d75b43775604"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

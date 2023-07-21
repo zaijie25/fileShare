@@ -1,0 +1,387 @@
+import BaseSettingData from "../setting/BaseSettingData";
+import ResourceManager from "../resource/ResourceManager";
+import AppHelper from "../../logic/core/tool/AppHelper";
+
+export default class AudioManager 
+{
+    private settingData:BaseSettingData;
+    private resourceMgr:ResourceManager;
+
+    //正在播放的bgm  
+    private curRunningBgm:string = ""
+    //打开音效开关后应该播放的
+    private targetBgm:string = ""
+
+    public commonBtnSoundUrl = "hall/sound/btnClick";
+    public commonCloseSoundUrl = "";
+
+    private pauseTime = 0;
+    private inBackground = false;
+
+    public setup(settingData:BaseSettingData, resourceMgr:ResourceManager)
+    {
+        this.settingData = settingData;
+        this.resourceMgr = resourceMgr;
+        //设置单个音源的最大实例个数
+        cc.audioEngine.setMaxAudioInstance(30);
+        this.setMusicVolume(this.settingData.musicVolume)
+        this.setSoundVolume(this.settingData.soundVolume)
+
+        cc.game.on(cc.game.EVENT_HIDE, this.onPause, this)
+        cc.game.on(cc.game.EVENT_SHOW, this.onResume, this);
+    }
+
+
+    private onPause()
+    {
+        this.pauseTime = Date.now();
+        this.inBackground = true;
+    }
+
+    //防止音效在切回来后再播
+    private onResume()
+    {
+        this.pauseTime = 0;
+        this.inBackground = false;
+        if(this.pauseTime != 0 && Date.now() - this.pauseTime > 2000)
+        {
+            this.stopAllEffect();
+        }
+    }
+
+
+    public playGameBundleMusic(url:string,isAutoRelease = false){
+        let bundleName = Global.ResourceManager.gameBundle
+        if (bundleName){
+            this.playBundleMusic(bundleName,url)
+        }else {
+            Logger.error("playGameBundleMusic bundleName null")
+        }
+    }
+
+    public playBundleMusic(bundleName:any,url:string,isAutoRelease = false){
+        this.targetBgm = url;
+        if(url == this.curRunningBgm || url == "")
+            return;
+        if(!this.settingData.musicEnable)
+            return;
+        this.curRunningBgm = url;
+        //2019-6-22 xiaoC 先获取资源，取不到再加载，否则预加载音乐资源后这里又重复加载（做法与playSound一致）
+        let audio = this.resourceMgr.getBundleRes(bundleName,url, cc.AudioClip);
+        if (audio){
+            cc.audioEngine.playMusic(audio, true);
+        }else{
+            let func = (error, audio)=>{
+                if(error != null)
+                {
+                    Logger.error("音效加载失败", error.message, url);
+                    return;
+                }
+                if(url != this.curRunningBgm)
+                {
+                    Logger.error("声音未加载完就切换音乐", url, this.curRunningBgm);
+                    return;
+                }
+                cc.audioEngine.playMusic(audio, true);
+            }
+            if(cc.sys.isNative && jsb && jsb.fileUtils.isFileExist(url))
+            {
+                this.resourceMgr.load(url, func)
+            }
+            else
+                this.resourceMgr.loadBundleRes(bundleName,url, func);
+        }
+    }
+
+    //url:  Resouces下的完整路径
+    public playMusic(url:string, isAutoRelease = false)
+    {
+        this.targetBgm = url;
+        if(url == this.curRunningBgm || url == "")
+            return;
+        if(!this.settingData.musicEnable)
+            return;
+        this.curRunningBgm = url;
+        //2019-6-22 xiaoC 先获取资源，取不到再加载，否则预加载音乐资源后这里又重复加载（做法与playSound一致）
+        let audio = this.resourceMgr.getRes(url, cc.AudioClip);
+        if (audio){
+            cc.audioEngine.playMusic(audio, true);
+        }else{
+            let func = (error, audio)=>{
+                if(error != null)
+                {
+                    Logger.error("音效加载失败", error.message, url);
+                    return;
+                }
+                if(url != this.curRunningBgm)
+                {
+                    Logger.error("声音未加载完就切换音乐", url, this.curRunningBgm);
+                    return;
+                }
+                isAutoRelease && Global.ResourceManager.setAutoReleaseRecursively(audio, true);
+                cc.audioEngine.playMusic(audio, true);
+            }
+            if(cc.sys.isNative && jsb && jsb.fileUtils.isFileExist(url))
+            {
+                this.resourceMgr.load(url, func)
+            }
+            else
+                this.resourceMgr.loadRes(url, func, cc.AudioClip);
+        }
+    }
+
+    public stopMusic()
+    {
+        cc.audioEngine.stopMusic();
+        this.targetBgm = this.curRunningBgm;
+        this.curRunningBgm = "";
+    }
+
+    //播放音效 isAutoRelease设置切换场景自动释放资源
+    public playSound(url:string, isAutoRelease = false)
+    {
+        if(!this.settingData.soundEnable)
+            return;
+        if(this.inBackground)
+        {
+            Logger.error("play sound in background!!!", url);
+            return;
+        }
+        
+        let audio = this.resourceMgr.getRes(url, cc.AudioClip);
+        if (audio){
+           let audioId =  cc.audioEngine.playEffect(audio, false);
+           return audioId;
+        }
+        else{
+            this.resourceMgr.loadRes(url, (error, audio)=>
+            {
+                if(error != null)
+                {
+                    Logger.error("音效加载失败", error.message, url);
+                    return;
+                }
+                let audioId =  cc.audioEngine.playEffect(audio, false);
+                isAutoRelease && Global.ResourceManager.setAutoReleaseRecursively(audio, true);
+            }, cc.AudioClip);
+        }
+    }
+
+    public playGameBundleSound(url:string,isAutoRelease = false){
+        let bundleName = Global.ResourceManager.gameBundle
+        if (bundleName){
+            return this.playBundleSound(bundleName,url)
+        }else {
+            Logger.error("playGameBundleSound bundleName null")
+        }
+    }
+
+    public playBundleSound(bundleName, url:string, isAutoRelease = false)
+    {
+        if(!this.settingData.soundEnable)
+            return;
+        if(this.inBackground)
+        {
+            Logger.error("play sound in background!!!", url);
+            return;
+        }
+        
+        let audio = this.resourceMgr.getBundleRes(bundleName,url, cc.AudioClip);
+        if (audio){
+           let audioId =  cc.audioEngine.playEffect(audio, false);
+           return audioId;
+        }
+        else{
+            this.resourceMgr.loadBundleRes(bundleName,url, (error, audio)=>
+            {
+                if(error != null)
+                {
+                    Logger.error("音效加载失败", error.message, url);
+                    return;
+                }
+                let audioId =  cc.audioEngine.playEffect(audio, false);
+                isAutoRelease && Global.ResourceManager.setAutoReleaseRecursively(audio, true);
+            });
+        }
+    }
+
+    //停止所有音效
+    public stopAllEffect()
+    {
+        cc.audioEngine.stopAllEffects();
+    }
+
+    //@todo  通用声音比较多时，考虑注册的形式
+    //通用按钮声音  
+    public playBtnSound()
+    {
+        if(this.commonBtnSoundUrl != "")
+            this.playSound(this.commonBtnSoundUrl);
+    }
+
+    public playCloseSound()
+    {
+        if(this.commonCloseSoundUrl != "")
+            this.playSound(this.commonCloseSoundUrl);
+    }
+
+
+    public setMusicEnable(value)
+    {   
+        this.settingData.setMusicEnable(value);
+
+        if(!value)
+            this.stopMusic()
+        else
+            {
+                let bundleName = Global.ResourceManager.gameBundle
+                if (bundleName){
+                    this.playBundleMusic(bundleName,this.targetBgm);
+                }else {
+                    this.playMusic(this.targetBgm);
+                }
+            }   
+            
+    }
+
+
+    public playHallBGM()
+    {
+        this.playMusic(Global.customApp.getBgmPath());
+    }
+
+    public setSoundEnable(value)
+    {
+        this.settingData.setSoundEnable(value);
+        if(!value)
+            this.stopAllEffect();
+    }
+
+    public setMusicVolume(value)
+    {
+        this.settingData.musicVolume = value;
+        cc.audioEngine.setMusicVolume(value);
+    }
+
+    public setSoundVolume(value)
+    {
+        this.settingData.soundVolume = value;
+        cc.audioEngine.setEffectsVolume(value);
+    }
+
+
+    //最多有5个音源
+    private MaxAudioSourceCount = 5;
+    //音源列表
+    private audioSourceList = []
+    // key -> 音源
+    private resToAudioMap = {}
+
+
+    //获得空闲的source
+    private getIdleAudioSource()
+    {
+        let audio = null;
+        for(let i = 0; i < this.audioSourceList.length; i++)
+        {
+            if(this.audioSourceList[i] && !this.audioSourceList[i].isPlaying)
+            {
+                audio = this.audioSourceList[i];
+                break;
+            }
+        }
+        if(audio)
+        {
+            for(let key in this.resToAudioMap)
+            {
+                if(this.resToAudioMap[key] == audio)
+                {
+                    this.resToAudioMap[key] = null;
+                    break;
+                }
+            }
+        }
+
+        // //清理被占用的key
+        // if(audio != null)
+        // {
+        //     this.resToAudioMap[audio] = null;
+        // }
+        return audio;
+    }
+
+    //创建一个新的audioSource
+    private getNewAudioSource()
+    {
+        if(this.audioSourceList.length >= this.MaxAudioSourceCount)
+            return null;
+        let audioSource = Global.Persist.getPersistNode().addComponent(cc.AudioSource);
+        this.audioSourceList.push(audioSource);
+        return audioSource;
+    }
+
+    private getAudioSource(key)
+    {
+        //如果key正在被使用 则返回对应的audioSource
+        let audioSource = this.resToAudioMap[key];
+        if(audioSource == null)
+            audioSource = this.getIdleAudioSource();
+        if(audioSource == null)
+            audioSource = this.getNewAudioSource();
+        return audioSource;
+    }
+
+
+    /**
+     * 使用AudioSource播放音效，一个音效同时最多只能播放一个，同时最多播放5个音源
+     * @param url 
+     * @param override 是否覆盖播放
+     * @param isAutoRelease 资源是否释放
+     */
+    public playAudioSource(url, override = false, isAutoRelease = false)
+    {
+        if(!this.settingData.soundEnable)
+            return;
+        if(this.inBackground)
+        {
+            Logger.error("play sound in background!!!", url);
+            return;
+        }
+       
+        let audioSource = this.getAudioSource(url);
+       
+        //没有空闲音源
+        if(audioSource == null)
+            return;
+        //正在播放
+        if(audioSource.isPlaying && !override)
+            return;
+        this.resToAudioMap[url] = audioSource;
+        let audio = this.resourceMgr.getRes(url, cc.AudioClip);
+        if(audio)
+        {
+            audioSource.clip = audio;
+            audioSource.play();
+        }
+        else
+        {
+            this.resourceMgr.loadRes(url, (error, audio)=>
+            {
+                if(error != null)
+                {
+                    Logger.error("音效加载失败", error.message, url);
+                    return;
+                }
+                isAutoRelease && Global.ResourceManager.setAutoReleaseRecursively(audio, true);
+                if(audioSource.isPlaying)
+                    return;
+                audioSource.clip = audio;
+                audioSource.play();
+            }, cc.AudioClip);
+        }
+    }
+
+
+
+
+}

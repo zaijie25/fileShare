@@ -1,0 +1,367 @@
+import GreenSkinModuleCfg from "../modulecfg/GreenSkinModuleCfg";
+import ModuleCfgBase from "../modulecfg/ModuleCfgBase";
+import BlueSkinModuleCfg from "../modulecfg/BlueSkinModuleCfg";
+import AppCfg from "../../hall/AppCfg";
+import PurpleSkinModuleCfg from "../modulecfg/PurpleSkinModuleCfg";
+import DarkSkinModuleCfg from "../modulecfg/DarkSkinModuleCfg";
+import RedSkinModuleCfg from "../modulecfg/RedSkinModuleCfg";
+import FantasySkinModuleCfg from "../modulecfg/FantasySkinModuleCfg";
+import LegendSkinModuleCfg from "../modulecfg/LegendSkinModuleCfg";
+import NewBlueSkinModuleCfg from "../modulecfg/NewBlueSkinModuleCfg";
+
+export enum SkinType
+{
+    purple = 1,     //紫色皮肤
+    dark = 2,       //暗金
+    red = 3,        //中国红
+    blue = 4,       //蓝色皮肤
+    fantasy = 5,    //梦幻蓝皮肤
+    green = 6 ,     //绿色
+    legend = 7 ,    //传奇皮肤
+    darkgold = 8 ,  //海外黑金
+    blue2 = 9 ,     //蓝色02皮肤
+    newBlue = 10 ,     //新大厅
+}
+//皮肤配置信息
+export default class SkinConfig 
+{
+    public readonly configPath = "hall/config/skinConfig";
+
+    //皮肤配置是否加载完成
+    public loadedFinish = false;
+    //皮肤类型
+    public skinType : SkinType = SkinType.fantasy;
+    //loading过程中 tips数组
+    public loadingTips = null;
+    // 头像形状 0代表方头 1代表圆头
+    public headImgShape = 0;
+    // 任务宝箱功能是否关闭 0不关闭 1关闭
+    public isTaskClosed = 0;
+    //游戏列表的偏移值。 
+    //游戏列表有可能会被公告挡住，需要添加offset保证默认情况 公告不会遮挡游戏图标。
+    public hallGameListOffsetX = 17;
+    public hallGameListVerticalOffsetY = 70;
+    //更过游戏按钮y坐标
+    public moreGameBtnPositionY = 0;
+    //财神到 item间隙与offset
+    public commisionCfg = [];
+    //Vip图集路径  包含头像框/vip等级
+    public playerInfoAtlasPath;
+    //WndMySpread中 领取记录y坐标 [正常坐标, 隐藏邀请功能坐标]
+    public mySpreadOrgChgPosYs = [];
+    //转盘轮播文字颜色  [名字颜色，奖励颜色]
+    public zhuanpanColors = [];
+    //个人信息装扮界面 头像 item间隔的宽高
+    public zhuangbanHeadWH = [];
+    //个人信息装扮界面 头像框 item间隔的宽高
+    public zhuangbanKuangWH = [];
+    //充值记录字体颜色  [充值处理中, 充值成功, 充值失败, 提现成功， 提现失败，处理中]
+    public recordingItemColors = [];
+
+    //充值标签页 返利图标位置
+    public rechargeFanliPos = [];
+
+    //充值标签页 返利图标位置
+    public hallGameListTagOffsetX = [];
+    //每日首充返利字体颜色和大小
+    public dailyRechargeFontColorAndSize = []
+
+    //转账信息 海外充值 复制按钮、提交按钮、提示文字配置
+    public rechangeOverseasBankInfoCfg = {}
+    //转账信息 银行卡充值 复制按钮、提交按钮、提示文字配置
+    public rechangeUnionpayBankInfoCfg = {}
+
+    //充值相关icon配置
+    //0 1 位左侧标签页文本（选中/未选中）。  紫色为图标 其他为文字  紫色图集在icon 后续图标放到rechargeCash中
+    //2 充值loading界面中间图标
+    //3 按钮列表上图标
+    //！！！资源位置已红色为参考
+    public rechargeIconsCfg = {};
+
+    /**
+     * 跑马灯池子长度
+     */
+    public hallPmdPoolLen = {}
+
+    //vip客服图标配置 
+    //{类型:[图集，图标]}
+    //@todo  统一全平台路径 删除该字段
+    public rechargeVipConfig = {}
+
+    //预加载普通资源  UI json 等
+    public requireList = [];
+    //特殊图集加载
+    public requireAtlasList = [];
+    //游戏图标预加载
+    public requireGameIconList = [];
+
+    //WndGameMaintainUI   [colorstr,size]
+    public maintainGameColorAndSize = [];
+
+    public infoSinerColors = []
+
+    public orignalAppcfg:any
+
+    /**
+     * 大厅widget适配组件数值配置
+     */
+    public hallWidgetCfg:any
+
+    /**
+     * 大厅子游戏列表行数配置
+     */
+    hallGameListLineCfg:any
+
+    /**
+     * 大厅子游戏列表间隙配置
+     */
+    hallGameListGapCfg:any
+    
+    //根据配置的图片信息
+    _appPicConfig :any 
+
+    public set appPicConfig(val)
+    {
+        this._appPicConfig = val
+    }
+
+    public get appPicConfig()
+    {
+        return this._appPicConfig
+    }
+
+    private skinModule:ModuleCfgBase = null
+
+    public setup()
+    {
+        cc.loader.loadRes(this.configPath, (error, jsonAsset)=>{
+            if(error != null)
+            {
+                cc.error("加载skinConfig失败！！！！！");
+                return;
+            }
+            this.parseConfig(jsonAsset.json);
+            this.loadedFinish = true;
+            
+            Global.Event.event(GlobalEvent.SkinConfigLoadFinish);
+        })
+    }
+
+    public getSpaceOffset()
+    {
+        let storgeHall = Global.customApp.getHallBundleName()
+
+        if(!this.hallGameListOffsetX)
+        {
+            return [17,70]
+        } 
+        return this.hallGameListOffsetX[storgeHall]
+
+    }
+
+
+    public getHallGameListTagOffsetX()
+    {
+        let storgeHall = Global.customApp.getHallBundleName()
+
+        if(!this.hallGameListTagOffsetX)
+        {
+            return [105,37]
+        } 
+        return this.hallGameListTagOffsetX[storgeHall]
+
+    }
+
+    public getHallGameListLine()
+    {
+        let storgeHall = Global.customApp.getHallBundleName()
+
+        if(!this.hallGameListLineCfg)
+        {
+            return 3
+        } 
+        return this.hallGameListLineCfg[storgeHall]
+
+    }
+    /**
+     * 
+     * @param type 0 x轴 1 y轴
+     * @returns 
+     */
+    public getHallGameListGap(type)
+    {
+        let storgeHall = Global.customApp.getHallBundleName()
+
+        if(!this.hallGameListGapCfg)
+        {
+            return 3
+        } 
+        return this.hallGameListGapCfg[storgeHall][type]
+
+    }
+
+    public getPaomadengPoolLen()
+    {
+        let storgeHall = Global.customApp.getHallBundleName()
+
+        if(!this.hallPmdPoolLen)
+        {
+            return 3
+        } 
+        return this.hallPmdPoolLen[storgeHall]
+    }
+
+    public getHallWidgetCfg()
+    {
+        let storgeHall = Global.customApp.getHallBundleName()
+
+        if(!this.hallWidgetCfg)
+        {
+            return this.hallWidgetCfg
+        } 
+        return this.hallWidgetCfg[storgeHall]
+    }
+
+
+    private parseConfig(json)
+    {
+        this.skinType = json.skinType;
+        this.loadingTips = json.loadingTips;
+        this.headImgShape = json.headImgShape;
+
+        this.isTaskClosed = json.taskClosed;
+        TaskManager.setTaskEnable(this.isTaskClosed == 0);
+
+        this.hallGameListOffsetX = json.hallGameListOffsetX;
+        this.moreGameBtnPositionY = json.moreGameBtnPositionY;
+        this.commisionCfg = json.commisionCfg;
+        this.playerInfoAtlasPath = json.playerInfoAtlasPath;
+        this.mySpreadOrgChgPosYs = json.mySpreadOrgChgPosYs;
+        this.zhuanpanColors = json.zhuanpanColors;
+        this.zhuangbanHeadWH = json.zhuangbanHeadWH;
+        this.zhuangbanKuangWH = json.zhuangbanKuangWH;
+        this.recordingItemColors = json.recordingItemColors;
+        this.rechargeFanliPos = json.rechargeFanliPos;
+        this.rechargeIconsCfg = json.rechargeIconsCfg;
+        this.rechargeVipConfig = json.rechargeVipConfig;
+        this.requireList = json.requireList;
+        this.requireAtlasList = json.requireAtlasList;
+        this.requireGameIconList = json.requireGameIconList;
+        this.maintainGameColorAndSize = json.maintainGameColorAndSize;
+        Global.Setting.needHallChooseRoom = json.needHallChooseRoom;
+        this.dailyRechargeFontColorAndSize = json.dailyRechargeFontColorAndSize;
+        this.rechangeOverseasBankInfoCfg = json.rechangeOverseasBankInfoCfg;
+        //Global.Setting.isNewAppHotUpdate = json.isNewAppHotUpdate
+        this.rechangeUnionpayBankInfoCfg = json.rechangeUnionpayBankInfoCfg;
+        this.hallPmdPoolLen = json.hallPmdPoolLen;
+        this.hallWidgetCfg = json.hallWidgetCfg;
+        this.hallGameListTagOffsetX = json.hallGameListTagOffsetX
+        this.hallGameListGapCfg = json.hallGameListGapCfg
+        this.hallGameListLineCfg = json.hallGameListLineCfg
+        // if(json.appPicConfig && json.appPicConfig != "" && !Global.Setting.isNewAppHotUpdate) //兼容两种app热更模式
+        // {
+        //     this.appPicConfig = json.appPicConfig
+        // }
+        //this.appPicConfig = json.appPicConfig
+        this.infoSinerColors = json.infoSinerColors
+        Global.GameData.setGameIconResCfg(json.subGameResCfg)
+        
+
+    }
+
+
+
+    public get isRed()
+    {
+        return this.skinType == SkinType.red;
+    }
+
+    public get isPurple()
+    {
+        return this.skinType == SkinType.purple;
+    }
+
+    public get isBlue()
+    {
+        return this.skinType == SkinType.blue;
+    }
+
+    public get isFantasy()
+    {
+        return this.skinType == SkinType.fantasy;
+    }
+
+    public get isDark()
+    {
+        return this.skinType == SkinType.dark;
+    }
+    public get isGreen()
+    {
+        return this.skinType == SkinType.green;
+    }
+
+    public get isLegend(){
+        return this.skinType == SkinType.legend;
+    }
+
+    public get isDarkgold()
+    {
+        return this.skinType == SkinType.darkgold;
+    }
+
+    public get isBlue2()
+    {
+        return this.skinType == SkinType.blue2;
+    }
+    public get moduleCfg(){
+        let skinModule:ModuleCfgBase = this.curSkinMoudle
+        let cfg = null
+        if (skinModule){
+            cfg = skinModule.cfg
+        }
+        return cfg
+    }
+
+    public get curSkinMoudle(): ModuleCfgBase {
+        if (this.skinModule) {
+            return this.skinModule
+        }
+        let skinModule: ModuleCfgBase = null;
+        switch (AppCfg.SKIN_TYPE) {
+            case SkinType.green:
+                skinModule = new GreenSkinModuleCfg
+                break;
+            case SkinType.blue:
+                skinModule = new BlueSkinModuleCfg
+                break;
+            case SkinType.purple:
+                skinModule = new PurpleSkinModuleCfg
+                break;
+            case SkinType.dark:
+                skinModule = new DarkSkinModuleCfg
+                break;
+            case SkinType.red:
+                skinModule = new RedSkinModuleCfg
+                break;
+            case SkinType.fantasy:
+                skinModule = new FantasySkinModuleCfg
+                break;
+            case SkinType.legend:
+                skinModule = new LegendSkinModuleCfg
+                break;
+            case SkinType.darkgold:
+                skinModule = new DarkSkinModuleCfg
+                break;
+            case SkinType.blue2:
+                skinModule = new BlueSkinModuleCfg
+                break;
+            case SkinType.newBlue:
+                skinModule = new NewBlueSkinModuleCfg
+                break;
+            default:
+                break;
+        }
+        this.skinModule = skinModule;
+        return skinModule
+    }
+}

@@ -1,0 +1,14 @@
+{
+  "__type__": "dragonBones.DragonBonesAtlasAsset",
+  "_name": "zhajinhua_tex",
+  "_objFlags": 0,
+  "_native": "",
+  "_atlasJson": "{\"width\":512,\"SubTexture\":[{\"width\":150,\"y\":1,\"height\":164,\"name\":\"zhajinhua/zjh_huojian\",\"x\":1},{\"width\":135,\"y\":167,\"height\":137,\"name\":\"zhajinhua/zjh_puke03\",\"x\":1},{\"width\":92,\"y\":167,\"height\":129,\"name\":\"zhajinhua/zjh_puke02\",\"x\":138},{\"width\":95,\"y\":306,\"height\":158,\"name\":\"zhajinhua/zjh_puke01\",\"x\":121},{\"width\":118,\"y\":306,\"height\":143,\"name\":\"zhajinhua/zjh_chouma\",\"x\":1},{\"width\":45,\"y\":451,\"height\":53,\"name\":\"zhajinhua/zjh_jinbi\",\"x\":1},{\"width\":171,\"y\":1,\"height\":69,\"name\":\"zhajinhua/zjh_wenzi\",\"x\":218}],\"height\":512,\"name\":\"zhajinhua\",\"imagePath\":\"zhajinhua_tex.png\"}",
+  "_texture": {
+    "__uuid__": "982d8589-48d2-4e13-9b5a-87df60447aec"
+  },
+  "texture": {
+    "__uuid__": "982d8589-48d2-4e13-9b5a-87df60447aec"
+  },
+  "_textureAtlasData": null
+}

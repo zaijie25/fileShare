@@ -1,0 +1,74 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "ANIloadingquan",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "e4H2waGLLT7ij0BxjzVSrayvOTA",
+      "spine": "3.7.94",
+      "width": 164,
+      "height": 167,
+      "images": "./images/",
+      "audio": ""
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "btn",
+        "parent": "root"
+      }
+    ],
+    "slots": [
+      {
+        "name": "jinb_sx",
+        "bone": "btn",
+        "attachment": "jiazai"
+      }
+    ],
+    "skins": {
+      "default": {
+        "jinb_sx": {
+          "jiazai": {
+            "width": 164,
+            "height": 167
+          }
+        }
+      }
+    },
+    "animations": {
+      "idle": {
+        "bones": {
+          "btn": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": -1
+              },
+              {
+                "time": 1,
+                "angle": 180
+              },
+              {
+                "time": 2,
+                "angle": 1
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\r\nANIloadingquan.png\r\nsize: 256,256\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\njiazai\r\n  rotate: false\r\n  xy: 2, 2\r\n  size: 164, 167\r\n  orig: 164, 167\r\n  offset: 0, 0\r\n  index: -1\r\n",
+  "textures": [
+    {
+      "__uuid__": "0244c136-164e-40ea-be64-81416bfb52be"
+    }
+  ],
+  "textureNames": [
+    "ANIloadingquan.png"
+  ],
+  "scale": 1
+}

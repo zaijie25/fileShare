@@ -1,0 +1,136 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "qiehuan",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "yNf2ykgJj4KW7MVXnFHSOChu4Hc",
+      "spine": "3.7.94",
+      "width": 352,
+      "height": 330,
+      "images": "./image/",
+      "audio": ""
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "qiehuan",
+        "parent": "root",
+        "scaleX": 1.1,
+        "scaleY": 1.1
+      }
+    ],
+    "slots": [
+      {
+        "name": "FXC0001",
+        "bone": "qiehuan",
+        "attachment": "tab0004"
+      }
+    ],
+    "skins": {
+      "default": {
+        "FXC0001": {
+          "tab0001": {
+            "width": 320,
+            "height": 300
+          },
+          "tab0002": {
+            "width": 320,
+            "height": 300
+          },
+          "tab0003": {
+            "width": 320,
+            "height": 300
+          },
+          "tab0004": {
+            "width": 320,
+            "height": 300
+          },
+          "tab0005": {
+            "width": 320,
+            "height": 300
+          },
+          "tab0006": {
+            "width": 320,
+            "height": 300
+          },
+          "tab0007": {
+            "width": 320,
+            "height": 300
+          },
+          "tab0008": {
+            "width": 320,
+            "height": 300
+          },
+          "tab0009": {
+            "width": 320,
+            "height": 300
+          }
+        }
+      }
+    },
+    "animations": {
+      "idle": {
+        "slots": {
+          "FXC0001": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "tab0001"
+              },
+              {
+                "time": 0.0667,
+                "name": "tab0002"
+              },
+              {
+                "time": 0.1333,
+                "name": "tab0003"
+              },
+              {
+                "time": 0.2,
+                "name": "tab0004"
+              },
+              {
+                "time": 0.2667,
+                "name": "tab0005"
+              },
+              {
+                "time": 0.3333,
+                "name": "tab0006"
+              },
+              {
+                "time": 0.4,
+                "name": "tab0007"
+              },
+              {
+                "time": 0.4667,
+                "name": "tab0008"
+              },
+              {
+                "time": 0.5333,
+                "name": "tab0009"
+              },
+              {
+                "time": 0.6333,
+                "name": null
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\r\nqiehuan.png\r\nsize: 1024,1024\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\ntab0001\r\n  rotate: false\r\n  xy: 781, 339\r\n  size: 199, 240\r\n  orig: 288, 270\r\n  offset: 54, 9\r\n  index: -1\r\ntab0002\r\n  rotate: true\r\n  xy: 266, 57\r\n  size: 243, 246\r\n  orig: 288, 270\r\n  offset: 29, 1\r\n  index: -1\r\ntab0003\r\n  rotate: false\r\n  xy: 523, 314\r\n  size: 256, 264\r\n  orig: 288, 270\r\n  offset: 20, 0\r\n  index: -1\r\ntab0004\r\n  rotate: false\r\n  xy: 571, 581\r\n  size: 267, 267\r\n  orig: 288, 270\r\n  offset: 14, 0\r\n  index: -1\r\ntab0005\r\n  rotate: true\r\n  xy: 2, 2\r\n  size: 284, 255\r\n  orig: 288, 270\r\n  offset: 4, 0\r\n  index: -1\r\ntab0006\r\n  rotate: true\r\n  xy: 2, 288\r\n  size: 288, 262\r\n  orig: 288, 270\r\n  offset: 0, 0\r\n  index: -1\r\ntab0007\r\n  rotate: false\r\n  xy: 2, 578\r\n  size: 286, 270\r\n  orig: 288, 270\r\n  offset: 2, 0\r\n  index: -1\r\ntab0008\r\n  rotate: false\r\n  xy: 290, 580\r\n  size: 279, 268\r\n  orig: 288, 270\r\n  offset: 7, 0\r\n  index: -1\r\ntab0009\r\n  rotate: true\r\n  xy: 266, 302\r\n  size: 274, 255\r\n  orig: 288, 270\r\n  offset: 10, 0\r\n  index: -1\r\n",
+  "textures": [
+    {
+      "__uuid__": "27c96473-510b-4ebe-838a-feffeb02736d"
+    }
+  ],
+  "textureNames": [
+    "qiehuan.png"
+  ],
+  "scale": 1
+}

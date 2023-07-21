@@ -1,0 +1,36 @@
+import ModuleCfgBase from "./ModuleCfgBase";
+
+
+export default class NewBlueSkinModuleCfg extends ModuleCfgBase
+{
+    public  cfg :string[] = [
+        // "LoadingModule",
+        "LoginModule",
+        "HallModule",
+        "PersonalInfoModule",
+        "PlayerInfoModule",
+        "BankModule",
+        "ActivityCenterModule",
+        "BackUpGameModule",
+        "BindingGiftModule",
+        "CashBackModule",
+        "GameLobbyShellModule",
+        "CommonModule",
+        "FeedbackModule",
+        "CommisionModule",
+        "MsgModule",
+        "CommisionModule",
+        "RankModule",
+        "RechargeGiftModule",
+        "RechargeModule",
+        "ServicerModule",
+        "ShareModule",
+        "SpreadModule",
+        "VipQuickPayChatModule",
+        "ChooseHeadModule",
+        "TimeLimitedRechargeModule",
+        "LuckyDrawModule",
+        "SpreadGiftModule"
+
+    ];
+}

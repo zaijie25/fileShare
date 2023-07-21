@@ -1,0 +1,15 @@
+<div class="container">
+    <h2>通过 uuid 查找</h2>
+    <ui-box-container class="layout vertical left">
+        <div>
+            <ui-prop name="uuid" type="string" v-value="uuid" tooltip="资源的 uuid">
+            </ui-prop>
+        </div>
+        <div class="layout horizontal end-justified">
+            <ui-hint class="tiny top" style="margin-right:10px" position="-26px">请输入资源的 uuid</ui-hint>
+        </div>
+        <br>
+        <ui-button class="button blue big" v-disabled="isProcessing" @click="onSearchBtnClick()">查找</ui-button>
+    </ui-box-container>
+    <br>
+</div>

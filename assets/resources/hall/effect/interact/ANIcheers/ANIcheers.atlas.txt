@@ -1,0 +1,97 @@
+
+ANIcheers.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+beer_01
+  rotate: false
+  xy: 413, 102
+  size: 26, 23
+  orig: 30, 26
+  offset: 1, 1
+  index: -1
+beer_02
+  rotate: false
+  xy: 413, 77
+  size: 24, 23
+  orig: 29, 27
+  offset: 3, 2
+  index: -1
+beer_03
+  rotate: false
+  xy: 441, 108
+  size: 17, 17
+  orig: 19, 18
+  offset: 1, 1
+  index: -1
+beer_04
+  rotate: true
+  xy: 2, 2
+  size: 12, 14
+  orig: 16, 14
+  offset: 2, 0
+  index: -1
+blue01
+  rotate: false
+  xy: 381, 96
+  size: 30, 29
+  orig: 30, 29
+  offset: 0, 0
+  index: -1
+blue02
+  rotate: false
+  xy: 85, 52
+  size: 73, 73
+  orig: 73, 73
+  offset: 0, 0
+  index: -1
+blue03
+  rotate: false
+  xy: 235, 59
+  size: 71, 66
+  orig: 71, 66
+  offset: 0, 0
+  index: -1
+glass
+  rotate: false
+  xy: 2, 37
+  size: 81, 88
+  orig: 100, 105
+  offset: 9, 8
+  index: -1
+glass_light1
+  rotate: true
+  xy: 2, 16
+  size: 19, 72
+  orig: 35, 82
+  offset: 8, 7
+  index: -1
+glass_light2
+  rotate: true
+  xy: 85, 39
+  size: 11, 50
+  orig: 17, 53
+  offset: 3, 0
+  index: -1
+pink01
+  rotate: false
+  xy: 381, 65
+  size: 30, 29
+  orig: 30, 29
+  offset: 0, 0
+  index: -1
+pink02
+  rotate: false
+  xy: 160, 52
+  size: 73, 73
+  orig: 73, 73
+  offset: 0, 0
+  index: -1
+pink03
+  rotate: false
+  xy: 308, 59
+  size: 71, 66
+  orig: 71, 66
+  offset: 0, 0
+  index: -1

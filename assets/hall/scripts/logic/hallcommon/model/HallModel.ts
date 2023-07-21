@@ -1,0 +1,665 @@
+import ModelBase from "../../../framework/model/ModelBase";
+import { NetAppface } from "../../core/net/hall/NetEvent";
+import GlobalEvent from "../../core/GlobalEvent";
+import { ActivityEntity } from "../../hall/ui/Activity/WndActivityCenter";
+import Base64Cls from "../../../framework/libs/Base64Cls";
+import { WindowKeyType } from "../../../framework/native/WebNative";
+import { GameType } from "../data/GameData";
+import { log } from "async";
+
+export enum HallRedSpotType {
+    Rank,
+    Tixian,
+    Bank,
+    Mail,
+    Activity,
+    Kefu,
+    Gonggao,
+    // Rebate,
+    Spread,
+    // rechargeGift,
+    CashBackDay,
+    LoginKefu, //登陆客服
+    WealthKefu, //财富咨询
+    YunPalyKefu, //云闪付
+    BonusKefu, //彩金客服
+    SignActivity,//签到送金
+    Commision,//任务系统
+    DailyGift,//每日礼金
+}
+
+export enum webGamePointType {
+    TransferSave = 0,   //上分
+    TransferTake = 1    //下分
+}
+
+export default class HallModel extends ModelBase {
+    public get Name() {
+        return "HallModel";
+    }
+
+    public rankRedSpotSwitch = false;
+    public tixianRedSpotSwitch = false;
+    public bankRedSpotSwitch = false;
+    public mailRedSpotSwitch = false;
+    public activityRedSpotSwitch = false;
+    public kefuSpotSwitch = false;
+    public NoticeRedSpot = false;
+    // public RebateRedSpot = false;
+    public SpreadRedSpot = false
+    public BonusKefuRedSpot = false
+    public WealthKefuRedSpot = false
+    // public RechargeGiftRedSpotActive = false
+    public signActivitySwitch = false
+    public CommisionRedSpotActive = false
+    public DailyGiftRedSpotActive = false
+
+    public firstOpenHall = true;
+    public isShowActivityCenter = false;
+    public isShowRedEnvelope = false;
+    public moreGameStatus: boolean = false; //大厅显示原始列表还是更多游戏列表状态
+    public enterGameOffsetX: number = 0;//大厅进子游戏记录偏移
+    public gameListKey: number = -1;    //当前大厅游戏列表页签  默认为非有效的-1 避免初始return
+    public recharge_red = null;
+
+    private popupWindowHasUpPoint = false;//外部链接子游戏是否上分状态
+    private popupWindowGameId: number = 0; //外部链接子游戏的gameid 
+
+    private _webGameId: number = 0;      //外接webview游戏id
+    private _webHasUpPoint: boolean = false;     //外接webview游戏是否上分
+    // private _webWindow:Window = null;      //外接子游戏外部窗口
+    public csNodePos:cc.Node = null;    // 财神Node
+
+    public set webGameId(val) {
+        this._webGameId = val;
+    }
+
+    public get webGameId() {
+        return this._webGameId;
+    }
+
+    public set webHasUpPoint(val) {
+        this._webHasUpPoint = val;
+    }
+
+    public get webHasUpPoint() {
+        return this._webHasUpPoint;
+    }
+
+    protected onInit() {
+        //红点事件监听
+        Global.Event.on(GlobalEvent.ShowRedSpot, this, this.showRedSpot);
+        Global.Event.on(GlobalEvent.CloseRedSpot, this, this.closeRedSpot);
+        //web版子游戏(webview形式)上下分
+        Global.Event.on(GlobalEvent.WebUpPoint, this, this.WebUpPoint);
+        Global.Event.on(GlobalEvent.WebDownPoint, this, this.WebDownPoint)
+        if (cc.sys.isBrowser) {           //监听浏览器是否在当前页面
+            document.addEventListener("visibilitychange", () => {
+                if (!document.hidden) {   //在当前页面
+                    if (this.popupWindowHasUpPoint && this.popupWindowGameId != 0) {     //外部链接子游戏有上分才需要下分
+                        this.popUpGameDownPoint(this.popupWindowGameId);
+                        if (cc.sys.os == cc.sys.OS_IOS && cc.sys.isBrowser) { //下分后将原先的弹窗对象清掉
+                            // this._webWindow = null;
+                            Global.WebNative.clearWindowMap();
+                        }
+                    }
+                }
+            })
+        }
+    }
+
+    WebUpPoint() {
+        if (!this.webHasUpPoint) {
+            this.requestApplyTopPoint(Game.Control.curGid);
+            this.webHasUpPoint = true;
+            this.webGameId = Game.Control.curGid;
+        }
+
+    }
+
+    WebDownPoint() {
+        if (this.webHasUpPoint) {
+            this.requestApplyDownPoint(Game.Control.curGid);
+            this.webHasUpPoint = false;
+            this.webGameId = 0;
+        }
+    }
+    /**
+     * 
+     * @param data [1 = 是否需要刷新数据，2 = 按钮枚举]
+     */
+    private showRedSpot(data) {
+        let redSpotType = data[1]
+        switch (redSpotType) {
+            case HallRedSpotType.Rank:
+                {
+                    this.rankRedSpotSwitch = true;
+                    break;
+                }
+            case HallRedSpotType.Tixian:
+                {
+                    this.tixianRedSpotSwitch = true;
+                    break;
+                }
+            // case HallRedSpotType.Bank:
+            //     {
+            //         this.bankRedSpotSwitch = true;
+            //         break;
+            //     }
+            case HallRedSpotType.Mail:
+                {
+                    this.mailRedSpotSwitch = true;
+                    break;
+                }
+            case HallRedSpotType.Gonggao:
+                {
+                    this.mailRedSpotSwitch = true;
+                    break;
+                }
+            case HallRedSpotType.Activity:
+                {
+                    this.NoticeRedSpot = true;
+                    break;
+                }
+            case HallRedSpotType.Kefu:
+                {
+                    this.kefuSpotSwitch = true;
+                    break;
+                }
+            // case HallRedSpotType.Gonggao:
+            // {
+            //     this.NoticeRedSpot = true;
+            //     break;
+            // }
+            // case HallRedSpotType.Rebate:
+            // {
+            //     this.RebateRedSpot = true;   
+            //     break;
+            // }
+            case HallRedSpotType.Spread:
+                {
+                    this.SpreadRedSpot = true;
+                    break;
+                }
+            case HallRedSpotType.WealthKefu:
+                {
+                    this.WealthKefuRedSpot = true;
+                    break;
+                }
+            case HallRedSpotType.BonusKefu:
+                {
+                    this.BonusKefuRedSpot = true;
+                    break;
+                }
+            case HallRedSpotType.Commision:
+                {
+                    this.CommisionRedSpotActive = true;
+                    break;
+                }
+            case HallRedSpotType.SignActivity:
+                {
+                    this.signActivitySwitch = true;
+                    break;
+                }
+            case HallRedSpotType.DailyGift:
+                {
+                    this.DailyGiftRedSpotActive = true;
+                    break;
+                }
+
+        }
+        this.event("UpdateResSpot", redSpotType);
+    }
+
+    public closeRedSpot(redSpotType) {
+        switch (redSpotType) {
+            case HallRedSpotType.Rank:
+                {
+                    this.rankRedSpotSwitch = false;
+                    break;
+                }
+            case HallRedSpotType.Tixian:
+                {
+                    this.tixianRedSpotSwitch = false;
+                    break;
+                }
+            // case HallRedSpotType.Bank:
+            //     {
+            //         this.bankRedSpotSwitch = false;
+            //         break;
+            //     }
+            case HallRedSpotType.Gonggao:
+            case HallRedSpotType.Mail:
+                {
+                    this.mailRedSpotSwitch = false;
+                    break;
+                }
+            case HallRedSpotType.Activity:
+                {
+                    this.NoticeRedSpot = false;
+                    break;
+                }
+            case HallRedSpotType.Kefu:
+                {
+                    this.kefuSpotSwitch = false;
+                    break;
+                }
+            // case HallRedSpotType.Gonggao:
+            // {
+            //     this.NoticeRedSpot = false;
+            //     break;
+            // }
+            // case HallRedSpotType.Rebate:
+            // {
+            //     this.RebateRedSpot = false;   
+            //     break;
+            // }
+            case HallRedSpotType.Spread:
+                {
+                    this.SpreadRedSpot = false;
+                    break;
+                }
+            case HallRedSpotType.WealthKefu:
+                {
+                    this.WealthKefuRedSpot = false;
+                    break;
+                }
+            case HallRedSpotType.BonusKefu:
+                {
+                    this.BonusKefuRedSpot = false;
+                    break;
+                }
+            case HallRedSpotType.Commision:
+                {
+                    this.CommisionRedSpotActive = false;
+                    break;
+                }
+            case HallRedSpotType.SignActivity:
+                {
+                    this.signActivitySwitch = false;
+                    break;
+                }
+            case HallRedSpotType.DailyGift:
+                {
+                    this.DailyGiftRedSpotActive = false;
+                    break;
+                }
+        }
+        this.event("UpdateResSpot", redSpotType);
+    }
+
+    //是否需要quaryState
+    public needQuaryState = true;
+
+    public reqQueryState() {
+        this.needQuaryState = false;
+        Global.HallServer.send(NetAppface.mod, NetAppface.QuaryState, {}, (msg) => {
+            if (msg.locks == null || msg.locks.length == 0)
+                return;
+            //在游戏场景中不处理quaryState
+            if (Global.SceneManager.inGame())
+                return;
+            //重新请求进入游戏
+            let locker = msg.locks[0];
+            this.rebackGame(locker)
+        });
+    }
+
+    /**
+     * 重返游戏
+     * 
+    */
+    private rebackGame(locker) {
+        if (!locker) {
+            Logger.error("locker = null")
+            return;
+        }
+        if (locker.ret == 1 && locker._gid) {
+            let defalutStr = "当前正在游戏中，是否回到游戏?"
+            let gid = locker._gid
+            let gameData = Global.GameData.getGameInfo(gid);
+            if (gameData && gameData.gtype == 8) {
+                if (gameData.name) {
+                    defalutStr = "您正在【" + gameData.name + "】游戏中，金币暂扣，是否需要重新进入游戏？"
+                }
+
+                Global.UI.showYesNoBox(defalutStr, () => {
+                    this.requestApplyEnterGame(gid)
+                })
+            } else {
+                let str = Global.GameData.getReturnGameStr(locker._gid, locker._glv, true);
+                Global.UI.showYesNoBox(str || defalutStr, () => {
+                    Game.Control.goToGameByLocker(locker);
+                })
+            }
+
+        }
+    }
+
+    public requestGetRewardPackCount() {
+        Global.HallServer.send(NetAppface.mod, NetAppface.GetRewardPackCount, {}, (retObj) => {
+            if (retObj && retObj.list && retObj.list.length > 0 && !this.isShowRedEnvelope) {
+                let data = retObj.list[0]
+                this.isShowRedEnvelope = true
+                Global.UI.show("WndRedEnvelope", data, () => {
+                    Global.UI.show("WndRebateGet", data.point, null, () => {
+                        this.isShowRedEnvelope = false;
+                        this.requestGetRewardPackCount();
+                    })
+                })
+            }
+        }, (error) => {
+            // Global.UI.fastTip(error._errstr);
+        }, false);
+
+    }
+    public requestMyActivityList(callback = null) {
+        Global.HallServer.send(NetAppface.mod, "GetMyActivityList", {},
+            function (data: any) {
+                //成功
+                let serverInfo = data.activity_list;
+                if (serverInfo.length > 0) {
+                    let actMap = new Map<number, ActivityEntity>();
+                    let activity_red = false;   //小红点状态
+                    for (let i = 0; i < serverInfo.length; i++) {
+                        let ptype = serverInfo[i].ptype;
+                        //屏蔽每日充值红包-16 3日签到-11 每日返利-7 首充 返利-8 每日礼金-18
+                        if (!ptype) { //活动中心只显示线下活动
+                            continue;
+                        }
+                        let infoData = serverInfo[i];
+                        let entity = new ActivityEntity();
+                        for (let key in entity) {
+                            if (infoData[key] != null && infoData[key] != undefined) {
+                                entity[key] = infoData[key];
+                            }
+                            entity.red_status = infoData['satus'] == 1 ? 0 : -1;    //红点状态
+                        }
+                        if (!activity_red) {//右上角活动红点
+                            activity_red = activity_red || (infoData.satus === 1)
+                        }
+                        actMap.set(entity.atype, entity);
+                    }
+                    if (activity_red) {
+                        Global.Event.event(GlobalEvent.ShowRedSpot, [false, HallRedSpotType.Activity])
+                    }
+                    if (callback) {
+                        callback(actMap);
+                    }
+                }
+
+            }.bind(this),
+
+            function (data: any) {
+                //失败
+                Logger.error("HallModel GetMyActivityList failed");
+            }.bind(this),
+            false,
+        );
+    }
+    public requestApplyEnterGame(gid) {
+        Game.Control.curGid = gid
+        let gameInfo = Global.GameData.getGameInfo(gid)
+        let gameType = gameInfo ? gameInfo.gameType : -1
+        let params = { "gid": gid }
+        if (cc.sys.isBrowser && cc.sys.os == cc.sys.OS_IOS) { //ios新页面无法在异步回调中open(ios会视为骚扰弹窗默认进行屏蔽),因此需要在此先打开空白页面之后请求成功后重定向
+            if (this.needPopUpWindow(gid)) {
+                // this._webWindow = window.open("","_blank");
+                Global.WebNative.initWindow(WindowKeyType.GameWin);
+            }
+        }
+        if (gameType === GameType.WEBGAME) {
+            Global.HallServer.send(NetAppface.mod, NetAppface.ApplyEnterGame, params,
+                (data) => {
+                    //正常拿到url
+                    if (data && data.url) {
+                        let url = data.url
+                        //actionViewHidden  是否隐藏原生功能按钮 0是不隐藏，1是隐藏
+                        let actionViewHidden = "1"
+                        let scheme = ""
+                        if (actionViewHidden == "1") {
+                            url = Global.UrlUtil.replaceUrlParmVal(data.url, "return_url", Base64Cls.encode("gohall://gohall.com"))
+                            scheme = "gohall"
+                        } else {
+                            url = Global.UrlUtil.replaceUrlParmVal(data.url, "return_type", 1)
+                        }
+
+                        if (url) {
+                            if (Global.Setting.resServerUrl) {
+                                let logoUrl = Global.Setting.resServerUrl + "/logo/" + gid + ".png?" + (new Date()).valueOf()
+                                Logger.error("logo url = " + logoUrl)
+                                url += "&is_app=1&logo_type=1&logo_url=" + Base64Cls.encode(logoUrl)
+                            } else {
+                                url += "&is_app=1"
+                            }
+                            Logger.error("HallModel requestApplyEnterGame base64 url " + url);
+                            Global.Event.event(GlobalEvent.OpenWebViewGame, url, scheme, actionViewHidden)
+                        }
+                    } else {
+                        //重新请求进入游戏
+                        if (data.locks && data.locks.length > 0) {
+                            let locker = data.locks[0];
+                            this.rebackGame(locker)
+                        }
+                    }
+                },
+                null,
+                true
+            );
+        } else if (gameType === GameType.AGBG) {
+            Global.HallServer.send(NetAppface.gameAgent, NetAppface.EnterGame, params,
+                (data) => {
+                    //正常拿到url
+                    if (data && data.url) {
+                        let url = encodeURI(data.url)
+                        //actionViewHidden  是否隐藏原生功能按钮 0是不隐藏，1是隐藏
+                        let actionViewHidden = "0"
+                        let scheme = ""
+                        if (actionViewHidden == "1") {
+                            url = Global.UrlUtil.replaceUrlParmVal(data.url, "return_url", Base64Cls.encode("gohall://gohall.com"))
+                            scheme = "gohall"
+                        } else {
+                            url = Global.UrlUtil.replaceUrlParmVal(data.url, "return_type", 1)
+                        }
+                        Logger.log("跳转url", url, gid)
+                        if (this.needPopUpWindow(gid)) {    //判断是否需要弹出新页面
+                            this.popUpGameWindow(gid, url);
+                        } else {
+                            Global.Event.event(GlobalEvent.OpenWebViewGame, url, scheme, actionViewHidden, gid)
+                        }
+                    } else {
+                        Logger.log("跳转url", "获取失败", gid)
+                        //重新请求进入游戏
+                        if (data.locks && data.locks.length > 0) {
+                            let locker = data.locks[0];
+                            this.rebackGame(locker)
+                        }
+                    }
+                },
+                null,
+                true
+            );
+        }
+
+    }
+
+
+    /**
+     * 判断是否需要用popup形式打开
+     * @param gid 游戏id
+     * ios下大部分外接游戏都需要以新页签的形式打开，无法用webview
+     */
+    public needPopUpWindow(gid) {
+        if (!cc.sys.isBrowser) {
+            return false;
+        }
+        // if(gid == 9061 || gid == 9062 || gid == 9063 || gid == 9064){   //AG所有视讯
+        //     return true;
+        // }
+        if (CC_DEV) {
+            return false;
+        }
+        if (gid == 9031 || gid == 9001) {     //CMD体育与SHABA一定调外部链接
+            return true;
+        }
+        if (cc.sys.os == cc.sys.OS_ANDROID) {
+            return false;
+        }
+        if (cc.sys.os == cc.sys.OS_IOS) {     //ios情况下以下游戏也跳转外部链接
+            if (gid == 9065 || gid == 9066 || gid == 9067 || gid == 9068 || gid == 9069 || gid == 9070) { //AG所有老虎机
+                return true;
+            }
+            if (gid == 9061 || gid == 9062 || gid == 9063 || gid == 9064) {   //AG所有视讯
+                return true;
+            }
+        }
+        return false
+    }
+
+    /**
+     * 某些外部子游戏需要跳外部链接访问(先上分再跳外部链接)
+     * @param gid 游戏id
+     * @param url 外部游戏链接
+     */
+    public popUpGameWindow(gid, url: string) {
+        if (this.popupWindowHasUpPoint) return;
+        let params = {
+            "gid": gid,
+            "action": 1
+        }
+        Global.HallServer.send(NetAppface.gameAgent, NetAppface.TransferSave, params,
+            (data) => {
+                Logger.error("popUpGame requestApplyTopPoint success");
+                this.popupWindowHasUpPoint = true;
+                this.popupWindowGameId = gid;
+                if (cc.sys.os == cc.sys.OS_IOS) {
+                    Global.WebNative.openWindowByKey(WindowKeyType.GameWin, url);
+                    // this._webWindow.location.href = url;
+                    // console.log("点击:新页面形式",url)
+                    // let linkA:HTMLAnchorElement = document.createElement("a");
+                    // linkA.href = url;
+                    // linkA.target = "_blank";
+                    // linkA.click();
+                } else {
+                    window.open(url);
+                }
+            },
+            () => {
+                Logger.error("popUpGame requestApplyTopPoint failed");
+            },
+            true
+        );
+    }
+
+    /**
+     * 跳外部链接子游戏下分
+     * @param gameid 游戏id
+     */
+    public popUpGameDownPoint(gameid) {
+        let params = {
+            "gid": gameid,
+            "action": 0
+        }
+        Global.HallServer.send(NetAppface.gameAgent, NetAppface.TransferTake, params,
+            (data) => {
+                this.popupWindowHasUpPoint = false;
+                this.popupWindowGameId = 0;
+                Logger.error("popUpGame requestApplyDownPoint success");
+            },
+            () => {
+                Logger.error("popUpGame requestApplyDownPoint failed");
+            },
+            true
+        );
+    }
+
+    public requestApplyTopPoint(gameid) {
+        let gameInfo = Global.GameData.getGameInfo(gameid)
+        let gameType = gameInfo ? gameInfo.gameType : -1
+        if (gameType === GameType.WEBGAME) {
+            let params = {}
+            Global.HallServer.send(NetAppface.mod, NetAppface.ApplyTopPoint, params,
+                (data) => {
+                    Logger.error("HallModel requestApplyTopPoint success");
+                },
+                () => {
+                    Logger.error("HallModel requestApplyTopPoint failed");
+                },
+                true
+            );
+        } else {
+            let params = {
+                "gid": gameid,
+                "action": 1
+            }
+            Global.HallServer.send(NetAppface.gameAgent, NetAppface.TransferSave, params,
+                (data) => {
+                    Logger.error("HallModel requestApplyTopPoint success");
+                },
+                () => {
+                    Logger.error("HallModel requestApplyTopPoint failed");
+                },
+                true
+            );
+        }
+    }
+
+    public requestApplyDownPoint(gameid) {
+        let gameInfo = Global.GameData.getGameInfo(gameid)
+        let gameType = gameInfo ? gameInfo.gameType : -1
+        if (gameType === GameType.WEBGAME) {
+            let params = {}
+            Global.HallServer.send(NetAppface.mod, NetAppface.ApplyDownPoint, params,
+                (data) => {
+                    Logger.error("HallModel requestApplyDownPoint success");
+                },
+                () => {
+                    Logger.error("HallModel requestApplyDownPoint failed");
+                },
+                true
+            );
+        } else {
+            let params = {
+                "gid": gameid,
+                "action": 0
+            }
+            Global.HallServer.send(NetAppface.gameAgent, NetAppface.TransferTake, params,
+                (data) => {
+                    Logger.error("HallModel requestApplyDownPoint success");
+                },
+                () => {
+                    Logger.error("HallModel requestApplyDownPoint failed");
+                },
+                true
+            );
+        }
+    }
+    //大厅游戏列表显示状态
+    public setMoreGameStatus(val: boolean) {
+        this.moreGameStatus = val;
+    }
+
+    //记录大厅进子游戏记录偏移
+    public setEnterGameOffsetX(val: number) {
+        this.enterGameOffsetX = val;
+    }
+    public setGameListKey(key: number) {
+        this.gameListKey = key;
+    }
+
+    public clear() {
+        this.needQuaryState = true;
+        this.firstOpenHall = true;
+        this.DailyGiftRedSpotActive = false;
+        Global.GameData.dataInitFinish = false
+    }
+}
+export enum GamePos {
+    Popular = 0,    //热门
+    Poker = 1,      //棋牌
+    Games = 2,      //电子
+    Video = 3,      //视讯
+    Fishing = 4,    //捕鱼
+    Sports = 5,     //体育
+    Lottery = 6,    //彩票
+}

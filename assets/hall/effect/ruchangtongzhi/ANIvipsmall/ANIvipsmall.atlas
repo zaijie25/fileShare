@@ -1,0 +1,48 @@
+
+ANIvipsmall.png
+size: 256,32
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+logo_00000
+  rotate: false
+  xy: 209, 10
+  size: 10, 15
+  orig: 70, 25
+  offset: 3, 8
+  index: -1
+logo_00001
+  rotate: false
+  xy: 192, 5
+  size: 15, 20
+  orig: 70, 25
+  offset: 3, 3
+  index: -1
+logo_00002
+  rotate: false
+  xy: 164, 3
+  size: 26, 22
+  orig: 70, 25
+  offset: 3, 1
+  index: -1
+logo_00003
+  rotate: false
+  xy: 117, 3
+  size: 45, 22
+  orig: 70, 25
+  offset: 3, 1
+  index: -1
+logo_00004
+  rotate: false
+  xy: 2, 2
+  size: 64, 23
+  orig: 70, 25
+  offset: 3, 1
+  index: -1
+logo_00005
+  rotate: false
+  xy: 68, 2
+  size: 47, 23
+  orig: 70, 25
+  offset: 20, 1
+  index: -1

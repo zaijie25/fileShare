@@ -1,0 +1,427 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "ANIhongbaobtn",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "wV1I+blzeT3ESqROcCq/25N4Rmo",
+      "spine": "3.7.94",
+      "width": 291,
+      "height": 291,
+      "images": "./images/",
+      "audio": "D:/arts/00File/001子游戏/H 红包扫雷改版/动效/头像中奖提示/源文件"
+    },
+    "bones": [
+      {
+        "name": "root",
+        "x": 5.29
+      },
+      {
+        "name": "button",
+        "parent": "root"
+      },
+      {
+        "name": "TX",
+        "parent": "button",
+        "y": -1.29,
+        "scaleX": 1.8,
+        "scaleY": 1.8
+      },
+      {
+        "name": "x",
+        "parent": "root"
+      },
+      {
+        "name": "quan",
+        "parent": "root"
+      }
+    ],
+    "slots": [
+      {
+        "name": "quan",
+        "bone": "quan",
+        "color": "ffe12eff",
+        "attachment": "quan",
+        "blend": "additive"
+      },
+      {
+        "name": "qianga",
+        "bone": "button",
+        "attachment": "qianga"
+      },
+      {
+        "name": "liu0001",
+        "bone": "TX",
+        "attachment": "liu0005",
+        "blend": "additive"
+      },
+      {
+        "name": "qiang",
+        "bone": "button",
+        "attachment": "qiang"
+      },
+      {
+        "name": "xXIAN",
+        "bone": "x",
+        "color": "fdff07ff",
+        "attachment": "xXIAN",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "liu0001": {
+          "liu0001": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 99,
+            "height": 99
+          },
+          "liu0002": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 99,
+            "height": 99
+          },
+          "liu0003": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 99,
+            "height": 99
+          },
+          "liu0004": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 99,
+            "height": 99
+          },
+          "liu0005": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 99,
+            "height": 99
+          },
+          "liu0006": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 99,
+            "height": 99
+          },
+          "liu0007": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 99,
+            "height": 99
+          },
+          "liu0008": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 99,
+            "height": 99
+          },
+          "liu0009": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 99,
+            "height": 99
+          },
+          "liu0010": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 99,
+            "height": 99
+          },
+          "liu0011": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 99,
+            "height": 99
+          }
+        },
+        "qiang": {
+          "qiang": {
+            "x": 2.61,
+            "y": 0.22,
+            "width": 85,
+            "height": 82
+          }
+        },
+        "qianga": {
+          "qianga": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 196,
+            "height": 196
+          }
+        },
+        "quan": {
+          "quan": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 127,
+            "height": 127
+          }
+        },
+        "xXIAN": {
+          "xXIAN": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 291,
+            "height": 291
+          }
+        }
+      }
+    },
+    "animations": {
+      "idle_Loop": {
+        "slots": {
+          "liu0001": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "liu0001"
+              },
+              {
+                "time": 0.1,
+                "name": "liu0002"
+              },
+              {
+                "time": 0.2,
+                "name": "liu0003"
+              },
+              {
+                "time": 0.3,
+                "name": "liu0004"
+              },
+              {
+                "time": 0.4,
+                "name": "liu0005"
+              },
+              {
+                "time": 0.5,
+                "name": "liu0006"
+              },
+              {
+                "time": 0.6,
+                "name": "liu0007"
+              },
+              {
+                "time": 0.7,
+                "name": "liu0008"
+              },
+              {
+                "time": 0.8,
+                "name": "liu0009"
+              },
+              {
+                "time": 0.9,
+                "name": "liu0010"
+              },
+              {
+                "time": 1,
+                "name": "liu0011"
+              },
+              {
+                "time": 1.1,
+                "name": "liu0001"
+              }
+            ]
+          },
+          "quan": {
+            "color": [
+              {
+                "time": 0.3333,
+                "color": "ffe12eff"
+              },
+              {
+                "time": 0.6,
+                "color": "ffe02d00"
+              }
+            ]
+          },
+          "xXIAN": {
+            "color": [
+              {
+                "time": 0.1667,
+                "color": "fdff07ff"
+              },
+              {
+                "time": 0.3333,
+                "color": "fdff0600"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "xXIAN"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "button": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5333,
+                "x": 1.2,
+                "y": 1.2,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.1,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "x": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              },
+              {
+                "time": 0.3333,
+                "x": 1.5,
+                "y": 1.5
+              }
+            ]
+          },
+          "quan": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              },
+              {
+                "time": 0.6,
+                "x": 4,
+                "y": 4
+              }
+            ]
+          }
+        }
+      },
+      "idle_ON": {
+        "slots": {
+          "liu0001": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "quan": {
+            "color": [
+              {
+                "time": 0.1667,
+                "color": "ffe12eff"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffe02d00"
+              }
+            ]
+          },
+          "xXIAN": {
+            "color": [
+              {
+                "time": 0.1,
+                "color": "fdff07ff"
+              },
+              {
+                "time": 0.2667,
+                "color": "fdff0600"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "button": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.0667,
+                "x": 0.9,
+                "y": 0.9
+              },
+              {
+                "time": 0.2333,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "x": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.5,
+                "y": 0.5
+              },
+              {
+                "time": 0.2667,
+                "x": 1.5,
+                "y": 1.5
+              }
+            ]
+          },
+          "quan": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              },
+              {
+                "time": 0.3333,
+                "x": 4,
+                "y": 4
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\r\nANIhongbaobtn.png\r\nsize: 512,512\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nliu0001\r\n  rotate: false\r\n  xy: 474, 336\r\n  size: 36, 77\r\n  orig: 99, 99\r\n  offset: 3, 12\r\n  index: -1\r\nliu0002\r\n  rotate: false\r\n  xy: 295, 194\r\n  size: 94, 90\r\n  orig: 99, 99\r\n  offset: 3, 7\r\n  index: -1\r\nliu0003\r\n  rotate: false\r\n  xy: 192, 27\r\n  size: 94, 93\r\n  orig: 99, 99\r\n  offset: 3, 4\r\n  index: -1\r\nliu0004\r\n  rotate: false\r\n  xy: 192, 122\r\n  size: 94, 94\r\n  orig: 99, 99\r\n  offset: 3, 3\r\n  index: -1\r\nliu0005\r\n  rotate: false\r\n  xy: 295, 286\r\n  size: 94, 94\r\n  orig: 99, 99\r\n  offset: 3, 3\r\n  index: -1\r\nliu0006\r\n  rotate: false\r\n  xy: 288, 98\r\n  size: 94, 94\r\n  orig: 99, 99\r\n  offset: 3, 3\r\n  index: -1\r\nliu0007\r\n  rotate: false\r\n  xy: 288, 7\r\n  size: 94, 89\r\n  orig: 99, 99\r\n  offset: 3, 3\r\n  index: -1\r\nliu0008\r\n  rotate: true\r\n  xy: 424, 415\r\n  size: 94, 82\r\n  orig: 99, 99\r\n  offset: 3, 3\r\n  index: -1\r\nliu0009\r\n  rotate: true\r\n  xy: 391, 286\r\n  size: 94, 75\r\n  orig: 99, 99\r\n  offset: 3, 3\r\n  index: -1\r\nliu0010\r\n  rotate: true\r\n  xy: 384, 98\r\n  size: 94, 67\r\n  orig: 99, 99\r\n  offset: 3, 3\r\n  index: -1\r\nliu0011\r\n  rotate: true\r\n  xy: 384, 2\r\n  size: 94, 58\r\n  orig: 99, 99\r\n  offset: 3, 3\r\n  index: -1\r\nqiang\r\n  rotate: true\r\n  xy: 391, 200\r\n  size: 84, 81\r\n  orig: 85, 82\r\n  offset: 0, 1\r\n  index: -1\r\nqianga\r\n  rotate: false\r\n  xy: 2, 28\r\n  size: 188, 188\r\n  orig: 196, 196\r\n  offset: 4, 4\r\n  index: -1\r\nquan\r\n  rotate: false\r\n  xy: 295, 382\r\n  size: 127, 127\r\n  orig: 127, 127\r\n  offset: 0, 0\r\n  index: -1\r\nxXIAN\r\n  rotate: false\r\n  xy: 2, 218\r\n  size: 291, 291\r\n  orig: 291, 291\r\n  offset: 0, 0\r\n  index: -1\r\n",
+  "textures": [
+    {
+      "__uuid__": "fceb45ad-281a-4c0b-91f4-c03e2afe4193"
+    }
+  ],
+  "textureNames": [
+    "ANIhongbaobtn.png"
+  ],
+  "scale": 1
+}

@@ -1,0 +1,124 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "ANIshinekuang",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "5vF9HLkxucXHWusXyXNIMV48h4c",
+      "spine": "3.7.94",
+      "width": 640,
+      "height": 100,
+      "images": "./images/",
+      "audio": ""
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "shine",
+        "parent": "root"
+      }
+    ],
+    "slots": [
+      {
+        "name": "liu0070",
+        "bone": "shine",
+        "color": "ffffffee",
+        "attachment": "liu0070",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "liu0070": {
+          "liu0070": {
+            "width": 640,
+            "height": 100
+          },
+          "liu0074": {
+            "width": 640,
+            "height": 100
+          },
+          "liu0078": {
+            "width": 640,
+            "height": 100
+          },
+          "liu0082": {
+            "width": 640,
+            "height": 100
+          },
+          "liu0086": {
+            "width": 640,
+            "height": 100
+          }
+        }
+      }
+    },
+    "animations": {
+      "idle": {
+        "slots": {
+          "liu0070": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "liu0070"
+              },
+              {
+                "time": 0.0667,
+                "name": "liu0074"
+              },
+              {
+                "time": 0.1333,
+                "name": "liu0078"
+              },
+              {
+                "time": 0.2,
+                "name": "liu0082"
+              },
+              {
+                "time": 0.2667,
+                "name": "liu0086"
+              },
+              {
+                "time": 0.3333,
+                "name": "liu0070"
+              },
+              {
+                "time": 0.4,
+                "name": "liu0074"
+              },
+              {
+                "time": 0.4667,
+                "name": "liu0078"
+              },
+              {
+                "time": 0.5333,
+                "name": "liu0082"
+              },
+              {
+                "time": 0.6,
+                "name": "liu0086"
+              },
+              {
+                "time": 0.6667,
+                "name": "liu0070"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\r\nANIshinekuang.png\r\nsize: 1024,512\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nliu0070\r\n  rotate: false\r\n  xy: 2, 84\r\n  size: 623, 78\r\n  orig: 640, 100\r\n  offset: 10, 11\r\n  index: -1\r\nliu0074\r\n  rotate: false\r\n  xy: 2, 245\r\n  size: 624, 78\r\n  orig: 640, 100\r\n  offset: 9, 12\r\n  index: -1\r\nliu0078\r\n  rotate: false\r\n  xy: 2, 325\r\n  size: 626, 78\r\n  orig: 640, 100\r\n  offset: 11, 11\r\n  index: -1\r\nliu0082\r\n  rotate: false\r\n  xy: 2, 164\r\n  size: 623, 79\r\n  orig: 640, 100\r\n  offset: 11, 11\r\n  index: -1\r\nliu0086\r\n  rotate: false\r\n  xy: 2, 2\r\n  size: 619, 80\r\n  orig: 640, 100\r\n  offset: 13, 10\r\n  index: -1\r\n",
+  "textures": [
+    {
+      "__uuid__": "363cffa9-be8f-4854-81ac-bf6aea1a35c2"
+    }
+  ],
+  "textureNames": [
+    "ANIshinekuang.png"
+  ],
+  "scale": 1
+}

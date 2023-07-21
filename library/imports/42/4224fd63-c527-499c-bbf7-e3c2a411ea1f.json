@@ -1,0 +1,14 @@
+{
+  "__type__": "dragonBones.DragonBonesAtlasAsset",
+  "_name": "guhuozai_tex",
+  "_objFlags": 0,
+  "_native": "",
+  "_atlasJson": "{\"width\":256,\"imagePath\":\"guhuozai_tex.png\",\"height\":512,\"name\":\"guhuozai\",\"SubTexture\":[{\"width\":29,\"y\":337,\"height\":21,\"name\":\"ernn_lihua01\",\"x\":1},{\"width\":35,\"y\":317,\"height\":41,\"name\":\"ernn_jinbi\",\"x\":118},{\"width\":81,\"y\":267,\"height\":68,\"name\":\"text\",\"x\":1},{\"width\":224,\"y\":1,\"height\":198,\"name\":\"body\",\"x\":1},{\"width\":42,\"y\":337,\"height\":12,\"name\":\"eyes\",\"x\":32},{\"width\":32,\"y\":317,\"height\":53,\"name\":\"hair\",\"x\":84},{\"width\":49,\"y\":267,\"height\":48,\"name\":\"head\",\"x\":84},{\"width\":75,\"y\":201,\"height\":119,\"name\":\"hand\",\"x\":162},{\"y\":201,\"frameX\":-2,\"frameHeight\":69,\"frameY\":-3,\"width\":159,\"frameWidth\":163,\"height\":64,\"name\":\"wenzi\",\"x\":1}]}",
+  "_texture": {
+    "__uuid__": "c549dfd3-1918-4876-b4ea-ce5d2f4df90b"
+  },
+  "texture": {
+    "__uuid__": "c549dfd3-1918-4876-b4ea-ce5d2f4df90b"
+  },
+  "_textureAtlasData": null
+}

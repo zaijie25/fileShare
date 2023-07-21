@@ -1,0 +1,114 @@
+{
+  "projectPath": "D:\\cocos\\chinared",
+  "actualPlatform": "web-mobile",
+  "mtimes": {
+    "e8028820-fc1b-49b1-9951-34a0d1a60915": {
+      "assetMtime": 1636537563678,
+      "metaMtime": 1643191096298
+    },
+    "de75ce1d-6031-4d45-9d5f-89d9385ae183": {
+      "assetMtime": 1636537563689,
+      "metaMtime": 1643191096456
+    },
+    "e5469248-20b3-40d8-9f24-0df04c423b37": {
+      "assetMtime": 1636537563689,
+      "metaMtime": 1643191096456
+    },
+    "f3ca7ad4-38d2-45a1-a6cc-086e7d3303f6": {
+      "assetMtime": 1636537563688,
+      "metaMtime": 1643191096441
+    },
+    "40acbf0c-7a14-4ff1-8bf7-71cf8cfb8862": {
+      "assetMtime": 1636537563688,
+      "metaMtime": 1643191096441
+    }
+  },
+  "result": {
+    "name": "atlas_lobby",
+    "width": 1024,
+    "height": 1024,
+    "ver": "1.2.1",
+    "uuid": "e8028820-fc1b-49b1-9951-34a0d1a60915",
+    "maxWidth": 1024,
+    "maxHeight": 1024,
+    "padding": 2,
+    "allowRotation": true,
+    "forceSquared": false,
+    "powerOfTwo": true,
+    "algorithm": "MaxRects",
+    "format": "png",
+    "quality": 80,
+    "contourBleed": true,
+    "paddingBleed": true,
+    "filterUnused": true,
+    "packable": false,
+    "premultiplyAlpha": false,
+    "filterMode": "bilinear",
+    "platformSettings": {},
+    "subMetas": {},
+    "bleed": 1,
+    "atlases": [
+      {
+        "files": [
+          {
+            "name": "touxiang_s",
+            "uuid": "f3ca7ad4-38d2-45a1-a6cc-086e7d3303f6",
+            "textureUuid": "40acbf0c-7a14-4ff1-8bf7-71cf8cfb8862",
+            "path": "D:\\cocos\\chinared\\temp\\trimImages\\spritesheet_js_1643348187139_image_1.png",
+            "trim": {
+              "x": 3,
+              "y": 3,
+              "width": 138,
+              "height": 139,
+              "rotatedWidth": 138,
+              "rotatedHeight": 139
+            },
+            "rawWidth": 180,
+            "rawHeight": 180,
+            "width": 144,
+            "height": 145,
+            "originalPath": "D:/cocos/chinared/library/imports/40/40acbf0c-7a14-4ff1-8bf7-71cf8cfb8862.png",
+            "x": 0,
+            "y": 0,
+            "rotatedWidth": 144,
+            "rotatedHeight": 145
+          },
+          {
+            "name": "touxiang_u",
+            "uuid": "de75ce1d-6031-4d45-9d5f-89d9385ae183",
+            "textureUuid": "e5469248-20b3-40d8-9f24-0df04c423b37",
+            "path": "D:\\cocos\\chinared\\temp\\trimImages\\spritesheet_js_1643348187139_image_0.png",
+            "trim": {
+              "x": 3,
+              "y": 148,
+              "width": 120,
+              "height": 120,
+              "rotatedWidth": 120,
+              "rotatedHeight": 120
+            },
+            "rawWidth": 120,
+            "rawHeight": 120,
+            "width": 126,
+            "height": 126,
+            "originalPath": "D:/cocos/chinared/library/imports/e5/e5469248-20b3-40d8-9f24-0df04c423b37.png",
+            "x": 0,
+            "y": 145,
+            "rotatedWidth": 126,
+            "rotatedHeight": 126
+          }
+        ],
+        "width": 256,
+        "height": 512,
+        "name": "atlas_lobby-1",
+        "imagePath": "D:\\cocos\\chinared\\temp\\TexturePacker\\build\\native\\assets\\ddz\\static\\art\\lobby\\atlas_lobby.pac\\atlas_lobby-1.png",
+        "compressd": {
+          "suffix": [
+            ".png"
+          ],
+          "imagePathNoExt": "D:\\cocos\\chinared\\temp\\TexturePacker\\build\\native\\assets\\ddz\\static\\art\\lobby\\atlas_lobby.pac\\compressed\\atlas_lobby-1"
+        }
+      }
+    ],
+    "unpackedTextures": []
+  }
+}

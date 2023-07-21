@@ -1,0 +1,41 @@
+
+ANIbgFX.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+0105piaodai
+  rotate: false
+  xy: 114, 10
+  size: 35, 20
+  orig: 35, 20
+  offset: 0, 0
+  index: -1
+0111piaodai
+  rotate: true
+  xy: 293, 74
+  size: 38, 72
+  orig: 38, 72
+  offset: 0, 0
+  index: -1
+0112piaodai
+  rotate: false
+  xy: 212, 49
+  size: 79, 63
+  orig: 79, 63
+  offset: 0, 0
+  index: -1
+glow05
+  rotate: false
+  xy: 114, 32
+  size: 96, 80
+  orig: 96, 80
+  offset: 0, 0
+  index: -1
+lightX
+  rotate: false
+  xy: 2, 2
+  size: 110, 110
+  orig: 114, 114
+  offset: 2, 2
+  index: -1

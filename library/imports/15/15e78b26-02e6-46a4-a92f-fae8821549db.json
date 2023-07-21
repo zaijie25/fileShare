@@ -1,0 +1,160 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "dragonUILoop",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "rOKMzJduM4siGTPUKXU0qrT5LRY",
+      "spine": "3.7.93",
+      "width": 73,
+      "height": 75,
+      "images": "./image/",
+      "audio": ""
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "UI",
+        "parent": "root"
+      },
+      {
+        "name": "izi",
+        "parent": "UI"
+      }
+    ],
+    "slots": [
+      {
+        "name": "ggy_sg_1",
+        "bone": "izi",
+        "attachment": "ggy_sg_9"
+      }
+    ],
+    "skins": {
+      "default": {
+        "ggy_sg_1": {
+          "ggy_sg_1": {
+            "x": 0.5,
+            "width": 73,
+            "height": 75
+          },
+          "ggy_sg_2": {
+            "y": 0.5,
+            "width": 73,
+            "height": 75
+          },
+          "ggy_sg_3": {
+            "width": 73,
+            "height": 75
+          },
+          "ggy_sg_4": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 73,
+            "height": 75
+          },
+          "ggy_sg_5": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 73,
+            "height": 75
+          },
+          "ggy_sg_6": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 73,
+            "height": 75
+          },
+          "ggy_sg_7": {
+            "width": 73,
+            "height": 75
+          },
+          "ggy_sg_8": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 73,
+            "height": 75
+          },
+          "ggy_sg_9": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 73,
+            "height": 75
+          },
+          "ggy_sg_10": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 73,
+            "height": 75
+          }
+        }
+      }
+    },
+    "animations": {
+      "idle": {
+        "slots": {
+          "ggy_sg_1": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "ggy_sg_1"
+              },
+              {
+                "time": 0.1,
+                "name": "ggy_sg_2"
+              },
+              {
+                "time": 0.2,
+                "name": "ggy_sg_3"
+              },
+              {
+                "time": 0.3,
+                "name": "ggy_sg_4"
+              },
+              {
+                "time": 0.4,
+                "name": "ggy_sg_5"
+              },
+              {
+                "time": 0.5,
+                "name": "ggy_sg_6"
+              },
+              {
+                "time": 0.6,
+                "name": "ggy_sg_7"
+              },
+              {
+                "time": 0.7,
+                "name": "ggy_sg_8"
+              },
+              {
+                "time": 0.8,
+                "name": "ggy_sg_9"
+              },
+              {
+                "time": 0.9,
+                "name": "ggy_sg_10"
+              },
+              {
+                "time": 1,
+                "name": null
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\r\ndragonUILoop.png\r\nsize: 752,79\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nggy_sg_1\r\n  rotate: false\r\n  xy: 77, 2\r\n  size: 73, 75\r\n  orig: 73, 75\r\n  offset: 0, 0\r\n  index: -1\r\nggy_sg_10\r\n  rotate: false\r\n  xy: 677, 2\r\n  size: 73, 75\r\n  orig: 73, 75\r\n  offset: 0, 0\r\n  index: -1\r\nggy_sg_2\r\n  rotate: false\r\n  xy: 152, 2\r\n  size: 73, 75\r\n  orig: 73, 75\r\n  offset: 0, 0\r\n  index: -1\r\nggy_sg_3\r\n  rotate: false\r\n  xy: 227, 2\r\n  size: 73, 75\r\n  orig: 73, 75\r\n  offset: 0, 0\r\n  index: -1\r\nggy_sg_4\r\n  rotate: false\r\n  xy: 302, 2\r\n  size: 73, 75\r\n  orig: 73, 75\r\n  offset: 0, 0\r\n  index: -1\r\nggy_sg_5\r\n  rotate: false\r\n  xy: 377, 2\r\n  size: 73, 75\r\n  orig: 73, 75\r\n  offset: 0, 0\r\n  index: -1\r\nggy_sg_6\r\n  rotate: false\r\n  xy: 452, 2\r\n  size: 73, 75\r\n  orig: 73, 75\r\n  offset: 0, 0\r\n  index: -1\r\nggy_sg_7\r\n  rotate: false\r\n  xy: 527, 2\r\n  size: 73, 75\r\n  orig: 73, 75\r\n  offset: 0, 0\r\n  index: -1\r\nggy_sg_8\r\n  rotate: false\r\n  xy: 602, 2\r\n  size: 73, 75\r\n  orig: 73, 75\r\n  offset: 0, 0\r\n  index: -1\r\nggy_sg_9\r\n  rotate: false\r\n  xy: 2, 2\r\n  size: 73, 75\r\n  orig: 73, 75\r\n  offset: 0, 0\r\n  index: -1\r\n",
+  "textures": [
+    {
+      "__uuid__": "1945df4a-9763-4949-804a-ee0a211a71a5"
+    }
+  ],
+  "textureNames": [
+    "dragonUILoop.png"
+  ],
+  "scale": 1
+}

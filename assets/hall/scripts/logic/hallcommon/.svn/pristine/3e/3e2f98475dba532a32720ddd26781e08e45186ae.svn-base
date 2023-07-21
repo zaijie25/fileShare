@@ -1,0 +1,38 @@
+/**
+ * 充值模块
+ * 
+*/
+
+import { ModuleBase } from "../../../framework/module/ModuleBase";
+
+export default class RechargeModule extends ModuleBase {
+    viewClass = "WndRecharge"
+    modelClass = "RechargeModel"
+    resPaths = []
+    prefabPaths = [""]
+    children = [
+        {
+            viewClass: "WndRechangeBankInfo",
+            modelClass: "ExtractModel",
+            resPaths: [],
+            prefabPaths: [""],
+            children: []
+        },
+        {
+            viewClass: "WndRechargeVipShow",
+            modelClass: "",
+            resPaths: [],
+            prefabPaths: [""],
+            children: []
+        },
+        {
+            viewClass: "WndRechangeTip",
+            modelClass: "RechagreTipModel",
+            resPaths: [],
+            prefabPaths: [""],
+            children: []
+        },
+        
+    ]
+
+}

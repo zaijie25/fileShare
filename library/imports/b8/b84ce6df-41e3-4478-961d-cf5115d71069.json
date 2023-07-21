@@ -1,0 +1,89 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "jiantou01",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 1.1,
+  "sample": 30,
+  "speed": 1,
+  "wrapMode": "2",
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "d87b63dc-7d3f-41f4-8953-afc78ed72521"
+            }
+          },
+          {
+            "frame": 0.13333333333333333,
+            "value": {
+              "__uuid__": "ff9a5c77-c26e-4056-9b36-0be3fe4cb789"
+            }
+          },
+          {
+            "frame": 0.26666666666666666,
+            "value": {
+              "__uuid__": "09ba9b5a-6be5-477b-b6c9-88c76711f202"
+            }
+          },
+          {
+            "frame": 0.4,
+            "value": {
+              "__uuid__": "813c8469-52b5-4443-a270-53acf28788ae"
+            }
+          },
+          {
+            "frame": 0.5333333333333333,
+            "value": {
+              "__uuid__": "e495ce0c-c441-4c3f-988a-1b1e01301475"
+            }
+          },
+          {
+            "frame": 0.6666666666666666,
+            "value": {
+              "__uuid__": "813c8469-52b5-4443-a270-53acf28788ae"
+            }
+          },
+          {
+            "frame": 0.8,
+            "value": {
+              "__uuid__": "09ba9b5a-6be5-477b-b6c9-88c76711f202"
+            }
+          },
+          {
+            "frame": 0.9333333333333333,
+            "value": {
+              "__uuid__": "ff9a5c77-c26e-4056-9b36-0be3fe4cb789"
+            }
+          },
+          {
+            "frame": 1.0666666666666667,
+            "value": {
+              "__uuid__": "d87b63dc-7d3f-41f4-8953-afc78ed72521"
+            }
+          }
+        ]
+      }
+    },
+    "props": {
+      "x": [
+        {
+          "frame": 0,
+          "value": 0
+        },
+        {
+          "frame": 0.5333333333333333,
+          "value": 20
+        },
+        {
+          "frame": 1.0666666666666667,
+          "value": 0
+        }
+      ]
+    }
+  },
+  "events": []
+}

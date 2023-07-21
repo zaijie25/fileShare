@@ -1,0 +1,14 @@
+{
+  "__type__": "dragonBones.DragonBonesAtlasAsset",
+  "_name": "juezhan5zhang_tex",
+  "_objFlags": 0,
+  "_native": "",
+  "_atlasJson": "{\"SubTexture\":[{\"frameX\":-1,\"frameHeight\":95,\"y\":314,\"frameY\":-1,\"frameWidth\":71,\"width\":69,\"height\":93,\"name\":\"puke03\",\"x\":1},{\"frameX\":-1,\"frameHeight\":100,\"y\":214,\"frameY\":-1,\"frameWidth\":85,\"width\":83,\"height\":98,\"name\":\"puke02\",\"x\":1},{\"frameX\":-1,\"frameHeight\":108,\"y\":1,\"frameY\":-1,\"frameWidth\":107,\"width\":105,\"height\":106,\"name\":\"puke01\",\"x\":127},{\"width\":63,\"y\":314,\"height\":85,\"name\":\"BOMB\",\"x\":72},{\"width\":38,\"y\":109,\"height\":31,\"name\":\"hand\",\"x\":127},{\"width\":124,\"y\":1,\"height\":143,\"name\":\"body\",\"x\":1},{\"width\":69,\"y\":409,\"height\":79,\"name\":\"head\",\"x\":1},{\"width\":82,\"y\":214,\"height\":58,\"name\":\"VS\",\"x\":86},{\"width\":203,\"y\":146,\"height\":66,\"name\":\"TEXT\",\"x\":1},{\"width\":42,\"y\":109,\"height\":28,\"name\":\"shaolei4_shaolei2\",\"x\":167}],\"width\":256,\"height\":512,\"name\":\"juezhan5zhang\",\"imagePath\":\"juezhan5zhang_tex.png\"}",
+  "_texture": {
+    "__uuid__": "de176405-ce3c-4f42-b352-5148bf1d220d"
+  },
+  "texture": {
+    "__uuid__": "de176405-ce3c-4f42-b352-5148bf1d220d"
+  },
+  "_textureAtlasData": null
+}

@@ -1,0 +1,14 @@
+{
+  "__type__": "dragonBones.DragonBonesAtlasAsset",
+  "_name": "ANIbuyudazhan2_tex",
+  "_objFlags": 0,
+  "_native": "",
+  "_atlasJson": "{\"imagePath\":\"ANIbuyudazhan2_tex.png\",\"width\":256,\"height\":512,\"name\":\"ANIbuyudazhan2\",\"SubTexture\":[{\"width\":40,\"y\":147,\"height\":32,\"name\":\"gold\",\"x\":153},{\"width\":184,\"y\":210,\"height\":72,\"name\":\"text\",\"x\":1},{\"width\":33,\"y\":147,\"height\":46,\"name\":\"hand2\",\"x\":118},{\"width\":44,\"y\":181,\"height\":27,\"name\":\"hand\",\"x\":153},{\"width\":115,\"y\":80,\"height\":128,\"name\":\"body\",\"x\":1},{\"frameY\":-1,\"y\":147,\"frameWidth\":22,\"frameHeight\":31,\"width\":20,\"height\":30,\"name\":\"cong\",\"frameX\":-2,\"x\":195},{\"width\":96,\"y\":80,\"height\":65,\"name\":\"huod\",\"x\":118},{\"width\":239,\"y\":1,\"height\":77,\"name\":\"weni\",\"x\":1}]}",
+  "_texture": {
+    "__uuid__": "5d76106b-6e08-440d-9458-7723a1106041"
+  },
+  "texture": {
+    "__uuid__": "5d76106b-6e08-440d-9458-7723a1106041"
+  },
+  "_textureAtlasData": null
+}

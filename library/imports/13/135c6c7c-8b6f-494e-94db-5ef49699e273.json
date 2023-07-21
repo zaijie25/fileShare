@@ -1,0 +1,712 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "duofu",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "pAio9k4JCq9Cz4QpVWJYwvOdRt4",
+      "spine": "3.6.53",
+      "width": 1280,
+      "height": 720,
+      "images": "./images/"
+    },
+    "bones": [
+      {
+        "name": "root",
+        "y": -0.93
+      },
+      {
+        "name": "body",
+        "parent": "root",
+        "length": 62.64,
+        "rotation": 90,
+        "x": -6.91,
+        "y": 5.05
+      },
+      {
+        "name": "youshou",
+        "parent": "body",
+        "length": 21.46,
+        "rotation": 117.72,
+        "x": 74.2,
+        "y": -45.18
+      },
+      {
+        "name": "cai",
+        "parent": "youshou",
+        "length": 37.65,
+        "rotation": 77.15,
+        "x": 16.85,
+        "y": 7.15
+      },
+      {
+        "name": "coin",
+        "parent": "root",
+        "length": 34.02,
+        "rotation": 137.19,
+        "x": -62.48,
+        "y": 149.06
+      },
+      {
+        "name": "head",
+        "parent": "body",
+        "length": 48.84,
+        "rotation": -4.09,
+        "x": 92.22,
+        "y": -6.96
+      },
+      {
+        "name": "jinbi",
+        "parent": "root",
+        "length": 25.44,
+        "rotation": 26.57,
+        "x": 70.37,
+        "y": 84.83
+      },
+      {
+        "name": "maozi",
+        "parent": "head",
+        "length": 32.69,
+        "rotation": -20.68,
+        "x": 47.94,
+        "y": -16.86
+      },
+      {
+        "name": "yaodai",
+        "parent": "body",
+        "length": 41.98,
+        "rotation": 113.03,
+        "x": 52.62,
+        "y": -11.37
+      },
+      {
+        "name": "you",
+        "parent": "head",
+        "length": 30.93,
+        "rotation": -87.7,
+        "x": 38.59,
+        "y": -38.47
+      },
+      {
+        "name": "yuanbao",
+        "parent": "root",
+        "x": -68.31,
+        "y": 95.35
+      },
+      {
+        "name": "zuo",
+        "parent": "head",
+        "length": 36.5,
+        "rotation": 89.53,
+        "x": 36.92,
+        "y": 12.09
+      },
+      {
+        "name": "zuoshou",
+        "parent": "body",
+        "length": 22.12,
+        "rotation": 111.34,
+        "x": 67.11,
+        "y": 43.37
+      }
+    ],
+    "slots": [
+      {
+        "name": "bg",
+        "bone": "root"
+      },
+      {
+        "name": "zuo",
+        "bone": "zuo",
+        "attachment": "zuo"
+      },
+      {
+        "name": "you",
+        "bone": "you",
+        "attachment": "you"
+      },
+      {
+        "name": "head",
+        "bone": "head",
+        "attachment": "head"
+      },
+      {
+        "name": "body",
+        "bone": "body",
+        "attachment": "body"
+      },
+      {
+        "name": "youshou",
+        "bone": "youshou",
+        "attachment": "youshou"
+      },
+      {
+        "name": "zuoshou",
+        "bone": "zuoshou",
+        "attachment": "zuoshou"
+      },
+      {
+        "name": "maozi",
+        "bone": "maozi",
+        "attachment": "maozi"
+      },
+      {
+        "name": "yaodai",
+        "bone": "yaodai",
+        "attachment": "yaodai"
+      },
+      {
+        "name": "cai",
+        "bone": "cai",
+        "attachment": "cai"
+      },
+      {
+        "name": "yuanbao",
+        "bone": "yuanbao",
+        "attachment": "yuanbao"
+      },
+      {
+        "name": "coin",
+        "bone": "coin",
+        "attachment": "coin"
+      },
+      {
+        "name": "star",
+        "bone": "zuo",
+        "attachment": "star",
+        "blend": "additive"
+      },
+      {
+        "name": "jinbi",
+        "bone": "jinbi",
+        "attachment": "jinbi"
+      },
+      {
+        "name": "wenzi",
+        "bone": "root",
+        "attachment": "wenzi"
+      }
+    ],
+    "skins": {
+      "default": {
+        "body": {
+          "body": {
+            "x": 42.48,
+            "y": -12.98,
+            "rotation": -90,
+            "width": 154,
+            "height": 100
+          }
+        },
+        "cai": {
+          "cai": {
+            "x": 21.76,
+            "y": 1.87,
+            "rotation": 75.13,
+            "width": 54,
+            "height": 58
+          }
+        },
+        "coin": {
+          "coin": {
+            "x": 13.48,
+            "y": 2.3,
+            "rotation": -137.19,
+            "width": 36,
+            "height": 36
+          }
+        },
+        "head": {
+          "head": {
+            "x": 20.18,
+            "y": 1.93,
+            "rotation": -85.91,
+            "width": 95,
+            "height": 92
+          }
+        },
+        "jinbi": {
+          "jinbi": {
+            "x": 13.68,
+            "y": -1.02,
+            "rotation": -26.57,
+            "width": 32,
+            "height": 17
+          }
+        },
+        "maozi": {
+          "maozi": {
+            "x": 8.39,
+            "y": 9.61,
+            "rotation": -65.24,
+            "width": 78,
+            "height": 72
+          }
+        },
+        "star": {
+          "star": {
+            "x": 39.35,
+            "y": -8.48,
+            "scaleX": 0.8,
+            "scaleY": 0.8,
+            "rotation": -175.45,
+            "width": 40,
+            "height": 40
+          }
+        },
+        "wenzi": {
+          "wenzi": {
+            "x": -1.43,
+            "y": 20.54,
+            "width": 175,
+            "height": 64
+          }
+        },
+        "yaodai": {
+          "yaodai": {
+            "x": 28.04,
+            "y": 6.17,
+            "rotation": 156.97,
+            "width": 76,
+            "height": 29
+          }
+        },
+        "you": {
+          "you": {
+            "x": 20.42,
+            "y": -0.35,
+            "rotation": 1.79,
+            "width": 47,
+            "height": 29
+          }
+        },
+        "youshou": {
+          "youshou": {
+            "x": 14.14,
+            "y": -0.41,
+            "rotation": 152.28,
+            "width": 35,
+            "height": 31
+          }
+        },
+        "yuanbao": {
+          "yuanbao": {
+            "x": -4.12,
+            "y": 1.18,
+            "width": 37,
+            "height": 26
+          }
+        },
+        "zuo": {
+          "zuo": {
+            "x": 28.13,
+            "y": 0.16,
+            "rotation": -175.45,
+            "width": 31,
+            "height": 29
+          }
+        },
+        "zuoshou": {
+          "zuoshou": {
+            "x": 17,
+            "y": 0.48,
+            "rotation": 158.66,
+            "width": 36,
+            "height": 24
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "star": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.6,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1.8,
+                "color": "ffffffea",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.9667,
+                "color": "ffffffea"
+              },
+              {
+                "time": 2.3333,
+                "color": "ffffff00"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "body": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              },
+              {
+                "time": 0.8,
+                "x": 1.02,
+                "y": 1
+              },
+              {
+                "time": 1.6,
+                "x": 1,
+                "y": 1
+              },
+              {
+                "time": 2.4,
+                "x": 1.02,
+                "y": 1
+              },
+              {
+                "time": 3.2,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "head": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              },
+              {
+                "time": 0.8,
+                "angle": -1.91
+              },
+              {
+                "time": 1.6,
+                "angle": 0
+              },
+              {
+                "time": 2.4,
+                "angle": -2.68
+              },
+              {
+                "time": 3.2,
+                "angle": 0
+              }
+            ]
+          },
+          "maozi": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": -1.01
+              },
+              {
+                "time": 0.2,
+                "angle": 0
+              },
+              {
+                "time": 1,
+                "angle": -3.69
+              },
+              {
+                "time": 1.8,
+                "angle": 0
+              },
+              {
+                "time": 2.6,
+                "angle": -4.02
+              },
+              {
+                "time": 3.2,
+                "angle": -1.01
+              }
+            ]
+          },
+          "you": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              },
+              {
+                "time": 0.8,
+                "angle": 6.48
+              },
+              {
+                "time": 1.6,
+                "angle": 0
+              },
+              {
+                "time": 2.4,
+                "angle": 6.28
+              },
+              {
+                "time": 3.2,
+                "angle": 0
+              }
+            ]
+          },
+          "zuo": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              },
+              {
+                "time": 0.8,
+                "angle": -7.16
+              },
+              {
+                "time": 1.6,
+                "angle": 0
+              },
+              {
+                "time": 2.4,
+                "angle": -7.52
+              },
+              {
+                "time": 3.2,
+                "angle": 0
+              }
+            ]
+          },
+          "zuoshou": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.2,
+                "angle": 0
+              },
+              {
+                "time": 0.3333,
+                "angle": -8.56
+              },
+              {
+                "time": 0.4667,
+                "angle": -8.51
+              },
+              {
+                "time": 0.7,
+                "angle": 4.14
+              },
+              {
+                "time": 0.8333,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 1.6,
+                "angle": 0
+              },
+              {
+                "time": 2.4,
+                "angle": -8.56
+              },
+              {
+                "time": 3.2,
+                "angle": 0
+              }
+            ]
+          },
+          "youshou": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": -0.59
+              },
+              {
+                "time": 0.2,
+                "angle": 0
+              },
+              {
+                "time": 1,
+                "angle": -2.93
+              },
+              {
+                "time": 1.8,
+                "angle": 0
+              },
+              {
+                "time": 2.6,
+                "angle": -2.35
+              },
+              {
+                "time": 3.2,
+                "angle": -0.59
+              }
+            ]
+          },
+          "cai": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              },
+              {
+                "time": 0.8,
+                "angle": -1.37
+              },
+              {
+                "time": 1.6,
+                "angle": 0
+              },
+              {
+                "time": 2.4,
+                "angle": -5.23
+              },
+              {
+                "time": 3.2,
+                "angle": 0
+              }
+            ]
+          },
+          "jinbi": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.8,
+                "x": 4.41,
+                "y": 2.21
+              },
+              {
+                "time": 1.6,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 2.4,
+                "x": 3.47,
+                "y": 1.73
+              },
+              {
+                "time": 3.2,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "coin": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.8,
+                "x": -2.68,
+                "y": 2.48
+              },
+              {
+                "time": 1.6,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 2.4,
+                "x": -3.09,
+                "y": 2.86
+              },
+              {
+                "time": 3.2,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "yuanbao": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 1.6,
+                "angle": 0
+              },
+              {
+                "time": 2.4,
+                "angle": -5.36
+              },
+              {
+                "time": 3.2,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 1.97,
+                "y": -21.28,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.2,
+                "x": 1.97,
+                "y": -21.28
+              },
+              {
+                "time": 0.5333,
+                "x": 1.97,
+                "y": -1.58
+              },
+              {
+                "time": 0.7333,
+                "x": 1.97,
+                "y": -25.9
+              },
+              {
+                "time": 0.8333,
+                "x": 1.97,
+                "y": -21.28,
+                "curve": "stepped"
+              },
+              {
+                "time": 1.6,
+                "x": 1.97,
+                "y": -21.28
+              },
+              {
+                "time": 2.4,
+                "x": 1.97,
+                "y": -17.34
+              },
+              {
+                "time": 3.2,
+                "x": 1.97,
+                "y": -21.28
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\r\nduofu.png\r\nsize: 446,142\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nbody\r\n  rotate: false\r\n  xy: 2, 40\r\n  size: 154, 100\r\n  orig: 154, 100\r\n  offset: 0, 0\r\n  index: -1\r\ncai\r\n  rotate: true\r\n  xy: 275, 20\r\n  size: 54, 58\r\n  orig: 54, 58\r\n  offset: 0, 0\r\n  index: -1\r\ncoin\r\n  rotate: false\r\n  xy: 129, 2\r\n  size: 36, 36\r\n  orig: 36, 36\r\n  offset: 0, 0\r\n  index: -1\r\nhead\r\n  rotate: false\r\n  xy: 335, 48\r\n  size: 95, 92\r\n  orig: 95, 92\r\n  offset: 0, 0\r\n  index: -1\r\njinbi\r\n  rotate: false\r\n  xy: 408, 3\r\n  size: 32, 17\r\n  orig: 32, 17\r\n  offset: 0, 0\r\n  index: -1\r\nmaozi\r\n  rotate: false\r\n  xy: 195, 2\r\n  size: 78, 72\r\n  orig: 78, 72\r\n  offset: 0, 0\r\n  index: -1\r\nstar\r\n  rotate: false\r\n  xy: 335, 6\r\n  size: 40, 40\r\n  orig: 40, 40\r\n  offset: 0, 0\r\n  index: -1\r\nwenzi\r\n  rotate: false\r\n  xy: 158, 76\r\n  size: 175, 64\r\n  orig: 175, 64\r\n  offset: 0, 0\r\n  index: -1\r\nyaodai\r\n  rotate: false\r\n  xy: 2, 9\r\n  size: 76, 29\r\n  orig: 76, 29\r\n  offset: 0, 0\r\n  index: -1\r\nyou\r\n  rotate: false\r\n  xy: 80, 9\r\n  size: 47, 29\r\n  orig: 47, 29\r\n  offset: 0, 0\r\n  index: -1\r\nyoushou\r\n  rotate: false\r\n  xy: 158, 43\r\n  size: 35, 31\r\n  orig: 35, 31\r\n  offset: 0, 0\r\n  index: -1\r\nyuanbao\r\n  rotate: true\r\n  xy: 167, 4\r\n  size: 37, 26\r\n  orig: 37, 26\r\n  offset: 0, 0\r\n  index: -1\r\nzuo\r\n  rotate: true\r\n  xy: 377, 15\r\n  size: 31, 29\r\n  orig: 31, 29\r\n  offset: 0, 0\r\n  index: -1\r\nzuoshou\r\n  rotate: false\r\n  xy: 408, 22\r\n  size: 36, 24\r\n  orig: 36, 24\r\n  offset: 0, 0\r\n  index: -1\r\n",
+  "textures": [
+    {
+      "__uuid__": "acf470ab-a54b-4673-a65b-0a21e046390c"
+    }
+  ],
+  "textureNames": [
+    "duofu.png"
+  ],
+  "scale": 1
+}

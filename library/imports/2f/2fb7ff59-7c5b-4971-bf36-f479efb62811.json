@@ -1,0 +1,1013 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "honghei",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "Ko0YA51YTDGEZuuxeYV8ruzV+lA",
+      "spine": "3.6.53",
+      "width": 1560,
+      "height": 720,
+      "images": "./images/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "blue",
+        "parent": "root",
+        "length": 59.89,
+        "rotation": 61.61,
+        "x": -51.87,
+        "y": 74.89
+      },
+      {
+        "name": "glow",
+        "parent": "root",
+        "length": 14.91,
+        "rotation": 90,
+        "x": 15.05,
+        "y": 114.66
+      },
+      {
+        "name": "guang",
+        "parent": "root",
+        "length": 36.49,
+        "rotation": 90,
+        "x": -4.48,
+        "y": 72.56
+      },
+      {
+        "name": "heitao",
+        "parent": "root",
+        "length": 13.42,
+        "rotation": -69.83,
+        "x": -51.51,
+        "y": 20.44
+      },
+      {
+        "name": "hongtao",
+        "parent": "root",
+        "length": 27.55,
+        "rotation": 104.04,
+        "x": 27.13,
+        "y": 131.1
+      },
+      {
+        "name": "huoxing",
+        "parent": "root",
+        "length": 34.85,
+        "rotation": 76.78,
+        "x": 5.55,
+        "y": 117.48
+      },
+      {
+        "name": "huoxing01",
+        "parent": "root",
+        "length": 12.53,
+        "rotation": -115.51,
+        "x": -27.09,
+        "y": 26.05
+      },
+      {
+        "name": "red",
+        "parent": "root",
+        "length": 58.51,
+        "rotation": 68.59,
+        "x": 20.04,
+        "y": 53.53
+      },
+      {
+        "name": "xian",
+        "parent": "root",
+        "length": 19.59,
+        "rotation": 70.91,
+        "x": -7.37,
+        "y": 74.89
+      }
+    ],
+    "slots": [
+      {
+        "name": "bg",
+        "bone": "root"
+      },
+      {
+        "name": "ceng",
+        "bone": "root"
+      },
+      {
+        "name": "di",
+        "bone": "root",
+        "attachment": "di"
+      },
+      {
+        "name": "geitao",
+        "bone": "heitao",
+        "attachment": "geitao"
+      },
+      {
+        "name": "hongtao",
+        "bone": "hongtao",
+        "attachment": "hongtao"
+      },
+      {
+        "name": "guang",
+        "bone": "guang",
+        "attachment": "guang",
+        "blend": "additive"
+      },
+      {
+        "name": "blue",
+        "bone": "blue",
+        "attachment": "blue"
+      },
+      {
+        "name": "red",
+        "bone": "red",
+        "attachment": "red"
+      },
+      {
+        "name": "xian",
+        "bone": "xian",
+        "attachment": "xian",
+        "blend": "additive"
+      },
+      {
+        "name": "huoxing01",
+        "bone": "huoxing01",
+        "attachment": "huoxing01",
+        "blend": "additive"
+      },
+      {
+        "name": "huoxing",
+        "bone": "huoxing",
+        "attachment": "huoxing",
+        "blend": "additive"
+      },
+      {
+        "name": "shandian01",
+        "bone": "blue",
+        "attachment": "shandian01",
+        "blend": "additive"
+      },
+      {
+        "name": "shandian",
+        "bone": "blue",
+        "attachment": "shandian",
+        "blend": "additive"
+      },
+      {
+        "name": "glow",
+        "bone": "glow",
+        "attachment": "glow",
+        "blend": "additive"
+      },
+      {
+        "name": "wenzi",
+        "bone": "root",
+        "attachment": "wenzi"
+      },
+      {
+        "name": "g07",
+        "bone": "root",
+        "attachment": "g07",
+        "blend": "additive"
+      },
+      {
+        "name": "g06",
+        "bone": "root",
+        "attachment": "g06",
+        "blend": "additive"
+      },
+      {
+        "name": "g05",
+        "bone": "root",
+        "attachment": "g05",
+        "blend": "additive"
+      },
+      {
+        "name": "g04",
+        "bone": "root",
+        "attachment": "g04",
+        "blend": "additive"
+      },
+      {
+        "name": "g03",
+        "bone": "root",
+        "attachment": "g03",
+        "blend": "additive"
+      },
+      {
+        "name": "g02",
+        "bone": "root",
+        "attachment": "g02",
+        "blend": "additive"
+      },
+      {
+        "name": "g01",
+        "bone": "root",
+        "attachment": "g01",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "blue": {
+          "blue": {
+            "x": 11.53,
+            "y": 2.51,
+            "rotation": -61.61,
+            "width": 134,
+            "height": 154
+          }
+        },
+        "di": {
+          "di": {
+            "x": -5.09,
+            "y": 86.73,
+            "width": 257,
+            "height": 229
+          }
+        },
+        "g01": {
+          "g01": {
+            "x": 75.41,
+            "y": 35.23,
+            "width": 40,
+            "height": 40
+          }
+        },
+        "g02": {
+          "g02": {
+            "x": -63.59,
+            "y": 57.73,
+            "width": 38,
+            "height": 39
+          }
+        },
+        "g03": {
+          "g03": {
+            "x": 23.41,
+            "y": 141.23,
+            "width": 40,
+            "height": 40
+          }
+        },
+        "g04": {
+          "g04": {
+            "x": -41.59,
+            "y": 151.73,
+            "width": 40,
+            "height": 41
+          }
+        },
+        "g05": {
+          "g05": {
+            "x": 23.41,
+            "y": 104.23,
+            "width": 38,
+            "height": 38
+          }
+        },
+        "g06": {
+          "g06": {
+            "x": -98.09,
+            "y": 81.23,
+            "width": 39,
+            "height": 40
+          }
+        },
+        "g07": {
+          "g07": {
+            "x": 37.41,
+            "y": 175.23,
+            "width": 40,
+            "height": 38
+          }
+        },
+        "geitao": {
+          "geitao": {
+            "x": 0.05,
+            "y": 0.96,
+            "rotation": 69.83,
+            "width": 64,
+            "height": 77
+          }
+        },
+        "glow": {
+          "glow": {
+            "x": -12.43,
+            "y": 7.15,
+            "rotation": -90,
+            "width": 197,
+            "height": 166
+          }
+        },
+        "guang": {
+          "guang": {
+            "x": 12.16,
+            "y": 4.61,
+            "rotation": -90,
+            "width": 187,
+            "height": 165
+          }
+        },
+        "hongtao": {
+          "hongtao": {
+            "x": 8.3,
+            "y": -0.3,
+            "rotation": -104.04,
+            "width": 60,
+            "height": 78
+          }
+        },
+        "huoxing": {
+          "huoxing": {
+            "x": 2.98,
+            "y": -0.7,
+            "rotation": -76.78,
+            "width": 123,
+            "height": 130
+          }
+        },
+        "huoxing01": {
+          "huoxing01": {
+            "x": 2.94,
+            "y": -1.92,
+            "rotation": 115.51,
+            "width": 145,
+            "height": 68
+          }
+        },
+        "red": {
+          "red": {
+            "x": 26.09,
+            "y": -5.74,
+            "rotation": -68.59,
+            "width": 133,
+            "height": 149
+          }
+        },
+        "shandian": {
+          "shandian": {
+            "x": 16.22,
+            "y": 59.03,
+            "rotation": -61.61,
+            "width": 55,
+            "height": 150
+          }
+        },
+        "shandian01": {
+          "shandian01": {
+            "x": 21.47,
+            "y": -28.5,
+            "rotation": -61.61,
+            "width": 66,
+            "height": 162
+          }
+        },
+        "wenzi": {
+          "wenzi": {
+            "x": -8.09,
+            "y": 17.23,
+            "width": 175,
+            "height": 64
+          }
+        },
+        "xian": {
+          "xian": {
+            "x": 1.67,
+            "y": 0.81,
+            "rotation": -70.91,
+            "width": 92,
+            "height": 235
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "g01": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.2,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.4,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.3333,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1.5333,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.7333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 2,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "g02": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.2,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.4,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.8667,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.5333,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1.7333,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.9333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 2.2,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "g03": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.4,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.6,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.8,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1.0667,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.7333,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1.9333,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 2.1333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 2.4,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "g04": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.8,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 1,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1.2667,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "g05": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.8,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.2,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1.4667,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "g06": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1.2,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.4,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1.6667,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "g07": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.2,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1.4,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.6,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1.8667,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "glow": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.6,
+                "color": "ffffff80"
+              },
+              {
+                "time": 1.2,
+                "color": "ffffff13"
+              },
+              {
+                "time": 1.8,
+                "color": "ffffff80"
+              },
+              {
+                "time": 2.4,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "guang": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.6,
+                "color": "ffffff80"
+              },
+              {
+                "time": 1.2,
+                "color": "ffffff13"
+              },
+              {
+                "time": 1.8,
+                "color": "ffffff80"
+              },
+              {
+                "time": 2.4,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "shandian": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1667,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.2,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.2333,
+                "color": "ffffff51"
+              },
+              {
+                "time": 0.2667,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.1,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1.1333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1.1667,
+                "color": "ffffff51"
+              },
+              {
+                "time": 1.2,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1.2667,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.9333,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1.9667,
+                "color": "ffffffff"
+              },
+              {
+                "time": 2,
+                "color": "ffffff51"
+              },
+              {
+                "time": 2.0333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 2.1,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "shandian01": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.7,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.7333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.7667,
+                "color": "ffffff51"
+              },
+              {
+                "time": 0.8,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.8667,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.6667,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1.7,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1.7333,
+                "color": "ffffff51"
+              },
+              {
+                "time": 1.7667,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1.8333,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "xian": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.6,
+                "color": "ffffff80"
+              },
+              {
+                "time": 1.2,
+                "color": "ffffff13"
+              },
+              {
+                "time": 1.8,
+                "color": "ffffff80"
+              },
+              {
+                "time": 2.4,
+                "color": "ffffff00"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "blue": {
+            "rotate": [
+              {
+                "time": 2.4,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.6,
+                "x": 1.82,
+                "y": 3.37
+              },
+              {
+                "time": 1.2,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 1.8,
+                "x": -2.06,
+                "y": -3.81
+              },
+              {
+                "time": 2.4,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "red": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.6,
+                "x": -1.78,
+                "y": -4.54
+              },
+              {
+                "time": 1.2,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 1.8,
+                "x": 1.32,
+                "y": 3.38
+              },
+              {
+                "time": 2.4,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "huoxing": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.6,
+                "x": 0.89,
+                "y": 3.81
+              },
+              {
+                "time": 1.2,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 1.8,
+                "x": -0.29,
+                "y": -1.25
+              },
+              {
+                "time": 2.4,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "huoxing01": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.6,
+                "x": -2.07,
+                "y": -4.33
+              },
+              {
+                "time": 1.2,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 1.8,
+                "x": 3.55,
+                "y": 7.43
+              },
+              {
+                "time": 2.4,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "hongtao": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.6,
+                "x": -1.13,
+                "y": 4.51
+              },
+              {
+                "time": 1.2,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 1.8,
+                "x": 1.08,
+                "y": -4.32
+              },
+              {
+                "time": 2.4,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "heitao": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.6,
+                "x": 1.49,
+                "y": -4.04
+              },
+              {
+                "time": 1.2,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 1.8,
+                "x": -1.5,
+                "y": 4.09
+              },
+              {
+                "time": 2.4,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\r\nhonghei.png\r\nsize: 956,299\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nblue\r\n  rotate: true\r\n  xy: 649, 3\r\n  size: 134, 154\r\n  orig: 134, 154\r\n  offset: 0, 0\r\n  index: -1\r\ndi\r\n  rotate: false\r\n  xy: 2, 68\r\n  size: 257, 229\r\n  orig: 257, 229\r\n  offset: 0, 0\r\n  index: -1\r\ng01\r\n  rotate: false\r\n  xy: 592, 90\r\n  size: 40, 40\r\n  orig: 40, 40\r\n  offset: 0, 0\r\n  index: -1\r\ng02\r\n  rotate: true\r\n  xy: 355, 23\r\n  size: 38, 39\r\n  orig: 38, 39\r\n  offset: 0, 0\r\n  index: -1\r\ng03\r\n  rotate: false\r\n  xy: 592, 48\r\n  size: 40, 40\r\n  orig: 40, 40\r\n  offset: 0, 0\r\n  index: -1\r\ng04\r\n  rotate: false\r\n  xy: 826, 162\r\n  size: 40, 41\r\n  orig: 40, 41\r\n  offset: 0, 0\r\n  index: -1\r\ng05\r\n  rotate: false\r\n  xy: 396, 23\r\n  size: 38, 38\r\n  orig: 38, 38\r\n  offset: 0, 0\r\n  index: -1\r\ng06\r\n  rotate: true\r\n  xy: 592, 7\r\n  size: 39, 40\r\n  orig: 39, 40\r\n  offset: 0, 0\r\n  index: -1\r\ng07\r\n  rotate: false\r\n  xy: 313, 23\r\n  size: 40, 38\r\n  orig: 40, 38\r\n  offset: 0, 0\r\n  index: -1\r\ngeitao\r\n  rotate: true\r\n  xy: 2, 2\r\n  size: 64, 77\r\n  orig: 64, 77\r\n  offset: 0, 0\r\n  index: -1\r\nglow\r\n  rotate: false\r\n  xy: 261, 131\r\n  size: 197, 166\r\n  orig: 197, 166\r\n  offset: 0, 0\r\n  index: -1\r\nguang\r\n  rotate: false\r\n  xy: 460, 132\r\n  size: 187, 165\r\n  orig: 187, 165\r\n  offset: 0, 0\r\n  index: -1\r\nhongtao\r\n  rotate: true\r\n  xy: 81, 6\r\n  size: 60, 78\r\n  orig: 60, 78\r\n  offset: 0, 0\r\n  index: -1\r\nhuoxing\r\n  rotate: true\r\n  xy: 460, 7\r\n  size: 123, 130\r\n  orig: 123, 130\r\n  offset: 0, 0\r\n  index: -1\r\nhuoxing01\r\n  rotate: true\r\n  xy: 886, 152\r\n  size: 145, 68\r\n  orig: 145, 68\r\n  offset: 0, 0\r\n  index: -1\r\nred\r\n  rotate: true\r\n  xy: 805, 4\r\n  size: 133, 149\r\n  orig: 133, 149\r\n  offset: 0, 0\r\n  index: -1\r\nshandian\r\n  rotate: true\r\n  xy: 161, 6\r\n  size: 55, 150\r\n  orig: 55, 150\r\n  offset: 0, 0\r\n  index: -1\r\nshandian01\r\n  rotate: true\r\n  xy: 261, 63\r\n  size: 66, 162\r\n  orig: 66, 162\r\n  offset: 0, 0\r\n  index: -1\r\nwenzi\r\n  rotate: false\r\n  xy: 649, 139\r\n  size: 175, 64\r\n  orig: 175, 64\r\n  offset: 0, 0\r\n  index: -1\r\nxian\r\n  rotate: true\r\n  xy: 649, 205\r\n  size: 92, 235\r\n  orig: 92, 235\r\n  offset: 0, 0\r\n  index: -1\r\n",
+  "textures": [
+    {
+      "__uuid__": "b16fa7ee-d3cd-4fbd-a6fe-d71bb19aada6"
+    }
+  ],
+  "textureNames": [
+    "honghei.png"
+  ],
+  "scale": 1
+}

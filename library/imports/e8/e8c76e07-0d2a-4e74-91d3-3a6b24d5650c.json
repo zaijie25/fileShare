@@ -1,0 +1,7 @@
+{
+  "__type__": "cc.TextAsset",
+  "_name": "ANIhongbaoFX.atlas",
+  "_objFlags": 0,
+  "_native": "",
+  "text": "\r\nANIhongbaoFX.png\r\nsize: 256,128\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\n0103piaodai\r\n  rotate: true\r\n  xy: 100, 12\r\n  size: 45, 65\r\n  orig: 45, 65\r\n  offset: 0, 0\r\n  index: -1\r\n0105piaodai\r\n  rotate: false\r\n  xy: 181, 30\r\n  size: 73, 38\r\n  orig: 73, 38\r\n  offset: 0, 0\r\n  index: -1\r\n0111piaodai\r\n  rotate: true\r\n  xy: 2, 2\r\n  size: 38, 66\r\n  orig: 38, 72\r\n  offset: 0, 3\r\n  index: -1\r\n0112piaodai\r\n  rotate: false\r\n  xy: 100, 59\r\n  size: 79, 63\r\n  orig: 79, 63\r\n  offset: 0, 0\r\n  index: -1\r\n0116piaodai\r\n  rotate: true\r\n  xy: 181, 70\r\n  size: 52, 73\r\n  orig: 52, 73\r\n  offset: 0, 0\r\n  index: -1\r\nglow05\r\n  rotate: false\r\n  xy: 2, 42\r\n  size: 96, 80\r\n  orig: 96, 80\r\n  offset: 0, 0\r\n  index: -1\r\n"
+}

@@ -1,0 +1,55 @@
+
+huodong.png
+size: 213,143
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+box
+  rotate: true
+  xy: 2, 2
+  size: 84, 91
+  orig: 84, 91
+  offset: 0, 0
+  index: -1
+di
+  rotate: true
+  xy: 95, 22
+  size: 64, 18
+  orig: 64, 18
+  offset: 0, 0
+  index: -1
+star
+  rotate: true
+  xy: 131, 85
+  size: 56, 57
+  orig: 56, 57
+  offset: 0, 0
+  index: -1
+star01
+  rotate: false
+  xy: 115, 26
+  size: 56, 57
+  orig: 56, 57
+  offset: 0, 0
+  index: -1
+star02
+  rotate: false
+  xy: 173, 2
+  size: 38, 39
+  orig: 38, 39
+  offset: 0, 0
+  index: -1
+star03
+  rotate: false
+  xy: 173, 43
+  size: 38, 40
+  orig: 38, 40
+  offset: 0, 0
+  index: -1
+wenzi
+  rotate: false
+  xy: 2, 88
+  size: 127, 53
+  orig: 127, 53
+  offset: 0, 0
+  index: -1

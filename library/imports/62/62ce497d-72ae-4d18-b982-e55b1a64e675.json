@@ -1,0 +1,14 @@
+{
+  "__type__": "dragonBones.DragonBonesAtlasAsset",
+  "_name": "erbagang_tex",
+  "_objFlags": 0,
+  "_native": "",
+  "_atlasJson": "{\"width\":256,\"imagePath\":\"erbagang_tex.png\",\"height\":512,\"name\":\"erbagang\",\"SubTexture\":[{\"width\":154,\"y\":162,\"height\":160,\"name\":\"bage\",\"x\":1},{\"width\":155,\"y\":1,\"height\":159,\"name\":\"erge\",\"x\":1},{\"width\":29,\"y\":213,\"height\":21,\"name\":\"caitiao\",\"x\":157},{\"width\":45,\"y\":162,\"height\":49,\"name\":\"jingbi\",\"x\":157},{\"width\":174,\"y\":324,\"height\":72,\"name\":\"text\",\"x\":1}]}",
+  "_texture": {
+    "__uuid__": "c420b42e-db94-468c-8125-d0e821477513"
+  },
+  "texture": {
+    "__uuid__": "c420b42e-db94-468c-8125-d0e821477513"
+  },
+  "_textureAtlasData": null
+}

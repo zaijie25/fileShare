@@ -1,0 +1,7 @@
+{
+  "__type__": "cc.TextAsset",
+  "_name": "ANIbgFX.atlas",
+  "_objFlags": 0,
+  "_native": "",
+  "text": "\r\nANIbgFX.png\r\nsize: 512,128\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\n0105piaodai\r\n  rotate: false\r\n  xy: 114, 10\r\n  size: 35, 20\r\n  orig: 35, 20\r\n  offset: 0, 0\r\n  index: -1\r\n0111piaodai\r\n  rotate: true\r\n  xy: 293, 74\r\n  size: 38, 72\r\n  orig: 38, 72\r\n  offset: 0, 0\r\n  index: -1\r\n0112piaodai\r\n  rotate: false\r\n  xy: 212, 49\r\n  size: 79, 63\r\n  orig: 79, 63\r\n  offset: 0, 0\r\n  index: -1\r\nglow05\r\n  rotate: false\r\n  xy: 114, 32\r\n  size: 96, 80\r\n  orig: 96, 80\r\n  offset: 0, 0\r\n  index: -1\r\nlightX\r\n  rotate: false\r\n  xy: 2, 2\r\n  size: 110, 110\r\n  orig: 114, 114\r\n  offset: 2, 2\r\n  index: -1\r\n"
+}

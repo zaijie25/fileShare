@@ -1,0 +1,1 @@
+{"version":3,"sources":["assets\\hall\\scripts\\framework\\resource\\ReleaseItem.ts"],"names":[],"mappings":";;;;;;AAAA;IAAA;IAGA,CAAC;IAAD,kBAAC;AAAD,CAHA,AAGC,IAAA","file":"","sourceRoot":"/","sourcesContent":["export default class ReleaseItem{\r\n    public resType:typeof cc.Asset;\r\n    public resPath:string;\r\n}"]}

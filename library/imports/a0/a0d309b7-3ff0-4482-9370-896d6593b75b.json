@@ -1,0 +1,14 @@
+{
+  "__type__": "dragonBones.DragonBonesAtlasAsset",
+  "_name": "buyu_tex",
+  "_objFlags": 0,
+  "_native": "",
+  "_atlasJson": "{\"width\":256,\"imagePath\":\"buyu_tex.png\",\"height\":512,\"name\":\"buyu\",\"SubTexture\":[{\"width\":149,\"y\":1,\"height\":219,\"name\":\"buyu/by_dayu\",\"x\":1},{\"width\":138,\"y\":397,\"height\":30,\"name\":\"buyu/by_dayuyanpi\",\"x\":1},{\"width\":58,\"y\":87,\"height\":92,\"name\":\"buyu/by_pifeng\",\"x\":152},{\"width\":105,\"y\":292,\"height\":103,\"name\":\"buyu/by_jiangbei\",\"x\":1},{\"width\":58,\"y\":292,\"height\":69,\"name\":\"buyu/by_lihua\",\"x\":108},{\"width\":91,\"y\":1,\"height\":84,\"name\":\"buyu/by_xiaoyu\",\"x\":152},{\"width\":45,\"y\":181,\"height\":20,\"name\":\"buyu/by_xiaoyuyanpi\",\"x\":152},{\"y\":222,\"frameX\":-1,\"frameHeight\":69,\"frameY\":-1,\"width\":226,\"frameWidth\":227,\"height\":68,\"name\":\"buyu/by_wenzi\",\"x\":1}]}",
+  "_texture": {
+    "__uuid__": "74838208-62c8-49de-8bbc-b130a6c21e30"
+  },
+  "texture": {
+    "__uuid__": "74838208-62c8-49de-8bbc-b130a6c21e30"
+  },
+  "_textureAtlasData": null
+}

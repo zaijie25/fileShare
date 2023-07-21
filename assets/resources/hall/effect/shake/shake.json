@@ -1,0 +1,55 @@
+{
+"skeleton": { "hash": "4T28NwyPkwnfiXIB5xLlnpFJ+qU", "spine": "3.7.94", "width": 218, "height": 253, "images": "./image/", "audio": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "phone", "parent": "root" },
+	{ "name": "wenzi", "parent": "root", "y": -88.11 },
+	{ "name": "zhuan", "parent": "phone" }
+],
+"slots": [
+	{ "name": "diban", "bone": "root", "attachment": "diban" },
+	{ "name": "ban", "bone": "phone", "attachment": "ban" },
+	{ "name": "wenzi", "bone": "wenzi", "attachment": "wenzi" },
+	{ "name": "zhuan", "bone": "zhuan", "attachment": "zhuan" },
+	{ "name": "zhuan2", "bone": "zhuan", "attachment": "zhuan" }
+],
+"skins": {
+	"default": {
+		"ban": {
+			"ban": { "width": 134, "height": 142 }
+		},
+		"diban": {
+			"diban": { "y": 0.5, "width": 218, "height": 253 }
+		},
+		"wenzi": {
+			"wenzi": { "y": 0.5, "width": 154, "height": 43 }
+		},
+		"zhuan": {
+			"zhuan": { "x": -50.04, "y": -36.2, "width": 61, "height": 60 }
+		},
+		"zhuan2": {
+			"zhuan": { "x": 36.02, "y": 47.81, "rotation": -174.83, "width": 61, "height": 60 }
+		}
+	}
+},
+"animations": {
+	"idle": {
+		"bones": {
+			"phone": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1667, "angle": -45 },
+					{ "time": 0.2667, "angle": -60.24 },
+					{ "time": 0.3667, "angle": -45 },
+					{ "time": 0.4667, "angle": -26.81 },
+					{ "time": 0.5333, "angle": -45 },
+					{ "time": 0.6333, "angle": -60.24 },
+					{ "time": 0.7333, "angle": -45 },
+					{ "time": 0.8333, "angle": -26.81 },
+					{ "time": 1, "angle": 0 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "bb10f5be-eee8-4df3-a394-83d41177bed4",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 203,
+  "height": 56,
+  "platformSettings": {},
+  "subMetas": {
+    "title_xiugaimima": {
+      "ver": "1.0.4",
+      "uuid": "2be5589f-d548-4e8b-b2df-bd7b80a58e3b",
+      "rawTextureUuid": "bb10f5be-eee8-4df3-a394-83d41177bed4",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 203,
+      "height": 56,
+      "rawWidth": 203,
+      "rawHeight": 56,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

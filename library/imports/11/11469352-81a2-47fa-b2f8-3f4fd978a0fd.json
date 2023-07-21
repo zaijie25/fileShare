@@ -1,0 +1,615 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "erren",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "2Y2iTOyre+SpBmhcrM+yIxdyHCo",
+      "spine": "3.6.53",
+      "width": 1280,
+      "height": 720,
+      "images": "./images/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "10",
+        "parent": "root",
+        "length": 80.64,
+        "rotation": 85.26,
+        "x": 28.77,
+        "y": 88.25
+      },
+      {
+        "name": "A",
+        "parent": "root",
+        "length": 85.87,
+        "rotation": 15.9,
+        "x": 3.91,
+        "y": 92.25
+      },
+      {
+        "name": "J",
+        "parent": "root",
+        "length": 76.86,
+        "rotation": 69.37,
+        "x": 24.33,
+        "y": 86.92
+      },
+      {
+        "name": "K",
+        "parent": "root",
+        "length": 78.81,
+        "rotation": 33.51,
+        "x": 9.68,
+        "y": 88.25
+      },
+      {
+        "name": "Q",
+        "parent": "root",
+        "length": 77.08,
+        "rotation": 53.2,
+        "x": 19.45,
+        "y": 84.7
+      },
+      {
+        "name": "chouma",
+        "parent": "root",
+        "length": 64.38,
+        "rotation": 90,
+        "y": 22.54
+      },
+      {
+        "name": "maozi",
+        "parent": "chouma",
+        "length": 37.24,
+        "rotation": 30.85,
+        "x": 114.55,
+        "y": 41.82
+      }
+    ],
+    "slots": [
+      {
+        "name": "bg",
+        "bone": "root"
+      },
+      {
+        "name": "maozi",
+        "bone": "maozi",
+        "attachment": "maozi"
+      },
+      {
+        "name": "10",
+        "bone": "10",
+        "attachment": "10"
+      },
+      {
+        "name": "J",
+        "bone": "J",
+        "attachment": "J"
+      },
+      {
+        "name": "Q",
+        "bone": "Q",
+        "attachment": "Q"
+      },
+      {
+        "name": "K",
+        "bone": "K",
+        "attachment": "K"
+      },
+      {
+        "name": "A",
+        "bone": "A",
+        "attachment": "A"
+      },
+      {
+        "name": "chouma",
+        "bone": "chouma",
+        "attachment": "chouma"
+      },
+      {
+        "name": "star",
+        "bone": "chouma",
+        "attachment": "star",
+        "blend": "additive"
+      },
+      {
+        "name": "wenzi",
+        "bone": "root",
+        "attachment": "wenzi"
+      },
+      {
+        "name": "erren_00",
+        "bone": "chouma",
+        "attachment": "erren_15",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "10": {
+          "10": {
+            "x": 35.86,
+            "y": -0.96,
+            "rotation": -85.26,
+            "width": 95,
+            "height": 123
+          }
+        },
+        "A": {
+          "A": {
+            "x": 38.16,
+            "y": -3.95,
+            "rotation": -15.9,
+            "width": 131,
+            "height": 107
+          }
+        },
+        "J": {
+          "J": {
+            "x": 35.35,
+            "y": -3.1,
+            "rotation": -69.37,
+            "width": 109,
+            "height": 133
+          }
+        },
+        "K": {
+          "K": {
+            "x": 38.24,
+            "y": -2.94,
+            "rotation": -33.51,
+            "width": 136,
+            "height": 127
+          }
+        },
+        "Q": {
+          "Q": {
+            "x": 36.91,
+            "y": -1.41,
+            "rotation": -53.2,
+            "width": 127,
+            "height": 134
+          }
+        },
+        "chouma": {
+          "chouma": {
+            "x": 51.87,
+            "y": -2.69,
+            "rotation": -90,
+            "width": 173,
+            "height": 168
+          }
+        },
+        "erren_00": {
+          "erren_00": {
+            "x": 55.47,
+            "y": 65.81,
+            "rotation": -90,
+            "width": 3,
+            "height": 42
+          },
+          "erren_01": {
+            "x": 55.96,
+            "y": 59.82,
+            "rotation": -90,
+            "width": 15,
+            "height": 86
+          },
+          "erren_02": {
+            "x": 54.99,
+            "y": 54.59,
+            "rotation": -90,
+            "width": 27,
+            "height": 108
+          },
+          "erren_03": {
+            "x": 55.62,
+            "y": 49.69,
+            "rotation": -90,
+            "width": 38,
+            "height": 122
+          },
+          "erren_04": {
+            "x": 55.41,
+            "y": 45.65,
+            "rotation": -90,
+            "width": 50,
+            "height": 130
+          },
+          "erren_05": {
+            "x": 55.84,
+            "y": 40.96,
+            "rotation": -90,
+            "width": 61,
+            "height": 134
+          },
+          "erren_06": {
+            "x": 55.84,
+            "y": 34.36,
+            "rotation": -90,
+            "width": 66,
+            "height": 134
+          },
+          "erren_07": {
+            "x": 55.84,
+            "y": 20.94,
+            "rotation": -90,
+            "width": 65,
+            "height": 134
+          },
+          "erren_08": {
+            "x": 55.41,
+            "y": 4.75,
+            "rotation": -90,
+            "width": 65,
+            "height": 134
+          },
+          "erren_09": {
+            "x": 55.41,
+            "y": -6.75,
+            "rotation": -90,
+            "width": 64,
+            "height": 134
+          },
+          "erren_10": {
+            "x": 54.77,
+            "y": -20.6,
+            "rotation": -90,
+            "width": 64,
+            "height": 134
+          },
+          "erren_11": {
+            "x": 55.84,
+            "y": -31.67,
+            "rotation": -90,
+            "width": 63,
+            "height": 134
+          },
+          "erren_12": {
+            "x": 57.54,
+            "y": -39.34,
+            "rotation": -90,
+            "width": 56,
+            "height": 132
+          },
+          "erren_13": {
+            "x": 56.9,
+            "y": -45.52,
+            "rotation": -90,
+            "width": 44,
+            "height": 126
+          },
+          "erren_14": {
+            "x": 55.62,
+            "y": -51.91,
+            "rotation": -90,
+            "width": 32,
+            "height": 114
+          },
+          "erren_15": {
+            "x": 54.13,
+            "y": -58.3,
+            "rotation": -90,
+            "width": 20,
+            "height": 94
+          }
+        },
+        "maozi": {
+          "maozi": {
+            "x": 5.15,
+            "y": 2.15,
+            "rotation": -120.85,
+            "width": 113,
+            "height": 92
+          }
+        },
+        "star": {
+          "star": {
+            "x": 70.37,
+            "y": 19.31,
+            "rotation": -90,
+            "width": 53,
+            "height": 53
+          }
+        },
+        "wenzi": {
+          "wenzi": {
+            "x": 0.69,
+            "y": 21.76,
+            "width": 175,
+            "height": 64
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "erren_00": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.8,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1.8333,
+                "color": "ffffff9c",
+                "curve": "stepped"
+              },
+              {
+                "time": 2.3333,
+                "color": "ffffff9c"
+              },
+              {
+                "time": 2.3667,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "erren_00"
+              },
+              {
+                "time": 1.8667,
+                "name": "erren_01"
+              },
+              {
+                "time": 1.9,
+                "name": "erren_02"
+              },
+              {
+                "time": 1.9333,
+                "name": "erren_03"
+              },
+              {
+                "time": 1.9667,
+                "name": "erren_04"
+              },
+              {
+                "time": 2,
+                "name": "erren_05"
+              },
+              {
+                "time": 2.0333,
+                "name": "erren_06"
+              },
+              {
+                "time": 2.0667,
+                "name": "erren_07"
+              },
+              {
+                "time": 2.1,
+                "name": "erren_08"
+              },
+              {
+                "time": 2.1333,
+                "name": "erren_09"
+              },
+              {
+                "time": 2.1667,
+                "name": "erren_10"
+              },
+              {
+                "time": 2.2,
+                "name": "erren_11"
+              },
+              {
+                "time": 2.2333,
+                "name": "erren_12"
+              },
+              {
+                "time": 2.2667,
+                "name": "erren_13"
+              },
+              {
+                "time": 2.3,
+                "name": "erren_14"
+              },
+              {
+                "time": 2.3333,
+                "name": "erren_15"
+              }
+            ]
+          },
+          "star": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.8,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1,
+                "color": "ffffffc7"
+              },
+              {
+                "time": 1.1333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1.4,
+                "color": "ffffff00"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "10": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              },
+              {
+                "time": 0.8,
+                "angle": -3.22
+              },
+              {
+                "time": 1.6,
+                "angle": 0
+              },
+              {
+                "time": 2.4,
+                "angle": -3.14
+              },
+              {
+                "time": 3.2,
+                "angle": 0
+              }
+            ]
+          },
+          "chouma": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.8,
+                "x": 0,
+                "y": 3.55
+              },
+              {
+                "time": 1.6,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 2.4,
+                "x": 0,
+                "y": 4
+              },
+              {
+                "time": 3.2,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "maozi": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              },
+              {
+                "time": 0.8,
+                "angle": 6.77
+              },
+              {
+                "time": 1.6,
+                "angle": 0
+              },
+              {
+                "time": 2.4,
+                "angle": 5.71
+              },
+              {
+                "time": 3.2,
+                "angle": 0
+              }
+            ]
+          },
+          "Q": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              },
+              {
+                "time": 0.8,
+                "angle": 2.7
+              },
+              {
+                "time": 1.6,
+                "angle": 0
+              },
+              {
+                "time": 2.4,
+                "angle": 3.24
+              },
+              {
+                "time": 3.2,
+                "angle": 0
+              }
+            ]
+          },
+          "K": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              },
+              {
+                "time": 0.8,
+                "angle": 4.25
+              },
+              {
+                "time": 1.6,
+                "angle": 0
+              },
+              {
+                "time": 2.4,
+                "angle": 4.72
+              },
+              {
+                "time": 3.2,
+                "angle": 0
+              }
+            ]
+          },
+          "A": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              },
+              {
+                "time": 0.8,
+                "angle": 6.43
+              },
+              {
+                "time": 1.6,
+                "angle": 0
+              },
+              {
+                "time": 2.4,
+                "angle": 7.7
+              },
+              {
+                "time": 3.2,
+                "angle": 0
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\r\nerren.png\r\nsize: 974,256\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\n10\r\n  rotate: false\r\n  xy: 177, 2\r\n  size: 95, 123\r\n  orig: 95, 123\r\n  offset: 0, 0\r\n  index: -1\r\nA\r\n  rotate: false\r\n  xy: 274, 18\r\n  size: 131, 107\r\n  orig: 131, 107\r\n  offset: 0, 0\r\n  index: -1\r\nJ\r\n  rotate: true\r\n  xy: 451, 145\r\n  size: 109, 133\r\n  orig: 109, 133\r\n  offset: 0, 0\r\n  index: -1\r\nK\r\n  rotate: false\r\n  xy: 177, 127\r\n  size: 136, 127\r\n  orig: 136, 127\r\n  offset: 0, 0\r\n  index: -1\r\nQ\r\n  rotate: true\r\n  xy: 315, 127\r\n  size: 127, 134\r\n  orig: 127, 134\r\n  offset: 0, 0\r\n  index: -1\r\nchouma\r\n  rotate: false\r\n  xy: 2, 86\r\n  size: 173, 168\r\n  orig: 173, 168\r\n  offset: 0, 0\r\n  index: -1\r\nerren_00\r\n  rotate: true\r\n  xy: 2, 13\r\n  size: 3, 42\r\n  orig: 3, 42\r\n  offset: 0, 0\r\n  index: -1\r\nerren_01\r\n  rotate: false\r\n  xy: 954, 58\r\n  size: 15, 86\r\n  orig: 15, 86\r\n  offset: 0, 0\r\n  index: -1\r\nerren_02\r\n  rotate: false\r\n  xy: 945, 146\r\n  size: 27, 108\r\n  orig: 27, 108\r\n  offset: 0, 0\r\n  index: -1\r\nerren_03\r\n  rotate: false\r\n  xy: 858, 65\r\n  size: 38, 122\r\n  orig: 38, 122\r\n  offset: 0, 0\r\n  index: -1\r\nerren_04\r\n  rotate: true\r\n  xy: 701, 5\r\n  size: 50, 130\r\n  orig: 50, 130\r\n  offset: 0, 0\r\n  index: -1\r\nerren_05\r\n  rotate: true\r\n  xy: 586, 127\r\n  size: 61, 134\r\n  orig: 61, 134\r\n  offset: 0, 0\r\n  index: -1\r\nerren_06\r\n  rotate: true\r\n  xy: 2, 18\r\n  size: 66, 134\r\n  orig: 66, 134\r\n  offset: 0, 0\r\n  index: -1\r\nerren_07\r\n  rotate: true\r\n  xy: 763, 189\r\n  size: 65, 134\r\n  orig: 65, 134\r\n  offset: 0, 0\r\n  index: -1\r\nerren_08\r\n  rotate: true\r\n  xy: 722, 122\r\n  size: 65, 134\r\n  orig: 65, 134\r\n  offset: 0, 0\r\n  index: -1\r\nerren_09\r\n  rotate: false\r\n  xy: 501, 9\r\n  size: 64, 134\r\n  orig: 64, 134\r\n  offset: 0, 0\r\n  index: -1\r\nerren_10\r\n  rotate: true\r\n  xy: 567, 61\r\n  size: 64, 134\r\n  orig: 64, 134\r\n  offset: 0, 0\r\n  index: -1\r\nerren_11\r\n  rotate: true\r\n  xy: 703, 57\r\n  size: 63, 134\r\n  orig: 63, 134\r\n  offset: 0, 0\r\n  index: -1\r\nerren_12\r\n  rotate: true\r\n  xy: 567, 3\r\n  size: 56, 132\r\n  orig: 56, 132\r\n  offset: 0, 0\r\n  index: -1\r\nerren_13\r\n  rotate: false\r\n  xy: 899, 128\r\n  size: 44, 126\r\n  orig: 44, 126\r\n  offset: 0, 0\r\n  index: -1\r\nerren_14\r\n  rotate: false\r\n  xy: 898, 12\r\n  size: 32, 114\r\n  orig: 32, 114\r\n  offset: 0, 0\r\n  index: -1\r\nerren_15\r\n  rotate: false\r\n  xy: 932, 32\r\n  size: 20, 94\r\n  orig: 20, 94\r\n  offset: 0, 0\r\n  index: -1\r\nmaozi\r\n  rotate: true\r\n  xy: 407, 12\r\n  size: 113, 92\r\n  orig: 113, 92\r\n  offset: 0, 0\r\n  index: -1\r\nstar\r\n  rotate: false\r\n  xy: 833, 2\r\n  size: 53, 53\r\n  orig: 53, 53\r\n  offset: 0, 0\r\n  index: -1\r\nwenzi\r\n  rotate: false\r\n  xy: 586, 190\r\n  size: 175, 64\r\n  orig: 175, 64\r\n  offset: 0, 0\r\n  index: -1\r\n",
+  "textures": [
+    {
+      "__uuid__": "990304dc-e853-42e4-8612-430d857a2076"
+    }
+  ],
+  "textureNames": [
+    "erren.png"
+  ],
+  "scale": 1
+}

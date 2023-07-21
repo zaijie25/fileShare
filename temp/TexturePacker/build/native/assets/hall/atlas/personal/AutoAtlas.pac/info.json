@@ -1,0 +1,148 @@
+{
+  "projectPath": "D:\\cocos\\chinared",
+  "actualPlatform": "web-mobile",
+  "mtimes": {
+    "c9e6ec1d-a140-4544-86f0-5ab708e454cc": {
+      "assetMtime": 1643089431653,
+      "metaMtime": 1643167949431
+    },
+    "212194cb-d5cb-49e6-87db-19418dead6a2": {
+      "assetMtime": 1643089431655,
+      "metaMtime": 1643167949561
+    },
+    "e566ed41-9266-4673-9e5b-d5356ba44a13": {
+      "assetMtime": 1643089431655,
+      "metaMtime": 1643167949561
+    },
+    "46380b75-ae9e-4807-b4fb-48176a2a88d8": {
+      "assetMtime": 1643089431654,
+      "metaMtime": 1643167949551
+    },
+    "a0226ddd-53c0-43df-9e8b-ffe1cd3427d3": {
+      "assetMtime": 1643089431654,
+      "metaMtime": 1643167949551
+    },
+    "6f318348-b0de-4d51-af35-a7178f819d5e": {
+      "assetMtime": 1643089431655,
+      "metaMtime": 1643167949559
+    },
+    "9d0cbd8e-a773-474f-bf6f-f78beb8fc0a3": {
+      "assetMtime": 1643089431655,
+      "metaMtime": 1643167949559
+    }
+  },
+  "result": {
+    "name": "AutoAtlas",
+    "width": 512,
+    "height": 512,
+    "ver": "1.2.1",
+    "uuid": "c9e6ec1d-a140-4544-86f0-5ab708e454cc",
+    "maxWidth": 512,
+    "maxHeight": 512,
+    "padding": 2,
+    "allowRotation": true,
+    "forceSquared": false,
+    "powerOfTwo": true,
+    "algorithm": "MaxRects",
+    "format": "png",
+    "quality": 80,
+    "contourBleed": true,
+    "paddingBleed": true,
+    "filterUnused": true,
+    "packable": false,
+    "premultiplyAlpha": false,
+    "filterMode": "bilinear",
+    "platformSettings": {},
+    "subMetas": {},
+    "bleed": 1,
+    "atlases": [
+      {
+        "files": [
+          {
+            "name": "common_18",
+            "uuid": "6f318348-b0de-4d51-af35-a7178f819d5e",
+            "textureUuid": "9d0cbd8e-a773-474f-bf6f-f78beb8fc0a3",
+            "path": "D:\\cocos\\chinared\\temp\\trimImages\\spritesheet_js_1643348137891_image_2.png",
+            "trim": {
+              "x": 3,
+              "y": 3,
+              "width": 64,
+              "height": 67,
+              "rotatedWidth": 67,
+              "rotatedHeight": 64
+            },
+            "rawWidth": 64,
+            "rawHeight": 67,
+            "width": 70,
+            "height": 73,
+            "originalPath": "D:/cocos/chinared/library/imports/9d/9d0cbd8e-a773-474f-bf6f-f78beb8fc0a3.png",
+            "x": 0,
+            "y": 0,
+            "rotated": true,
+            "rotatedWidth": 73,
+            "rotatedHeight": 70
+          },
+          {
+            "name": "button_8",
+            "uuid": "46380b75-ae9e-4807-b4fb-48176a2a88d8",
+            "textureUuid": "a0226ddd-53c0-43df-9e8b-ffe1cd3427d3",
+            "path": "D:\\cocos\\chinared\\temp\\trimImages\\spritesheet_js_1643348137890_image_1.png",
+            "trim": {
+              "x": 3,
+              "y": 73,
+              "width": 165,
+              "height": 60,
+              "rotatedWidth": 60,
+              "rotatedHeight": 165
+            },
+            "rawWidth": 165,
+            "rawHeight": 60,
+            "width": 171,
+            "height": 66,
+            "originalPath": "D:/cocos/chinared/library/imports/a0/a0226ddd-53c0-43df-9e8b-ffe1cd3427d3.png",
+            "x": 0,
+            "y": 70,
+            "rotated": true,
+            "rotatedWidth": 66,
+            "rotatedHeight": 171
+          },
+          {
+            "name": "button_zi_queding",
+            "uuid": "212194cb-d5cb-49e6-87db-19418dead6a2",
+            "textureUuid": "e566ed41-9266-4673-9e5b-d5356ba44a13",
+            "path": "D:\\cocos\\chinared\\temp\\trimImages\\spritesheet_js_1643348137890_image_0.png",
+            "trim": {
+              "x": 69,
+              "y": 73,
+              "width": 52,
+              "height": 27,
+              "rotatedWidth": 27,
+              "rotatedHeight": 52
+            },
+            "rawWidth": 52,
+            "rawHeight": 27,
+            "width": 58,
+            "height": 33,
+            "originalPath": "D:/cocos/chinared/library/imports/e5/e566ed41-9266-4673-9e5b-d5356ba44a13.png",
+            "x": 66,
+            "y": 70,
+            "rotated": true,
+            "rotatedWidth": 33,
+            "rotatedHeight": 58
+          }
+        ],
+        "width": 128,
+        "height": 256,
+        "name": "AutoAtlas-1",
+        "imagePath": "D:\\cocos\\chinared\\temp\\TexturePacker\\build\\native\\assets\\hall\\atlas\\personal\\AutoAtlas.pac\\AutoAtlas-1.png",
+        "compressd": {
+          "suffix": [
+            ".png"
+          ],
+          "imagePathNoExt": "D:\\cocos\\chinared\\temp\\TexturePacker\\build\\native\\assets\\hall\\atlas\\personal\\AutoAtlas.pac\\compressed\\AutoAtlas-1"
+        }
+      }
+    ],
+    "unpackedTextures": []
+  }
+}

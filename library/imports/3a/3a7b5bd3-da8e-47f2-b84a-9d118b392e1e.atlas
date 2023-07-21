@@ -1,0 +1,27 @@
+
+ANIxuanzhong.png
+size: 256,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+flare04_01_a
+  rotate: false
+  xy: 111, 37
+  size: 18, 18
+  orig: 22, 22
+  offset: 2, 2
+  index: -1
+s_03
+  rotate: false
+  xy: 59, 2
+  size: 50, 53
+  orig: 50, 53
+  offset: 0, 0
+  index: -1
+shine
+  rotate: false
+  xy: 2, 2
+  size: 55, 53
+  orig: 55, 53
+  offset: 0, 0
+  index: -1

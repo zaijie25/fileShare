@@ -1,0 +1,1 @@
+{"version":3,"sources":["assets\\hall\\scripts\\framework\\libs\\cryptoTs\\pad\\Padding.ts"],"names":[],"mappings":"","file":"","sourceRoot":"/","sourcesContent":["import { WordArray } from '../lib/WordArray';\r\n\r\nexport interface Padding {\r\n    pad: (data: WordArray, blockSize: number) => void;\r\n\r\n    unpad: (data: WordArray) => void;\r\n}"]}

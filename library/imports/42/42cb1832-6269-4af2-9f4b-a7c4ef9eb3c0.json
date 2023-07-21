@@ -1,0 +1,313 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "dbgx",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "Q2cERYeUku+dICnJlqE1fXRcmRk",
+      "spine": "3.7.94",
+      "width": 340,
+      "height": 220,
+      "images": "./image/",
+      "audio": ""
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "ban",
+        "parent": "root",
+        "x": 1.23,
+        "y": -1.23
+      },
+      {
+        "name": "banlight2",
+        "parent": "ban",
+        "x": -364.65,
+        "y": 7.07
+      },
+      {
+        "name": "xiaozi",
+        "parent": "root",
+        "rotation": 0.08,
+        "x": -440.9,
+        "y": 26.53
+      }
+    ],
+    "slots": [
+      {
+        "name": "ban2",
+        "bone": "banlight2",
+        "attachment": "ban0002"
+      },
+      {
+        "name": "liuguang1/saoguang10002",
+        "bone": "xiaozi",
+        "attachment": "liuguang1/saoguang10014"
+      },
+      {
+        "name": "ddz_xiaozichang",
+        "bone": "root",
+        "attachment": "ddz_xiaozichang"
+      }
+    ],
+    "skins": {
+      "default": {
+        "ban2": {
+          "ban0002": {
+            "width": 340,
+            "height": 220
+          },
+          "ban0003": {
+            "width": 340,
+            "height": 220
+          },
+          "ban0004": {
+            "width": 340,
+            "height": 220
+          },
+          "ban0005": {
+            "width": 340,
+            "height": 220
+          },
+          "ban0006": {
+            "width": 340,
+            "height": 220
+          },
+          "ban0007": {
+            "width": 340,
+            "height": 220
+          },
+          "ban0008": {
+            "width": 340,
+            "height": 220
+          },
+          "ban0009": {
+            "width": 340,
+            "height": 220
+          },
+          "ban0010": {
+            "width": 340,
+            "height": 220
+          },
+          "ban0011": {
+            "width": 340,
+            "height": 220
+          },
+          "ban0012": {
+            "width": 340,
+            "height": 220
+          },
+          "ban0013": {
+            "width": 340,
+            "height": 220
+          }
+        },
+        "ddz_xiaozichang": {
+          "ddz_xiaozichang": {
+            "x": -286.82,
+            "y": 23.1,
+            "width": 157,
+            "height": 59
+          }
+        },
+        "liuguang1/saoguang10002": {
+          "liuguang1/saoguang10002": {
+            "width": 150,
+            "height": 150
+          },
+          "liuguang1/saoguang10003": {
+            "width": 150,
+            "height": 150
+          },
+          "liuguang1/saoguang10004": {
+            "width": 150,
+            "height": 150
+          },
+          "liuguang1/saoguang10005": {
+            "width": 150,
+            "height": 150
+          },
+          "liuguang1/saoguang10006": {
+            "width": 150,
+            "height": 150
+          },
+          "liuguang1/saoguang10007": {
+            "width": 150,
+            "height": 150
+          },
+          "liuguang1/saoguang10008": {
+            "width": 150,
+            "height": 150
+          },
+          "liuguang1/saoguang10009": {
+            "width": 150,
+            "height": 150
+          },
+          "liuguang1/saoguang10010": {
+            "width": 150,
+            "height": 150
+          },
+          "liuguang1/saoguang10011": {
+            "width": 150,
+            "height": 150
+          },
+          "liuguang1/saoguang10012": {
+            "width": 150,
+            "height": 150
+          },
+          "liuguang1/saoguang10013": {
+            "width": 150,
+            "height": 150
+          },
+          "liuguang1/saoguang10014": {
+            "width": 150,
+            "height": 150
+          }
+        }
+      }
+    },
+    "animations": {
+      "idle": {
+        "slots": {
+          "ban2": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "ban0002"
+              },
+              {
+                "time": 0.0667,
+                "name": "ban0003"
+              },
+              {
+                "time": 0.1333,
+                "name": "ban0004"
+              },
+              {
+                "time": 0.2,
+                "name": "ban0005"
+              },
+              {
+                "time": 0.2667,
+                "name": "ban0006"
+              },
+              {
+                "time": 0.3333,
+                "name": "ban0007"
+              },
+              {
+                "time": 0.4,
+                "name": "ban0008"
+              },
+              {
+                "time": 0.4667,
+                "name": "ban0009"
+              },
+              {
+                "time": 0.5333,
+                "name": "ban0010"
+              },
+              {
+                "time": 0.6,
+                "name": "ban0011"
+              },
+              {
+                "time": 0.6667,
+                "name": "ban0012"
+              },
+              {
+                "time": 0.7333,
+                "name": "ban0013"
+              },
+              {
+                "time": 0.8,
+                "name": "ban0013"
+              },
+              {
+                "time": 0.8667,
+                "name": null
+              },
+              {
+                "time": 2,
+                "name": null
+              }
+            ]
+          },
+          "liuguang1/saoguang10002": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "liuguang1/saoguang10002"
+              },
+              {
+                "time": 0.0667,
+                "name": "liuguang1/saoguang10003"
+              },
+              {
+                "time": 0.1333,
+                "name": "liuguang1/saoguang10004"
+              },
+              {
+                "time": 0.2,
+                "name": "liuguang1/saoguang10005"
+              },
+              {
+                "time": 0.2667,
+                "name": "liuguang1/saoguang10006"
+              },
+              {
+                "time": 0.3333,
+                "name": "liuguang1/saoguang10007"
+              },
+              {
+                "time": 0.4,
+                "name": "liuguang1/saoguang10008"
+              },
+              {
+                "time": 0.4667,
+                "name": "liuguang1/saoguang10009"
+              },
+              {
+                "time": 0.5333,
+                "name": "liuguang1/saoguang10010"
+              },
+              {
+                "time": 0.6,
+                "name": "liuguang1/saoguang10011"
+              },
+              {
+                "time": 0.6667,
+                "name": "liuguang1/saoguang10012"
+              },
+              {
+                "time": 0.7333,
+                "name": "liuguang1/saoguang10013"
+              },
+              {
+                "time": 0.8,
+                "name": "liuguang1/saoguang10014"
+              },
+              {
+                "time": 0.8667,
+                "name": "liuguang1/saoguang10014"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\ndbgx.png\nsize: 1024,1024\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nban0002\n  rotate: false\n  xy: 2, 832\n  size: 306, 185\n  orig: 340, 220\n  offset: 20, 30\n  index: -1\nban0003\n  rotate: false\n  xy: 2, 634\n  size: 284, 196\n  orig: 340, 220\n  offset: 40, 19\n  index: -1\nban0004\n  rotate: false\n  xy: 2, 424\n  size: 258, 208\n  orig: 340, 220\n  offset: 63, 7\n  index: -1\nban0005\n  rotate: false\n  xy: 2, 213\n  size: 246, 209\n  orig: 340, 220\n  offset: 86, 6\n  index: -1\nban0006\n  rotate: false\n  xy: 2, 2\n  size: 223, 209\n  orig: 340, 220\n  offset: 109, 6\n  index: -1\nban0007\n  rotate: true\n  xy: 310, 819\n  size: 198, 209\n  orig: 340, 220\n  offset: 134, 6\n  index: -1\nban0008\n  rotate: true\n  xy: 288, 641\n  size: 176, 209\n  orig: 340, 220\n  offset: 156, 6\n  index: -1\nban0009\n  rotate: false\n  xy: 262, 423\n  size: 172, 209\n  orig: 340, 220\n  offset: 160, 6\n  index: -1\nban0010\n  rotate: false\n  xy: 250, 212\n  size: 175, 209\n  orig: 340, 220\n  offset: 157, 6\n  index: -1\nban0011\n  rotate: true\n  xy: 732, 836\n  size: 181, 209\n  orig: 340, 220\n  offset: 151, 6\n  index: -1\nban0012\n  rotate: true\n  xy: 521, 833\n  size: 184, 209\n  orig: 340, 220\n  offset: 148, 6\n  index: -1\nban0013\n  rotate: false\n  xy: 227, 45\n  size: 145, 165\n  orig: 340, 220\n  offset: 147, 50\n  index: -1\nddz_xiaozichang\n  rotate: true\n  xy: 943, 860\n  size: 157, 59\n  orig: 157, 59\n  offset: 0, 0\n  index: -1\nliuguang1/saoguang10002\n  rotate: true\n  xy: 436, 489\n  size: 150, 147\n  orig: 150, 150\n  offset: 0, 0\n  index: -1\nliuguang1/saoguang10003\n  rotate: false\n  xy: 436, 340\n  size: 150, 147\n  orig: 150, 150\n  offset: 0, 0\n  index: -1\nliuguang1/saoguang10004\n  rotate: false\n  xy: 427, 191\n  size: 150, 147\n  orig: 150, 150\n  offset: 0, 0\n  index: -1\nliuguang1/saoguang10005\n  rotate: false\n  xy: 374, 42\n  size: 150, 147\n  orig: 150, 150\n  offset: 0, 0\n  index: -1\nliuguang1/saoguang10006\n  rotate: false\n  xy: 526, 42\n  size: 150, 147\n  orig: 150, 150\n  offset: 0, 0\n  index: -1\nliuguang1/saoguang10007\n  rotate: false\n  xy: 579, 191\n  size: 150, 147\n  orig: 150, 150\n  offset: 0, 0\n  index: -1\nliuguang1/saoguang10008\n  rotate: false\n  xy: 678, 42\n  size: 150, 147\n  orig: 150, 150\n  offset: 0, 0\n  index: -1\nliuguang1/saoguang10009\n  rotate: true\n  xy: 499, 667\n  size: 150, 147\n  orig: 150, 150\n  offset: 0, 0\n  index: -1\nliuguang1/saoguang10010\n  rotate: true\n  xy: 648, 681\n  size: 150, 147\n  orig: 150, 150\n  offset: 0, 0\n  index: -1\nliuguang1/saoguang10011\n  rotate: true\n  xy: 797, 684\n  size: 150, 147\n  orig: 150, 150\n  offset: 0, 0\n  index: -1\nliuguang1/saoguang10012\n  rotate: true\n  xy: 585, 515\n  size: 150, 147\n  orig: 150, 150\n  offset: 0, 0\n  index: -1\nliuguang1/saoguang10013\n  rotate: true\n  xy: 588, 363\n  size: 150, 147\n  orig: 150, 150\n  offset: 0, 0\n  index: -1\nliuguang1/saoguang10014\n  rotate: true\n  xy: 734, 529\n  size: 150, 147\n  orig: 150, 150\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "146911a6-d44e-4238-90a3-73cb91445daf"
+    }
+  ],
+  "textureNames": [
+    "dbgx.png"
+  ],
+  "scale": 1
+}

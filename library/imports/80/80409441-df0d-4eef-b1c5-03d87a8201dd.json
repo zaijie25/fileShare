@@ -1,0 +1,138 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "ANIbobaoloop",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "VUaBAcHWUZshwrGBWeLT6hyBkxM",
+      "spine": "3.7.94",
+      "width": 1559,
+      "height": 720,
+      "images": "./images/",
+      "audio": ""
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "ulie",
+        "parent": "root",
+        "x": -0.85,
+        "y": 24.91,
+        "scaleX": 0.9,
+        "scaleY": 0.9
+      }
+    ],
+    "slots": [
+      {
+        "name": "liu0001",
+        "bone": "ulie",
+        "attachment": "liu0009"
+      }
+    ],
+    "skins": {
+      "default": {
+        "liu0001": {
+          "liu0001": {
+            "width": 150,
+            "height": 180
+          },
+          "liu0002": {
+            "width": 150,
+            "height": 180
+          },
+          "liu0003": {
+            "width": 150,
+            "height": 180
+          },
+          "liu0004": {
+            "width": 150,
+            "height": 180
+          },
+          "liu0005": {
+            "width": 150,
+            "height": 180
+          },
+          "liu0006": {
+            "width": 150,
+            "height": 180
+          },
+          "liu0007": {
+            "width": 150,
+            "height": 180
+          },
+          "liu0008": {
+            "width": 150,
+            "height": 180
+          },
+          "liu0009": {
+            "width": 150,
+            "height": 180
+          }
+        }
+      }
+    },
+    "animations": {
+      "idle": {
+        "slots": {
+          "liu0001": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "liu0001"
+              },
+              {
+                "time": 0.0667,
+                "name": "liu0002"
+              },
+              {
+                "time": 0.1333,
+                "name": "liu0003"
+              },
+              {
+                "time": 0.2,
+                "name": "liu0004"
+              },
+              {
+                "time": 0.2667,
+                "name": "liu0005"
+              },
+              {
+                "time": 0.3333,
+                "name": "liu0006"
+              },
+              {
+                "time": 0.4,
+                "name": "liu0007"
+              },
+              {
+                "time": 0.4667,
+                "name": "liu0008"
+              },
+              {
+                "time": 0.5333,
+                "name": "liu0009"
+              },
+              {
+                "time": 0.6,
+                "name": "liu0001"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\r\nANIbobaoloop.png\r\nsize: 512,512\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nliu0001\r\n  rotate: false\r\n  xy: 148, 336\r\n  size: 143, 168\r\n  orig: 150, 180\r\n  offset: 7, 8\r\n  index: -1\r\nliu0002\r\n  rotate: false\r\n  xy: 293, 172\r\n  size: 142, 163\r\n  orig: 150, 180\r\n  offset: 7, 8\r\n  index: -1\r\nliu0003\r\n  rotate: false\r\n  xy: 165, 2\r\n  size: 139, 162\r\n  orig: 150, 180\r\n  offset: 7, 8\r\n  index: -1\r\nliu0004\r\n  rotate: true\r\n  xy: 2, 10\r\n  size: 146, 161\r\n  orig: 150, 180\r\n  offset: 4, 8\r\n  index: -1\r\nliu0005\r\n  rotate: false\r\n  xy: 147, 166\r\n  size: 144, 164\r\n  orig: 150, 180\r\n  offset: 6, 8\r\n  index: -1\r\nliu0006\r\n  rotate: false\r\n  xy: 293, 337\r\n  size: 142, 167\r\n  orig: 150, 180\r\n  offset: 7, 8\r\n  index: -1\r\nliu0007\r\n  rotate: false\r\n  xy: 2, 332\r\n  size: 144, 172\r\n  orig: 150, 180\r\n  offset: 6, 8\r\n  index: -1\r\nliu0008\r\n  rotate: false\r\n  xy: 2, 158\r\n  size: 143, 172\r\n  orig: 150, 180\r\n  offset: 7, 8\r\n  index: -1\r\nliu0009\r\n  rotate: false\r\n  xy: 306, 7\r\n  size: 142, 163\r\n  orig: 150, 180\r\n  offset: 8, 8\r\n  index: -1\r\n",
+  "textures": [
+    {
+      "__uuid__": "35fe2f5c-5a50-4f01-a6dd-d8333d329d8e"
+    }
+  ],
+  "textureNames": [
+    "ANIbobaoloop.png"
+  ],
+  "scale": 1
+}

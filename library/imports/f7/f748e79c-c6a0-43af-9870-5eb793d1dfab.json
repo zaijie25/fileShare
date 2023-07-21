@@ -1,0 +1,14 @@
+{
+  "__type__": "dragonBones.DragonBonesAtlasAsset",
+  "_name": "duofuduocai_tex",
+  "_objFlags": 0,
+  "_native": "",
+  "_atlasJson": "{\"width\":256,\"height\":512,\"name\":\"duofuduocai\",\"imagePath\":\"duofuduocai_tex.png\",\"SubTexture\":[{\"width\":141,\"y\":162,\"height\":59,\"name\":\"duofuduocai/dfdc_g_leg\",\"x\":1},{\"width\":97,\"y\":273,\"height\":69,\"name\":\"duofuduocai/dfdc_g_body\",\"x\":1},{\"width\":123,\"y\":64,\"height\":95,\"name\":\"duofuduocai/dfdc_g_tou\",\"x\":1},{\"width\":36,\"y\":273,\"height\":62,\"name\":\"duofuduocai/dfdc_g_tf\",\"x\":100},{\"width\":140,\"y\":223,\"height\":48,\"name\":\"duofuduocai/dfdc_b_leg\",\"x\":1},{\"width\":97,\"y\":223,\"height\":69,\"name\":\"duofuduocai/dfdc_b_body\",\"x\":143},{\"width\":119,\"y\":64,\"height\":96,\"name\":\"duofuduocai/dfdc_b_tou\",\"x\":126},{\"width\":48,\"y\":1,\"height\":52,\"name\":\"duofuduocai/dfdc_jinbi\",\"x\":198},{\"width\":195,\"y\":1,\"height\":61,\"name\":\"duofuduocai/dfdc_wenzi\",\"x\":1}]}",
+  "_texture": {
+    "__uuid__": "c081e012-57c6-497c-ab23-b84e8818821b"
+  },
+  "texture": {
+    "__uuid__": "c081e012-57c6-497c-ab23-b84e8818821b"
+  },
+  "_textureAtlasData": null
+}

@@ -1,0 +1,182 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "ANIhupai",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "i3Cec6+SeYlXKXEorhLirgC7da8",
+      "spine": "3.7.94",
+      "width": 1559,
+      "height": 800,
+      "images": "./images/",
+      "audio": ""
+    },
+    "bones": [
+      {
+        "name": "root",
+        "y": -1
+      },
+      {
+        "name": "dian",
+        "parent": "root",
+        "scaleX": 2,
+        "scaleY": 2
+      }
+    ],
+    "slots": [
+      {
+        "name": "shedian10",
+        "bone": "dian",
+        "attachment": "shedian6",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "shedian10": {
+          "shedian3": {
+            "width": 400,
+            "height": 400
+          },
+          "shedian4": {
+            "width": 400,
+            "height": 400
+          },
+          "shedian5": {
+            "width": 400,
+            "height": 400
+          },
+          "shedian6": {
+            "width": 400,
+            "height": 400
+          },
+          "shedian7": {
+            "width": 400,
+            "height": 400
+          },
+          "shedian8": {
+            "width": 400,
+            "height": 400
+          },
+          "shedian9": {
+            "width": 400,
+            "height": 400
+          },
+          "shedian10": {
+            "width": 400,
+            "height": 400
+          },
+          "shedian11": {
+            "width": 400,
+            "height": 400
+          },
+          "shedian12": {
+            "width": 400,
+            "height": 400
+          },
+          "shedian13": {
+            "width": 400,
+            "height": 400
+          },
+          "shedian14": {
+            "width": 400,
+            "height": 400
+          },
+          "shedian15": {
+            "width": 400,
+            "height": 400
+          },
+          "shedian16": {
+            "width": 400,
+            "height": 400
+          },
+          "shedian17": {
+            "width": 400,
+            "height": 400
+          },
+          "shedian18": {
+            "width": 400,
+            "height": 400
+          },
+          "shedian19": {
+            "width": 400,
+            "height": 400
+          },
+          "shedian20": {
+            "width": 400,
+            "height": 400
+          }
+        }
+      }
+    },
+    "animations": {
+      "idle": {
+        "slots": {
+          "shedian10": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "shedian4"
+              },
+              {
+                "time": 0.0667,
+                "name": "shedian6"
+              },
+              {
+                "time": 0.1333,
+                "name": "shedian7"
+              },
+              {
+                "time": 0.2,
+                "name": "shedian9"
+              },
+              {
+                "time": 0.2667,
+                "name": "shedian10"
+              },
+              {
+                "time": 0.3333,
+                "name": "shedian15"
+              },
+              {
+                "time": 0.4,
+                "name": "shedian16"
+              },
+              {
+                "time": 0.4667,
+                "name": "shedian17"
+              },
+              {
+                "time": 0.5333,
+                "name": "shedian18"
+              },
+              {
+                "time": 0.6,
+                "name": "shedian19"
+              },
+              {
+                "time": 0.6667,
+                "name": "shedian20"
+              },
+              {
+                "time": 0.7333,
+                "name": null
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\r\nANIhupai.png\r\nsize: 2048,1024\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nshedian10\r\n  rotate: false\r\n  xy: 2, 178\r\n  size: 190, 399\r\n  orig: 400, 400\r\n  offset: 105, 0\r\n  index: -1\r\nshedian11\r\n  rotate: false\r\n  xy: 2, 579\r\n  size: 194, 399\r\n  orig: 400, 400\r\n  offset: 102, 1\r\n  index: -1\r\nshedian12\r\n  rotate: false\r\n  xy: 412, 606\r\n  size: 214, 372\r\n  orig: 400, 400\r\n  offset: 101, 27\r\n  index: -1\r\nshedian13\r\n  rotate: false\r\n  xy: 198, 602\r\n  size: 212, 376\r\n  orig: 400, 400\r\n  offset: 103, 23\r\n  index: -1\r\nshedian14\r\n  rotate: true\r\n  xy: 628, 620\r\n  size: 178, 376\r\n  orig: 400, 400\r\n  offset: 136, 21\r\n  index: -1\r\nshedian15\r\n  rotate: true\r\n  xy: 1007, 800\r\n  size: 178, 370\r\n  orig: 400, 400\r\n  offset: 134, 21\r\n  index: -1\r\nshedian16\r\n  rotate: true\r\n  xy: 1006, 618\r\n  size: 180, 347\r\n  orig: 400, 400\r\n  offset: 132, 22\r\n  index: -1\r\nshedian17\r\n  rotate: true\r\n  xy: 628, 800\r\n  size: 178, 377\r\n  orig: 400, 400\r\n  offset: 130, 22\r\n  index: -1\r\nshedian18\r\n  rotate: true\r\n  xy: 1379, 828\r\n  size: 150, 373\r\n  orig: 400, 400\r\n  offset: 128, 23\r\n  index: -1\r\nshedian19\r\n  rotate: true\r\n  xy: 1754, 834\r\n  size: 144, 249\r\n  orig: 400, 400\r\n  offset: 127, 26\r\n  index: -1\r\nshedian20\r\n  rotate: false\r\n  xy: 194, 287\r\n  size: 144, 153\r\n  orig: 400, 400\r\n  offset: 126, 27\r\n  index: -1\r\nshedian3\r\n  rotate: true\r\n  xy: 1226, 470\r\n  size: 146, 64\r\n  orig: 400, 400\r\n  offset: 80, 237\r\n  index: -1\r\nshedian4\r\n  rotate: true\r\n  xy: 198, 442\r\n  size: 158, 180\r\n  orig: 400, 400\r\n  offset: 80, 165\r\n  index: -1\r\nshedian5\r\n  rotate: true\r\n  xy: 929, 452\r\n  size: 164, 295\r\n  orig: 400, 400\r\n  offset: 80, 50\r\n  index: -1\r\nshedian6\r\n  rotate: true\r\n  xy: 628, 454\r\n  size: 164, 299\r\n  orig: 400, 400\r\n  offset: 80, 53\r\n  index: -1\r\nshedian7\r\n  rotate: true\r\n  xy: 2, 2\r\n  size: 174, 342\r\n  orig: 400, 400\r\n  offset: 81, 10\r\n  index: -1\r\nshedian8\r\n  rotate: true\r\n  xy: 1379, 658\r\n  size: 168, 352\r\n  orig: 400, 400\r\n  offset: 86, 0\r\n  index: -1\r\nshedian9\r\n  rotate: true\r\n  xy: 1355, 498\r\n  size: 158, 351\r\n  orig: 400, 400\r\n  offset: 95, 0\r\n  index: -1\r\n",
+  "textures": [
+    {
+      "__uuid__": "01a1c9c5-8c50-41c0-ae43-402102bdb345"
+    }
+  ],
+  "textureNames": [
+    "ANIhupai.png"
+  ],
+  "scale": 1
+}

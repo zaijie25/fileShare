@@ -1,0 +1,14 @@
+{
+  "__type__": "dragonBones.DragonBonesAtlasAsset",
+  "_name": "feiqinzousou_tex",
+  "_objFlags": 0,
+  "_native": "",
+  "_atlasJson": "{\"width\":256,\"imagePath\":\"feiqinzousou_tex.png\",\"height\":512,\"name\":\"feiqinzousou\",\"SubTexture\":[{\"width\":244,\"y\":1,\"height\":146,\"name\":\"bdy\",\"x\":1},{\"width\":172,\"y\":149,\"height\":131,\"name\":\"hair_2\",\"x\":1},{\"y\":282,\"frameX\":-3,\"frameHeight\":64,\"frameY\":-3,\"width\":202,\"frameWidth\":209,\"height\":59,\"name\":\"text\",\"x\":1},{\"width\":84,\"y\":343,\"height\":121,\"name\":\"chouma2\",\"x\":1},{\"width\":21,\"y\":180,\"height\":18,\"name\":\"eye\",\"x\":175},{\"width\":44,\"y\":149,\"height\":29,\"name\":\"huahua\",\"x\":175}]}",
+  "_texture": {
+    "__uuid__": "6b7b6b1f-37e8-48ec-96b1-7ad358bd751e"
+  },
+  "texture": {
+    "__uuid__": "6b7b6b1f-37e8-48ec-96b1-7ad358bd751e"
+  },
+  "_textureAtlasData": null
+}

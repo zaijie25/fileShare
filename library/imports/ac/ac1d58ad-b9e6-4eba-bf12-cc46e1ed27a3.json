@@ -1,0 +1,173 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "eff_tex_04.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "anniu01_00000": {
+      "__uuid__": "f16a92b4-01b5-4758-93c2-8a850083f83c"
+    },
+    "anniu01_00001": {
+      "__uuid__": "62b604c0-2b46-4678-a6a9-2471fb193ea4"
+    },
+    "anniu01_00002": {
+      "__uuid__": "434938b3-928f-4422-994c-7b717de5cc1a"
+    },
+    "anniu01_00003": {
+      "__uuid__": "0663e4ea-41fc-4ef2-ad99-669ad9a0122e"
+    },
+    "anniu01_00004": {
+      "__uuid__": "ba4b1b6f-4a88-4dd5-a7e5-e935f64ebdeb"
+    },
+    "anniu01_00005": {
+      "__uuid__": "2a196844-61f4-4e33-b7aa-8f5ea4fbb3f3"
+    },
+    "anniu01_00006": {
+      "__uuid__": "2846ec46-f7ad-40cb-ae85-e462b7ec9167"
+    },
+    "anniu01_00007": {
+      "__uuid__": "9e02ac66-c88f-45d4-8e6f-632d275bd22a"
+    },
+    "anniu01_00008": {
+      "__uuid__": "ad648049-15c3-490c-933c-c9d4e431f7f7"
+    },
+    "anniu01_00009": {
+      "__uuid__": "e2e4ee44-1464-4116-884c-7957433f2fe4"
+    },
+    "diandian_00000": {
+      "__uuid__": "64ce6a51-3796-4bbb-a9a9-90ebb274aeed"
+    },
+    "diandian_00001": {
+      "__uuid__": "a548728d-cf1b-4b94-981e-0a98f3814502"
+    },
+    "diandian_00002": {
+      "__uuid__": "470748f8-7025-4af4-8d63-7c3fac43d82a"
+    },
+    "diandian_00003": {
+      "__uuid__": "13b11de9-664d-4913-b576-65bb4df844b3"
+    },
+    "diandian_00004": {
+      "__uuid__": "ab5bddea-73a6-4085-bb07-e8f3da45fa25"
+    },
+    "diandian_00005": {
+      "__uuid__": "94ee7208-0522-4bd3-88ea-821fd315d330"
+    },
+    "guangci_0015_1": {
+      "__uuid__": "9119a380-a317-4fcb-86ea-e3484073bdf0"
+    },
+    "guanghuan01": {
+      "__uuid__": "3a028428-713b-4b73-908a-3769231cdd1a"
+    },
+    "gxhd_jinbi01": {
+      "__uuid__": "4b6a289a-10f1-4269-a627-cf393d304d95"
+    },
+    "gxhd_jinbi02": {
+      "__uuid__": "b64764c3-505f-4e85-ae0f-d54dabcc141b"
+    },
+    "jiancezhuangtai01": {
+      "__uuid__": "e8dc3a69-0005-48cb-b90f-20d6daa32743"
+    },
+    "mail_t_light_01": {
+      "__uuid__": "9f67ea5d-e38c-49fa-a9a3-b1a571cf5091"
+    },
+    "paihangbangwenzi": {
+      "__uuid__": "92b23b68-9c29-4ddc-836b-34951dfafe03"
+    },
+    "paihangbangwz_00000": {
+      "__uuid__": "43da1fa5-2692-47ae-bc88-6733cecab3e2"
+    },
+    "paihangbangwz_00001": {
+      "__uuid__": "e757f031-753c-4adc-a38c-a366ab773701"
+    },
+    "paihangbangwz_00002": {
+      "__uuid__": "8c847f13-b0f3-4038-b26a-f82e40b75ca2"
+    },
+    "paihangbangwz_00003": {
+      "__uuid__": "6ca72773-b5e5-45df-bfa8-a1d40f8b589b"
+    },
+    "paihangbangwz_00004": {
+      "__uuid__": "a397643e-e144-45d5-a86e-d7e11223c934"
+    },
+    "paihangbangwz_00005": {
+      "__uuid__": "8509faf8-87ba-4aaa-a445-fcf2eb554d97"
+    },
+    "paihangbangwz_00006": {
+      "__uuid__": "bc598431-eb26-47a5-9ae2-34bdb81450d8"
+    },
+    "paihangbangwz_00007": {
+      "__uuid__": "13eb2edf-0714-4419-9f3f-16be60ba08fc"
+    },
+    "quanmingtuiguang01": {
+      "__uuid__": "1cc26d51-8a06-402f-9436-6daca3f4461d"
+    },
+    "quanmingtuiguang01_00000": {
+      "__uuid__": "e44268bf-2e6e-4d80-9c5d-d807386728b5"
+    },
+    "quanmingtuiguang01_00001": {
+      "__uuid__": "24648680-25ed-473a-81ee-8783e1a6e7c0"
+    },
+    "quanmingtuiguang01_00002": {
+      "__uuid__": "e0ad61cd-bc2a-4ad5-86b0-bd46ed111e5e"
+    },
+    "quanmingtuiguang01_00003": {
+      "__uuid__": "728d211d-82de-48ab-9cf4-f389856117f0"
+    },
+    "quanmingtuiguang01_00004": {
+      "__uuid__": "f6d653a9-13f2-4207-ad2f-b47b1a9730db"
+    },
+    "quanmingtuiguang01_00005": {
+      "__uuid__": "792a66e9-7601-434c-a4cb-0ef0f382f524"
+    },
+    "quanmingtuiguang01_00006": {
+      "__uuid__": "fef05b2a-bad9-4fc1-b4a0-8319b3247f4d"
+    },
+    "quanmingtuiguang01_00007": {
+      "__uuid__": "9a9f6a34-bb92-4fd6-86cc-e73da09d18c4"
+    },
+    "tixianwz01": {
+      "__uuid__": "caa90de0-650b-4d74-a0d7-4a8a700e99d6"
+    },
+    "tixianwz_00000": {
+      "__uuid__": "673be89e-1d5f-43a6-b8ff-5566b7df8552"
+    },
+    "tixianwz_00001": {
+      "__uuid__": "b7a5a255-402c-4b83-852d-db73c89ebae3"
+    },
+    "tixianwz_00002": {
+      "__uuid__": "6f70d872-5f60-4bc2-b66e-1c54dd547e07"
+    },
+    "tixianwz_00003": {
+      "__uuid__": "a25174c5-aab9-4698-a33d-19398ac096d8"
+    },
+    "tixianwz_00004": {
+      "__uuid__": "31ea2243-b3b2-45b8-87d9-0d0ec51e8be7"
+    },
+    "tixianwz_00005": {
+      "__uuid__": "b13f4fa2-144f-4cb3-bdc7-c7d1d8f6d521"
+    },
+    "yinhangwenzi": {
+      "__uuid__": "241a00d0-a651-4f64-ba63-08981f7487cf"
+    },
+    "yinhangwenzi_00000": {
+      "__uuid__": "bc71c36d-ba1c-4abe-9ef6-f43f00e5f29a"
+    },
+    "yinhangwenzi_00001": {
+      "__uuid__": "5fc6d3a9-6475-4231-9168-b9c022112284"
+    },
+    "yinhangwenzi_00002": {
+      "__uuid__": "15c85674-f4ac-4946-b45f-72ec9411eff2"
+    },
+    "yinhangwenzi_00003": {
+      "__uuid__": "5c82a8ed-c363-4636-abf9-3054fc774133"
+    },
+    "yinhangwenzi_00004": {
+      "__uuid__": "64117aa5-3b29-4125-87a9-012c804068ad"
+    },
+    "yinhangwenzi_00005": {
+      "__uuid__": "1077a345-169c-4ddf-b075-a7d6ae93c27f"
+    },
+    "zfztwz": {
+      "__uuid__": "a91e9975-2362-4e75-8e07-8dc3c7501b5f"
+    }
+  }
+}

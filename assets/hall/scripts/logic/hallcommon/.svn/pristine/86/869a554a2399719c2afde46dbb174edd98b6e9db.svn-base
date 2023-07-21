@@ -1,0 +1,360 @@
+import ModelBase from "../../../framework/model/ModelBase";
+import { NetAppface } from "../../core/net/hall/NetEvent";
+import { SpreadEvent } from "../../hall/ui/Spread/SpreadEvent";
+import { HallRedSpotType } from "./HallModel";
+
+
+
+
+export default class SpreadModel extends ModelBase {
+    limit: any = 10;
+    private _data: any
+    private _AwardRecordData: any = null
+    private _CommidData: any = null
+    RecordTotal: number;
+    RecordList: any;
+    RecordPage: number = 0;
+    AwardListDetail: any;
+    DetailTotal: number;
+    DetailPage: number;
+    SelfTeamList: any;
+    SelfTeamTotal: any;
+    SelfTeamPage: any;
+    private _url: string
+
+    redFlag = false
+
+    commi_type = -1
+
+    percent_rate = -1
+
+    self_rate = -1
+
+    _rank_type = 1
+
+    public set Rate(rate) //返利比例
+    {
+        this.percent_rate = rate
+    }
+    public get Rate() {
+        return this.percent_rate
+    }
+
+    public set SelfRate(rate) //自营比例
+    {
+        this.self_rate = rate
+    }
+    public get SelfRate() {
+        return this.self_rate
+    }
+
+    public set RankType(type)
+    {
+        this._rank_type = type
+    }
+
+    public get RankType()
+    {
+        return this._rank_type 
+    }
+
+    protected onInit() {
+
+    }
+
+    public get Name() {
+        return "SpreadModel";
+    }
+    public get Data() {
+        return this._data
+    }
+    public get AwardRecordData() {
+
+        return this._AwardRecordData
+    }
+
+    public get CommidData()
+    {
+        return this._CommidData
+    }
+
+
+    //是否是短链接  0 不是 1 是
+    public urlType = 0
+    //是否正在请求shorturl
+    private isReqestingShortUrl;
+    //请求次数
+    private shortUrlRequestTime = 0;
+    //请求间隔
+    private shortUrlRequestInterval = 3;
+    //短链接请求timer
+    private requestTimer: any;
+
+
+    public set Url(url) {
+
+        this._url = url
+    }
+
+    public get Url() {
+        return this._url
+    }
+    public get RedFLag() {
+        return this.redFlag
+    }
+    public set RedFLag(flag) {
+        this.redFlag = flag
+        if (this.redFlag) {
+            Global.Event.event(GlobalEvent.ShowRedSpot, [false, HallRedSpotType.Spread]);
+        }
+    }
+    /**
+     * 0返水 1老推广 2 无限代理
+     */
+    public get commiType() {
+        return this.commi_type
+    }
+    public set commiType(commi_type) {
+        this.commi_type = commi_type
+    }
+
+
+    /**
+     * 请求我的推广
+     * @param url 
+     */
+    public GetAgentShare(url: string) {
+        Global.HallServer.send(NetAppface.mod, NetAppface.GetSelfShare, { share_url: url }, (msg) => {
+            this._data = msg;
+            this.event(SpreadEvent.GetAgentShare, msg)
+           
+
+        }, this.SpreadErronFunc.bind(this), false, 0)
+    }
+    /**
+        * 请求我的推广（无限代）
+         * @param url 
+         */
+    public GetDayAgentShare(url: string) {
+        Global.HallServer.send(NetAppface.mod, NetAppface.GetDayAgentShare, { share_url: url }, (msg) => {
+            this._data = msg;
+            this.event(SpreadEvent.GetDayAgentShare, msg)
+
+        }, this.SpreadErronFunc.bind(this), false, 0)
+    }
+
+    public startRequestShortUrl(url: string) {
+        if (this.isReqestingShortUrl)
+            return;
+        this.isReqestingShortUrl = true;
+        this.shortUrlRequestTime = 0;
+        if (this.urlType == 1) {
+            this.isReqestingShortUrl = false;
+            clearInterval(this.requestTimer)
+            return;
+        }
+        this.requestTimer = setInterval(() => {
+            this.shortUrlRequestTime++;
+            if (this.shortUrlRequestTime >= 3 || this.urlType == 1 ) {
+                clearInterval(this.requestTimer)
+                this.isReqestingShortUrl = false;
+                return;
+            }
+            Global.HallServer.send(NetAppface.mod, NetAppface.GetUserShareUrl, { url: url }, (msg) => {
+                this.Url = msg.url;
+                this.urlType = msg.type;
+                this.event(SpreadEvent.RefreshShortUrl);
+            }, null, false)
+        }, this.shortUrlRequestInterval * 1000)
+
+
+    }
+    
+    public loadShortUrl(url: string) {
+        Global.HallServer.send(NetAppface.mod, NetAppface.GetUserShareUrl, { url: url }, (msg) => {
+            this.Url = msg.url;
+            this.urlType = msg.type;
+            this.event(SpreadEvent.RefreshShortUrl);
+        },  this.loadShortUrlErronFunc.bind(this), false)
+    }
+    private loadShortUrlErronFunc(data: any) {
+        this.event(SpreadEvent.RefreshShortUrl);
+        if (data._errstr != null) {
+            Global.UI.fastTip(data._errstr);
+            return false;
+        }
+        return true;
+    }
+
+    public BindInviteCode(pid: number) {
+        Global.HallServer.send(NetAppface.mod, NetAppface.BindPid, { pid: pid }, (msg) => {
+            this.event(SpreadEvent.BindSucceed, msg)
+        }, this.SpreadErronFunc.bind(this), false, 0)
+    }
+
+    private SpreadErronFunc(data: any) {
+        if (data._errstr != null) {
+            Global.UI.fastTip(data._errstr);
+            return false;
+        }
+        return true;
+    }
+    /**
+     * 请求奖励明细
+     */
+    public GetAwardRecordInfo(page: number, limit: number) {
+        let param = {
+            "page": page,
+            "limit": limit
+        }
+        Global.HallServer.send(NetAppface.mod, NetAppface.GetSendRecord, param, null, this.SpreadErronFunc.bind(this), false, 180)
+    }
+
+    /**
+     * 业绩查询无限代
+     */
+    public GetDayFlowInfoList(page: number, limit: number) {
+        let param = {
+            "page": page,
+            "limit": limit
+        }
+        Global.HallServer.send(NetAppface.mod, NetAppface.GetDayFlowInfoList, param, null, this.SpreadErronFunc.bind(this), false, 180)
+    }
+    /**
+     * 返佣金额表
+     */
+    public GetDayAgentCommi() {
+        
+        Global.HallServer.send(NetAppface.mod, NetAppface.GetDayAgentCommi, {}, (msg) => {
+            this._CommidData = msg
+            this.event(SpreadEvent.GetDayAgentCommi, msg)
+        }, this.SpreadErronFunc.bind(this), true, 0)
+    }
+
+    /**
+     * 请求领奖记录
+     * @param page 
+     * @param limit 
+     */
+    public GetAwardRecord(page: number, limit: number) {
+        let param = {
+            "page": page,
+            "limit": limit
+        }
+        Global.HallServer.send(NetAppface.mod, NetAppface.GetSelfReadRecord, param, (msg) => {
+
+            this._AwardRecordData = msg
+            this.event(SpreadEvent.GetSelfReadRecord, msg)
+        }, this.SpreadErronFunc.bind(this), true, 0)
+    }
+
+    /**
+    * 请求领奖记录无限代
+    * @param page 
+    * @param limit 
+    */
+    public GetDayAgentRecord(page: number, limit: number) {
+        let param = {
+            "page": page,
+            "limit": limit
+        }
+        Global.HallServer.send(NetAppface.mod, NetAppface.GetDayAgentRecord, param, (msg) => {
+
+            this._AwardRecordData = msg
+            this.event(SpreadEvent.GetDayAgentRecord, msg)
+        }, this.SpreadErronFunc.bind(this), true, 0)
+    }
+
+
+    /**
+     * 请求领奖
+     */
+    public ReqGetReward() {
+
+        let param = {
+            "read_type": -1
+        }
+        Global.HallServer.send(NetAppface.mod, NetAppface.GetSelfRead, param, (msg) => {
+            this._data.read_point = 0
+            this._data.read_self_point = 0
+            this.RedFLag = false
+            this.event(SpreadEvent.GetSelfRead, msg)
+        }, this.SpreadErronFunc.bind(this), true, 0)
+    }
+
+    /**
+     * 请求领奖（无限代）
+     */
+    public GetDayAgent() {
+
+        let param = {
+            
+        }
+        Global.HallServer.send(NetAppface.mod, NetAppface.GetDayAgent, param, (msg) => {
+            this.event(SpreadEvent.GetDayAgent, msg)
+        }, this.SpreadErronFunc.bind(this), true, 0)
+    }
+
+    /**
+     * 查询团队信息
+     * @param page 
+     * @param limit 
+     */
+    public ReqGetSelfTeam(page: number, limit: number) {
+
+        let param = {
+            "page": page,
+            "limit": limit
+        }
+        Global.HallServer.send(NetAppface.mod, NetAppface.GetSelfTeam, param, null, this.SpreadErronFunc.bind(this), false, 60);
+    }
+
+    /**
+     * 查询团队信息无限代
+     * @param page 
+     * @param limit 
+     */
+    public GetDayAgentTeamInfo(uid: number, page: number, limit: number) {
+
+        let param = {
+            "user_id": uid,
+            "page": page,
+            "limit": limit
+        }
+        Global.HallServer.send(NetAppface.mod, NetAppface.GetDayAgentTeamInfo, param, null, this.SpreadErronFunc.bind(this), false, 60);
+    }
+
+    /**
+     * 查询下级
+     * @param _id 
+     */
+
+    public ReqSearchSelfTeam(_id: number) {
+        Global.HallServer.send(NetAppface.mod, NetAppface.SeachSelfTeam, { user_id: _id }, null, this.SpreadErronFunc.bind(this), true, 0)
+    }
+
+    CheckRedFlag() {
+        if (this.redFlag) {
+            Global.Event.event(GlobalEvent.ShowRedSpot, [false, HallRedSpotType.Spread]);
+        }
+    }
+
+    /**
+     * 查询下级（无限代）
+     * @param _id 
+     */
+
+    public SeachSelfTeamUser(_id: number) {
+        Global.HallServer.send(NetAppface.mod, NetAppface.SeachSelfTeamUser, { user_id: _id }, null, this.SpreadErronFunc.bind(this), true, 0)
+    }
+
+    public clear()
+    {
+        this.urlType = -1
+        this.Url = null
+        this._AwardRecordData = null
+        this._CommidData = null
+        this._data = null
+
+    }
+}

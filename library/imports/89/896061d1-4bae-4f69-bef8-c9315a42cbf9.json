@@ -1,0 +1,252 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "js",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "K51THIV4zoRdnQb8MRdxOiKg6XM",
+      "spine": "3.7.94",
+      "width": 249.1,
+      "height": 215.05,
+      "images": "../image/",
+      "audio": "D:/Work/斗地主/选场"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "tuhao",
+        "parent": "root"
+      },
+      {
+        "name": "shine",
+        "parent": "tuhao",
+        "x": 0.13,
+        "y": 1.46
+      },
+      {
+        "name": "x",
+        "parent": "tuhao",
+        "x": 20.29,
+        "y": 73.51
+      }
+    ],
+    "slots": [
+      {
+        "name": "05",
+        "bone": "tuhao",
+        "attachment": "06"
+      },
+      {
+        "name": "niu9_bairenniu",
+        "bone": "x",
+        "attachment": "niu9_bairenniu",
+        "blend": "additive"
+      },
+      {
+        "name": "niu9_bairenniu2",
+        "bone": "x",
+        "attachment": "niu9_bairenniu",
+        "blend": "additive"
+      },
+      {
+        "name": "niu9_bairenniu3",
+        "bone": "x",
+        "attachment": "niu9_bairenniu",
+        "blend": "additive"
+      },
+      {
+        "name": "06/shine_00001",
+        "bone": "shine",
+        "attachment": "06/shine_00001",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "05": {
+          "06": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 186,
+            "height": 166
+          }
+        },
+        "06/shine_00001": {
+          "06/shine_00000": {
+            "width": 182,
+            "height": 172
+          },
+          "06/shine_00001": {
+            "width": 182,
+            "height": 172
+          },
+          "06/shine_00002": {
+            "width": 182,
+            "height": 172
+          },
+          "06/shine_00003": {
+            "width": 182,
+            "height": 172
+          },
+          "06/shine_00004": {
+            "width": 182,
+            "height": 172
+          },
+          "06/shine_00005": {
+            "width": 182,
+            "height": 172
+          },
+          "06/shine_00006": {
+            "width": 182,
+            "height": 172
+          }
+        },
+        "niu9_bairenniu": {
+          "niu9_bairenniu": {
+            "width": 114,
+            "height": 114
+          }
+        },
+        "niu9_bairenniu2": {
+          "niu9_bairenniu": {
+            "x": 59.6,
+            "y": -48.79,
+            "scaleX": 0.734,
+            "scaleY": 0.734,
+            "rotation": 47.4,
+            "width": 114,
+            "height": 114
+          }
+        },
+        "niu9_bairenniu3": {
+          "niu9_bairenniu": {
+            "x": -71.22,
+            "y": -41.18,
+            "scaleX": 0.734,
+            "scaleY": 0.734,
+            "rotation": 47.4,
+            "width": 114,
+            "height": 114
+          }
+        }
+      }
+    },
+    "animations": {
+      "idle": {
+        "slots": {
+          "06/shine_00001": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.8667,
+                "name": "06/shine_00000"
+              },
+              {
+                "time": 0.9333,
+                "name": "06/shine_00001"
+              },
+              {
+                "time": 1,
+                "name": "06/shine_00002"
+              },
+              {
+                "time": 1.0667,
+                "name": "06/shine_00003"
+              },
+              {
+                "time": 1.1333,
+                "name": "06/shine_00004"
+              },
+              {
+                "time": 1.2,
+                "name": "06/shine_00005"
+              },
+              {
+                "time": 1.2667,
+                "name": "06/shine_00006"
+              },
+              {
+                "time": 1.3333,
+                "name": null
+              }
+            ]
+          },
+          "niu9_bairenniu": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "niu9_bairenniu2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "niu9_bairenniu3": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1.3333,
+                "color": "ffffff00"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\njs.png\nsize: 1024,256\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\n06\n  rotate: false\n  xy: 2, 88\n  size: 186, 166\n  orig: 186, 166\n  offset: 0, 0\n  index: -1\n06/shine_00000\n  rotate: true\n  xy: 2, 18\n  size: 68, 130\n  orig: 182, 172\n  offset: 1, 39\n  index: -1\n06/shine_00001\n  rotate: true\n  xy: 532, 2\n  size: 99, 141\n  orig: 182, 172\n  offset: 0, 28\n  index: -1\n06/shine_00002\n  rotate: false\n  xy: 532, 103\n  size: 141, 151\n  orig: 182, 172\n  offset: 0, 18\n  index: -1\n06/shine_00003\n  rotate: false\n  xy: 190, 91\n  size: 177, 163\n  orig: 182, 172\n  offset: 2, 5\n  index: -1\n06/shine_00004\n  rotate: false\n  xy: 369, 91\n  size: 161, 163\n  orig: 182, 172\n  offset: 21, 4\n  index: -1\n06/shine_00005\n  rotate: false\n  xy: 675, 101\n  size: 120, 153\n  orig: 182, 172\n  offset: 62, 4\n  index: -1\n06/shine_00006\n  rotate: false\n  xy: 797, 121\n  size: 89, 133\n  orig: 182, 172\n  offset: 93, 5\n  index: -1\nniu9_bairenniu\n  rotate: false\n  xy: 888, 144\n  size: 110, 110\n  orig: 114, 114\n  offset: 2, 2\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "4d549d79-c9b8-44d5-8fac-e64c208d6d54"
+    }
+  ],
+  "textureNames": [
+    "js.png"
+  ],
+  "scale": 1
+}

@@ -1,0 +1,48 @@
+
+ANIhongbaoFX.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+0103piaodai
+  rotate: true
+  xy: 100, 12
+  size: 45, 65
+  orig: 45, 65
+  offset: 0, 0
+  index: -1
+0105piaodai
+  rotate: false
+  xy: 181, 30
+  size: 73, 38
+  orig: 73, 38
+  offset: 0, 0
+  index: -1
+0111piaodai
+  rotate: true
+  xy: 2, 2
+  size: 38, 66
+  orig: 38, 72
+  offset: 0, 3
+  index: -1
+0112piaodai
+  rotate: false
+  xy: 100, 59
+  size: 79, 63
+  orig: 79, 63
+  offset: 0, 0
+  index: -1
+0116piaodai
+  rotate: true
+  xy: 181, 70
+  size: 52, 73
+  orig: 52, 73
+  offset: 0, 0
+  index: -1
+glow05
+  rotate: false
+  xy: 2, 42
+  size: 96, 80
+  orig: 96, 80
+  offset: 0, 0
+  index: -1

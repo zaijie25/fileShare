@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "3959edcb-8472-4bbf-b414-044f042c0edc",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 512,
+  "height": 128,
+  "platformSettings": {},
+  "subMetas": {
+    "ANImeirilottery": {
+      "ver": "1.0.4",
+      "uuid": "a68b748b-615b-4e3f-9229-0a4608311599",
+      "rawTextureUuid": "3959edcb-8472-4bbf-b414-044f042c0edc",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -7,
+      "offsetY": 8,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 494,
+      "height": 108,
+      "rawWidth": 512,
+      "rawHeight": 128,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

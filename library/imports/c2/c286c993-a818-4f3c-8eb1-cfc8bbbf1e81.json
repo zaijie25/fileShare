@@ -1,0 +1,212 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "Anikuang",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "kcCB3xVtzugFlrVJzQuWGXv+Ne0",
+      "spine": "3.7.94",
+      "width": 1559,
+      "height": 720,
+      "images": "./images/",
+      "audio": ""
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "sheine",
+        "parent": "root",
+        "x": 1.32,
+        "y": 26.78,
+        "scaleX": 1.022,
+        "scaleY": 1.025
+      },
+      {
+        "name": "kuang",
+        "parent": "root",
+        "scaleX": 1.756,
+        "scaleY": 1.784
+      },
+      {
+        "name": "kuang2",
+        "parent": "root",
+        "scaleX": 1.723,
+        "scaleY": 1.755
+      }
+    ],
+    "slots": [
+      {
+        "name": "k",
+        "bone": "kuang",
+        "attachment": "k"
+      },
+      {
+        "name": "k2",
+        "bone": "kuang2",
+        "attachment": "k"
+      },
+      {
+        "name": "shine",
+        "bone": "sheine",
+        "attachment": "shine"
+      }
+    ],
+    "skins": {
+      "default": {
+        "k": {
+          "k": {
+            "y": 0.5,
+            "scaleX": 1.104,
+            "scaleY": 1.133,
+            "width": 74,
+            "height": 93
+          }
+        },
+        "k2": {
+          "k": {
+            "y": 0.5,
+            "scaleX": 1.104,
+            "scaleY": 1.133,
+            "width": 74,
+            "height": 93
+          }
+        },
+        "shine": {
+          "shine": {
+            "width": 56,
+            "height": 60
+          }
+        }
+      }
+    },
+    "animations": {
+      "idle": {
+        "slots": {
+          "k": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff79"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffff79"
+              },
+              {
+                "time": 1,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1.3333,
+                "color": "ffffff79"
+              }
+            ]
+          },
+          "k2": {
+            "color": [
+              {
+                "time": 0.1667,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.5,
+                "color": "ffffff00"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "sheine": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              },
+              {
+                "time": 0.3333,
+                "x": 1.175,
+                "y": 1.171
+              },
+              {
+                "time": 0.6667,
+                "x": 1,
+                "y": 1
+              },
+              {
+                "time": 1,
+                "x": 1.175,
+                "y": 1.171
+              },
+              {
+                "time": 1.3333,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "kuang": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              },
+              {
+                "time": 0.3333,
+                "x": 1.09,
+                "y": 1.079
+              },
+              {
+                "time": 0.6667,
+                "x": 1,
+                "y": 1
+              },
+              {
+                "time": 1,
+                "x": 1.09,
+                "y": 1.079
+              },
+              {
+                "time": 1.3333,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "kuang2": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              },
+              {
+                "time": 0.5,
+                "x": 1.3,
+                "y": 1.3
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\r\nAnikuang.png\r\nsize: 256,128\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nk\r\n  rotate: false\r\n  xy: 2, 2\r\n  size: 74, 90\r\n  orig: 74, 93\r\n  offset: 0, 1\r\n  index: -1\r\nshine\r\n  rotate: false\r\n  xy: 78, 32\r\n  size: 56, 60\r\n  orig: 56, 60\r\n  offset: 0, 0\r\n  index: -1\r\n",
+  "textures": [
+    {
+      "__uuid__": "f672d864-862d-4305-a798-4959deba8884"
+    }
+  ],
+  "textureNames": [
+    "Anikuang.png"
+  ],
+  "scale": 1
+}

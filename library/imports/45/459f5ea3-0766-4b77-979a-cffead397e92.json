@@ -1,0 +1,189 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "ANIbtn",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "0XA4ZaQ7GLDOYGlaKjcCrvw0yZQ",
+      "spine": "3.7.94",
+      "width": 160.61,
+      "height": 69,
+      "images": "./images/",
+      "audio": ""
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "ing",
+        "parent": "root",
+        "x": -0.61,
+        "y": 2.9
+      }
+    ],
+    "slots": [
+      {
+        "name": "btn",
+        "bone": "root",
+        "attachment": "btn"
+      },
+      {
+        "name": "liu0001",
+        "bone": "ing",
+        "color": "fffb9587",
+        "attachment": "liu0012",
+        "blend": "additive"
+      },
+      {
+        "name": "qd_02",
+        "bone": "root",
+        "attachment": "text"
+      }
+    ],
+    "skins": {
+      "default": {
+        "btn": {
+          "btn": {
+            "y": 0.5,
+            "width": 160,
+            "height": 69
+          }
+        },
+        "liu0001": {
+          "liu0001": {
+            "width": 160,
+            "height": 60
+          },
+          "liu0002": {
+            "width": 160,
+            "height": 60
+          },
+          "liu0003": {
+            "width": 160,
+            "height": 60
+          },
+          "liu0004": {
+            "width": 160,
+            "height": 60
+          },
+          "liu0005": {
+            "width": 160,
+            "height": 60
+          },
+          "liu0006": {
+            "width": 160,
+            "height": 60
+          },
+          "liu0007": {
+            "width": 160,
+            "height": 60
+          },
+          "liu0008": {
+            "width": 160,
+            "height": 60
+          },
+          "liu0009": {
+            "width": 160,
+            "height": 60
+          },
+          "liu0010": {
+            "width": 160,
+            "height": 60
+          },
+          "liu0011": {
+            "width": 160,
+            "height": 60
+          },
+          "liu0012": {
+            "width": 160,
+            "height": 60
+          }
+        },
+        "qd_02": {
+          "text": {
+            "width": 118,
+            "height": 31
+          }
+        }
+      }
+    },
+    "animations": {
+      "idle": {
+        "slots": {
+          "liu0001": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "liu0001"
+              },
+              {
+                "time": 0.0667,
+                "name": "liu0002"
+              },
+              {
+                "time": 0.1333,
+                "name": "liu0003"
+              },
+              {
+                "time": 0.2,
+                "name": "liu0004"
+              },
+              {
+                "time": 0.2667,
+                "name": "liu0005"
+              },
+              {
+                "time": 0.3333,
+                "name": "liu0006"
+              },
+              {
+                "time": 0.4,
+                "name": "liu0007"
+              },
+              {
+                "time": 0.4667,
+                "name": "liu0008"
+              },
+              {
+                "time": 0.5333,
+                "name": "liu0009"
+              },
+              {
+                "time": 0.6,
+                "name": "liu0010"
+              },
+              {
+                "time": 0.6667,
+                "name": "liu0011"
+              },
+              {
+                "time": 0.7333,
+                "name": "liu0012"
+              },
+              {
+                "time": 0.8333,
+                "name": null
+              },
+              {
+                "time": 1,
+                "name": null
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nANIbtn.png\nsize: 512,256\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nbtn\n  rotate: false\n  xy: 2, 181\n  size: 160, 69\n  orig: 160, 69\n  offset: 0, 0\n  index: -1\nliu0001\n  rotate: true\n  xy: 2, 2\n  size: 20, 59\n  orig: 160, 60\n  offset: 1, 0\n  index: -1\nliu0002\n  rotate: false\n  xy: 86, 86\n  size: 38, 60\n  orig: 160, 60\n  offset: 1, 0\n  index: -1\nliu0003\n  rotate: false\n  xy: 86, 24\n  size: 55, 60\n  orig: 160, 60\n  offset: 1, 0\n  index: -1\nliu0004\n  rotate: false\n  xy: 412, 190\n  size: 73, 60\n  orig: 160, 60\n  offset: 1, 0\n  index: -1\nliu0005\n  rotate: false\n  xy: 164, 190\n  size: 82, 60\n  orig: 160, 60\n  offset: 10, 0\n  index: -1\nliu0006\n  rotate: false\n  xy: 2, 86\n  size: 82, 60\n  orig: 160, 60\n  offset: 27, 0\n  index: -1\nliu0007\n  rotate: false\n  xy: 248, 190\n  size: 82, 60\n  orig: 160, 60\n  offset: 45, 0\n  index: -1\nliu0008\n  rotate: false\n  xy: 2, 24\n  size: 82, 60\n  orig: 160, 60\n  offset: 63, 0\n  index: -1\nliu0009\n  rotate: false\n  xy: 332, 190\n  size: 78, 60\n  orig: 160, 60\n  offset: 80, 0\n  index: -1\nliu0010\n  rotate: false\n  xy: 226, 128\n  size: 60, 60\n  orig: 160, 60\n  offset: 98, 0\n  index: -1\nliu0011\n  rotate: false\n  xy: 288, 128\n  size: 42, 60\n  orig: 160, 60\n  offset: 116, 0\n  index: -1\nliu0012\n  rotate: true\n  xy: 164, 163\n  size: 25, 60\n  orig: 160, 60\n  offset: 133, 0\n  index: -1\ntext\n  rotate: false\n  xy: 2, 148\n  size: 118, 31\n  orig: 118, 31\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "72375f5c-4f7d-437a-88a1-c5ce9ad9d992"
+    }
+  ],
+  "textureNames": [
+    "ANIbtn.png"
+  ],
+  "scale": 1
+}

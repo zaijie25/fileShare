@@ -1,0 +1,30 @@
+<div class="container">
+    <h2>设置</h2>
+    <ui-box-container class="layout vertical left">
+        <div>
+            <ui-prop name="自动展开查找结果" type="boolean" v-value="expand" tooltip="两种不同的结果打印方式，至于效果试试便知"></ui-prop>
+            <ui-prop name="结果精确到节点" type="boolean" v-value="detail" tooltip="引用结果是否精确到预制体或场景中的节点上的组件和属性（有的话）">
+            </ui-prop>
+            <hr />
+            <ui-prop name="查找快捷键" tooltip="在资源管理器中选择资源后按下快捷键即可开始查找资源引用">
+                <ui-select class="flex-1" v-value="hotkey">
+                    <option value="F5">F5</option>
+                    <option value="F6">F6</option>
+                    <option value="F8">F8</option>
+                    <option value="F9">F9</option>
+                    <option value="F10">F10</option>
+                    <option value="F11">F11</option>
+                    <option value="F12">F12</option>
+                    <option value="CmdOrCtrl+F">Cmd/Ctrl + F</option>
+                </ui-select>
+            </ui-prop>
+            <div class="layout horizontal justified">
+                <ui-hint class="tiny top" style="margin-left:10px" position="-288px">一键轻松查找，奥利给！</ui-hint>
+                <ui-hint class="tiny top" style="margin-right:10px" position="-26px">保存后生效</ui-hint>
+            </div>
+        </div>
+        <br>
+        <ui-button class="button blue big" v-disabled="isProcessing" @click="onSaveBtnClick()">保存</ui-button>
+    </ui-box-container>
+    <br>
+</div>

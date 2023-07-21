@@ -1,0 +1,25 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "fangsheguang_xz_002",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 12,
+  "sample": 30,
+  "speed": 1,
+  "wrapMode": "2",
+  "curveData": {
+    "props": {
+      "angle": [
+        {
+          "frame": 0,
+          "value": 0
+        },
+        {
+          "frame": 12,
+          "value": -360
+        }
+      ]
+    }
+  },
+  "events": []
+}

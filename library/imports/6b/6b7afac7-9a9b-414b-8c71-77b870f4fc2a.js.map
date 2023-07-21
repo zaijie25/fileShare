@@ -1,0 +1,1 @@
+{"version":3,"sources":["assets\\hall\\scripts\\framework\\libs\\cryptoTs\\format\\Formatter.ts"],"names":[],"mappings":"","file":"","sourceRoot":"/","sourcesContent":["import { CipherParams } from '../lib/CipherParams';\r\n\r\nexport interface Formatter {\r\n    stringify: (cipherParams: CipherParams) => string;\r\n\r\n    parse: (paramsStr: string) => CipherParams;\r\n}"]}

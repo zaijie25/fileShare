@@ -1,0 +1,367 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "xiazhuStop",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "fVDW85gtZr9BsqPWLKMYEO59ERs",
+      "spine": "3.7.94",
+      "width": 919,
+      "height": 191.01,
+      "images": "./image/",
+      "audio": "D:/SVN_H/00File/73小游戏横板/★UI/B 百家乐/动效/胜利失败/源文件/胜利"
+    },
+    "bones": [
+      {
+        "name": "root",
+        "y": -192.14
+      },
+      {
+        "name": "bone",
+        "parent": "root",
+        "length": 294.82,
+        "rotation": -0.26,
+        "x": -1.63,
+        "y": 52.51
+      },
+      {
+        "name": "bone2",
+        "parent": "bone",
+        "length": 230.79,
+        "rotation": -89.74,
+        "x": 0.76,
+        "y": 178.76
+      },
+      {
+        "name": "bone4",
+        "parent": "bone",
+        "length": 56.52,
+        "rotation": -179.1,
+        "x": -2.07,
+        "y": 143.09
+      },
+      {
+        "name": "light",
+        "parent": "bone",
+        "x": 0.68,
+        "y": 209.72
+      },
+      {
+        "name": "light2",
+        "parent": "bone",
+        "x": 1.25,
+        "y": 84.68
+      },
+      {
+        "name": "shine",
+        "parent": "bone4",
+        "length": 56.52
+      }
+    ],
+    "slots": [
+      {
+        "name": "0119ditu2",
+        "bone": "bone2",
+        "attachment": "0119ditu"
+      },
+      {
+        "name": "0108shengli",
+        "bone": "bone4",
+        "attachment": "0108shengli"
+      },
+      {
+        "name": "0108shengli2",
+        "bone": "shine",
+        "attachment": "0108shengli",
+        "blend": "additive"
+      },
+      {
+        "name": "light",
+        "bone": "light",
+        "attachment": "light"
+      },
+      {
+        "name": "light2",
+        "bone": "light2",
+        "attachment": "light"
+      }
+    ],
+    "skins": {
+      "default": {
+        "0108shengli": {
+          "0108shengli": {
+            "x": -1.78,
+            "y": 2.45,
+            "rotation": -180.64,
+            "width": 399,
+            "height": 102
+          }
+        },
+        "0108shengli2": {
+          "0108shengli": {
+            "x": -1.78,
+            "y": 2.45,
+            "rotation": -180.64,
+            "width": 399,
+            "height": 102
+          }
+        },
+        "0119ditu2": {
+          "0119ditu": {
+            "x": 39.13,
+            "y": 0.07,
+            "rotation": -270,
+            "width": 919,
+            "height": 130
+          }
+        },
+        "light": {
+          "light": {
+            "y": 0.5,
+            "width": 656,
+            "height": 63
+          }
+        },
+        "light2": {
+          "light": {
+            "y": 0.5,
+            "width": 656,
+            "height": 63
+          }
+        }
+      }
+    },
+    "animations": {
+      "idle": {
+        "slots": {
+          "0108shengli": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffffff"
+              }
+            ]
+          },
+          "0108shengli2": {
+            "color": [
+              {
+                "time": 0.5,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.5,
+                "name": "0108shengli"
+              }
+            ]
+          },
+          "light": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.9333,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1.6667,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "light2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.9333,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1.6667,
+                "color": "ffffff00"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "bone2": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.018,
+                "y": 0.003
+              },
+              {
+                "time": 0.1,
+                "x": 0.005,
+                "y": 1
+              },
+              {
+                "time": 0.2,
+                "x": 0.068,
+                "y": 1
+              },
+              {
+                "time": 0.2667,
+                "x": 1.042,
+                "y": 1
+              },
+              {
+                "time": 0.3333,
+                "x": 0.98,
+                "y": 1
+              },
+              {
+                "time": 0.4667,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.5,
+                "x": 1,
+                "y": 1
+              },
+              {
+                "time": 0.5667,
+                "x": 1.1,
+                "y": 1
+              },
+              {
+                "time": 0.6333,
+                "x": 0.92,
+                "y": 1
+              },
+              {
+                "time": 0.7667,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "bone4": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 9.24,
+                "y": 9.24,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "x": 9.24,
+                "y": 9.24
+              },
+              {
+                "time": 0.5,
+                "x": 0.8,
+                "y": 0.8
+              },
+              {
+                "time": 0.6667,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "light": {
+            "translate": [
+              {
+                "time": 0.6667,
+                "x": -124,
+                "y": -0.56
+              },
+              {
+                "time": 1.6667,
+                "x": 87.53,
+                "y": 0.4
+              }
+            ]
+          },
+          "light2": {
+            "translate": [
+              {
+                "time": 0.6667,
+                "x": 87.53,
+                "y": 0.4
+              },
+              {
+                "time": 1.6667,
+                "x": -124,
+                "y": -0.56
+              }
+            ]
+          },
+          "shine": {
+            "scale": [
+              {
+                "time": 0.5,
+                "x": 1,
+                "y": 1
+              },
+              {
+                "time": 0.6667,
+                "x": 2,
+                "y": 2
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\r\nxiazhuStop.png\r\nsize: 1024,512\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\n0108shengli\r\n  rotate: false\r\n  xy: 2, 2\r\n  size: 399, 100\r\n  orig: 399, 102\r\n  offset: 0, 0\r\n  index: -1\r\n0119ditu\r\n  rotate: false\r\n  xy: 2, 169\r\n  size: 919, 130\r\n  orig: 919, 130\r\n  offset: 0, 0\r\n  index: -1\r\nlight\r\n  rotate: false\r\n  xy: 2, 104\r\n  size: 656, 63\r\n  orig: 656, 63\r\n  offset: 0, 0\r\n  index: -1\r\n",
+  "textures": [
+    {
+      "__uuid__": "fd6a3fb8-3312-4bc2-a12e-6291e05dbb77"
+    }
+  ],
+  "textureNames": [
+    "xiazhuStop.png"
+  ],
+  "scale": 1
+}

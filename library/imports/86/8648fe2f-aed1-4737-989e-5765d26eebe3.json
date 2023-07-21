@@ -1,0 +1,129 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "tuoguan",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "FjI3/k+4NlmizXet6LKj6GtVPJo",
+      "spine": "3.7.94",
+      "width": 61,
+      "height": 42,
+      "images": "./image/",
+      "audio": ""
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "UI",
+        "parent": "root"
+      },
+      {
+        "name": "light",
+        "parent": "UI",
+        "x": -6,
+        "y": 0.98,
+        "scaleX": 0.8,
+        "scaleY": 0.8
+      },
+      {
+        "name": "light2",
+        "parent": "UI",
+        "x": 7.49,
+        "y": 0.98,
+        "scaleX": 0.8,
+        "scaleY": 0.8
+      }
+    ],
+    "slots": [
+      {
+        "name": "ddz_tg2",
+        "bone": "UI",
+        "attachment": "ddz_tg2"
+      },
+      {
+        "name": "zhuzi_ye",
+        "bone": "light",
+        "attachment": "zhuzi_ye"
+      },
+      {
+        "name": "zhuzi_ye2",
+        "bone": "light2",
+        "attachment": "zhuzi_ye"
+      }
+    ],
+    "skins": {
+      "default": {
+        "ddz_tg2": {
+          "ddz_tg2": {
+            "x": 0.5,
+            "width": 61,
+            "height": 42
+          }
+        },
+        "zhuzi_ye": {
+          "zhuzi_ye": {
+            "width": 20,
+            "height": 20
+          }
+        },
+        "zhuzi_ye2": {
+          "zhuzi_ye": {
+            "width": 20,
+            "height": 20
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "zhuzi_ye": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "zhuzi_ye2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffffff"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\r\ntuoguan.png\r\nsize: 128,64\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nddz_tg2\r\n  rotate: false\r\n  xy: 2, 20\r\n  size: 61, 42\r\n  orig: 61, 42\r\n  offset: 0, 0\r\n  index: -1\r\nzhuzi_ye\r\n  rotate: false\r\n  xy: 2, 2\r\n  size: 16, 16\r\n  orig: 20, 20\r\n  offset: 2, 2\r\n  index: -1\r\n",
+  "textures": [
+    {
+      "__uuid__": "36e42bbf-d4ca-42d4-b84d-5a2f30164ccd"
+    }
+  ],
+  "textureNames": [
+    "tuoguan.png"
+  ],
+  "scale": 1
+}

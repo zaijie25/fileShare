@@ -1,0 +1,7 @@
+{
+  "__type__": "cc.TextAsset",
+  "_name": "xiazhuStart.atlas",
+  "_objFlags": 0,
+  "_native": "",
+  "text": "\r\nxiazhuStart.png\r\nsize: 1024,512\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\n0108shengli\r\n  rotate: false\r\n  xy: 2, 190\r\n  size: 397, 104\r\n  orig: 397, 106\r\n  offset: 0, 0\r\n  index: -1\r\n0119ditu\r\n  rotate: false\r\n  xy: 2, 361\r\n  size: 919, 130\r\n  orig: 919, 130\r\n  offset: 0, 0\r\n  index: -1\r\nlight\r\n  rotate: false\r\n  xy: 2, 296\r\n  size: 656, 63\r\n  orig: 656, 63\r\n  offset: 0, 0\r\n  index: -1\r\nshine_00001\r\n  rotate: true\r\n  xy: 923, 320\r\n  size: 171, 92\r\n  orig: 393, 92\r\n  offset: 0, 0\r\n  index: -1\r\nshine_00002\r\n  rotate: false\r\n  xy: 664, 173\r\n  size: 207, 92\r\n  orig: 393, 92\r\n  offset: 0, 0\r\n  index: -1\r\nshine_00003\r\n  rotate: false\r\n  xy: 401, 202\r\n  size: 261, 92\r\n  orig: 393, 92\r\n  offset: 0, 0\r\n  index: -1\r\nshine_00004\r\n  rotate: false\r\n  xy: 2, 96\r\n  size: 325, 92\r\n  orig: 393, 92\r\n  offset: 3, 0\r\n  index: -1\r\nshine_00005\r\n  rotate: false\r\n  xy: 2, 2\r\n  size: 321, 92\r\n  orig: 393, 92\r\n  offset: 72, 0\r\n  index: -1\r\nshine_00006\r\n  rotate: false\r\n  xy: 664, 267\r\n  size: 249, 92\r\n  orig: 393, 92\r\n  offset: 144, 0\r\n  index: -1\r\nshine_00007\r\n  rotate: false\r\n  xy: 401, 108\r\n  size: 162, 92\r\n  orig: 393, 92\r\n  offset: 231, 0\r\n  index: -1\r\n"
+}

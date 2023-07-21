@@ -1,0 +1,14 @@
+{
+  "__type__": "dragonBones.DragonBonesAtlasAsset",
+  "_name": "huanlezhizhun_tex",
+  "_objFlags": 0,
+  "_native": "",
+  "_atlasJson": "{\"width\":256,\"imagePath\":\"huanlezhizhun_tex.png\",\"height\":512,\"name\":\"huanlezhizhun\",\"SubTexture\":[{\"width\":143,\"y\":1,\"height\":170,\"name\":\"huanlezhizhun/hlzz_body\",\"x\":1},{\"width\":94,\"y\":364,\"height\":38,\"name\":\"huanlezhizhun/hlzz_piaodai\",\"x\":1},{\"width\":97,\"y\":1,\"height\":63,\"name\":\"huanlezhizhun/hlzz_arm\",\"x\":146},{\"width\":186,\"y\":173,\"height\":128,\"name\":\"huanlezhizhun/hlzz_head\",\"x\":1},{\"width\":76,\"y\":66,\"height\":69,\"name\":\"huanlezhizhun/hlzz_jinbi01\",\"x\":146},{\"width\":47,\"y\":137,\"height\":31,\"name\":\"huanlezhizhun/hlzz_chouma02\",\"x\":146},{\"width\":67,\"y\":364,\"height\":44,\"name\":\"huanlezhizhun/hlzz_chouma01\",\"x\":97},{\"width\":202,\"y\":303,\"height\":59,\"name\":\"huanlezhizhun/hlzz_wenzi\",\"x\":1}]}",
+  "_texture": {
+    "__uuid__": "95cef462-469c-4d85-a219-d2ca40960272"
+  },
+  "texture": {
+    "__uuid__": "95cef462-469c-4d85-a219-d2ca40960272"
+  },
+  "_textureAtlasData": null
+}

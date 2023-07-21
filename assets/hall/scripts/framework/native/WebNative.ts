@@ -1,0 +1,190 @@
+export default class WebNative{
+    private safetyMode:boolean = false;     //web安全模式(开启的话正式环境下开发者窗口会重定向到空白页)
+    private _windowMap:Map<string,Window> = new Map<string,Window>();
+    constructor(){
+        if(!this.safetyMode) return;
+        if(!CC_DEBUG && cc.sys.isBrowser){
+            let isTest = (<any>window).packInfo.test || false;
+            if(!isTest){    //正式环境下不允许F12调试并关闭console.log
+                console.log = ()=>{}    
+                console.error = ()=>{}
+                console.warn = ()=>{}
+                console.info = ()=>{}
+                this.checkDevTools({
+                    opened: function() {    //打开调试后页面重定向至空白页
+                       // console.log("打开F12")
+                        window.location.href = "about:blank"
+                    },
+                    offed: function() {
+                    }
+                })
+            }
+        }
+    }
+
+    setup(){
+        this.faceBookInit();
+    }
+
+    faceBookInit(){         //初始化faceBook sdk
+        (function(d, s, id){
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) {return;}
+            js = d.createElement(s); js.id = id;
+            js.src = "https://connect.facebook.net/en_US/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+            // console.log("FaceBook:初始化",js,fjs)
+        }(document, 'script', 'facebook-jssdk'));
+
+
+        (<any>window).fbAsyncInit = function(){
+            (<any>window).FB.init({
+                appId      : "858850087975908",
+                xfbml      : true,
+                version    : "v8.0"
+            });
+            (<any>window).FB.AppEvents.logPageView();
+        };
+    }
+    
+    /**
+     * 检查faceBook登录状态
+     * @param callBack 
+     */
+    checkFaceBookLoginState(callBack?:Function){
+        (<any>window).FB.getLoginStatus((response) => {
+            if(callBack){
+                callBack(response);
+            }
+        });
+    }
+
+    /**
+     * facebook登录
+     * @param callBack 
+     */
+    faceBookLogin(callBack?:Function){
+        (<any>window).FB.login(function(response) {
+            if(callBack){
+                callBack(response);
+            }
+        });
+    }
+    
+    /**
+     * facebook登出
+     * @param callBack 
+     */
+    faceBookLogout(callBack?:Function){
+        (<any>window).FB.logout(function(response) {
+            // Person is now logged out
+            if(callBack){
+                callBack(response);
+            }
+        });
+    }
+
+    /**
+     * web端复制文本函数
+     * @param text 需要复制的文本内容
+     * @param callBack 
+     */
+    webCopyTextToClipboard(text:string,callBack?:Function){
+        let result = -1;
+        const textString = text.toString();
+
+        let input:HTMLInputElement = document.getElementById("copy_input") as HTMLInputElement;
+        if(!input){
+            input = document.createElement("input");
+            input.id = "copy_input";
+            input.readOnly = true;
+            input.style.position = "absolute";
+            input.style.left = "-10000px";
+            input.style.zIndex = "-1000";
+            document.body.appendChild(input);
+        }
+        input.value = textString;
+        let endIndex = textString.length
+        selectText(input,0,endIndex);
+        if(document.execCommand("copy")){
+            document.execCommand("copy");
+            result = 0;
+        }
+
+        function selectText(textBox:HTMLInputElement,startIndex:number,endIndex:number) {
+            textBox.setSelectionRange(startIndex,endIndex);
+            textBox.focus();
+        }
+
+        if(callBack){
+            callBack({"result":result});
+            document.body.removeChild(input);
+            callBack = null;
+        }
+    }
+
+    /**
+     * 初始化一个外部窗口
+     * @param key 窗口key
+     */
+    initWindow(key:string){
+        if(!key){
+            Logger.error("key is null")
+            return;
+        }
+        this._windowMap.set(key,window.open("","_blank"));
+    }
+
+    //当页签在当前页签时，清空之前所有的外部窗口
+    clearWindowMap(){
+        this._windowMap.clear();
+    }
+
+    /**
+     * ios专用打开外部链接窗口
+     * @param key 窗口key
+     * @param url 重定向url
+     */
+    openWindowByKey(key:string,url:string){
+        if(!key || !url){
+            Logger.error("key or url is null")
+            return;
+        }
+        let win = this._windowMap.get(key);
+      //  console.log("打开外部链接",this._windowMap);
+        if(!win)
+            Logger.error(key,"window is null");
+        else
+            win.location.href = url
+    }
+
+    /**
+     * web防止F12调式(只能阻止正常打开F12方式,如果)
+     * @param options 传入开发者模式打开/关闭回调函数
+     */
+    checkDevTools(options) {
+        const isFF = ~navigator.userAgent.indexOf("Firefox");
+        let toTest = "";
+        if (isFF) {
+           toTest = /./;
+           toTest.toString = function() {
+             options.opened();
+           }
+        } else {
+         toTest = new Image();
+         toTest.__defineGetter__('id', function() {
+             options.opened();
+         });
+        }
+        setInterval(function() {
+           options.offed();
+         //  console.log(toTest);
+           console.clear && console.clear();
+        }, 1000);
+     }
+}
+
+export enum WindowKeyType {
+    GameWin = "GameWin",            //外接游戏
+    RechargeWin = "RechargeWin"     //充值
+}

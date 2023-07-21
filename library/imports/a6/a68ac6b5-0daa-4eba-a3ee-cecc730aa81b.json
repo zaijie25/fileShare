@@ -1,0 +1,250 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "chongzhiAdd",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "E+jgiDwk6FkaiQhUhqjVi0N7r+c",
+      "spine": "3.7.94",
+      "width": 58.07,
+      "height": 65.39,
+      "images": "./images/",
+      "audio": ""
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "fx",
+        "parent": "root"
+      },
+      {
+        "name": "shan",
+        "parent": "root",
+        "rotation": 54.9,
+        "x": 6.84,
+        "y": 13.68
+      },
+      {
+        "name": "shex",
+        "parent": "root",
+        "y": 20.39,
+        "scaleX": 0.7,
+        "scaleY": 0.384
+      }
+    ],
+    "slots": [
+      {
+        "name": "huobi0001",
+        "bone": "fx",
+        "attachment": "huobi0010"
+      },
+      {
+        "name": "lightX",
+        "bone": "shan",
+        "attachment": "lightX"
+      },
+      {
+        "name": "star_bai",
+        "bone": "shex",
+        "color": "f9f570ff",
+        "attachment": "star_bai",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "huobi0001": {
+          "huobi0001": {
+            "width": 50,
+            "height": 50
+          },
+          "huobi0002": {
+            "width": 50,
+            "height": 50
+          },
+          "huobi0003": {
+            "width": 50,
+            "height": 50
+          },
+          "huobi0004": {
+            "width": 50,
+            "height": 50
+          },
+          "huobi0005": {
+            "width": 50,
+            "height": 50
+          },
+          "huobi0006": {
+            "width": 50,
+            "height": 50
+          },
+          "huobi0007": {
+            "width": 50,
+            "height": 50
+          },
+          "huobi0008": {
+            "width": 50,
+            "height": 50
+          },
+          "huobi0009": {
+            "width": 50,
+            "height": 50
+          },
+          "huobi0010": {
+            "width": 50,
+            "height": 50
+          }
+        },
+        "lightX": {
+          "lightX": {
+            "x": 0.5,
+            "width": 39,
+            "height": 36
+          }
+        },
+        "star_bai": {
+          "star_bai": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 43,
+            "height": 41
+          }
+        }
+      }
+    },
+    "animations": {
+      "idle": {
+        "slots": {
+          "huobi0001": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "huobi0001"
+              },
+              {
+                "time": 0.0667,
+                "name": "huobi0002"
+              },
+              {
+                "time": 0.1333,
+                "name": "huobi0003"
+              },
+              {
+                "time": 0.2,
+                "name": "huobi0004"
+              },
+              {
+                "time": 0.2667,
+                "name": "huobi0005"
+              },
+              {
+                "time": 0.3333,
+                "name": "huobi0006"
+              },
+              {
+                "time": 0.4,
+                "name": "huobi0007"
+              },
+              {
+                "time": 0.4667,
+                "name": "huobi0008"
+              },
+              {
+                "time": 0.5333,
+                "name": "huobi0009"
+              },
+              {
+                "time": 0.6,
+                "name": "huobi0010"
+              },
+              {
+                "time": 0.6667,
+                "name": "huobi0001"
+              },
+              {
+                "time": 0.8333,
+                "name": "huobi0001"
+              }
+            ]
+          },
+          "lightX": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.5,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "star_bai": {
+            "color": [
+              {
+                "time": 0,
+                "color": "fff60000"
+              },
+              {
+                "time": 0.2,
+                "color": "fff87973",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.7333,
+                "color": "fff87973"
+              },
+              {
+                "time": 1,
+                "color": "fff60000"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "shex": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              },
+              {
+                "time": 1,
+                "angle": -55.2
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 1,
+                "x": 15.23,
+                "y": -8.64
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\r\nchongzhiAdd.png\r\nsize: 1024,64\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nhuobi0001\r\n  rotate: false\r\n  xy: 2, 2\r\n  size: 47, 50\r\n  orig: 50, 50\r\n  offset: 2, 0\r\n  index: -1\r\nhuobi0002\r\n  rotate: false\r\n  xy: 51, 2\r\n  size: 47, 50\r\n  orig: 50, 50\r\n  offset: 2, 0\r\n  index: -1\r\nhuobi0003\r\n  rotate: false\r\n  xy: 100, 2\r\n  size: 47, 50\r\n  orig: 50, 50\r\n  offset: 2, 0\r\n  index: -1\r\nhuobi0004\r\n  rotate: false\r\n  xy: 149, 2\r\n  size: 47, 50\r\n  orig: 50, 50\r\n  offset: 2, 0\r\n  index: -1\r\nhuobi0005\r\n  rotate: false\r\n  xy: 198, 2\r\n  size: 47, 50\r\n  orig: 50, 50\r\n  offset: 2, 0\r\n  index: -1\r\nhuobi0006\r\n  rotate: false\r\n  xy: 247, 2\r\n  size: 47, 50\r\n  orig: 50, 50\r\n  offset: 2, 0\r\n  index: -1\r\nhuobi0007\r\n  rotate: false\r\n  xy: 296, 2\r\n  size: 47, 50\r\n  orig: 50, 50\r\n  offset: 2, 0\r\n  index: -1\r\nhuobi0008\r\n  rotate: false\r\n  xy: 345, 2\r\n  size: 47, 50\r\n  orig: 50, 50\r\n  offset: 2, 0\r\n  index: -1\r\nhuobi0009\r\n  rotate: false\r\n  xy: 394, 2\r\n  size: 47, 50\r\n  orig: 50, 50\r\n  offset: 2, 0\r\n  index: -1\r\nhuobi0010\r\n  rotate: false\r\n  xy: 443, 2\r\n  size: 47, 50\r\n  orig: 50, 50\r\n  offset: 2, 0\r\n  index: -1\r\nlightX\r\n  rotate: false\r\n  xy: 537, 16\r\n  size: 36, 36\r\n  orig: 39, 36\r\n  offset: 2, 0\r\n  index: -1\r\nstar_bai\r\n  rotate: false\r\n  xy: 492, 11\r\n  size: 43, 41\r\n  orig: 43, 41\r\n  offset: 0, 0\r\n  index: -1\r\n",
+  "textures": [
+    {
+      "__uuid__": "095ab481-57ae-43a9-9a58-5f6fc88dea8f"
+    }
+  ],
+  "textureNames": [
+    "chongzhiAdd.png"
+  ],
+  "scale": 1
+}

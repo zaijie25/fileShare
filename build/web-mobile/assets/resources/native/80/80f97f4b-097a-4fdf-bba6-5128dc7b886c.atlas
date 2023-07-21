@@ -1,0 +1,34 @@
+
+shake.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ban
+  rotate: false
+  xy: 220, 112
+  size: 134, 142
+  orig: 134, 142
+  offset: 0, 0
+  index: -1
+diban
+  rotate: false
+  xy: 2, 2
+  size: 216, 252
+  orig: 218, 253
+  offset: 2, 0
+  index: -1
+wenzi
+  rotate: false
+  xy: 356, 212
+  size: 154, 42
+  orig: 154, 43
+  offset: 0, 0
+  index: -1
+zhuan
+  rotate: false
+  xy: 220, 50
+  size: 61, 60
+  orig: 61, 60
+  offset: 0, 0
+  index: -1

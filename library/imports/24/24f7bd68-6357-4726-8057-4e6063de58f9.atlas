@@ -1,0 +1,230 @@
+
+zhuanpan_zuanshi.png
+size: 1145,301
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+a
+  rotate: false
+  xy: 2, 8
+  size: 336, 291
+  orig: 338, 293
+  offset: 1, 1
+  index: -1
+b
+  rotate: false
+  xy: 340, 10
+  size: 334, 289
+  orig: 336, 291
+  offset: 1, 1
+  index: -1
+c
+  rotate: true
+  xy: 1122, 147
+  size: 22, 21
+  orig: 26, 25
+  offset: 2, 2
+  index: -1
+d
+  rotate: true
+  xy: 1030, 84
+  size: 24, 23
+  orig: 26, 25
+  offset: 1, 1
+  index: -1
+left
+  rotate: false
+  xy: 676, 89
+  size: 74, 210
+  orig: 79, 214
+  offset: 2, 2
+  index: -1
+right
+  rotate: false
+  xy: 752, 89
+  size: 74, 210
+  orig: 79, 214
+  offset: 3, 2
+  index: -1
+ring
+  rotate: true
+  xy: 828, 201
+  size: 98, 58
+  orig: 103, 63
+  offset: 2, 4
+  index: -1
+sao_00
+  rotate: false
+  xy: 943, 6
+  size: 31, 69
+  orig: 37, 76
+  offset: 1, 3
+  index: -1
+sao_01
+  rotate: false
+  xy: 780, 7
+  size: 41, 80
+  orig: 46, 84
+  offset: 1, 1
+  index: -1
+sao_02
+  rotate: false
+  xy: 676, 2
+  size: 50, 85
+  orig: 55, 89
+  offset: 1, 1
+  index: -1
+sao_03
+  rotate: true
+  xy: 1037, 171
+  size: 59, 89
+  orig: 64, 92
+  offset: 1, 1
+  index: -1
+sao_04
+  rotate: false
+  xy: 968, 208
+  size: 67, 91
+  orig: 72, 94
+  offset: 1, 1
+  index: -1
+sao_05
+  rotate: false
+  xy: 866, 13
+  size: 75, 92
+  orig: 79, 94
+  offset: 1, 1
+  index: -1
+sao_06
+  rotate: false
+  xy: 828, 107
+  size: 78, 92
+  orig: 84, 94
+  offset: 3, 1
+  index: -1
+sao_07
+  rotate: false
+  xy: 888, 207
+  size: 78, 92
+  orig: 84, 94
+  offset: 3, 1
+  index: -1
+sao_08
+  rotate: false
+  xy: 908, 113
+  size: 75, 92
+  orig: 79, 94
+  offset: 3, 1
+  index: -1
+sao_09
+  rotate: true
+  xy: 1037, 232
+  size: 67, 91
+  orig: 72, 94
+  offset: 4, 2
+  index: -1
+sao_10
+  rotate: true
+  xy: 1031, 110
+  size: 59, 89
+  orig: 64, 92
+  offset: 4, 2
+  index: -1
+sao_11
+  rotate: false
+  xy: 728, 2
+  size: 50, 85
+  orig: 55, 89
+  offset: 4, 3
+  index: -1
+sao_12
+  rotate: false
+  xy: 823, 7
+  size: 41, 80
+  orig: 46, 84
+  offset: 4, 3
+  index: -1
+sao_13
+  rotate: false
+  xy: 976, 6
+  size: 31, 69
+  orig: 37, 76
+  offset: 5, 4
+  index: -1
+star01
+  rotate: false
+  xy: 985, 84
+  size: 43, 38
+  orig: 57, 50
+  offset: 6, 6
+  index: -1
+star02
+  rotate: true
+  xy: 1064, 67
+  size: 41, 42
+  orig: 51, 51
+  offset: 4, 5
+  index: -1
+star03
+  rotate: false
+  xy: 943, 77
+  size: 36, 34
+  orig: 46, 41
+  offset: 6, 6
+  index: -1
+star04
+  rotate: true
+  xy: 1009, 22
+  size: 60, 53
+  orig: 73, 63
+  offset: 6, 5
+  index: -1
+star05
+  rotate: false
+  xy: 985, 124
+  size: 44, 39
+  orig: 57, 49
+  offset: 6, 5
+  index: -1
+star06
+  rotate: false
+  xy: 985, 165
+  size: 44, 41
+  orig: 67, 51
+  offset: 17, 4
+  index: -1
+star07
+  rotate: true
+  xy: 1094, 8
+  size: 30, 27
+  orig: 36, 32
+  offset: 5, 4
+  index: -1
+star08
+  rotate: false
+  xy: 1108, 50
+  size: 32, 28
+  orig: 35, 33
+  offset: 1, 4
+  index: -1
+star09
+  rotate: true
+  xy: 1064, 7
+  size: 31, 28
+  orig: 41, 40
+  offset: 7, 8
+  index: -1
+star10
+  rotate: false
+  xy: 1064, 40
+  size: 32, 25
+  orig: 40, 34
+  offset: 5, 5
+  index: -1
+star11
+  rotate: false
+  xy: 1108, 80
+  size: 32, 28
+  orig: 48, 47
+  offset: 10, 4
+  index: -1

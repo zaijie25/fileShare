@@ -1,0 +1,121 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "ANIvipsmall",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "P3ABWQ/hVBjcN0MhuvVfTUXg2MY",
+      "spine": "3.7.94",
+      "width": 70,
+      "height": 25,
+      "images": "../跑马灯框/images/",
+      "audio": "D:/arts/00File/001子游戏/通用子游戏动效02/跑马灯框"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "vip",
+        "parent": "root"
+      }
+    ],
+    "slots": [
+      {
+        "name": "logo_00000",
+        "bone": "vip",
+        "attachment": "logo_00005",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "logo_00000": {
+          "logo_00000": {
+            "y": 0.5,
+            "width": 70,
+            "height": 25
+          },
+          "logo_00001": {
+            "y": 0.5,
+            "width": 70,
+            "height": 25
+          },
+          "logo_00002": {
+            "y": 0.5,
+            "width": 70,
+            "height": 25
+          },
+          "logo_00003": {
+            "y": 0.5,
+            "width": 70,
+            "height": 25
+          },
+          "logo_00004": {
+            "y": 0.5,
+            "width": 70,
+            "height": 25
+          },
+          "logo_00005": {
+            "y": 0.5,
+            "width": 70,
+            "height": 25
+          }
+        }
+      }
+    },
+    "animations": {
+      "idle": {
+        "slots": {
+          "logo_00000": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "logo_00000"
+              },
+              {
+                "time": 0.0667,
+                "name": "logo_00001"
+              },
+              {
+                "time": 0.1333,
+                "name": "logo_00002"
+              },
+              {
+                "time": 0.2,
+                "name": "logo_00003"
+              },
+              {
+                "time": 0.3,
+                "name": "logo_00004"
+              },
+              {
+                "time": 0.4,
+                "name": "logo_00005"
+              },
+              {
+                "time": 0.5,
+                "name": null
+              },
+              {
+                "time": 0.6333,
+                "name": null
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\r\nANIvipsmall.png\r\nsize: 256,32\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nlogo_00000\r\n  rotate: false\r\n  xy: 209, 10\r\n  size: 10, 15\r\n  orig: 70, 25\r\n  offset: 3, 8\r\n  index: -1\r\nlogo_00001\r\n  rotate: false\r\n  xy: 192, 5\r\n  size: 15, 20\r\n  orig: 70, 25\r\n  offset: 3, 3\r\n  index: -1\r\nlogo_00002\r\n  rotate: false\r\n  xy: 164, 3\r\n  size: 26, 22\r\n  orig: 70, 25\r\n  offset: 3, 1\r\n  index: -1\r\nlogo_00003\r\n  rotate: false\r\n  xy: 117, 3\r\n  size: 45, 22\r\n  orig: 70, 25\r\n  offset: 3, 1\r\n  index: -1\r\nlogo_00004\r\n  rotate: false\r\n  xy: 2, 2\r\n  size: 64, 23\r\n  orig: 70, 25\r\n  offset: 3, 1\r\n  index: -1\r\nlogo_00005\r\n  rotate: false\r\n  xy: 68, 2\r\n  size: 47, 23\r\n  orig: 70, 25\r\n  offset: 20, 1\r\n  index: -1\r\n",
+  "textures": [
+    {
+      "__uuid__": "0e9eca41-c662-4636-be10-16bdec7cd55d"
+    }
+  ],
+  "textureNames": [
+    "ANIvipsmall.png"
+  ],
+  "scale": 1
+}

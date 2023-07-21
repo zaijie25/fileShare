@@ -1,0 +1,104 @@
+
+duofu.png
+size: 446,142
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 2, 40
+  size: 154, 100
+  orig: 154, 100
+  offset: 0, 0
+  index: -1
+cai
+  rotate: true
+  xy: 275, 20
+  size: 54, 58
+  orig: 54, 58
+  offset: 0, 0
+  index: -1
+coin
+  rotate: false
+  xy: 129, 2
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 335, 48
+  size: 95, 92
+  orig: 95, 92
+  offset: 0, 0
+  index: -1
+jinbi
+  rotate: false
+  xy: 408, 3
+  size: 32, 17
+  orig: 32, 17
+  offset: 0, 0
+  index: -1
+maozi
+  rotate: false
+  xy: 195, 2
+  size: 78, 72
+  orig: 78, 72
+  offset: 0, 0
+  index: -1
+star
+  rotate: false
+  xy: 335, 6
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+wenzi
+  rotate: false
+  xy: 158, 76
+  size: 175, 64
+  orig: 175, 64
+  offset: 0, 0
+  index: -1
+yaodai
+  rotate: false
+  xy: 2, 9
+  size: 76, 29
+  orig: 76, 29
+  offset: 0, 0
+  index: -1
+you
+  rotate: false
+  xy: 80, 9
+  size: 47, 29
+  orig: 47, 29
+  offset: 0, 0
+  index: -1
+youshou
+  rotate: false
+  xy: 158, 43
+  size: 35, 31
+  orig: 35, 31
+  offset: 0, 0
+  index: -1
+yuanbao
+  rotate: true
+  xy: 167, 4
+  size: 37, 26
+  orig: 37, 26
+  offset: 0, 0
+  index: -1
+zuo
+  rotate: true
+  xy: 377, 15
+  size: 31, 29
+  orig: 31, 29
+  offset: 0, 0
+  index: -1
+zuoshou
+  rotate: false
+  xy: 408, 22
+  size: 36, 24
+  orig: 36, 24
+  offset: 0, 0
+  index: -1

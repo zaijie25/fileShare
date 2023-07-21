@@ -1,0 +1,27 @@
+
+ANIbuzhuicon.png
+size: 256,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+0103piaodai
+  rotate: false
+  xy: 76, 24
+  size: 64, 35
+  orig: 64, 35
+  offset: 0, 0
+  index: -1
+0111piaodai
+  rotate: true
+  xy: 2, 21
+  size: 38, 72
+  orig: 38, 72
+  offset: 0, 0
+  index: -1
+jb
+  rotate: false
+  xy: 2, 2
+  size: 19, 17
+  orig: 21, 19
+  offset: 1, 1
+  index: -1

@@ -1,0 +1,367 @@
+{
+  "projectPath": "D:\\cocos\\chinared",
+  "actualPlatform": "web-mobile",
+  "mtimes": {
+    "a1d50e47-5bf3-4757-9b47-3f0bc741a77d": {
+      "assetMtime": 1643089432972,
+      "metaMtime": 1643167973291
+    },
+    "0a242659-f39a-4461-a42a-796ab26a6841": {
+      "assetMtime": 1643089432970,
+      "metaMtime": 1643167973254
+    },
+    "ae97f9fb-72cf-45c4-93ce-a0ee92ec5eff": {
+      "assetMtime": 1643089432970,
+      "metaMtime": 1643167973254
+    },
+    "26c5c503-b840-4896-b24d-8321d99727e3": {
+      "assetMtime": 1643089432973,
+      "metaMtime": 1643167973294
+    },
+    "18fbf032-dd7c-4b61-a755-5aff02c2fb58": {
+      "assetMtime": 1643089432973,
+      "metaMtime": 1643167973294
+    },
+    "310f37dc-44a3-44a8-a018-7fcbe7c1d35e": {
+      "assetMtime": 1643089432970,
+      "metaMtime": 1643167973240
+    },
+    "8a2d3a9f-800e-4b89-a831-fcc6416dec63": {
+      "assetMtime": 1643089432970,
+      "metaMtime": 1643167973240
+    },
+    "38d64c27-ee1b-43dc-a8a2-ee2c2758d50b": {
+      "assetMtime": 1643089432972,
+      "metaMtime": 1643167973278
+    },
+    "640fd503-4b1b-46e4-8135-c88c1a16bfef": {
+      "assetMtime": 1643089432972,
+      "metaMtime": 1643167973278
+    },
+    "a4112504-68bd-4806-ab02-4a002934a6ed": {
+      "assetMtime": 1643089432971,
+      "metaMtime": 1643167973256
+    },
+    "77f50aae-1c6b-439c-b6a1-c99d548fd2ba": {
+      "assetMtime": 1643089432971,
+      "metaMtime": 1643167973256
+    },
+    "a5d6150d-4cd9-45be-8877-387ec9bccbe0": {
+      "assetMtime": 1643089432972,
+      "metaMtime": 1643167973279
+    },
+    "984e193f-36ed-4707-b084-96aefd72dab6": {
+      "assetMtime": 1643089432972,
+      "metaMtime": 1643167973279
+    },
+    "b0c1c5d5-04b2-4a1f-a5ef-ab3bed87914e": {
+      "assetMtime": 1643089432971,
+      "metaMtime": 1643167973267
+    },
+    "00c15f09-8aed-4580-a180-c22646954b79": {
+      "assetMtime": 1643089432971,
+      "metaMtime": 1643167973267
+    },
+    "b2d30423-54a4-4bdd-9a92-f39995d3d02c": {
+      "assetMtime": 1643089432971,
+      "metaMtime": 1643167973266
+    },
+    "19365023-e56b-405b-92ff-a4a04d1dfd85": {
+      "assetMtime": 1643089432971,
+      "metaMtime": 1643167973266
+    },
+    "d6a96c3b-9012-4e24-98a8-e04957694304": {
+      "assetMtime": 1643089432969,
+      "metaMtime": 1643167973242
+    },
+    "6c89418b-d454-43a8-87a2-206d46649e2e": {
+      "assetMtime": 1643089432969,
+      "metaMtime": 1643167973242
+    },
+    "ebb7a916-8a55-4ebe-93f2-3bd71c4c4bb5": {
+      "assetMtime": 1643089432973,
+      "metaMtime": 1643167973289
+    },
+    "b877718d-6fc6-4c09-98ba-d88c60b07105": {
+      "assetMtime": 1643089432973,
+      "metaMtime": 1643167973289
+    }
+  },
+  "result": {
+    "name": "wifiAtlas",
+    "width": 1024,
+    "height": 1024,
+    "ver": "1.2.1",
+    "uuid": "a1d50e47-5bf3-4757-9b47-3f0bc741a77d",
+    "maxWidth": 1024,
+    "maxHeight": 1024,
+    "padding": 2,
+    "allowRotation": true,
+    "forceSquared": false,
+    "powerOfTwo": true,
+    "algorithm": "MaxRects",
+    "format": "png",
+    "quality": 80,
+    "contourBleed": true,
+    "paddingBleed": true,
+    "filterUnused": true,
+    "packable": false,
+    "premultiplyAlpha": false,
+    "filterMode": "bilinear",
+    "platformSettings": {},
+    "subMetas": {},
+    "bleed": 1,
+    "atlases": [
+      {
+        "files": [
+          {
+            "name": "qznn_dc_00",
+            "uuid": "b0c1c5d5-04b2-4a1f-a5ef-ab3bed87914e",
+            "textureUuid": "00c15f09-8aed-4580-a180-c22646954b79",
+            "path": "D:\\cocos\\chinared\\temp\\trimImages\\spritesheet_js_1643348157742_image_6.png",
+            "trim": {
+              "x": 3,
+              "y": 3,
+              "width": 137,
+              "height": 148,
+              "rotatedWidth": 148,
+              "rotatedHeight": 137
+            },
+            "rawWidth": 137,
+            "rawHeight": 148,
+            "width": 143,
+            "height": 154,
+            "originalPath": "D:/cocos/chinared/library/imports/00/00c15f09-8aed-4580-a180-c22646954b79.png",
+            "x": 0,
+            "y": 0,
+            "rotated": true,
+            "rotatedWidth": 154,
+            "rotatedHeight": 143
+          },
+          {
+            "name": "piaozi_kuang",
+            "uuid": "b2d30423-54a4-4bdd-9a92-f39995d3d02c",
+            "textureUuid": "19365023-e56b-405b-92ff-a4a04d1dfd85",
+            "path": "D:\\cocos\\chinared\\temp\\trimImages\\spritesheet_js_1643348157742_image_7.png",
+            "trim": {
+              "x": 3,
+              "y": 146,
+              "width": 133,
+              "height": 60,
+              "rotatedWidth": 60,
+              "rotatedHeight": 133
+            },
+            "rawWidth": 133,
+            "rawHeight": 60,
+            "width": 139,
+            "height": 66,
+            "originalPath": "D:/cocos/chinared/library/imports/19/19365023-e56b-405b-92ff-a4a04d1dfd85.png",
+            "x": 0,
+            "y": 143,
+            "rotated": true,
+            "rotatedWidth": 66,
+            "rotatedHeight": 139
+          },
+          {
+            "name": "btn_01",
+            "uuid": "0a242659-f39a-4461-a42a-796ab26a6841",
+            "textureUuid": "ae97f9fb-72cf-45c4-93ce-a0ee92ec5eff",
+            "path": "D:\\cocos\\chinared\\temp\\trimImages\\spritesheet_js_1643348157741_image_0.png",
+            "trim": {
+              "x": 157,
+              "y": 3,
+              "width": 88,
+              "height": 79,
+              "rotatedWidth": 88,
+              "rotatedHeight": 79
+            },
+            "rawWidth": 88,
+            "rawHeight": 79,
+            "width": 94,
+            "height": 85,
+            "originalPath": "D:/cocos/chinared/library/imports/ae/ae97f9fb-72cf-45c4-93ce-a0ee92ec5eff.png",
+            "x": 154,
+            "y": 0,
+            "rotatedWidth": 94,
+            "rotatedHeight": 85
+          },
+          {
+            "name": "btn_01_1",
+            "uuid": "310f37dc-44a3-44a8-a018-7fcbe7c1d35e",
+            "textureUuid": "8a2d3a9f-800e-4b89-a831-fcc6416dec63",
+            "path": "D:\\cocos\\chinared\\temp\\trimImages\\spritesheet_js_1643348157741_image_2.png",
+            "trim": {
+              "x": 157,
+              "y": 88,
+              "width": 85,
+              "height": 55,
+              "rotatedWidth": 85,
+              "rotatedHeight": 55
+            },
+            "rawWidth": 85,
+            "rawHeight": 55,
+            "width": 91,
+            "height": 61,
+            "originalPath": "D:/cocos/chinared/library/imports/8a/8a2d3a9f-800e-4b89-a831-fcc6416dec63.png",
+            "x": 154,
+            "y": 85,
+            "rotatedWidth": 91,
+            "rotatedHeight": 61
+          },
+          {
+            "name": "num_task_0",
+            "uuid": "d6a96c3b-9012-4e24-98a8-e04957694304",
+            "textureUuid": "6c89418b-d454-43a8-87a2-206d46649e2e",
+            "path": "D:\\cocos\\chinared\\temp\\trimImages\\spritesheet_js_1643348157742_image_8.png",
+            "trim": {
+              "x": 69,
+              "y": 149,
+              "width": 119,
+              "height": 49,
+              "rotatedWidth": 49,
+              "rotatedHeight": 119
+            },
+            "rawWidth": 128,
+            "rawHeight": 128,
+            "width": 125,
+            "height": 55,
+            "originalPath": "D:/cocos/chinared/library/imports/6c/6c89418b-d454-43a8-87a2-206d46649e2e.png",
+            "x": 66,
+            "y": 146,
+            "rotated": true,
+            "rotatedWidth": 55,
+            "rotatedHeight": 125
+          },
+          {
+            "name": "difenk",
+            "uuid": "a4112504-68bd-4806-ab02-4a002934a6ed",
+            "textureUuid": "77f50aae-1c6b-439c-b6a1-c99d548fd2ba",
+            "path": "D:\\cocos\\chinared\\temp\\trimImages\\spritesheet_js_1643348157741_image_4.png",
+            "trim": {
+              "x": 124,
+              "y": 146,
+              "width": 100,
+              "height": 24,
+              "rotatedWidth": 24,
+              "rotatedHeight": 100
+            },
+            "rawWidth": 100,
+            "rawHeight": 24,
+            "width": 106,
+            "height": 30,
+            "originalPath": "D:/cocos/chinared/library/imports/77/77f50aae-1c6b-439c-b6a1-c99d548fd2ba.png",
+            "x": 121,
+            "y": 143,
+            "rotated": true,
+            "rotatedWidth": 30,
+            "rotatedHeight": 106
+          },
+          {
+            "name": "wifi_04",
+            "uuid": "26c5c503-b840-4896-b24d-8321d99727e3",
+            "textureUuid": "18fbf032-dd7c-4b61-a755-5aff02c2fb58",
+            "path": "D:\\cocos\\chinared\\temp\\trimImages\\spritesheet_js_1643348157741_image_1.png",
+            "trim": {
+              "x": 154,
+              "y": 149,
+              "width": 44,
+              "height": 38,
+              "rotatedWidth": 44,
+              "rotatedHeight": 38
+            },
+            "rawWidth": 44,
+            "rawHeight": 38,
+            "width": 50,
+            "height": 44,
+            "originalPath": "D:/cocos/chinared/library/imports/18/18fbf032-dd7c-4b61-a755-5aff02c2fb58.png",
+            "x": 151,
+            "y": 146,
+            "rotatedWidth": 50,
+            "rotatedHeight": 44
+          },
+          {
+            "name": "wifi_01",
+            "uuid": "38d64c27-ee1b-43dc-a8a2-ee2c2758d50b",
+            "textureUuid": "640fd503-4b1b-46e4-8135-c88c1a16bfef",
+            "path": "D:\\cocos\\chinared\\temp\\trimImages\\spritesheet_js_1643348157741_image_3.png",
+            "trim": {
+              "x": 204,
+              "y": 149,
+              "width": 44,
+              "height": 38,
+              "rotatedWidth": 44,
+              "rotatedHeight": 38
+            },
+            "rawWidth": 44,
+            "rawHeight": 38,
+            "width": 50,
+            "height": 44,
+            "originalPath": "D:/cocos/chinared/library/imports/64/640fd503-4b1b-46e4-8135-c88c1a16bfef.png",
+            "x": 201,
+            "y": 146,
+            "rotatedWidth": 50,
+            "rotatedHeight": 44
+          },
+          {
+            "name": "wifi_02",
+            "uuid": "a5d6150d-4cd9-45be-8877-387ec9bccbe0",
+            "textureUuid": "984e193f-36ed-4707-b084-96aefd72dab6",
+            "path": "D:\\cocos\\chinared\\temp\\trimImages\\spritesheet_js_1643348157742_image_5.png",
+            "trim": {
+              "x": 154,
+              "y": 193,
+              "width": 44,
+              "height": 38,
+              "rotatedWidth": 38,
+              "rotatedHeight": 44
+            },
+            "rawWidth": 49,
+            "rawHeight": 43,
+            "width": 50,
+            "height": 44,
+            "originalPath": "D:/cocos/chinared/library/imports/98/984e193f-36ed-4707-b084-96aefd72dab6.png",
+            "x": 151,
+            "y": 190,
+            "rotated": true,
+            "rotatedWidth": 44,
+            "rotatedHeight": 50
+          },
+          {
+            "name": "wifi_03",
+            "uuid": "ebb7a916-8a55-4ebe-93f2-3bd71c4c4bb5",
+            "textureUuid": "b877718d-6fc6-4c09-98ba-d88c60b07105",
+            "path": "D:\\cocos\\chinared\\temp\\trimImages\\spritesheet_js_1643348157742_image_9.png",
+            "trim": {
+              "x": 198,
+              "y": 193,
+              "width": 44,
+              "height": 38,
+              "rotatedWidth": 44,
+              "rotatedHeight": 38
+            },
+            "rawWidth": 49,
+            "rawHeight": 43,
+            "width": 50,
+            "height": 44,
+            "originalPath": "D:/cocos/chinared/library/imports/b8/b877718d-6fc6-4c09-98ba-d88c60b07105.png",
+            "x": 195,
+            "y": 190,
+            "rotatedWidth": 50,
+            "rotatedHeight": 44
+          }
+        ],
+        "width": 256,
+        "height": 512,
+        "name": "wifiAtlas-1",
+        "imagePath": "D:\\cocos\\chinared\\temp\\TexturePacker\\build\\native\\assets\\resources\\hall\\texture\\hall\\wifi\\wifiAtlas.pac\\wifiAtlas-1.png",
+        "compressd": {
+          "suffix": [
+            ".png"
+          ],
+          "imagePathNoExt": "D:\\cocos\\chinared\\temp\\TexturePacker\\build\\native\\assets\\resources\\hall\\texture\\hall\\wifi\\wifiAtlas.pac\\compressed\\wifiAtlas-1"
+        }
+      }
+    ],
+    "unpackedTextures": []
+  }
+}

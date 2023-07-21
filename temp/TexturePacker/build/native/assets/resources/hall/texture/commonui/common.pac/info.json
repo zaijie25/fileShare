@@ -1,0 +1,994 @@
+{
+  "projectPath": "D:\\cocos\\chinared",
+  "actualPlatform": "web-mobile",
+  "mtimes": {
+    "40a7e12f-9a37-41f1-9c16-efa750a01591": {
+      "assetMtime": 1643089432790,
+      "metaMtime": 1643167971020
+    },
+    "07102a18-bfb9-45e5-85d7-17062786942e": {
+      "assetMtime": 1643266596270,
+      "metaMtime": 1643266625106
+    },
+    "5cfe8846-fbd2-482e-93bf-cddbfd68ccab": {
+      "assetMtime": 1643266596270,
+      "metaMtime": 1643266625106
+    },
+    "0c3e5038-e60b-44cb-b9f3-c965f5a4e4d5": {
+      "assetMtime": 1631685919685,
+      "metaMtime": 1643180716971
+    },
+    "db60ccd5-266b-4fa5-826d-018666661048": {
+      "assetMtime": 1631685919685,
+      "metaMtime": 1643180716971
+    },
+    "19400f69-80f7-4d83-9eb0-e341eb2480d1": {
+      "assetMtime": 1631685919719,
+      "metaMtime": 1643195482624
+    },
+    "fa403efa-008d-47ed-b107-4f0747c3544f": {
+      "assetMtime": 1631685919719,
+      "metaMtime": 1643195482624
+    },
+    "1eda7470-395c-44d6-bd75-9d365bbbb8a6": {
+      "assetMtime": 1631685919667,
+      "metaMtime": 1643180469907
+    },
+    "bc9527a2-d999-472d-a17c-7fb371328d29": {
+      "assetMtime": 1631685919667,
+      "metaMtime": 1643180469907
+    },
+    "24e392cb-7678-4ba5-9dba-1c680c3718f5": {
+      "assetMtime": 1631685919670,
+      "metaMtime": 1643276194211
+    },
+    "2457df0a-fc01-4f71-a891-4c93c5333efd": {
+      "assetMtime": 1631685919670,
+      "metaMtime": 1643276194211
+    },
+    "26152966-713b-4bb6-8a86-cf3c31fa38c3": {
+      "assetMtime": 1631685919717,
+      "metaMtime": 1643180784585
+    },
+    "243534dc-37cf-4056-80ae-ed6cc69cc8fe": {
+      "assetMtime": 1631685919717,
+      "metaMtime": 1643180784585
+    },
+    "30604b20-e052-45c9-903f-4ada000bb28f": {
+      "assetMtime": 1631685919693,
+      "metaMtime": 1643199275090
+    },
+    "7678e6c3-a16b-47e5-ae32-9ef60ba6cbc6": {
+      "assetMtime": 1631685919693,
+      "metaMtime": 1643199275090
+    },
+    "3212ba3d-7f11-442d-8d9d-d4eab7445cfb": {
+      "assetMtime": 1631685919674,
+      "metaMtime": 1643199599151
+    },
+    "c517a1c1-d0d5-41b0-bdad-cafa895af930": {
+      "assetMtime": 1631685919674,
+      "metaMtime": 1643199599151
+    },
+    "3833991d-f53a-41d1-a0f2-498343e1440a": {
+      "assetMtime": 1631685919696,
+      "metaMtime": 1643195546921
+    },
+    "3e6a80e2-dff3-4002-8e02-4fa035f68956": {
+      "assetMtime": 1631685919696,
+      "metaMtime": 1643195546921
+    },
+    "42c5ab2e-b4ff-49ef-a0f2-71e37e858ee2": {
+      "assetMtime": 1631685919678,
+      "metaMtime": 1643339710644
+    },
+    "c889f867-59e0-4025-bab1-00fb249356d2": {
+      "assetMtime": 1631685919678,
+      "metaMtime": 1643339710644
+    },
+    "4b2f1061-bd73-4d86-8044-7e20c493500b": {
+      "assetMtime": 1631685919686,
+      "metaMtime": 1643180716971
+    },
+    "65da1166-5228-43ab-8a5c-51faa19d45c3": {
+      "assetMtime": 1631685919686,
+      "metaMtime": 1643180716971
+    },
+    "603dc2c5-f14e-4361-bca9-0fcdedf8303b": {
+      "assetMtime": 1631685919668,
+      "metaMtime": 1643275944301
+    },
+    "9dd491f8-04af-4cd9-931c-f7ee6700f9cf": {
+      "assetMtime": 1631685919668,
+      "metaMtime": 1643275944301
+    },
+    "621a682c-66b0-4fab-b67d-b098bde40e42": {
+      "assetMtime": 1631685919703,
+      "metaMtime": 1643199394450
+    },
+    "d3e397be-ea5d-4b06-808b-90c0f9d7e5a0": {
+      "assetMtime": 1631685919703,
+      "metaMtime": 1643199394450
+    },
+    "627d9900-071c-411b-b065-b23ed66cc4e7": {
+      "assetMtime": 1643089432790,
+      "metaMtime": 1643167971030
+    },
+    "3e286aaa-adb5-4130-a6f4-48924a8af336": {
+      "assetMtime": 1643089432790,
+      "metaMtime": 1643167971030
+    },
+    "64c98a4b-29c5-424e-b9b0-ef10b7ececdd": {
+      "assetMtime": 1631685919695,
+      "metaMtime": 1643199330034
+    },
+    "fbfae972-2625-4e56-a301-9637b40b7870": {
+      "assetMtime": 1631685919695,
+      "metaMtime": 1643199330034
+    },
+    "79564442-84c2-4fc2-b758-5448dd94989c": {
+      "assetMtime": 1631685919721,
+      "metaMtime": 1643195224524
+    },
+    "fb944a32-1c73-4638-9c16-748ce2068215": {
+      "assetMtime": 1631685919721,
+      "metaMtime": 1643195224524
+    },
+    "7b337c34-4d49-43b0-aa6e-5965691fa761": {
+      "assetMtime": 1631685919716,
+      "metaMtime": 1643180784584
+    },
+    "8614614a-ad5a-4d01-b97c-798aa49ff0ce": {
+      "assetMtime": 1631685919716,
+      "metaMtime": 1643180784584
+    },
+    "8889e15d-daa6-4473-a9a3-6a557ef89873": {
+      "assetMtime": 1631685919694,
+      "metaMtime": 1643199303739
+    },
+    "a86be45d-c21d-4ad1-b41e-e5e89adccfd9": {
+      "assetMtime": 1631685919694,
+      "metaMtime": 1643199303739
+    },
+    "9ed97e88-2a0c-44a7-81db-163502b182b3": {
+      "assetMtime": 1643089432788,
+      "metaMtime": 1643167971008
+    },
+    "1a282922-2c13-4600-b297-6e02e2c2e023": {
+      "assetMtime": 1643089432788,
+      "metaMtime": 1643167971008
+    },
+    "a69621fb-e318-4f3b-bec9-5c5ca9eee195": {
+      "assetMtime": 1631685919671,
+      "metaMtime": 1643276251724
+    },
+    "c992eca7-ddf1-4b43-b79f-787833943d6e": {
+      "assetMtime": 1631685919671,
+      "metaMtime": 1643276251724
+    },
+    "b9bf62dc-67d8-445a-8c34-6c5b53e1ec79": {
+      "assetMtime": 1631685919704,
+      "metaMtime": 1643199481991
+    },
+    "f631001f-6038-4f63-a66d-3461b9e014ea": {
+      "assetMtime": 1631685919704,
+      "metaMtime": 1643199481991
+    },
+    "c0136f9e-a1df-4e34-8549-7254a037fdba": {
+      "assetMtime": 1631685919668,
+      "metaMtime": 1643180655390
+    },
+    "fd69454e-e21b-4602-a0b6-5bb62e7d6273": {
+      "assetMtime": 1631685919668,
+      "metaMtime": 1643180655390
+    },
+    "ca3115fc-70b8-4f96-9456-14e6ab2baf40": {
+      "assetMtime": 1631685919676,
+      "metaMtime": 1643276066424
+    },
+    "9c456558-074f-43a0-9d20-3e93600838c5": {
+      "assetMtime": 1631685919676,
+      "metaMtime": 1643276066424
+    },
+    "cf108eaa-1039-4de0-b94f-d1b903851a7d": {
+      "assetMtime": 1643089432791,
+      "metaMtime": 1643167971034
+    },
+    "2cc4a350-1abe-4571-83e6-9749278ac52e": {
+      "assetMtime": 1643089432791,
+      "metaMtime": 1643167971034
+    },
+    "d7c16921-7597-4cc7-8d10-183e6f0062bd": {
+      "assetMtime": 1631685919715,
+      "metaMtime": 1643180784576
+    },
+    "9c505a37-9052-44a8-a4bf-2036ce58c9fd": {
+      "assetMtime": 1631685919715,
+      "metaMtime": 1643180784576
+    },
+    "d8c063de-9ccb-4ef8-b9f6-00861b6c6293": {
+      "assetMtime": 1631685919711,
+      "metaMtime": 1643199213008
+    },
+    "36939c6a-8ee7-466f-abd7-3505c33acdda": {
+      "assetMtime": 1631685919711,
+      "metaMtime": 1643199213008
+    },
+    "d9e03ba6-9069-4b71-b3bf-c87844af877e": {
+      "assetMtime": 1643266596271,
+      "metaMtime": 1643266625118
+    },
+    "6abad9d2-9f07-4de3-af7d-e353cc0b0c96": {
+      "assetMtime": 1643266596271,
+      "metaMtime": 1643266625118
+    },
+    "ed8c0cae-fb14-489d-89bc-b1c786045cd0": {
+      "assetMtime": 1631685919714,
+      "metaMtime": 1643180784575
+    },
+    "502f39b4-495f-45c0-bcfe-3c4cc614c8b8": {
+      "assetMtime": 1631685919714,
+      "metaMtime": 1643180784575
+    },
+    "f2ffcb84-7e12-4919-8b2c-0edba98c2fa4": {
+      "assetMtime": 1631685919684,
+      "metaMtime": 1643339780005
+    },
+    "d32439be-854a-437f-b5a2-c1e659744e3d": {
+      "assetMtime": 1631685919684,
+      "metaMtime": 1643339780005
+    },
+    "fd3091fe-11f3-4070-ab9d-c67bdd0a3945": {
+      "assetMtime": 1631685919718,
+      "metaMtime": 1643199523110
+    },
+    "21f72533-aa52-4ff9-89e7-ecef91eaec69": {
+      "assetMtime": 1631685919718,
+      "metaMtime": 1643199523110
+    }
+  },
+  "result": {
+    "name": "common",
+    "width": 1024,
+    "height": 1024,
+    "ver": "1.2.1",
+    "uuid": "40a7e12f-9a37-41f1-9c16-efa750a01591",
+    "maxWidth": 1024,
+    "maxHeight": 1024,
+    "padding": 2,
+    "allowRotation": true,
+    "forceSquared": false,
+    "powerOfTwo": true,
+    "algorithm": "MaxRects",
+    "format": "png",
+    "quality": 80,
+    "contourBleed": true,
+    "paddingBleed": true,
+    "filterUnused": true,
+    "packable": false,
+    "premultiplyAlpha": false,
+    "filterMode": "bilinear",
+    "platformSettings": {},
+    "subMetas": {},
+    "bleed": 1,
+    "atlases": [
+      {
+        "files": [
+          {
+            "name": "common_11",
+            "uuid": "24e392cb-7678-4ba5-9dba-1c680c3718f5",
+            "textureUuid": "2457df0a-fc01-4f71-a891-4c93c5333efd",
+            "path": "D:\\cocos\\chinared\\temp\\trimImages\\spritesheet_js_1643348149032_image_4.png",
+            "trim": {
+              "x": 3,
+              "y": 3,
+              "width": 875,
+              "height": 89,
+              "rotatedWidth": 89,
+              "rotatedHeight": 875
+            },
+            "rawWidth": 875,
+            "rawHeight": 89,
+            "width": 881,
+            "height": 95,
+            "originalPath": "D:/cocos/chinared/library/imports/24/2457df0a-fc01-4f71-a891-4c93c5333efd.png",
+            "x": 0,
+            "y": 0,
+            "rotated": true,
+            "rotatedWidth": 95,
+            "rotatedHeight": 881
+          },
+          {
+            "name": "common_33",
+            "uuid": "0c3e5038-e60b-44cb-b9f3-c965f5a4e4d5",
+            "textureUuid": "db60ccd5-266b-4fa5-826d-018666661048",
+            "path": "D:\\cocos\\chinared\\temp\\trimImages\\spritesheet_js_1643348149031_image_1.png",
+            "trim": {
+              "x": 3,
+              "y": 884,
+              "width": 203,
+              "height": 63,
+              "rotatedWidth": 203,
+              "rotatedHeight": 63
+            },
+            "rawWidth": 203,
+            "rawHeight": 63,
+            "width": 209,
+            "height": 69,
+            "originalPath": "D:/cocos/chinared/library/imports/db/db60ccd5-266b-4fa5-826d-018666661048.png",
+            "x": 0,
+            "y": 881,
+            "rotatedWidth": 209,
+            "rotatedHeight": 69
+          },
+          {
+            "name": "grxx_14",
+            "uuid": "b9bf62dc-67d8-445a-8c34-6c5b53e1ec79",
+            "textureUuid": "f631001f-6038-4f63-a66d-3461b9e014ea",
+            "path": "D:\\cocos\\chinared\\temp\\trimImages\\spritesheet_js_1643348149034_image_20.png",
+            "trim": {
+              "x": 3,
+              "y": 953,
+              "width": 214,
+              "height": 2,
+              "rotatedWidth": 214,
+              "rotatedHeight": 2
+            },
+            "rawWidth": 214,
+            "rawHeight": 2,
+            "width": 220,
+            "height": 8,
+            "originalPath": "D:/cocos/chinared/library/imports/f6/f631001f-6038-4f63-a66d-3461b9e014ea.png",
+            "x": 0,
+            "y": 950,
+            "rotatedWidth": 220,
+            "rotatedHeight": 8
+          },
+          {
+            "name": "common_28",
+            "uuid": "f2ffcb84-7e12-4919-8b2c-0edba98c2fa4",
+            "textureUuid": "d32439be-854a-437f-b5a2-c1e659744e3d",
+            "path": "D:\\cocos\\chinared\\temp\\trimImages\\spritesheet_js_1643348149035_image_28.png",
+            "trim": {
+              "x": 3,
+              "y": 961,
+              "width": 180,
+              "height": 40,
+              "rotatedWidth": 180,
+              "rotatedHeight": 40
+            },
+            "rawWidth": 180,
+            "rawHeight": 40,
+            "width": 186,
+            "height": 46,
+            "originalPath": "D:/cocos/chinared/library/imports/d3/d32439be-854a-437f-b5a2-c1e659744e3d.png",
+            "x": 0,
+            "y": 958,
+            "rotatedWidth": 186,
+            "rotatedHeight": 46
+          },
+          {
+            "name": "grxx_24",
+            "uuid": "ed8c0cae-fb14-489d-89bc-b1c786045cd0",
+            "textureUuid": "502f39b4-495f-45c0-bcfe-3c4cc614c8b8",
+            "path": "D:\\cocos\\chinared\\temp\\trimImages\\spritesheet_js_1643348149035_image_27.png",
+            "trim": {
+              "x": 189,
+              "y": 961,
+              "width": 89,
+              "height": 34,
+              "rotatedWidth": 89,
+              "rotatedHeight": 34
+            },
+            "rawWidth": 89,
+            "rawHeight": 34,
+            "width": 95,
+            "height": 40,
+            "originalPath": "D:/cocos/chinared/library/imports/50/502f39b4-495f-45c0-bcfe-3c4cc614c8b8.png",
+            "x": 186,
+            "y": 958,
+            "rotatedWidth": 95,
+            "rotatedHeight": 40
+          },
+          {
+            "name": "grxx_04",
+            "uuid": "8889e15d-daa6-4473-a9a3-6a557ef89873",
+            "textureUuid": "a86be45d-c21d-4ad1-b41e-e5e89adccfd9",
+            "path": "D:\\cocos\\chinared\\temp\\trimImages\\spritesheet_js_1643348149033_image_17.png",
+            "trim": {
+              "x": 189,
+              "y": 1001,
+              "width": 28,
+              "height": 12,
+              "rotatedWidth": 28,
+              "rotatedHeight": 12
+            },
+            "rawWidth": 28,
+            "rawHeight": 12,
+            "width": 34,
+            "height": 18,
+            "originalPath": "D:/cocos/chinared/library/imports/a8/a86be45d-c21d-4ad1-b41e-e5e89adccfd9.png",
+            "x": 186,
+            "y": 998,
+            "rotatedWidth": 34,
+            "rotatedHeight": 18
+          },
+          {
+            "name": "grxx_03",
+            "uuid": "30604b20-e052-45c9-903f-4ada000bb28f",
+            "textureUuid": "7678e6c3-a16b-47e5-ae32-9ef60ba6cbc6",
+            "path": "D:\\cocos\\chinared\\temp\\trimImages\\spritesheet_js_1643348149032_image_6.png",
+            "trim": {
+              "x": 3,
+              "y": 1007,
+              "width": 148,
+              "height": 12,
+              "rotatedWidth": 148,
+              "rotatedHeight": 12
+            },
+            "rawWidth": 148,
+            "rawHeight": 12,
+            "width": 154,
+            "height": 18,
+            "originalPath": "D:/cocos/chinared/library/imports/76/7678e6c3-a16b-47e5-ae32-9ef60ba6cbc6.png",
+            "x": 0,
+            "y": 1004,
+            "rotatedWidth": 154,
+            "rotatedHeight": 18
+          },
+          {
+            "name": "black_bg",
+            "uuid": "9ed97e88-2a0c-44a7-81db-163502b182b3",
+            "textureUuid": "1a282922-2c13-4600-b297-6e02e2c2e023",
+            "path": "D:\\cocos\\chinared\\temp\\trimImages\\spritesheet_js_1643348149033_image_18.png",
+            "trim": {
+              "x": 157,
+              "y": 1007,
+              "width": 10,
+              "height": 10,
+              "rotatedWidth": 10,
+              "rotatedHeight": 10
+            },
+            "rawWidth": 10,
+            "rawHeight": 10,
+            "width": 16,
+            "height": 16,
+            "originalPath": "D:/cocos/chinared/library/imports/1a/1a282922-2c13-4600-b297-6e02e2c2e023.png",
+            "x": 154,
+            "y": 1004,
+            "rotatedWidth": 16,
+            "rotatedHeight": 16
+          },
+          {
+            "name": "common_03",
+            "uuid": "627d9900-071c-411b-b065-b23ed66cc4e7",
+            "textureUuid": "3e286aaa-adb5-4130-a6f4-48924a8af336",
+            "path": "D:\\cocos\\chinared\\temp\\trimImages\\spritesheet_js_1643348149033_image_13.png",
+            "trim": {
+              "x": 223,
+              "y": 1001,
+              "width": 18,
+              "height": 21,
+              "rotatedWidth": 21,
+              "rotatedHeight": 18
+            },
+            "rawWidth": 18,
+            "rawHeight": 21,
+            "width": 24,
+            "height": 27,
+            "originalPath": "D:/cocos/chinared/library/imports/3e/3e286aaa-adb5-4130-a6f4-48924a8af336.png",
+            "x": 220,
+            "y": 998,
+            "rotated": true,
+            "rotatedWidth": 27,
+            "rotatedHeight": 24
+          },
+          {
+            "name": "common_12",
+            "uuid": "a69621fb-e318-4f3b-bec9-5c5ca9eee195",
+            "textureUuid": "c992eca7-ddf1-4b43-b79f-787833943d6e",
+            "path": "D:\\cocos\\chinared\\temp\\trimImages\\spritesheet_js_1643348149034_image_19.png",
+            "trim": {
+              "x": 98,
+              "y": 3,
+              "width": 707,
+              "height": 89,
+              "rotatedWidth": 89,
+              "rotatedHeight": 707
+            },
+            "rawWidth": 707,
+            "rawHeight": 89,
+            "width": 713,
+            "height": 95,
+            "originalPath": "D:/cocos/chinared/library/imports/c9/c992eca7-ddf1-4b43-b79f-787833943d6e.png",
+            "x": 95,
+            "y": 0,
+            "rotated": true,
+            "rotatedWidth": 95,
+            "rotatedHeight": 713
+          },
+          {
+            "name": "common_19",
+            "uuid": "42c5ab2e-b4ff-49ef-a0f2-71e37e858ee2",
+            "textureUuid": "c889f867-59e0-4025-bab1-00fb249356d2",
+            "path": "D:\\cocos\\chinared\\temp\\trimImages\\spritesheet_js_1643348149032_image_9.png",
+            "trim": {
+              "x": 98,
+              "y": 716,
+              "width": 138,
+              "height": 78,
+              "rotatedWidth": 138,
+              "rotatedHeight": 78
+            },
+            "rawWidth": 138,
+            "rawHeight": 78,
+            "width": 144,
+            "height": 84,
+            "originalPath": "D:/cocos/chinared/library/imports/c8/c889f867-59e0-4025-bab1-00fb249356d2.png",
+            "x": 95,
+            "y": 713,
+            "rotatedWidth": 144,
+            "rotatedHeight": 84
+          },
+          {
+            "name": "common_34",
+            "uuid": "4b2f1061-bd73-4d86-8044-7e20c493500b",
+            "textureUuid": "65da1166-5228-43ab-8a5c-51faa19d45c3",
+            "path": "D:\\cocos\\chinared\\temp\\trimImages\\spritesheet_js_1643348149032_image_10.png",
+            "trim": {
+              "x": 98,
+              "y": 800,
+              "width": 203,
+              "height": 63,
+              "rotatedWidth": 203,
+              "rotatedHeight": 63
+            },
+            "rawWidth": 203,
+            "rawHeight": 63,
+            "width": 209,
+            "height": 69,
+            "originalPath": "D:/cocos/chinared/library/imports/65/65da1166-5228-43ab-8a5c-51faa19d45c3.png",
+            "x": 95,
+            "y": 797,
+            "rotatedWidth": 209,
+            "rotatedHeight": 69
+          },
+          {
+            "name": "common_15",
+            "uuid": "3212ba3d-7f11-442d-8d9d-d4eab7445cfb",
+            "textureUuid": "c517a1c1-d0d5-41b0-bdad-cafa895af930",
+            "path": "D:\\cocos\\chinared\\temp\\trimImages\\spritesheet_js_1643348149032_image_7.png",
+            "trim": {
+              "x": 223,
+              "y": 869,
+              "width": 71,
+              "height": 71,
+              "rotatedWidth": 71,
+              "rotatedHeight": 71
+            },
+            "rawWidth": 71,
+            "rawHeight": 71,
+            "width": 77,
+            "height": 77,
+            "originalPath": "D:/cocos/chinared/library/imports/c5/c517a1c1-d0d5-41b0-bdad-cafa895af930.png",
+            "x": 220,
+            "y": 866,
+            "rotatedWidth": 77,
+            "rotatedHeight": 77
+          },
+          {
+            "name": "bq_huobao",
+            "uuid": "07102a18-bfb9-45e5-85d7-17062786942e",
+            "textureUuid": "5cfe8846-fbd2-482e-93bf-cddbfd68ccab",
+            "path": "D:\\cocos\\chinared\\temp\\trimImages\\spritesheet_js_1643348149031_image_0.png",
+            "trim": {
+              "x": 284,
+              "y": 946,
+              "width": 65,
+              "height": 34,
+              "rotatedWidth": 34,
+              "rotatedHeight": 65
+            },
+            "rawWidth": 65,
+            "rawHeight": 34,
+            "width": 71,
+            "height": 40,
+            "originalPath": "D:/cocos/chinared/library/imports/5c/5cfe8846-fbd2-482e-93bf-cddbfd68ccab.png",
+            "x": 281,
+            "y": 943,
+            "rotated": true,
+            "rotatedWidth": 40,
+            "rotatedHeight": 71
+          },
+          {
+            "name": "grxx_25",
+            "uuid": "d7c16921-7597-4cc7-8d10-183e6f0062bd",
+            "textureUuid": "9c505a37-9052-44a8-a4bf-2036ce58c9fd",
+            "path": "D:\\cocos\\chinared\\temp\\trimImages\\spritesheet_js_1643348149035_image_24.png",
+            "trim": {
+              "x": 300,
+              "y": 869,
+              "width": 56,
+              "height": 28,
+              "rotatedWidth": 28,
+              "rotatedHeight": 56
+            },
+            "rawWidth": 56,
+            "rawHeight": 28,
+            "width": 62,
+            "height": 34,
+            "originalPath": "D:/cocos/chinared/library/imports/9c/9c505a37-9052-44a8-a4bf-2036ce58c9fd.png",
+            "x": 297,
+            "y": 866,
+            "rotated": true,
+            "rotatedWidth": 34,
+            "rotatedHeight": 62
+          },
+          {
+            "name": "grxx_07",
+            "uuid": "3833991d-f53a-41d1-a0f2-498343e1440a",
+            "textureUuid": "3e6a80e2-dff3-4002-8e02-4fa035f68956",
+            "path": "D:\\cocos\\chinared\\temp\\trimImages\\spritesheet_js_1643348149032_image_8.png",
+            "trim": {
+              "x": 193,
+              "y": 3,
+              "width": 62,
+              "height": 365,
+              "rotatedWidth": 62,
+              "rotatedHeight": 365
+            },
+            "rawWidth": 62,
+            "rawHeight": 365,
+            "width": 68,
+            "height": 371,
+            "originalPath": "D:/cocos/chinared/library/imports/3e/3e6a80e2-dff3-4002-8e02-4fa035f68956.png",
+            "x": 190,
+            "y": 0,
+            "rotatedWidth": 68,
+            "rotatedHeight": 371
+          },
+          {
+            "name": "grxx_05",
+            "uuid": "64c98a4b-29c5-424e-b9b0-ef10b7ececdd",
+            "textureUuid": "fbfae972-2625-4e56-a301-9637b40b7870",
+            "path": "D:\\cocos\\chinared\\temp\\trimImages\\spritesheet_js_1643348149033_image_14.png",
+            "trim": {
+              "x": 193,
+              "y": 374,
+              "width": 168,
+              "height": 52,
+              "rotatedWidth": 52,
+              "rotatedHeight": 168
+            },
+            "rawWidth": 168,
+            "rawHeight": 52,
+            "width": 174,
+            "height": 58,
+            "originalPath": "D:/cocos/chinared/library/imports/fb/fbfae972-2625-4e56-a301-9637b40b7870.png",
+            "x": 190,
+            "y": 371,
+            "rotated": true,
+            "rotatedWidth": 58,
+            "rotatedHeight": 174
+          },
+          {
+            "name": "grxx_31",
+            "uuid": "19400f69-80f7-4d83-9eb0-e341eb2480d1",
+            "textureUuid": "fa403efa-008d-47ed-b107-4f0747c3544f",
+            "path": "D:\\cocos\\chinared\\temp\\trimImages\\spritesheet_js_1643348149031_image_2.png",
+            "trim": {
+              "x": 193,
+              "y": 548,
+              "width": 121,
+              "height": 120,
+              "rotatedWidth": 120,
+              "rotatedHeight": 121
+            },
+            "rawWidth": 121,
+            "rawHeight": 120,
+            "width": 127,
+            "height": 126,
+            "originalPath": "D:/cocos/chinared/library/imports/fa/fa403efa-008d-47ed-b107-4f0747c3544f.png",
+            "x": 190,
+            "y": 545,
+            "rotated": true,
+            "rotatedWidth": 126,
+            "rotatedHeight": 127
+          },
+          {
+            "name": "grxx_21",
+            "uuid": "d8c063de-9ccb-4ef8-b9f6-00861b6c6293",
+            "textureUuid": "36939c6a-8ee7-466f-abd7-3505c33acdda",
+            "path": "D:\\cocos\\chinared\\temp\\trimImages\\spritesheet_js_1643348149035_image_25.png",
+            "trim": {
+              "x": 251,
+              "y": 374,
+              "width": 168,
+              "height": 52,
+              "rotatedWidth": 52,
+              "rotatedHeight": 168
+            },
+            "rawWidth": 168,
+            "rawHeight": 52,
+            "width": 174,
+            "height": 58,
+            "originalPath": "D:/cocos/chinared/library/imports/36/36939c6a-8ee7-466f-abd7-3505c33acdda.png",
+            "x": 248,
+            "y": 371,
+            "rotated": true,
+            "rotatedWidth": 58,
+            "rotatedHeight": 174
+          },
+          {
+            "name": "grxx_28",
+            "uuid": "fd3091fe-11f3-4070-ab9d-c67bdd0a3945",
+            "textureUuid": "21f72533-aa52-4ff9-89e7-ecef91eaec69",
+            "path": "D:\\cocos\\chinared\\temp\\trimImages\\spritesheet_js_1643348149035_image_29.png",
+            "trim": {
+              "x": 242,
+              "y": 675,
+              "width": 53,
+              "height": 65,
+              "rotatedWidth": 53,
+              "rotatedHeight": 65
+            },
+            "rawWidth": 53,
+            "rawHeight": 65,
+            "width": 59,
+            "height": 71,
+            "originalPath": "D:/cocos/chinared/library/imports/21/21f72533-aa52-4ff9-89e7-ecef91eaec69.png",
+            "x": 239,
+            "y": 672,
+            "rotatedWidth": 59,
+            "rotatedHeight": 71
+          },
+          {
+            "name": "icon_xuanzhong",
+            "uuid": "79564442-84c2-4fc2-b758-5448dd94989c",
+            "textureUuid": "fb944a32-1c73-4638-9c16-748ce2068215",
+            "path": "D:\\cocos\\chinared\\temp\\trimImages\\spritesheet_js_1643348149033_image_15.png",
+            "trim": {
+              "x": 193,
+              "y": 675,
+              "width": 34,
+              "height": 35,
+              "rotatedWidth": 35,
+              "rotatedHeight": 34
+            },
+            "rawWidth": 34,
+            "rawHeight": 35,
+            "width": 40,
+            "height": 41,
+            "originalPath": "D:/cocos/chinared/library/imports/fb/fb944a32-1c73-4638-9c16-748ce2068215.png",
+            "x": 190,
+            "y": 672,
+            "rotated": true,
+            "rotatedWidth": 41,
+            "rotatedHeight": 40
+          },
+          {
+            "name": "grxx_27",
+            "uuid": "26152966-713b-4bb6-8a86-cf3c31fa38c3",
+            "textureUuid": "243534dc-37cf-4056-80ae-ed6cc69cc8fe",
+            "path": "D:\\cocos\\chinared\\temp\\trimImages\\spritesheet_js_1643348149032_image_5.png",
+            "trim": {
+              "x": 242,
+              "y": 746,
+              "width": 84,
+              "height": 28,
+              "rotatedWidth": 84,
+              "rotatedHeight": 28
+            },
+            "rawWidth": 84,
+            "rawHeight": 28,
+            "width": 90,
+            "height": 34,
+            "originalPath": "D:/cocos/chinared/library/imports/24/243534dc-37cf-4056-80ae-ed6cc69cc8fe.png",
+            "x": 239,
+            "y": 743,
+            "rotatedWidth": 90,
+            "rotatedHeight": 34
+          },
+          {
+            "name": "common_17",
+            "uuid": "ca3115fc-70b8-4f96-9456-14e6ab2baf40",
+            "textureUuid": "9c456558-074f-43a0-9d20-3e93600838c5",
+            "path": "D:\\cocos\\chinared\\temp\\trimImages\\spritesheet_js_1643348149034_image_22.png",
+            "trim": {
+              "x": 301,
+              "y": 675,
+              "width": 38,
+              "height": 24,
+              "rotatedWidth": 24,
+              "rotatedHeight": 38
+            },
+            "rawWidth": 38,
+            "rawHeight": 24,
+            "width": 44,
+            "height": 30,
+            "originalPath": "D:/cocos/chinared/library/imports/9c/9c456558-074f-43a0-9d20-3e93600838c5.png",
+            "x": 298,
+            "y": 672,
+            "rotated": true,
+            "rotatedWidth": 30,
+            "rotatedHeight": 44
+          },
+          {
+            "name": "bq_xingzeng",
+            "uuid": "d9e03ba6-9069-4b71-b3bf-c87844af877e",
+            "textureUuid": "6abad9d2-9f07-4de3-af7d-e353cc0b0c96",
+            "path": "D:\\cocos\\chinared\\temp\\trimImages\\spritesheet_js_1643348149035_image_26.png",
+            "trim": {
+              "x": 261,
+              "y": 3,
+              "width": 65,
+              "height": 34,
+              "rotatedWidth": 34,
+              "rotatedHeight": 65
+            },
+            "rawWidth": 65,
+            "rawHeight": 34,
+            "width": 71,
+            "height": 40,
+            "originalPath": "D:/cocos/chinared/library/imports/6a/6abad9d2-9f07-4de3-af7d-e353cc0b0c96.png",
+            "x": 258,
+            "y": 0,
+            "rotated": true,
+            "rotatedWidth": 40,
+            "rotatedHeight": 71
+          },
+          {
+            "name": "grxx_26",
+            "uuid": "7b337c34-4d49-43b0-aa6e-5965691fa761",
+            "textureUuid": "8614614a-ad5a-4d01-b97c-798aa49ff0ce",
+            "path": "D:\\cocos\\chinared\\temp\\trimImages\\spritesheet_js_1643348149033_image_16.png",
+            "trim": {
+              "x": 261,
+              "y": 74,
+              "width": 62,
+              "height": 33,
+              "rotatedWidth": 33,
+              "rotatedHeight": 62
+            },
+            "rawWidth": 62,
+            "rawHeight": 33,
+            "width": 68,
+            "height": 39,
+            "originalPath": "D:/cocos/chinared/library/imports/86/8614614a-ad5a-4d01-b97c-798aa49ff0ce.png",
+            "x": 258,
+            "y": 71,
+            "rotated": true,
+            "rotatedWidth": 39,
+            "rotatedHeight": 68
+          },
+          {
+            "name": "common_06",
+            "uuid": "1eda7470-395c-44d6-bd75-9d365bbbb8a6",
+            "textureUuid": "bc9527a2-d999-472d-a17c-7fb371328d29",
+            "path": "D:\\cocos\\chinared\\temp\\trimImages\\spritesheet_js_1643348149031_image_3.png",
+            "trim": {
+              "x": 261,
+              "y": 142,
+              "width": 58,
+              "height": 58,
+              "rotatedWidth": 58,
+              "rotatedHeight": 58
+            },
+            "rawWidth": 58,
+            "rawHeight": 58,
+            "width": 64,
+            "height": 64,
+            "originalPath": "D:/cocos/chinared/library/imports/bc/bc9527a2-d999-472d-a17c-7fb371328d29.png",
+            "x": 258,
+            "y": 139,
+            "rotatedWidth": 64,
+            "rotatedHeight": 64
+          },
+          {
+            "name": "dian_jz",
+            "uuid": "cf108eaa-1039-4de0-b94f-d1b903851a7d",
+            "textureUuid": "2cc4a350-1abe-4571-83e6-9749278ac52e",
+            "path": "D:\\cocos\\chinared\\temp\\trimImages\\spritesheet_js_1643348149034_image_23.png",
+            "trim": {
+              "x": 300,
+              "y": 74,
+              "width": 28,
+              "height": 30,
+              "rotatedWidth": 28,
+              "rotatedHeight": 30
+            },
+            "rawWidth": 28,
+            "rawHeight": 30,
+            "width": 34,
+            "height": 36,
+            "originalPath": "D:/cocos/chinared/library/imports/2c/2cc4a350-1abe-4571-83e6-9749278ac52e.png",
+            "x": 297,
+            "y": 71,
+            "rotatedWidth": 34,
+            "rotatedHeight": 36
+          },
+          {
+            "name": "common_08",
+            "uuid": "603dc2c5-f14e-4361-bca9-0fcdedf8303b",
+            "textureUuid": "9dd491f8-04af-4cd9-931c-f7ee6700f9cf",
+            "path": "D:\\cocos\\chinared\\temp\\trimImages\\spritesheet_js_1643348149033_image_11.png",
+            "trim": {
+              "x": 261,
+              "y": 206,
+              "width": 44,
+              "height": 44,
+              "rotatedWidth": 44,
+              "rotatedHeight": 44
+            },
+            "rawWidth": 44,
+            "rawHeight": 44,
+            "width": 50,
+            "height": 50,
+            "originalPath": "D:/cocos/chinared/library/imports/9d/9dd491f8-04af-4cd9-931c-f7ee6700f9cf.png",
+            "x": 258,
+            "y": 203,
+            "rotatedWidth": 50,
+            "rotatedHeight": 50
+          },
+          {
+            "name": "common_07",
+            "uuid": "c0136f9e-a1df-4e34-8549-7254a037fdba",
+            "textureUuid": "fd69454e-e21b-4602-a0b6-5bb62e7d6273",
+            "path": "D:\\cocos\\chinared\\temp\\trimImages\\spritesheet_js_1643348149034_image_21.png",
+            "trim": {
+              "x": 261,
+              "y": 256,
+              "width": 40,
+              "height": 40,
+              "rotatedWidth": 40,
+              "rotatedHeight": 40
+            },
+            "rawWidth": 40,
+            "rawHeight": 40,
+            "width": 46,
+            "height": 46,
+            "originalPath": "D:/cocos/chinared/library/imports/fd/fd69454e-e21b-4602-a0b6-5bb62e7d6273.png",
+            "x": 258,
+            "y": 253,
+            "rotatedWidth": 46,
+            "rotatedHeight": 46
+          },
+          {
+            "name": "grxx_13",
+            "uuid": "621a682c-66b0-4fab-b67d-b098bde40e42",
+            "textureUuid": "d3e397be-ea5d-4b06-808b-90c0f9d7e5a0",
+            "path": "D:\\cocos\\chinared\\temp\\trimImages\\spritesheet_js_1643348149033_image_12.png",
+            "trim": {
+              "x": 261,
+              "y": 302,
+              "width": 32,
+              "height": 32,
+              "rotatedWidth": 32,
+              "rotatedHeight": 32
+            },
+            "rawWidth": 32,
+            "rawHeight": 32,
+            "width": 38,
+            "height": 38,
+            "originalPath": "D:/cocos/chinared/library/imports/d3/d3e397be-ea5d-4b06-808b-90c0f9d7e5a0.png",
+            "x": 258,
+            "y": 299,
+            "rotatedWidth": 38,
+            "rotatedHeight": 38
+          }
+        ],
+        "width": 512,
+        "height": 1024,
+        "name": "common-1",
+        "imagePath": "D:\\cocos\\chinared\\temp\\TexturePacker\\build\\native\\assets\\resources\\hall\\texture\\commonui\\common.pac\\common-1.png",
+        "compressd": {
+          "suffix": [
+            ".png"
+          ],
+          "imagePathNoExt": "D:\\cocos\\chinared\\temp\\TexturePacker\\build\\native\\assets\\resources\\hall\\texture\\commonui\\common.pac\\compressed\\common-1"
+        }
+      }
+    ],
+    "unpackedTextures": []
+  }
+}

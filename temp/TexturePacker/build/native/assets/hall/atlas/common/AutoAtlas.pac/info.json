@@ -1,0 +1,175 @@
+{
+  "projectPath": "D:\\cocos\\chinared",
+  "actualPlatform": "web-mobile",
+  "mtimes": {
+    "8a17f51b-3684-49fd-820f-92282994a2ce": {
+      "assetMtime": 1643089431542,
+      "metaMtime": 1643167948119
+    },
+    "0ea805c0-9b45-4ddc-9e32-383b308ca53d": {
+      "assetMtime": 1643089431566,
+      "metaMtime": 1643167948395
+    },
+    "4d964102-c4be-412c-8d0f-b9ed5f4da4fe": {
+      "assetMtime": 1643089431566,
+      "metaMtime": 1643167948395
+    },
+    "0edb08c1-da18-41fe-b39d-2e09409f93b0": {
+      "assetMtime": 1643089431566,
+      "metaMtime": 1643167948397
+    },
+    "246b5010-aacb-4131-b639-9f761916bfbf": {
+      "assetMtime": 1643089431566,
+      "metaMtime": 1643167948397
+    },
+    "95af0ef8-ca41-4d22-bcb7-219a9272ed9c": {
+      "assetMtime": 1643089431567,
+      "metaMtime": 1643167948408
+    },
+    "c6d54688-bb6f-4ac1-bb0c-2be256bbf678": {
+      "assetMtime": 1643089431567,
+      "metaMtime": 1643167948408
+    },
+    "e495b68a-7bf5-4f23-866e-39f8f395eaf3": {
+      "assetMtime": 1643089431567,
+      "metaMtime": 1643167948407
+    },
+    "e6c4279a-65cd-4d3d-b631-765b2ce4902b": {
+      "assetMtime": 1643089431567,
+      "metaMtime": 1643167948407
+    }
+  },
+  "result": {
+    "name": "AutoAtlas",
+    "width": 1024,
+    "height": 1024,
+    "ver": "1.2.1",
+    "uuid": "8a17f51b-3684-49fd-820f-92282994a2ce",
+    "maxWidth": 1024,
+    "maxHeight": 1024,
+    "padding": 2,
+    "allowRotation": true,
+    "forceSquared": false,
+    "powerOfTwo": true,
+    "algorithm": "MaxRects",
+    "format": "png",
+    "quality": 80,
+    "contourBleed": true,
+    "paddingBleed": true,
+    "filterUnused": true,
+    "packable": false,
+    "premultiplyAlpha": false,
+    "filterMode": "bilinear",
+    "platformSettings": {},
+    "subMetas": {},
+    "bleed": 1,
+    "atlases": [
+      {
+        "files": [
+          {
+            "name": "lobby_93",
+            "uuid": "0ea805c0-9b45-4ddc-9e32-383b308ca53d",
+            "textureUuid": "4d964102-c4be-412c-8d0f-b9ed5f4da4fe",
+            "path": "D:\\cocos\\chinared\\temp\\trimImages\\spritesheet_js_1643348194829_image_0.png",
+            "trim": {
+              "x": 3,
+              "y": 3,
+              "width": 603,
+              "height": 46,
+              "rotatedWidth": 46,
+              "rotatedHeight": 603
+            },
+            "rawWidth": 604,
+            "rawHeight": 46,
+            "width": 609,
+            "height": 52,
+            "originalPath": "D:/cocos/chinared/library/imports/4d/4d964102-c4be-412c-8d0f-b9ed5f4da4fe.png",
+            "x": 0,
+            "y": 0,
+            "rotated": true,
+            "rotatedWidth": 52,
+            "rotatedHeight": 609
+          },
+          {
+            "name": "lobby_95",
+            "uuid": "95af0ef8-ca41-4d22-bcb7-219a9272ed9c",
+            "textureUuid": "c6d54688-bb6f-4ac1-bb0c-2be256bbf678",
+            "path": "D:\\cocos\\chinared\\temp\\trimImages\\spritesheet_js_1643348194830_image_2.png",
+            "trim": {
+              "x": 3,
+              "y": 612,
+              "width": 140,
+              "height": 140,
+              "rotatedWidth": 140,
+              "rotatedHeight": 140
+            },
+            "rawWidth": 140,
+            "rawHeight": 140,
+            "width": 146,
+            "height": 146,
+            "originalPath": "D:/cocos/chinared/library/imports/c6/c6d54688-bb6f-4ac1-bb0c-2be256bbf678.png",
+            "x": 0,
+            "y": 609,
+            "rotatedWidth": 146,
+            "rotatedHeight": 146
+          },
+          {
+            "name": "lobby_94",
+            "uuid": "e495b68a-7bf5-4f23-866e-39f8f395eaf3",
+            "textureUuid": "e6c4279a-65cd-4d3d-b631-765b2ce4902b",
+            "path": "D:\\cocos\\chinared\\temp\\trimImages\\spritesheet_js_1643348194830_image_3.png",
+            "trim": {
+              "x": 55,
+              "y": 3,
+              "width": 96,
+              "height": 79,
+              "rotatedWidth": 79,
+              "rotatedHeight": 96
+            },
+            "rawWidth": 96,
+            "rawHeight": 79,
+            "width": 102,
+            "height": 85,
+            "originalPath": "D:/cocos/chinared/library/imports/e6/e6c4279a-65cd-4d3d-b631-765b2ce4902b.png",
+            "x": 52,
+            "y": 0,
+            "rotated": true,
+            "rotatedWidth": 85,
+            "rotatedHeight": 102
+          }
+        ],
+        "width": 256,
+        "height": 1024,
+        "name": "AutoAtlas-1",
+        "imagePath": "D:\\cocos\\chinared\\temp\\TexturePacker\\build\\native\\assets\\hall\\atlas\\common\\AutoAtlas.pac\\AutoAtlas-1.png",
+        "compressd": {
+          "suffix": [
+            ".png"
+          ],
+          "imagePathNoExt": "D:\\cocos\\chinared\\temp\\TexturePacker\\build\\native\\assets\\hall\\atlas\\common\\AutoAtlas.pac\\compressed\\AutoAtlas-1"
+        }
+      }
+    ],
+    "unpackedTextures": [
+      {
+        "name": "lobby_92",
+        "uuid": "0edb08c1-da18-41fe-b39d-2e09409f93b0",
+        "textureUuid": "246b5010-aacb-4131-b639-9f761916bfbf",
+        "path": "D:\\cocos\\chinared\\temp\\trimImages\\spritesheet_js_1643348194830_image_1.png",
+        "trim": {
+          "x": 0,
+          "y": 0,
+          "width": 1214,
+          "height": 116,
+          "rotatedWidth": 1214,
+          "rotatedHeight": 116
+        },
+        "rawWidth": 1214,
+        "rawHeight": 116,
+        "width": 1220,
+        "height": 122,
+        "originalPath": "D:/cocos/chinared/library/imports/24/246b5010-aacb-4131-b639-9f761916bfbf.png"
+      }
+    ]
+  }
+}

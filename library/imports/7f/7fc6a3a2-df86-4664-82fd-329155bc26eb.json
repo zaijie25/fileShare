@@ -1,0 +1,177 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "ANIbtnbangding",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "MTNjK5BBOpR/MPqWEVVRf4YbT80",
+      "spine": "3.7.94",
+      "width": 182.7,
+      "height": 62.68,
+      "images": "",
+      "audio": ""
+    },
+    "bones": [
+      {
+        "name": "root",
+        "scaleX": 0.9
+      },
+      {
+        "name": "btn",
+        "parent": "root",
+        "length": 100,
+        "y": 40.53
+      },
+      {
+        "name": "liang",
+        "parent": "btn",
+        "x": -0.58,
+        "y": -35.65,
+        "scaleY": 0.9
+      }
+    ],
+    "slots": [
+      {
+        "name": "images/bt_3",
+        "bone": "root",
+        "attachment": "images/bt_3"
+      },
+      {
+        "name": "image/liu_00000",
+        "bone": "liang",
+        "attachment": "images/liu_00009",
+        "blend": "additive"
+      },
+      {
+        "name": "images/bt_3_1",
+        "bone": "root",
+        "attachment": "images/bt_3_1"
+      }
+    ],
+    "skins": {
+      "default": {
+        "image/liu_00000": {
+          "images/liu_00000": {
+            "width": 203,
+            "height": 64
+          },
+          "images/liu_00001": {
+            "width": 203,
+            "height": 64
+          },
+          "images/liu_00002": {
+            "width": 203,
+            "height": 64
+          },
+          "images/liu_00003": {
+            "width": 203,
+            "height": 64
+          },
+          "images/liu_00004": {
+            "width": 203,
+            "height": 64
+          },
+          "images/liu_00005": {
+            "width": 203,
+            "height": 64
+          },
+          "images/liu_00006": {
+            "width": 203,
+            "height": 64
+          },
+          "images/liu_00007": {
+            "width": 203,
+            "height": 64
+          },
+          "images/liu_00008": {
+            "width": 203,
+            "height": 64
+          },
+          "images/liu_00009": {
+            "width": 203,
+            "height": 64
+          }
+        },
+        "images/bt_3": {
+          "images/bt_3": {
+            "y": 0.5,
+            "width": 195,
+            "height": 59
+          }
+        },
+        "images/bt_3_1": {
+          "images/bt_3_1": {
+            "y": 3.52,
+            "width": 121,
+            "height": 26
+          }
+        }
+      }
+    },
+    "animations": {
+      "idle": {
+        "slots": {
+          "image/liu_00000": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/liu_00000"
+              },
+              {
+                "time": 0.1,
+                "name": "images/liu_00001"
+              },
+              {
+                "time": 0.2,
+                "name": "images/liu_00002"
+              },
+              {
+                "time": 0.3,
+                "name": "images/liu_00003"
+              },
+              {
+                "time": 0.4,
+                "name": "images/liu_00004"
+              },
+              {
+                "time": 0.5,
+                "name": "images/liu_00005"
+              },
+              {
+                "time": 0.6,
+                "name": "images/liu_00006"
+              },
+              {
+                "time": 0.7,
+                "name": "images/liu_00007"
+              },
+              {
+                "time": 0.8,
+                "name": "images/liu_00008"
+              },
+              {
+                "time": 0.9,
+                "name": "images/liu_00009"
+              },
+              {
+                "time": 1,
+                "name": "images/liu_00000"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\r\nANIbtnbangding.png\r\nsize: 1024,256\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nimages/bt_3\r\n  rotate: false\r\n  xy: 815, 163\r\n  size: 195, 59\r\n  orig: 195, 59\r\n  offset: 0, 0\r\n  index: -1\r\nimages/bt_3_1\r\n  rotate: false\r\n  xy: 2, 2\r\n  size: 121, 26\r\n  orig: 121, 26\r\n  offset: 0, 0\r\n  index: -1\r\nimages/liu_00000\r\n  rotate: false\r\n  xy: 613, 166\r\n  size: 200, 56\r\n  orig: 203, 64\r\n  offset: 3, 0\r\n  index: -1\r\nimages/liu_00001\r\n  rotate: false\r\n  xy: 2, 30\r\n  size: 199, 62\r\n  orig: 203, 64\r\n  offset: 4, 0\r\n  index: -1\r\nimages/liu_00002\r\n  rotate: false\r\n  xy: 2, 94\r\n  size: 199, 63\r\n  orig: 203, 64\r\n  offset: 4, 0\r\n  index: -1\r\nimages/liu_00003\r\n  rotate: false\r\n  xy: 409, 101\r\n  size: 193, 63\r\n  orig: 203, 64\r\n  offset: 10, 0\r\n  index: -1\r\nimages/liu_00004\r\n  rotate: false\r\n  xy: 604, 100\r\n  size: 190, 64\r\n  orig: 203, 64\r\n  offset: 13, 0\r\n  index: -1\r\nimages/liu_00005\r\n  rotate: false\r\n  xy: 206, 161\r\n  size: 201, 61\r\n  orig: 203, 64\r\n  offset: 2, 2\r\n  index: -1\r\nimages/liu_00006\r\n  rotate: false\r\n  xy: 2, 159\r\n  size: 202, 63\r\n  orig: 203, 64\r\n  offset: 1, 0\r\n  index: -1\r\nimages/liu_00007\r\n  rotate: false\r\n  xy: 206, 96\r\n  size: 137, 63\r\n  orig: 203, 64\r\n  offset: 1, 0\r\n  index: -1\r\nimages/liu_00008\r\n  rotate: false\r\n  xy: 796, 98\r\n  size: 159, 63\r\n  orig: 203, 64\r\n  offset: 1, 0\r\n  index: -1\r\nimages/liu_00009\r\n  rotate: false\r\n  xy: 409, 166\r\n  size: 202, 56\r\n  orig: 203, 64\r\n  offset: 1, 0\r\n  index: -1\r\n",
+  "textures": [
+    {
+      "__uuid__": "0974f3a6-79f8-44a3-a782-a41155ab7d41"
+    }
+  ],
+  "textureNames": [
+    "ANIbtnbangding.png"
+  ],
+  "scale": 1
+}

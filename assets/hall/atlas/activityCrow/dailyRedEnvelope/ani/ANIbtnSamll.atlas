@@ -1,0 +1,104 @@
+
+ANIbtnSamll.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+btn
+  rotate: false
+  xy: 2, 166
+  size: 197, 85
+  orig: 197, 85
+  offset: 0, 0
+  index: -1
+liu0001
+  rotate: true
+  xy: 387, 169
+  size: 20, 59
+  orig: 160, 60
+  offset: 1, 0
+  index: -1
+liu0002
+  rotate: true
+  xy: 201, 151
+  size: 38, 60
+  orig: 160, 60
+  offset: 1, 0
+  index: -1
+liu0003
+  rotate: false
+  xy: 444, 191
+  size: 55, 60
+  orig: 160, 60
+  offset: 1, 0
+  index: -1
+liu0004
+  rotate: false
+  xy: 369, 191
+  size: 73, 60
+  orig: 160, 60
+  offset: 1, 0
+  index: -1
+liu0005
+  rotate: false
+  xy: 201, 191
+  size: 82, 60
+  orig: 160, 60
+  offset: 10, 0
+  index: -1
+liu0006
+  rotate: false
+  xy: 2, 64
+  size: 82, 60
+  orig: 160, 60
+  offset: 27, 0
+  index: -1
+liu0007
+  rotate: false
+  xy: 285, 191
+  size: 82, 60
+  orig: 160, 60
+  offset: 45, 0
+  index: -1
+liu0008
+  rotate: false
+  xy: 2, 2
+  size: 82, 60
+  orig: 160, 60
+  offset: 63, 0
+  index: -1
+liu0009
+  rotate: false
+  xy: 86, 64
+  size: 78, 60
+  orig: 160, 60
+  offset: 80, 0
+  index: -1
+liu0010
+  rotate: false
+  xy: 86, 2
+  size: 60, 60
+  orig: 160, 60
+  offset: 98, 0
+  index: -1
+liu0011
+  rotate: true
+  xy: 263, 147
+  size: 42, 60
+  orig: 160, 60
+  offset: 116, 0
+  index: -1
+liu0012
+  rotate: true
+  xy: 325, 164
+  size: 25, 60
+  orig: 160, 60
+  offset: 133, 0
+  index: -1
+text
+  rotate: false
+  xy: 2, 126
+  size: 170, 38
+  orig: 170, 38
+  offset: 0, 0
+  index: -1

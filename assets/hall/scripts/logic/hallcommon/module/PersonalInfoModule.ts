@@ -1,0 +1,44 @@
+/**
+ * 账号信息模块
+ * 
+*/
+
+import { ModuleBase } from "../../../framework/module/ModuleBase";
+
+export default class PersonalInfoModule extends ModuleBase {
+    viewClass = "WndBindPhone"
+    modelClass = "PersonalInfoModel"
+    resPaths = []
+    prefabPaths = ["hall/prefabs/ui/PersonalInfo/BindPhoneUI"]
+    children = [
+        {
+            viewClass: "WndChangePwd",
+            modelClass: "",
+            resPaths: [],
+            prefabPaths: ["hall/prefabs/ui/PersonalInfo/ChangePwdUI"],
+            children: []
+        },
+        {
+            viewClass: "WndEditName",
+            modelClass: "",
+            resPaths: [],
+            prefabPaths: ["hall/prefabs/ui/PersonalInfo/EditNameUI"],
+            children: []
+        },
+        {
+            viewClass: "WndSetting",
+            modelClass: "",
+            resPaths: [],
+            prefabPaths: ["hall/prefabs/ui/PersonalInfo/SettingBox"],
+            children: []
+        },
+        {
+            viewClass: "WndToggleAccount",
+            modelClass: "",
+            resPaths: [],
+            prefabPaths: ["hall/prefabs/ui/PersonalInfo/ToggleAccountUI"],
+            children: []
+        }
+    ]
+
+}

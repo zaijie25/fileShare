@@ -1,0 +1,218 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "ANIcommon",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "4RidAJIc9LmYaxMPqqVOp7pk6f4",
+      "spine": "3.7.94",
+      "width": 386,
+      "height": 388,
+      "images": "./images/",
+      "audio": ""
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "bo",
+        "parent": "root"
+      },
+      {
+        "name": "liu",
+        "parent": "root"
+      }
+    ],
+    "slots": [
+      {
+        "name": "qiandao_guangxiao_00",
+        "bone": "liu",
+        "attachment": "qiandao_guangxiao_00"
+      },
+      {
+        "name": "boi",
+        "bone": "bo",
+        "color": "f3f714ff",
+        "attachment": "boi",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "boi": {
+          "boi": {
+            "y": 0.5,
+            "width": 236,
+            "height": 239
+          }
+        },
+        "qiandao_guangxiao_00": {
+          "qiandao_guangxiao_00": {
+            "width": 386,
+            "height": 388
+          },
+          "qiandao_guangxiao_01": {
+            "width": 386,
+            "height": 388
+          },
+          "qiandao_guangxiao_02": {
+            "width": 386,
+            "height": 388
+          },
+          "qiandao_guangxiao_03": {
+            "width": 386,
+            "height": 388
+          },
+          "qiandao_guangxiao_04": {
+            "width": 386,
+            "height": 388
+          },
+          "qiandao_guangxiao_05": {
+            "width": 386,
+            "height": 388
+          },
+          "qiandao_guangxiao_06": {
+            "width": 386,
+            "height": 388
+          },
+          "qiandao_guangxiao_07": {
+            "width": 386,
+            "height": 388
+          },
+          "qiandao_guangxiao_08": {
+            "width": 386,
+            "height": 388
+          },
+          "qiandao_guangxiao_09": {
+            "width": 386,
+            "height": 388
+          },
+          "qiandao_guangxiao_10": {
+            "width": 386,
+            "height": 388
+          },
+          "qiandao_guangxiao_11": {
+            "width": 386,
+            "height": 388
+          }
+        }
+      }
+    },
+    "animations": {
+      "idle": {
+        "slots": {
+          "boi": {
+            "color": [
+              {
+                "time": 0.3333,
+                "color": "f3f714ff"
+              },
+              {
+                "time": 0.5,
+                "color": "f3f71300"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.1667,
+                "name": "boi"
+              }
+            ]
+          },
+          "qiandao_guangxiao_00": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.1667,
+                "name": "qiandao_guangxiao_00"
+              },
+              {
+                "time": 0.2333,
+                "name": "qiandao_guangxiao_01"
+              },
+              {
+                "time": 0.3,
+                "name": "qiandao_guangxiao_02"
+              },
+              {
+                "time": 0.3667,
+                "name": "qiandao_guangxiao_03"
+              },
+              {
+                "time": 0.4333,
+                "name": "qiandao_guangxiao_04"
+              },
+              {
+                "time": 0.5,
+                "name": "qiandao_guangxiao_05"
+              },
+              {
+                "time": 0.5667,
+                "name": "qiandao_guangxiao_06"
+              },
+              {
+                "time": 0.6333,
+                "name": "qiandao_guangxiao_07"
+              },
+              {
+                "time": 0.7,
+                "name": "qiandao_guangxiao_08"
+              },
+              {
+                "time": 0.7667,
+                "name": "qiandao_guangxiao_09"
+              },
+              {
+                "time": 0.8333,
+                "name": "qiandao_guangxiao_10"
+              },
+              {
+                "time": 0.9,
+                "name": "qiandao_guangxiao_11"
+              },
+              {
+                "time": 0.9667,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "bo": {
+            "scale": [
+              {
+                "time": 0.1667,
+                "x": 0.8,
+                "y": 0.8
+              },
+              {
+                "time": 0.5,
+                "x": 1.5,
+                "y": 1.5
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\r\nANIcommon.png\r\nsize: 1024,2048\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nboi\r\n  rotate: true\r\n  xy: 334, 1161\r\n  size: 212, 215\r\n  orig: 212, 215\r\n  offset: 0, 0\r\n  index: -1\r\nqiandao_guangxiao_00\r\n  rotate: true\r\n  xy: 342, 1375\r\n  size: 238, 239\r\n  orig: 347, 349\r\n  offset: 55, 54\r\n  index: -1\r\nqiandao_guangxiao_01\r\n  rotate: false\r\n  xy: 583, 1374\r\n  size: 238, 239\r\n  orig: 347, 349\r\n  offset: 55, 54\r\n  index: -1\r\nqiandao_guangxiao_02\r\n  rotate: false\r\n  xy: 315, 374\r\n  size: 242, 242\r\n  orig: 347, 349\r\n  offset: 52, 53\r\n  index: -1\r\nqiandao_guangxiao_03\r\n  rotate: false\r\n  xy: 302, 30\r\n  size: 272, 272\r\n  orig: 347, 349\r\n  offset: 37, 38\r\n  index: -1\r\nqiandao_guangxiao_04\r\n  rotate: false\r\n  xy: 2, 2\r\n  size: 298, 300\r\n  orig: 347, 349\r\n  offset: 24, 24\r\n  index: -1\r\nqiandao_guangxiao_05\r\n  rotate: false\r\n  xy: 2, 618\r\n  size: 321, 320\r\n  orig: 347, 349\r\n  offset: 12, 13\r\n  index: -1\r\nqiandao_guangxiao_06\r\n  rotate: false\r\n  xy: 342, 1615\r\n  size: 340, 339\r\n  orig: 347, 349\r\n  offset: 3, 2\r\n  index: -1\r\nqiandao_guangxiao_07\r\n  rotate: false\r\n  xy: 2, 940\r\n  size: 329, 331\r\n  orig: 347, 349\r\n  offset: 9, 6\r\n  index: -1\r\nqiandao_guangxiao_08\r\n  rotate: false\r\n  xy: 2, 304\r\n  size: 311, 312\r\n  orig: 347, 349\r\n  offset: 18, 18\r\n  index: -1\r\nqiandao_guangxiao_09\r\n  rotate: false\r\n  xy: 2, 1273\r\n  size: 330, 332\r\n  orig: 347, 349\r\n  offset: 10, 8\r\n  index: -1\r\nqiandao_guangxiao_10\r\n  rotate: false\r\n  xy: 2, 1607\r\n  size: 338, 347\r\n  orig: 347, 349\r\n  offset: 9, 1\r\n  index: -1\r\nqiandao_guangxiao_11\r\n  rotate: false\r\n  xy: 684, 1620\r\n  size: 327, 334\r\n  orig: 347, 349\r\n  offset: 12, 8\r\n  index: -1\r\n",
+  "textures": [
+    {
+      "__uuid__": "6494b4fe-7e8c-4172-95c4-8199d6501274"
+    }
+  ],
+  "textureNames": [
+    "ANIcommon.png"
+  ],
+  "scale": 1
+}

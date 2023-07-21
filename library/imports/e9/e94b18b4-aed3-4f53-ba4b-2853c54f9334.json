@@ -1,0 +1,309 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "tuhaohang",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "6CdUKExcB0AeOhCes7Pbpd0J850",
+      "spine": "3.7.94",
+      "width": 340,
+      "height": 224.78,
+      "images": "../image/",
+      "audio": "D:/Work/斗地主/选场"
+    },
+    "bones": [
+      {
+        "name": "root",
+        "x": 2.89
+      },
+      {
+        "name": "ban",
+        "parent": "root",
+        "x": 1.23,
+        "y": -1.23
+      },
+      {
+        "name": "banlight4",
+        "parent": "ban",
+        "x": -365.25,
+        "y": -242.53
+      },
+      {
+        "name": "tuhao",
+        "parent": "root",
+        "x": -432.43,
+        "y": -213.98
+      }
+    ],
+    "slots": [
+      {
+        "name": "ban4",
+        "bone": "banlight4",
+        "attachment": "ban0002"
+      },
+      {
+        "name": "liuguang3/icon30002",
+        "bone": "tuhao",
+        "attachment": "liuguang3/icon30002"
+      },
+      {
+        "name": "ddz_tuhao",
+        "bone": "root",
+        "attachment": "ddz_tuhao"
+      }
+    ],
+    "skins": {
+      "default": {
+        "ban4": {
+          "ban0002": {
+            "width": 340,
+            "height": 220
+          },
+          "ban0003": {
+            "width": 340,
+            "height": 220
+          },
+          "ban0004": {
+            "width": 340,
+            "height": 220
+          },
+          "ban0005": {
+            "width": 340,
+            "height": 220
+          },
+          "ban0006": {
+            "width": 340,
+            "height": 220
+          },
+          "ban0007": {
+            "width": 340,
+            "height": 220
+          },
+          "ban0008": {
+            "width": 340,
+            "height": 220
+          },
+          "ban0009": {
+            "width": 340,
+            "height": 220
+          },
+          "ban0010": {
+            "width": 340,
+            "height": 220
+          },
+          "ban0011": {
+            "width": 340,
+            "height": 220
+          },
+          "ban0012": {
+            "width": 340,
+            "height": 220
+          },
+          "ban0013": {
+            "width": 340,
+            "height": 220
+          }
+        },
+        "ddz_tuhao": {
+          "ddz_tuhao": {
+            "x": -281.9,
+            "y": -229.85,
+            "width": 152,
+            "height": 59
+          }
+        },
+        "liuguang3/icon30002": {
+          "liuguang3/icon30002": {
+            "width": 190,
+            "height": 170
+          },
+          "liuguang3/icon30003": {
+            "width": 190,
+            "height": 170
+          },
+          "liuguang3/icon30004": {
+            "width": 190,
+            "height": 170
+          },
+          "liuguang3/icon30005": {
+            "width": 190,
+            "height": 170
+          },
+          "liuguang3/icon30006": {
+            "width": 190,
+            "height": 170
+          },
+          "liuguang3/icon30007": {
+            "width": 190,
+            "height": 170
+          },
+          "liuguang3/icon30008": {
+            "width": 190,
+            "height": 170
+          },
+          "liuguang3/icon30009": {
+            "width": 190,
+            "height": 170
+          },
+          "liuguang3/icon30010": {
+            "width": 190,
+            "height": 170
+          },
+          "liuguang3/icon30011": {
+            "width": 190,
+            "height": 170
+          },
+          "liuguang3/icon30012": {
+            "width": 190,
+            "height": 170
+          },
+          "liuguang3/icon30013": {
+            "width": 190,
+            "height": 170
+          }
+        }
+      }
+    },
+    "animations": {
+      "idle": {
+        "slots": {
+          "ban4": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 1,
+                "name": "ban0002"
+              },
+              {
+                "time": 1.0667,
+                "name": "ban0003"
+              },
+              {
+                "time": 1.1333,
+                "name": "ban0004"
+              },
+              {
+                "time": 1.2,
+                "name": "ban0005"
+              },
+              {
+                "time": 1.2667,
+                "name": "ban0006"
+              },
+              {
+                "time": 1.3333,
+                "name": "ban0007"
+              },
+              {
+                "time": 1.4,
+                "name": "ban0008"
+              },
+              {
+                "time": 1.4667,
+                "name": "ban0009"
+              },
+              {
+                "time": 1.5333,
+                "name": "ban0010"
+              },
+              {
+                "time": 1.6,
+                "name": "ban0011"
+              },
+              {
+                "time": 1.6667,
+                "name": "ban0012"
+              },
+              {
+                "time": 1.7333,
+                "name": "ban0013"
+              },
+              {
+                "time": 1.8,
+                "name": "ban0013"
+              },
+              {
+                "time": 1.8667,
+                "name": null
+              },
+              {
+                "time": 2,
+                "name": null
+              }
+            ]
+          },
+          "liuguang3/icon30002": {
+            "attachment": [
+              {
+                "time": 1,
+                "name": "liuguang3/icon30002"
+              },
+              {
+                "time": 1.0667,
+                "name": "liuguang3/icon30003"
+              },
+              {
+                "time": 1.1333,
+                "name": "liuguang3/icon30004"
+              },
+              {
+                "time": 1.2,
+                "name": "liuguang3/icon30005"
+              },
+              {
+                "time": 1.2667,
+                "name": "liuguang3/icon30006"
+              },
+              {
+                "time": 1.3333,
+                "name": "liuguang3/icon30007"
+              },
+              {
+                "time": 1.4,
+                "name": "liuguang3/icon30008"
+              },
+              {
+                "time": 1.4667,
+                "name": "liuguang3/icon30009"
+              },
+              {
+                "time": 1.5333,
+                "name": "liuguang3/icon30010"
+              },
+              {
+                "time": 1.6,
+                "name": "liuguang3/icon30011"
+              },
+              {
+                "time": 1.6667,
+                "name": "liuguang3/icon30012"
+              },
+              {
+                "time": 1.7333,
+                "name": "liuguang3/icon30013"
+              },
+              {
+                "time": 1.8,
+                "name": "liuguang3/icon30002"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\r\ntuhaohang.png\r\nsize: 1024,1024\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nban0002\r\n  rotate: false\r\n  xy: 2, 832\r\n  size: 306, 185\r\n  orig: 340, 220\r\n  offset: 20, 30\r\n  index: -1\r\nban0003\r\n  rotate: false\r\n  xy: 2, 634\r\n  size: 284, 196\r\n  orig: 340, 220\r\n  offset: 40, 19\r\n  index: -1\r\nban0004\r\n  rotate: false\r\n  xy: 2, 424\r\n  size: 258, 208\r\n  orig: 340, 220\r\n  offset: 63, 7\r\n  index: -1\r\nban0005\r\n  rotate: false\r\n  xy: 2, 213\r\n  size: 246, 209\r\n  orig: 340, 220\r\n  offset: 86, 6\r\n  index: -1\r\nban0006\r\n  rotate: false\r\n  xy: 2, 2\r\n  size: 223, 209\r\n  orig: 340, 220\r\n  offset: 109, 6\r\n  index: -1\r\nban0007\r\n  rotate: true\r\n  xy: 310, 819\r\n  size: 198, 209\r\n  orig: 340, 220\r\n  offset: 134, 6\r\n  index: -1\r\nban0008\r\n  rotate: true\r\n  xy: 288, 641\r\n  size: 176, 209\r\n  orig: 340, 220\r\n  offset: 156, 6\r\n  index: -1\r\nban0009\r\n  rotate: false\r\n  xy: 262, 423\r\n  size: 172, 209\r\n  orig: 340, 220\r\n  offset: 160, 6\r\n  index: -1\r\nban0010\r\n  rotate: false\r\n  xy: 250, 212\r\n  size: 175, 209\r\n  orig: 340, 220\r\n  offset: 157, 6\r\n  index: -1\r\nban0011\r\n  rotate: true\r\n  xy: 732, 836\r\n  size: 181, 209\r\n  orig: 340, 220\r\n  offset: 151, 6\r\n  index: -1\r\nban0012\r\n  rotate: true\r\n  xy: 521, 833\r\n  size: 184, 209\r\n  orig: 340, 220\r\n  offset: 148, 6\r\n  index: -1\r\nban0013\r\n  rotate: false\r\n  xy: 864, 669\r\n  size: 145, 165\r\n  orig: 340, 220\r\n  offset: 147, 50\r\n  index: -1\r\nddz_tuhao\r\n  rotate: true\r\n  xy: 943, 865\r\n  size: 152, 59\r\n  orig: 152, 59\r\n  offset: 0, 0\r\n  index: -1\r\nliuguang3/icon30002\r\n  rotate: false\r\n  xy: 227, 40\r\n  size: 190, 170\r\n  orig: 190, 170\r\n  offset: 0, 0\r\n  index: -1\r\nliuguang3/icon30003\r\n  rotate: true\r\n  xy: 436, 449\r\n  size: 190, 170\r\n  orig: 190, 170\r\n  offset: 0, 0\r\n  index: -1\r\nliuguang3/icon30004\r\n  rotate: true\r\n  xy: 608, 449\r\n  size: 190, 169\r\n  orig: 190, 170\r\n  offset: 0, 0\r\n  index: -1\r\nliuguang3/icon30005\r\n  rotate: true\r\n  xy: 693, 641\r\n  size: 190, 169\r\n  orig: 190, 170\r\n  offset: 0, 0\r\n  index: -1\r\nliuguang3/icon30006\r\n  rotate: true\r\n  xy: 779, 449\r\n  size: 190, 169\r\n  orig: 190, 170\r\n  offset: 0, 0\r\n  index: -1\r\nliuguang3/icon30007\r\n  rotate: true\r\n  xy: 521, 641\r\n  size: 190, 170\r\n  orig: 190, 170\r\n  offset: 0, 0\r\n  index: -1\r\nliuguang3/icon30008\r\n  rotate: false\r\n  xy: 436, 277\r\n  size: 190, 170\r\n  orig: 190, 170\r\n  offset: 0, 0\r\n  index: -1\r\nliuguang3/icon30009\r\n  rotate: false\r\n  xy: 628, 277\r\n  size: 190, 170\r\n  orig: 190, 170\r\n  offset: 0, 0\r\n  index: -1\r\nliuguang3/icon30010\r\n  rotate: false\r\n  xy: 820, 277\r\n  size: 190, 170\r\n  orig: 190, 170\r\n  offset: 0, 0\r\n  index: -1\r\nliuguang3/icon30011\r\n  rotate: false\r\n  xy: 427, 106\r\n  size: 190, 169\r\n  orig: 190, 170\r\n  offset: 0, 0\r\n  index: -1\r\nliuguang3/icon30012\r\n  rotate: false\r\n  xy: 619, 106\r\n  size: 190, 169\r\n  orig: 190, 170\r\n  offset: 0, 0\r\n  index: -1\r\nliuguang3/icon30013\r\n  rotate: false\r\n  xy: 811, 106\r\n  size: 190, 169\r\n  orig: 190, 170\r\n  offset: 0, 0\r\n  index: -1\r\n",
+  "textures": [
+    {
+      "__uuid__": "be40512b-4e99-451e-a4d3-03ff5d27d4a3"
+    }
+  ],
+  "textureNames": [
+    "tuhaohang.png"
+  ],
+  "scale": 1
+}
